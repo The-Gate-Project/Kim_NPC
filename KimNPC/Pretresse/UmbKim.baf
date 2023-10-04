@@ -1,0 +1,331 @@
+IF
+  Global("move","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("move","LOCALS",1)
+    MoveBetweenAreas("AR1604",[211.185],1)
+END
+
+IF
+  !See([GOODCUTOFF])
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    ReallyForceSpell(Myself,CLERIC_TRUE_SIGHT)
+END
+
+IF
+  HPPercentLT(Myself,50)
+  Global("life","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("life","LOCALS",1)
+    ReallyForceSpell(Myself,CLERIC_HEAL)
+    ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+    ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  Global("allies","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("allies","LOCALS",1)
+    ApplySpell(Myself,WIZARD_FREEDOM)
+    CreateCreature("ELWATG01",[551.337],7)  // ~Elémentaire majeur de l'eau~
+    CreateCreature("ELWATG01",[238.359],7)  // ~Elémentaire majeur de l'eau~
+    CreateCreature("ELWATG01",[406.174],0)  // ~Elémentaire majeur de l'eau~
+END
+
+IF
+  Global("prep1","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("prep1","LOCALS",1)
+    ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
+END
+
+IF
+  See(NearestEnemyOfType([GOODCUTOFF.0.0.0.0.SUMMONED]))
+THEN
+  RESPONSE #100
+    ReallyForceSpell(LastSeenBy(Myself),WIZARD_DEATH_SPELL)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("prep","LOCALS",0)
+THEN
+  RESPONSE #100
+    ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+    ReallyForceSpell(LastSeenBy(Myself),WIZARD_FIRE_SHIELD_BLUE)
+    ReallyForceSpell(Myself,WIZARD_MISLEAD)
+    SetGlobal("prep","LOCALS",1)
+END
+
+IF
+  !Detect([GOODCUTOFF])
+  !See([GOODCUTOFF])
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    ReallyForceSpell(Player1,WIZARD_DIMENSION_DOOR)
+END
+
+IF
+  !Allegiance(Myself,ENEMY)
+  OR(12)
+    AttackedBy([GOODCUTOFF.0.0.0.0.SUMMONED],DEFAULT)
+    AttackedBy([PC],DEFAULT)
+    AttackedBy([FAMILIAR],DEFAULT)
+    AttackedBy([ALLY],DEFAULT)
+    AttackedBy([CONTROLLED],DEFAULT)
+    AttackedBy([CHARMED],DEFAULT)
+    SpellCastOnMe([GOODCUTOFF.0.0.0.0.SUMMONED],0)
+    SpellCastOnMe([PC],0)
+    SpellCastOnMe([FAMILIAR],0)
+    SpellCastOnMe([ALLY],0)
+    SpellCastOnMe([CONTROLLED],0)
+    SpellCastOnMe([CHARMED],0)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("symbolfear","LOCALS",0)
+  Global("symbolstun","LOCALS",0)
+  Global("insectes","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("symbolfear","LOCALS",1)
+    SetGlobalTimer("Cast","LOCALS",ONE_ROUND)
+    Spell(NearestEnemyOf(Myself),WIZARD_NPC_SYMBOL_FEAR)
+  RESPONSE #100
+    SetGlobal("symbolstun","LOCALS",1)
+    SetGlobalTimer("Cast","LOCALS",ONE_ROUND)
+    Spell(NearestEnemyOf(Myself),WIZARD_SYMBOL_STUN)
+  RESPONSE #100
+    SetGlobal("insectes","LOCALS",1)
+    SetGlobalTimer("Cast","LOCALS",ONE_ROUND)
+    Spell(NearestEnemyOf(Myself),CLERIC_CREEPING_DOOM)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("symbolfear","LOCALS",0)
+  Global("symbolstun","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("symbolfear","LOCALS",1)
+    SetGlobalTimer("Cast","LOCALS",ONE_ROUND)
+    Spell(NearestEnemyOf(Myself),WIZARD_NPC_SYMBOL_FEAR)
+  RESPONSE #100
+    SetGlobal("symbolstun","LOCALS",1)
+    SetGlobalTimer("Cast","LOCALS",ONE_ROUND)
+    Spell(NearestEnemyOf(Myself),WIZARD_SYMBOL_STUN)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("symbolfear","LOCALS",0)
+  Global("insectes","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("symbolfear","LOCALS",1)
+    SetGlobalTimer("Cast","LOCALS",ONE_ROUND)
+    Spell(NearestEnemyOf(Myself),WIZARD_NPC_SYMBOL_FEAR)
+  RESPONSE #100
+    SetGlobal("insectes","LOCALS",1)
+    SetGlobalTimer("Cast","LOCALS",ONE_ROUND)
+    Spell(NearestEnemyOf(Myself),CLERIC_CREEPING_DOOM)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("symbolstun","LOCALS",0)
+  Global("insectes","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("symbolstun","LOCALS",1)
+    SetGlobalTimer("Cast","LOCALS",ONE_ROUND)
+    Spell(NearestEnemyOf(Myself),WIZARD_SYMBOL_STUN)
+  RESPONSE #100
+    SetGlobal("insectes","LOCALS",1)
+    SetGlobalTimer("Cast","LOCALS",ONE_ROUND)
+    Spell(NearestEnemyOf(Myself),CLERIC_CREEPING_DOOM)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("insectes","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("insectes","LOCALS",1)
+    SetGlobalTimer("Cast","LOCALS",ONE_ROUND)
+    Spell(NearestEnemyOf(Myself),CLERIC_CREEPING_DOOM)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("symbolfear","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("symbolfear","LOCALS",1)
+    SetGlobalTimer("Cast","LOCALS",ONE_ROUND)
+    Spell(NearestEnemyOf(Myself),WIZARD_NPC_SYMBOL_FEAR)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("symbolstun","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("symbolstun","LOCALS",1)
+    SetGlobalTimer("Cast","LOCALS",ONE_ROUND)
+    Spell(NearestEnemyOf(Myself),WIZARD_SYMBOL_STUN)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("decay","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("decay","LOCALS",1)
+    SetGlobalTimer("Cast","LOCALS",ONE_ROUND)
+    Spell(NearestEnemyOf(Myself),CLERIC_DOLOROUS_DECAY)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_ANIMATE_DEAD)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_ANIMATE_DEAD)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_SLAY_LIVING)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_SLAY_LIVING)
+    SetGlobal("startAttack","LOCALS",1)
+END
+
+IF
+  GlobalLT("startAttack","LOCALS",6)
+THEN
+  RESPONSE #100
+    IncrementGlobal("startAttack","LOCALS",1)
+    AttackOneRound(NearestEnemyOf(Myself))
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_ENERGY_DRAIN)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),CLERIC_ENERGY_DRAIN)
+END
+
+IF
+  HaveSpell(CLERIC_MISCAST_MAGIC)
+  OR(2)
+    See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+    See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),CLERIC_MISCAST_MAGIC)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_DOLOROUS_DECAY)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),CLERIC_DOLOROUS_DECAY)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_CHARM_PERSON)
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),CLERIC_CHARM_PERSON)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_CAUSE_CRITICAL_WOUNDS)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_CAUSE_CRITICAL_WOUNDS)
+    SetGlobal("startAttack2","LOCALS",1)
+END
+
+IF
+  GlobalLT("startAttack2","LOCALS",6)
+THEN
+  RESPONSE #100
+    IncrementGlobal("startAttack2","LOCALS",1)
+    AttackOneRound(NearestEnemyOf(Myself))
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_HOLD_PERSON)
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON)
+END
+
+IF
+  See(SecondNearestEnemyOf(Myself))
+  HaveSpell(CLERIC_HOLD_PERSON)
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+  RESPONSE #100
+    Spell(SecondNearestEnemyOf(Myself),CLERIC_HOLD_PERSON)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  See(NearestMyGroupOfType)
+  HPPercentLT(LastSeenBy(Myself),10)
+  HaveSpell(CLERIC_HEAL)
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),CLERIC_HEAL)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Range(LastSeenBy(Myself),4)
+  HPPercentLT(Myself,10)
+  HaveSpell(CLERIC_HEAL)
+THEN
+  RESPONSE #100
+    Spell(Myself,0)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_MENTAL_DOMINATION)
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),CLERIC_MENTAL_DOMINATION)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    EquipRanged()
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+

@@ -1,0 +1,8 @@
+IF
+  Global("KimVampire","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KimVampire","GLOBAL",2)
+    CreateCreature("Vampkim",[1473.332],2)  // ~Kim~
+END
+

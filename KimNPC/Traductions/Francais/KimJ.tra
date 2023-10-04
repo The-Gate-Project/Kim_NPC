@@ -1,0 +1,2321 @@
+@0    = ~ Tu... je... Oh, ma tête! Je ne me souviens de rien... que faisons-nous ici? La dernière chose que je me rappelle...~
+
+@1    = ~ Bodhi! Elle... elle m'a mordu, et... et ses yeux rouges, si rouges... Oh, <CHARNAME>, que s'est-il passé?~
+
+@2    = ~ Bodhi t'avait transformée en vampire, mais je l'ai tuée, et nous avons levé la malédiction.~
+
+@3    = ~ Tu t'es fait kidnapper lamentablement par Bodhi, et tu m'as mis des bâtons dans les roues jusqu'à ce que je te tue.~
+
+@4    = ~ Peu importe maintenant. Tu vas bien, et c'est tout ce qui compte!~
+
+@5    = ~ Tu... tu as fait tout ça pour moi? Tout ce chemin pour me ressusciter? Oh, mon amour, je... Je suis tellement... tellement contente que...~
+
+@6    = ~ (Vous voyez les yeux de Kim briller d'une lueur dangereuse) Je... je vois. Eh bien, je suis désolée d'être un poids mort pour toi, <CHARNAME>, alors que j'espérais pouvoir t'aider.~
+
+@7    = ~ Eh bien c'est raté. A cause de tes bêtises, tu as failli me faire tuer!~
+
+@8    = ~ Tu m'aides déjà en étant près de moi, mon amour. Tu me donnes ta force et ton courage.~
+
+@9    = ~ Tu... tu as raison, mon amour. Même si je peux imaginer tout ce que tu as dû traverser pour que nous soyions de nouveau ensemble... Oh, <CHARNAME>...~
+
+@10   = ~ (Kim tente de retenir un sanglot, sans succès. Vous voyez une larme couler le long de sa joue, puis une autre. Avant que vous ne puissiez réagir, elle enfouit son visage contre votre épaule, et se met à pleurer.)~
+
+@11   = ~ C'est... ce n'est rien, c'est la poussière... Ca va passer... J'ai les yeux... irrités.~
+
+@12   = ~ (Vous ne répondez pas et la gardez serrée contre vous. Vos deux coeurs battent à l'unisson alors que ses mains entourent votre torse et vous serrent fort, très fort, comme si elle avait peur que vous partiez et la laissiez seule.)~
+
+@13   = ~ M...merci, <CHARNAME>. Merci, mon amour.~
+
+@14   = ~ (Ses mains descendent un peu, et viennent vous caresser les fesses. Elle sourit à travers ses larmes, puis vous embrasse. Voilà la Kim que vous connaissez!)~
+
+@15   = ~ (Kim reste très droite, les yeux secs, en prise aux émotions conflictuelles que vous venez de déclencher en elle. Lorsqu'elle vous parle enfin, sa voix est triste.)~
+
+@16   = ~ Je suppose que je dois te dire merci pour m'avoir sauvée malgré mon incompétence, <CHARNAME>. Tu... tu comptes trop pour moi, et je ne supporterais pas de te mettre en danger une nouvelle fois.~
+
+@17   = ~ Il vaut mieux que je m'en aille, que je te laisse... je... je...~
+
+@18   = ~ (Ses yeux se voilent alors que les larmes coulent enfin, mais elle les ignore et vous sourit misérablement. Elle s'approche, vous embrasse sur la joue, puis se met à courir pour sortir du donjon. Vous la regardez partir... vous ne la rattraperez pas.)~
+
+@19   = ~ Eh bien, tu n'es pas resté longtemps avec cette vestale, <CHARNAME>. Que s'est-il passé? Tu... tu n'as rien fait avec elle, n'est-ce pas?~ [kim]
+
+@20   = ~ Bien sûr que non! Tu sais que tu es la seule qui compte pour moi.~
+
+@21   = ~ Si j'avais couché avec elle, je me serais encore plus englué dans la toile de ses intrigues.~
+
+@22   = ~ Et j'ai eu tort. Je me demande si je ne devrais pas retourner la voir...~
+
+@23   = ~ Trop tard, elle est partie. Tu as raté ta chance avec elle, <CHARNAME>. En tout cas, ne compte pas sur moi pour t'écouter plus avant...~
+
+@24   = ~ Et c'est seulement pour ça que tu ne l'as pas fait? Je... vois. Très bien, <CHARNAME>. Tu es libre, après tout.~
+
+@25   = ~ Je... c'est...~
+
+@26   = ~ Merci, <CHARNAME>.~
+
+@27   = ~ (Elle ne répond rien et se contente de vous sourire tendrement. Vous lisez une immense confiance dans ses yeux.)~
+
+@28   = ~ Ca... ça fait huit heures que tu es enfermé avec elle, <CHARNAME>. Et ne crois pas que je n'ai pas entendu ses cris! Cette femme hurlait comme un porc qu'on égorge! P... Pourquoi as-tu fait ça, <CHARNAME>?~ [kim]
+
+@29   = ~ Je n'avais pas le choix! Elle aurait compris que nous étions des imposteurs, sinon!~
+
+@30   = ~ Je t'assure qu'il ne s'est rien passé là-dedans!~
+
+@31   = ~ J'ai pris beaucoup de plaisir avec elle, si tu veux tout savoir...~
+
+@32   = ~ Comment ai-je pu croire que tu étais différent des autres hommes? Tu penses et tu réagis avec ce que tu as dans ton pantalon! Oh, j'ai été si stupide!~
+
+@33   = ~ Tu te moques de moi? Je te dis que je l'ai entendue hurler. Oh, tu es certainement un bon amant, <CHARNAME>. Mais ne compte pas sur moi pour le vérifier!~
+
+@34   = ~ Ah oui? Tu n'aurais pas pu lui dire que tu avais la migraine, ou que tu avais fait voeu de chasteté, ou n'importe quelle excuse qui aurait pu passer dans ton crâne de mâle écervelé? Mais non! Comment ai-je pu te faire confiance?~
+
+@35   = ~ Eh bien, eh bien, <CHARNAME>? Tu es resté bien peu de temps avec cette vestale. Heh, j'avais pourtant l'impression que tu lui plaisais... hmm, serais-tu impuissant?~
+
+@36   = ~ Eh bien, quel vacarme! Je n'ai pu fermer l'oeil de la nuit tellement elle a hurlé. Bravo, <CHARNAME>. Quelle abnégation, se dévouer pour notre cause!Heh...~
+
+@37   = ~ Dis-moi, lorsque je voyageais sur la Côte des Epées, j'ai entendu parler d'un certain <CHARNAME> qui aurait accompli des exploits sans égal. Est-ce que c'est de toi dont il s'agissait?~ [kim]
+
+@38   = ~ Oui, c'était bien moi... je suis content de voir que les gens s'en souviennent!~
+
+@39   = ~ Non, ce n'était pas moi. De telles coïncidences existent, tu sais?~
+
+@40   = ~ Oui, c'était bien moi… mais ma réputation est très exagérée.~
+
+@41   = ~ Tu es payée pour m'obéir, pas pour parler. Tais-toi, et marche!~
+
+@42   = ~ Eh bien, notre collaboration commence bien...~
+
+@43   = ~ Oh? C'est probablement vrai, les bardes ont toujours tendance à en rajouter. Mais tu ferais mieux de profiter de ta réputation, plutôt que de jouer les modestes...~
+
+@44   = ~ Tiens donc? Pourtant, j'ai eu l'occasion de voir un portrait de toi dans une auberge de la Porte de Baldur, et ça te ressemblait tout de même beaucoup. L'âge, le nom, l'apparence sont identiques... que de coïncidences, n'est-ce pas?~
+
+@45   = ~ Bon, très bien... c'était moi, en effet.~
+
+@46   = ~ Je t'assure que ce n'est pas moi... mais je ne pensais pas être aussi célèb... oops!~
+
+@47   = ~ Je te dis que non! Laisse-moi tranquille, maintenant!~
+
+@48   = ~ Dès le moment où tu es entré dans le repaire des Voleurs de l'Ombre, je me disais que tu me rappelais quelqu'un. C'est pour ça que j'ai finalement accepté ton offre, pour pouvoir voir enfin un peu d'action et de danger. Tu te doutes bien que je ne travaille pas pour n'importe qui...~
+
+@49   = ~ Oh? Et Renal n'était pas "n'importe qui", peut-être?~
+
+@50   = ~ Ca ne t'a pas empêché de me demander de l'or...~
+
+@51   = ~ Je vois... que sais-tu de moi?~
+
+@52   = ~ Ca y est? Ta curiosité est satisfaite?~
+
+@53   = ~ Oui, tu travailles pour moi, merci de me le rappeler. Donc si je te dis de te taire, tu te tais, compris?~
+
+@54   = ~ Ma curiosité est piquée au vif, <CHARNAME>, heh...~
+
+@55   = ~ Que veux-tu savoir, exactement?~
+
+@56   = ~ Je vois... que sais-tu déjà de moi?~
+
+@57   = ~ Je n'ai pas l'intention de me défiler. A vrai dire, j'aime bien parler avec toi. Que voulais-tu me demande? ~
+
+@58   = ~ Et ma curiosité, qu'en fais-tu? J'aimerais en savoir un peu plus sur toi, moi aussi.~
+
+@59   = ~ Bah. Je n'ai rien à faire de ta curiosité. Sois une gentille fille et tais-toi!~
+
+@60   = ~ Je ne connais que ce que chantent les bardes et écrivent les poètes, <CHARNAME>. C'est à la fois beaucoup et très peu. On dit que tu as sauvé les mines de Nashkel, empêché une guerre avec Amn, réglé les problèmes d'acier que connaissait la région, ruiné les plans du Trône de Fer, et tué le démon Sarevok.~
+
+@61   = ~ A vrai dire, toutes ces histoires étaient liées. Ca paraît impressionnant comme ça, mais il ne s'agissait finalement que d'une seule conspiration.~
+
+@62   = ~ Je n'ai fait que mon devoir.~
+
+@63   = ~ Bah! Les bardes ont tendance à toujours exagérer...~
+
+@64   = ~ C'est tout? Ils ont passé beaucoup de choses sous silence, il me semble. J'ai aussi tué des sirènes, des basiliks, des gobelins par centaines...~
+
+@65   = ~ C'est un bon résumé de mes aventures sur la Côte des Epées, oui.~
+
+@66   = ~ Et... est-ce qu'une telle réputation... t'excite?~
+
+@67   = ~ Oublie toutes ces histoires et concentre-toi sur la route, Kim. Je ne te paie pas pour bavarder.~
+
+@68   = ~ Je ne travaille jamais pour rien. C'est un principe. Mais rassure-toi, c'étaient 500 pièces d'or bien employées. Je saurai te prouver ma valeur dans les jours qui viennent. Mais revenons-en à toi...~
+
+@69   = ~ Renal est quelqu'un d'intéressant, quoi que tu puisses en penser. Il a un sens de l'honneur amusant, pour un voleur, et son humour est assez… particulier. Mais surtout, il avait de bonnes salles d'entraînement qui m'ont permis de me perfectionner dans l'art de désamorcer les pièges et de couper les bourses. Tu crois que c'est en mer que j'ai appris ça? Quoi qu'il en soit, le passé est le passé, et c'est désormais pour toi que je travaille. J'aimerais en savoir un peu plus sur mon employeur...~
+
+@70   = ~ Je n'ai pas très envie de parler de moi en ce moment, <CHARNAME>. Tu sais déjà tout ce que tu as besoin de savoir. Le reste n'est... pas si important que ça. Mais revenons-en à toi.~
+
+@71   = ~ Eh bien, tu pourrais me parler de toi, pour commencer!~
+
+@72   = ~ Je me demande quelle est la part de vérité dans la légende que j'ai entendue sur toi. Tout ne peut pas être vrai!~
+
+@73   = ~ Heh. J'aime bien le courage et l'héroïsme, oui. Mais j'attendrai de juger sur pièces. Je ne me fie pas aux récits des ménestrels pour juger de la valeur d'un homme. Quoi qu'il en soit, j'avoue que je t'envie un peu...~
+
+@74   = ~ C'est tout de même fascinant. Pour quelqu'un d'aussi jeune, tu as déjà vécu des aventures extraordinaires! Quelle chance tu as, <CHARNAME>...~
+
+@75   = ~ Ce n'était pas un jeu, Kim. De nombreuses personnes sont mortes, et des amis également.~
+
+@76   = ~ A vrai dire, je suis un enfant de Bhaal... c'est pour ça que ma vie est aussi mouvementée.~
+
+@77   = ~ Oui, je dois dire que ma vie est intéressante.~
+
+@78   = ~ Heh... attends de voir ce que l'avenir nous réserve!~
+
+@79   = ~ Tu as dû toi-même vivre des aventures tumultueuses en tant que pirate, non?~
+
+@80   = ~ Ta mère ne t'a jamais dit que l'orgueil était un vilain défaut? Mais je suppose que c'est un trait de caractère logique chez quelqu'un qui a vécu ce que tu as vécu.~
+
+@81   = ~ Je n'en doute pas, et c'est bien de ta part de le reconnaître. Mais toute légende a son fond de vérité, et je suis convaincue que tu n'es pas quelqu'un d'ordinaire, quoi que tu dises.~
+
+@82   = ~ Oh non, pitié. Ne me dis pas que tu es un de ces abrutis de redresseurs de torts, humbles, modestes et altruistes jusqu'au sacrifice? C'est bien ma chance...~
+
+@83   = ~ Bah. Oublie toutes ces histoires de chevalerie et fais-moi un sourire. Tu verras, ça fait du bien. C'est bon? On peut continuer à discuter?~
+
+@84   = ~ Espérons qu'elle le reste encore longtemps! Yo-hoo, à nous les dragons, les flagelleurs mentaux et les démons de tout poil! Irenicus n'a qu'à bien se tenir!~
+
+@85   = ~ Oui, oui, et moi je suis Elminster. Je me suis rasé la barbe et fait pousser des seins, mais c'est bien moi... tu me reconnais? Heh, <CHARNAME>, ne m'en veux pas mais je pense que, si tu avais du sang divin, aucun mage stupide n'aurait pu te capturer ni kidnapper une de tes amies. Enfin, moi, pour ce que j'en dis...~
+
+@86   = ~ Espérons-le! Mon sang bout à l'idée du danger! Yo-hoo, A nous les dragons, les flagelleurs mentaux et les démons de tout poil! Irenicus n'a qu'à bien se tenir!~
+
+@87   = ~ Héhé, tu ne crois pas si bien dire. De l'héroïsme, de l'or, du sang, des sentiments... assez pour inspirer une ou deux chansons, là aussi. Mais, va savoir pourquoi, les bardes ne se sont jamais intéressés à moi. C'est du favoritisme...~
+
+@88   = ~ Je plaisante, <CHARNAME>. Mais peut-être qu'un jour je pourrai te raconter mes aventures.~
+
+@89   = ~ Je repensais à ce dont nous discutions la dernière fois, concernant tes aventures sur la Côte des Epées. Qui était Sarevok, exactement? J'ai entendu dire que c'était un démon, peut-être un glabrezuu, venu semer la terreur et la destruction à la Porte de Baldur. D'autres histoires parlent de dopplegangers. Quelle est la vérité là-dedans?~ [kim]
+
+@90   = ~ Sarevok est... était mon frère.~
+
+@91   = ~ Sarevok était un enfant de Bhaal, et possédait en lui l'essence du Seigneur du Meurtre.~
+
+@92   = ~ Sarevok était un enfant de Bhaal... comme moi.~
+
+@93   = ~ Sarevok était le maître du Trône de Fer. Un marchand avec des rêves de grandeur, ni plus, ni moins.~
+
+@94   = ~ Peu importe qui il était. Tout ce qui compte, c'est qu'il est mort et que ses plans ont été contrecarrés.~
+
+@95   = ~ Sarevok était un faible. Je lui ai arraché le cœur.~
+
+@96   = ~ Tu m'ennuies, avec toutes tes questions. Vas-tu enfin te taire?~
+
+@97   = ~ Eh bien, monsieur est susceptible... très bien, je vais aller marcher un peu toute seule.~
+
+@98   = ~ Oh. Je vois. Eh bien, j'en suis contente pour toi, et je suis sûre que son cœur devait être très joli dans ta main, mais ça ne répond pas à ma question. Alors, qui était-il vraiment?~
+
+@99   = ~ Tu n'as pas tort. Après tout, c'est le résultat qui compte. Qu'il ait été un vampire, un lycanthrope ou un démon n'a que peu d'importance.~
+
+@100  = ~ Un simple marchand? Hmm, j'ai du mal à imaginer qu'un marchand, aussi habile soit-il, ait eu les moyens de mettre en place des plans d'une telle complexité. J'avoue que je suis un peu déçue. Je m'attendais à plus de lyrisme et d'héroïsme. Finalement, tous tes exploits se résument à avoir tué un marchand adipeux dans les couloirs de sa boutique...~
+
+@101  = ~ Il n'y a pas que ça. Sarevok est... était mon frère.~
+
+@102  = ~ Sarevok n'était pas n'importe quel marchand. C'était un enfant de Bhaal, et il possédait en lui l'essence du Seigneur du Meurtre.~
+
+@103  = ~ Sarevok n'était pas n'importe quel marchand. C'était un enfant de Bhaal... comme moi ~
+
+@104  = ~ Bah, crois ce que tu veux, femme, ça ne me concerne pas.~
+
+@105  = ~ Ne crois pas que ç'ait été aussi facile. Il était entouré d'hommes d'armes, de gardes, de brigands et de monstres en tous genres. Et lui-même savait se battre. Je te rassure, la bataille fut aussi épique que tu peux l'imaginer.~
+
+@106  = ~ QUOI? Il était... et tu étais...~
+
+@107  = ~ Un enf… quoi? Oh, je comprends. Ca expliquerait beaucoup de choses, en effet. Je me demandais pourquoi Sarevok avait voulu inciter Amn à la guerre, mais je suppose que ce devait être pour alimenter en âmes son père défunt. Oui, ça se tient. Et ça correspond aussi à toutes ces histoires sur sa puissance et ses origines démoniaques. Bien, bien, bien… un enfant de Bhaal... voilà qui est intéressant.~
+
+@108  = ~ Ton... ton frère ? Comment ça, ton frère? Je croyais que tu avais été adopté par Gorion, comment Sarevok peut-il être lié à toi?~
+
+@109  = ~ Nous sommes tous les deux des enfants de Bhaal.~
+
+@110  = ~ Oh, euh... je veux dire... Sarevok a été adopté par Gorion, lui aussi.~
+
+@111  = ~ Oh, euh... je veux dire... j'ai appris plus tard que mes vrais parents étaient ceux de Sarevok.~
+
+@112  = ~ Je commence à en avoir assez de ces questions. C'est quoi, un interrogatoire?~
+
+@113  = ~ Je ne voudrais surtout pas te vexer, <CHARNAME>, mais je me pose quand même une question: s'il est aussi puissant que tu le dis, alors comment es-tu parvenu à le vaincre? Je veux dire, tu n'as pas l'air si terrifiant, vu comme ça...~
+
+@114  = ~ Les apparences peuvent être trompeuses. Je suis un enfant de Bhaal, moi aussi...~
+
+@115  = ~ Les apparences peuvent être trompeuses. Je suis très puissant, Kim...~
+
+@116  = ~ Seul, je suis peut-être insignifiant, mais grâce à mes amis, nous devenons invincibles. C'est ce que n'avait pas compris Sarevok.~
+
+@117  = ~ Ah, l'amitié. Oui, il suffit de voir les efforts que tu entreprends pour sauver Imoen pour comprendre que l'amitié est quelque chose d'important pour toi. Je comprends mieux, maintenant, comment tu es parvenu à abattre Sarevok.~
+
+@118  = ~ Oui, il y a ça... sans compter le fait que je sois un enfant de Bhaal.~
+
+@119  = ~ Ne te méprends pas, Kim. Mes efforts ne sont pas pour sauver Imoen, mais pour me venger d'Irenicus!~
+
+@120  = ~ Oui, les amis comptent énormément pour moi. Ils sont toujours là lorsque j'ai besoin d'eux, et réciproquement.~
+
+@121  = ~ Imoen est particulière pour moi. Ne crois pas que je risquerais ma vie pour n'importe qui.~
+
+@122  = ~ Maintenant que ta curiosité est satisfaite, peut-on enfin reprendre la route?~
+
+@123  = ~ L'orgueil est un vilain défaut. Mais mieux vaut ça que la fausse modestie, tu as raison. Espérons que nos voyages me permettront de voir à quel point tu es... puissant.~
+
+@124  = ~ Voilà un degré d'amitié que je n'ai jamais connu avec personne. Ca doit être très agréable de faire partie de tes amis, <CHARNAME>. Espérons que ces quelques jours nous permettront de mieux nous connaître. Mais chut, reprenons notre route maintenant.~
+
+@125  = ~ Je vois... et je peux comprendre ta réaction. La vie serait impossible si l'on devait secourir tout le monde, tout le temps, n'est-ce pas? Mais d'un autre côté, c'est un bel objectif. Bon, il est temps que nous y allions, je commence à dire des bêtises.~
+
+@126  = ~ Oui, oui, bien sûr. Je n'avais pas l'intention de devenir envahissante.~
+
+@127  = ~ Bah. C'est toujours difficile de savoir si tu te moques de moi ou si tu dis la vérité. Ca me paraît un peu gros à avaler, tout de même, cette histoire d'essence divine. Je crois qu'il est temps que je discute un peu avec tes compagnons de voyage...~
+
+@128  = ~ Je vois... eh bien, dans tous les cas, j'espère que tu parviendras à l'abattre. Cet homme m'a l'air redoutable. Mais d'un autre côté, je suppose qu'il n'est pas grand-chose face à ce qu'était Sarevok. Continuons notre voyage, nous terminerons cette discussion plus tard.~
+
+@129  = ~ Heh, tu ne sais pas bien mentir, <CHARNAME>. Tu es tout rouge, et tu as la voix qui tremble. Mais je comprends que tu veuilles garder des choses pour toi-même. Très bien, je ne creuserai pas plus ce sujet. Mais peux-tu au moins me dire comment tu l'as vaincu, frère ou pas frère?~
+
+@130  = ~ Je suis plus puissant que tu ne l'imagines, Kim.~
+
+@131  = ~ J'étais entouré d'amis dévoués, qui m'ont aidé à déjouer ses plans, puis à l'abattre.~
+
+@132  = ~ Non, je ne peux pas te le dire. Tais-toi, et continuons notre route.~
+
+@133  = ~ Au fait, <CHARNAME>, depuis que nous voyageons ensemble... est-ce que je t'ai déjà parlé de la raison pour laquelle je suis arrivée à Athkatla?~ [kim]
+
+@134  = ~ Non, raconte-moi donc?~
+
+@135  = ~ Non... cela avait quelque chose à voir avec une tempête, n'est-ce pas?~
+
+@136  = ~ Le destin... tu savais que tu allais rencontrer un bel homme comme moi!~
+
+@137  = ~ Non, et je ne veux pas en entendre parler. Contente-toi de m'obéir.~
+
+@138  = ~ Bah, va au diable. Si nous étions sur mon navire, je te ferais subir le supplice de la planche pour me distraire.~
+
+@139  = ~ Oui, je suppose que ça doit être ça. Une voix puissante s'est fait entendre dans ma tête qui m'ordonnait "Va à Athkatla, Kim. Un magnifique <PRO_RACE> t'y attend." L'ennui, c'est que la voix n'avait pas précisé qu'il n'avait pas grand-chose dans le crâne! Quant au magnifique, heh...~
+
+@140  = ~ Mais je m'égare, je m'égare. Où en étais-je? Ah oui, les raisons de mon arrivée à Athkatla...~
+
+@141  = ~ Heh, oui, je suppose qu'on peut dire ça comme ça...~
+
+@142  = ~ Tout a commencé de manière soudaine. Nous remontions tranquillement vers le nord, suivant les côtes d'Amn, chargés du butin de nos précédents pillages. L'ambiance était au beau fixe. Nous étions riches, nous étions ivres, mais surtout... nous étions vivants. Je me sentais invulnérable, ce jour là, <CHARNAME>.~
+
+@143  = ~ Mais cette joie n'a pas duré longtemps, comme tu peux t'en douter. Très rapidement, le ciel s'est obscurci. Le vent s'est levé, et la mer a commencé à s'agiter. Au début, nous ne nous inquiétions pas, bien au contraire. Un peu de vent arrangeait bien nos affaires, poussant nos voiles vers les ports de la Porte de Baldur, où nous aurions pu tranquillement dépenser notre or en boisson et autres plaisirs.~
+
+@144  = ~ Tiens tiens... à quels autres plaisirs fais-tu allusion, Kim?~
+
+@145  = ~ C'est fascinant... et que s'est-il passé?~
+
+@146  = ~ Tu ne pourrais pas essayer de m'épargner les détails et aller directement à l'essentiel?~
+
+@147  = ~ Superbe, très intéressant. Bon, allons-y, maintenant.~
+
+@148  = ~ Rien qui puisse particulièrement te choquer, <CHARNAME>. La plupart de mes compagnons ont tout dépensé en compagnie de prostituées. Comme tous les hommes, ils n'ont qu'une idée en tête: assouvir leurs désirs. Bah! Personnellement, j'ai des plaisirs plus subtils... le jeu, par exemple. J'aime le contact des dés dans mes mains et la vue de l'or sur la table, même si généralement je n'ai plus un sou à la fin de la nuit...~
+
+@149  = ~ Pas de prostitués pour toi? La belle Kim serait-elle encore pucelle?~
+
+@150  = ~ Le jeu, l'alcool, les femmes... les pirates sont décidément des débauchés de la pire espèce!~
+
+@151  = ~ Je vois. Où en étais-tu de ton histoire?~
+
+@152  = ~ Une joueuse... il ne manquait plus que ça. Hors de ma vue, avant que je ne te jette hors du groupe!~
+
+@153  = ~ Désolée, mais c'est ma manière de raconter. Si elle ne te plaît pas, je peux aussi me taire. Qu'est-ce que tu préfères?~
+
+@154  = ~ Continue, je suis désolé de t'avoir interrompue.~
+
+@155  = ~ Laisse tomber, dans ce cas. Je ne suis pas d'humeur à écouter une histoire aussi longue.~
+
+@156  = ~ Ne te crois pas tout permis parce que nous voyageons ensemble, <CHARNAME>. Je peux être très susceptible, sur certains sujets. Maintenant, où en étions-nous?~
+
+@157  = ~ Tu me racontais l'histoire de ton naufrage.~
+
+@158  = ~ Tu partais dans de longues tirades sans intérêt au lieu d'aller à l'essentiel. J'espère que tu vas être plus concise pour la suite.~
+
+@159  = ~ Hah! Je le savais! Elle est encore vierge!~
+
+@160  = ~ Heh, je prendrai ça pour un compliment. Bon, où en étais-je?~
+
+@161  = ~ Ah oui, le naufrage. Eh bien, comment t'expliquer... je suppose que tu te doutes bien que les pirates ne sont pas très bien vus en Amn. Pour dire la vérité, nous sommes chassés jour et nuit par des mercenaires qui cherchent à gagner la faveur royale en nous éliminant. Toujours est-il que, par malchance, nous sommes tombés sur un de ces navires corsaires au plus fort de la tempête.~
+
+@162  = ~ Malgré les éléments déchaînés, il nous a pris en chasse, et nous avons dû faire face et nous battre. Le combat a été sanglant, comme tu peux l'imaginer, et la tempête n'arrangeait pas les choses. Nos arcs et arbalètes étaient complètement inutiles par un tel vent. Tout s'est réglé l'épée à la main, et la mer s'est teintée de sang. Heh. C'était un beau combat!~
+
+@163  = ~ Qui a gagné?~
+
+@164  = ~ Continue ton histoire, je t'écoute.~
+
+@165  = ~ Tu as l'air d'avoir pris plaisir à tuer ces corsaires. Je pensais que la mort et la violence t'affecteraient plus...~
+
+@166  = ~ Ca devait être effrayant...~
+
+@167  = ~ Tu aimes bien t'écouter parler, n'est-ce pas? J'en ai assez entendu pour aujourd'hui.~
+
+@168  = ~ Nous, bien sûr, sinon je ne serais pas là pour en parler. Ha! Nous étions le meilleur équipage qu'il puisse y avoir. Et puis franchement, <CHARNAME>, m'as-tu déjà vu perdre un combat? Nous étions quarante, ils étaient deux fois plus. Mais ils n'avaient aucune chance!~
+
+@169  = ~ J'aime me battre. Je ne me sens jamais aussi vivante qu'au milieu des combats, lorsque mes lames chantent et que je danse avec la mort. Je ne me sens jamais aussi vivante qu'à ces moments-là. Mais si tu ne cesses pas de m'interrompre, je vais finir par perdre le fil...ah, oui!~
+
+@170  = ~ Effrayant? Excitant, tu veux dire! Je ne suis pas une petite fille terrorisée, <CHARNAME>. Oh, non, bien au contraire! J'étais au comble du bonheur!~
+
+@171  = ~ Après plusieurs minutes de combat acharné, les trois derniers corsaires en vie se rendirent. Le pont du navire était encombré de corps, et nous n'étions plus que seize en vie, dont deux grièvement blessés. Mais nos problèmes n'étaient pas résolus pour autant. Même avec l'aide des trois corsaires, il n'y avait pas moyen de piloter notre navire par une telle mer, avec un équipage aussi réduit. Moins de vingt personnes, alors qu'il nous en aurait fallu plus de trente! La fin était prévisible...~
+
+@172  = ~ C'est donc là que tu as fait naufrage?~
+
+@173  = ~ Ces corsaires étaient stupides d'attaquer dans de telles conditions. Même s'ils avaient vaincu, ils auraient eu les mêmes problèmes, non?~
+
+@174  = ~ Pourquoi avoir épargné les trois corsaires? Je ne te savais pas si respectueuse de la vie d'autrui.~
+
+@175  = ~ Est-ce que cette histoire se termine bientôt? Ca fait des heures que tu parles...~
+
+@176  = ~ Oh, ce n'était pas une question de pitié, <CHARNAME>, mais de nécessité. Nous étions tellement peu nombreux pour contrôler le bateau que ç'aurait été un vrai gâchis que de les tuer. Et puis, nous savions qu'ils feraient tout leur possible pour nous aider, puisqu'ils étaient dans la même... galère, c'est le cas de le dire.~
+
+@177  = ~ Ils étaient près de quatre-vingt, <CHARNAME>. Je ne pense pas qu'ils imaginaient perdre autant d'hommes. Je pense qu'ils ont dû vite regretter d'avoir attaqué notre bateau...~
+
+@178  = ~ La suite n'est pas difficile à deviner. Balloté dans la tempête comme un fétu de paille, la voile arrachée, le gouvernail brisé, notre navire a fini par s'éventrer sur les rochers qui jouxtent Athkatla. C'a été un moment terrifiant, <CHARNAME>, terrifiant. J'ai bien cru que j'allais mourir ce jour-là, lorsque les eaux se sont refermées sur moi. Mais je n'ai pas perdu espoir. Je ne portais pas d'armure, et c'est ce qui m'a évité de sombrer comme les autres. J'ai attrapé un morceau de bois et j'ai dérivé au milieu des éclairs jusqu'à ce qu'enfin, la tempête se calme et que j'échoue sur une plage au sud de la ville.~
+
+@179  = ~ Eh bien, c'était une sacrée aventure! La vie de pirate n'est pas de tout repos, on dirait...~
+
+@180  = ~ Pour quelqu'un qui aime courtiser la mort, je suis surpris que ce naufrage t'ait terrifié, comme tu dis.~
+
+@181  = ~Je suis désolé d'apprendre que tu as autant souffert... la vie n'a pas été facile pour toi.~
+
+@182  = ~ Ca y est? Ton histoire est ENFIN finie?~
+
+@183  = ~ Oh, je ne me plains pas, <CHARNAME>. J'ai en tout cas eu plus de chance que tous ceux qui ont péri dans le combat ou le naufrage. En y réfléchissant, c'est un miracle que je sois encore en vie. Tu vois, quelque part, la vie n'a pas été si cruelle. Je n'ai pas besoin de ta compassion, mais je te remercie.~
+
+@184  = ~ Il y a une différence entre mourir les armes à la main, et mourir noyée dans une tempête. Et puis, à mon âge, on se croit invulnérable. C'est étrange de sentir sa propre mortalité... mais je ne vais pas rentrer dans des débats aussi morbides.~
+
+@185  = ~ Heh, tu l'as dit. Mais les pires catastrophes font les meilleures histoires. Ceux à qui il n'est jamais rien arrivé ne pourront rien raconter à leurs enfants...~
+
+@186  = ~ Et maintenant, il est peut-être temps de reprendre la route, non? Je ne pensais pas que mon histoire prendrait si longtemps… Merci d'avoir été stoïque et de m'avoir supportée jusqu'au bout. Je sais que je parle beaucoup, parfois!~
+
+@187  = ~ J'avais du mal à l'admettre, mais il semblerait que ce soit la vérité... tu es donc un enfant de Bhaal! C'est vraiment incroyable...~ [kim]
+
+@188  = ~ Mais qu'est-ce que tu as bien pu ressentir, lorsque tu as appris cette nouvelle? Ca a dû te faire un choc incroyable, non?~
+
+@189  = ~ On peut le dire, oui. Comme si tout mon monde s'effondrait...~
+
+@190  = ~ Oui et non. J'ai toujours été convaincu que j'étais différent... supérieur aux simples mortels...~
+
+@191  = ~ Hélas, pauvre de moi! Moi qui fus toujours  un enfant de la balle, apprendre que j'étais enfant de Bhaal!~
+
+@192  = ~ La révélation est venue petit à petit, en fait. Des indices, des rêves, des fragments de mémoire... j'ai eu le temps de m'habituer progressivement à cette idée.~
+
+@193  = ~ Tu me fatigues, Kim. Tais-toi, et marche!~
+
+@194  = ~ Très bien. Je me tais... et je marche.~
+
+@195  = ~ Je vois. C'était peut-être plus facile à accepter ainsi, petit à petit...~
+
+@196  = ~ Heh! Pour un rejeton du Dieu du Meurtre, je dois dire que tu es plus joyeux que ce à quoi je m'attendais!~
+
+@197  = ~ Supérieur, eh? Fais attention, <CHARNAME>. Enfant divin ou non, ce genre d'attitude ne te mènera pas très loin...~
+
+@198  = ~ Oui, je peux comprendre ça. C'est déjà difficile pour un orphelin d'entendre parler de ses parents...~
+
+@199  = ~ Là, en plus, il ne s'agit pas de n'importe quel Dieu... le Seigneur du Meurtre en personne ? Ca doit être plus difficile à porter que d'être la descendance de Mystra ou Akadia ou je ne sais quel autre Dieu ou déesse. Comment est-ce que tu peux supporter cette idée?~
+
+@200  = ~ A vrai dire, j'en suis plutôt content. Mon père était puissant, et je marche sur ses traces.~
+
+@201  = ~ L'important, ce sont les pouvoirs que ce statut me confère. Le reste m'indiffère.~
+
+@202  = ~ Tu ne choisis pas très bien tes exemples. Je ne souhaiterais pour rien au monde descendre de Mystra, vu tous les ennemis que la déesse a pu se faire...~
+
+@203  = ~ Ce n'est pas parce que mon père était un dieu que cela change quoi que ce soit, Kim. Je suis maître de mon destin, aujourd'hui comme demain.~
+
+@204  = ~ Peut-être suis-je là pour racheter ses crimes? Peut-être que, là où il a tué et assassiné, je peux apaiser et soigner?~
+
+@205  = ~ Tout ce bla-bla théologique m'insupporte. Laisse-moi tranquille.~
+
+@206  = ~ Hmm... c'est étrange... je suppose que je devrais t'envier cette paternité qui semble tant te plaire, et pourtant, je crois que je te plains.~
+
+@207  = ~ Mais tu ne peux pas ignorer d'où te viennent tes pouvoirs, n'est-ce pas? A chaque fois que tu les utilises, ils te rappellent douloureusement ton ascendance...~
+
+@208  = ~ Heh! Tu as raison, <CHARNAME>, ce n'était pas le meilleur exemple. Mystra est menacée de toutes parts, et elle est seule contre tous. Mais Bhaal aussi avait ce problème de…relations publiques.~
+
+@209  = ~ Voilà des paroles qui me font chaud au cœur! Tu as raison, bien sûr. C'est l'éducation que tu as reçue, et les expériences que tu as vécues, qui ont fait de toi ce que tu es maintenant... pas quelques gouttes de sang noir. Et tant mieux, car je n'envie vraiment pas celui qui voudrait suivre les traces de Bhaal...~
+
+@210  = ~ Bah, voilà encore la culpabilité qui parle. Tu n'as jamais connu ton père, et tu n'es pas responsable de ses actes! J'ai l'impression que tu te sens condamné à faire le bien, pour pouvoir oublier tout le mal que ton père a répandu sur le monde. C'est ridicule. Tu ne lui dois rien! Tu ne dois rien à personne! Même si, quelque part, je suppose que ton attitude t'a permis d'avoir de nombreux amis... des admirateurs... presque une famille...~
+
+@211  = ~ On doit se sentir terriblement seul, lorsqu'on est le Dieu du Meurtre... On contrôle un pouvoir insensé, mais on n'a pas d'amis, de confidents, de compagnons... ~
+
+@212  = ~ Un bateau peut être magnifique et capable de traverser les Mers sans Limite sans jamais couler... pourtant, sans équipage, où pourra-t-il aller?~
+
+@213  = ~ Bah, voilà que je parle en métaphores stupides... je crois qu'il est temps de reprendre la route avant que je ne me couvre de ridicule. Heh, souris un peu, <CHARNAME>, et oublie toutes ces pensées déprimantes!~
+
+@214  = ~ Dis-moi, <CHARNAME>, as-tu déjà entendu parler du pirate Barbe-Verte?~ [kim]
+
+@215  = ~ Hmm... non? Mais je suppose que ça ne saurait tarder...~
+
+@216  = ~ Vaguement... c'est un pirate qui écumait la Côte des Epées, non?~
+
+@217  = ~ Barbe-Verte? Quel nom ridicule!~
+
+@218  = ~ Non, et je n'ai pas envie d'en entendre parler.~
+
+@219  = ~ Toujours aussi agréable, je vois. Je pensais pouvoir compter sur toi, mais c'est raté...~
+
+@220  = ~ Eh oui, c'est un nom ridicule. Et c'est exactement pour cela qu'il l'avait choisi.~
+
+@221  = ~ Pas seulement. Il navigue aussi près d'EauProfonde, de Val de Bise... Oui, c'est un pirate, mais c'est un peu réducteur de le limiter à une seule mer.~
+
+@222  = ~ Heh. Je vois que tu commences à t'habituer à mes histoires. C'est bien, <CHARNAME>!~
+
+@223  = ~ Son nom est une forme de plaisanterie, en fait. Je me rappelle que je lui avais posé la question, une fois. Il m'a répondu que seuls les faibles choisissent un nom ronflant pour impressionner les autres, et que c'était par ses actes qu'il entendait se faire connaître.~
+
+@224  = ~ Et même s'il n'est pas aussi connu que d'autres – comme Saemon Havarian, par exemple – il devient de plus en plus influent et puissant sur les mers sur lesquelles il croise.~
+
+@225  = ~ Et? Pourquoi me parles-tu de lui?~
+
+@226  = ~ De tels actes ne sauraient rester impunis! Ce pirate rencontrera un jour la potence qu'il mérite!~
+
+@227  = ~ Et il a vraiment la barbe verte?~
+
+@228  = ~ Encore une histoire inintéressante. Laisse tomber, Kim, tu ne sais pas raconter.~
+
+@229  = ~ Je souhaitais aborder ce sujet avec toi car il est possible qu'il... m'en veuille quelque peu.~
+
+@230  = ~ Hmm… tu devrais faire attention à ce que tu dis, <CHARNAME>. Je suis une pirate, moi aussi, ne l'oublie pas. Et je n'apprécie pas particulièrement tes commentaires.~
+
+@231  = ~ Oui, vraiment. Il se l'est peinturlurée avec de la teinture d'algue. Heh, je trouvais qu'il avait l'air ridicule... jusqu'à ce qu'on plonge son regard dans ses yeux froids, si froids. Des yeux de tueur.~
+
+@232  = ~ J'ai fait partie de son équipage pendant près d'une année, et c'était probablement les jours les plus agréables de ma vie. Jusqu'au jour où il s'est intéressé à moi pour des raisons... autres que la simple camaraderie entre pirates.~
+
+@233  = ~ Ha! Je voyais ça venir gros comme une maison! Et tu attends de moi que je te protège de lui, c'est ça?~
+
+@234  = ~ Je peux le comprendre. Parfois, en te regardant, il me vient ce genre d'envies...~
+
+@235  = ~ J'imagine que ce doit être difficile de vivre sa vie en mer sur un bateau rempli d'hommes...~
+
+@236  = ~ Eh bien… en fait... mais attends que je te raconte l'histoire en entier, avant de prendre ta décision.~
+
+@237  = ~ Tu n'es pas très doué pour les compliments, <CHARNAME>. Mets tes hormones au repos, c'est de ton aide dont j'ai besoin pour l'instant.~
+
+@238  = ~ Il faut se battre tous les jours pour prouver qu'on mérite sa place. Heh, mais après avoir châtré deux d'entre eux, les autres m'ont laissée tranquille, va savoir pourquoi. Quoi qu'il en soit, ce Barbe-Verte n'est pas n'importe quel pirate...~
+
+@239  = ~ Je suis partie discrètement, une nuit, en emportant avec moi le contenu de son coffre et quelques objets magiques intéressants. Un véritable trésor! J'ai embarqué dans un canot, et j'ai ramé jusqu'à la côté.~
+
+@240  = ~ Comme tu peux l'imaginer, il n'aura pas fallu longtemps pour que je dépense tout cet or. Rapidement, je me retrouvai sans le sou. La seule chose qu'il me restait, c'était cette capuche, que je ne pouvais pas me décider à vendre. Sa magie m'est trop utile, elle me permet de me battre avec encore plus d'habileté que d'habitude.~
+
+@241  = ~ Quoi qu'il en soit, puisque je ne voulais pas vendre la capuche, je n'avais pas le choix. J'ai cherché un navire qui m'accepterait, et j'ai embarqué... avec la conclusion que tu sais. Mais durant les quelques mois que j'ai passés sur ce bateau, j'ai appris que Barbe-Verte me recherchait. Il voulait me faire payer ce qu'il voyait comme une trahison.~
+
+@242  = ~ Ne t'inquiète pas, il ne t'arrivera rien. Tu fais partie du groupe, désormais, et nul ne te fera le moindre mal.~
+
+@243  = ~ Et c'est maintenant que tu me dis ça? J'ai assez à faire avec ma propre quête et les innombrables monstres qui me pourchassent sans avoir en plus à affronter des pirates! Pars d'ici, tu nous mets tous en danger par ta présence.~
+
+@244  = ~ Barbe-Verte n'avait pas forcément tort... tu aurais pu partir sans prendre le contenu de son coffre, non? Il t'aurait probablement cherchée avec moins d'acharnement.~
+
+@245  = ~ Tu es une bretteuse habile, Kim, et tu as encore progressé depuis que nous voyageons ensemble. Qu'est-ce que ce pirate a de si spécial pour te faire autant peur?~
+
+@246  = ~ C'est gentil, <CHARNAME>. Je sais que je peux compter sur toi. Mais il y a quelque chose que je ne t'ai pas dit...~
+
+@247  = ~ Je... vois. Eh bien, si tu le prends comme ça, je ne vais pas mettre en danger une seconde de plus ta précieuse personne. Adieu, <CHARNAME>. Tu es bien le digne enfant du Seigneur du Meurtre!~
+
+@248  = ~ Tu... tu n'as pas tort, mais tu n'étais pas non plus dans ma situation! Comment est-ce que j'aurais pu vivre si je n'avais pas pris de l'or avec moi? Et puis, ça t'est facile de faire la morale, toi qui pilles toutes les maisons et tous les coffres que tu vois!~
+
+@249  = ~ Quoi qu'il en soit, la question n'est pas de savoir pourquoi il me poursuit, mais plutôt comment le neutraliser. Et ça risque de ne pas être facile.~
+
+@250  = ~ Si seulement c'était aussi simple... mais ce n'est pas un pirate ordinaire.~
+
+@251  = ~ Barbe-Verte est un dangereux guerrier, un maître du cimeterre qui n'a pas son pareil. Mais là ne s'arrêtent pas les ennuis. Je l'ai vu, de mes yeux, recevoir un coup d'épée en plein cœur lors d'un abordage. Il aurait dû mourir. Tout homme serait mort instantanément, robuste ou non. Mais lui, il s'est contenté de rire, et il a abattu l'homme qui l'avait blessé avant de retirer tranquillement l'épée. La plaie avait disparu en quelques secondes!~
+
+@252  = ~ Je ne m'effraie pas facilement, <CHARNAME>, mais savoir que cet homme, d'une manière ou d'une autre, est à ma poursuite, me terrifie.~
+
+@253  = ~ Alors? Est-ce que tu crois que tu pourrais m'aider, si jamais Barbe-Verte décidait de venir m'attaquer?~
+
+@254  = ~ Tout ça ne change rien. Tu fais partie du groupe, Kim, et je ne te laisserai jamais tomber.~
+
+@255  = ~ Et c'est maintenant que tu me dis ça? J'ai assez à faire avec ma propre quête et les innombrables monstres qui me pourchassent sans avoir en plus à affronter des monstres invulnérables! Pars d'ici, tu nous mets tous en danger par ta présence.~
+
+@256  = ~ Est-ce qu'il n'y aurait pas moyen de discuter avec lui? Lui rendre son or, peut-être? Combien lui as-tu volé?~
+
+@257  = ~ Mon sang bout à l'idée de rencontrer quelqu'un d'aussi puissant. Enfin un adversaire à ma taille. Je te protégerai, Kim. Pas pour toi, mais pour satisfaire ma soif de combat.~
+
+@258  = ~ Tu es incroyable, <CHARNAME>, tu le sais, ça? Je te remercie pour tes paroles. Tu ne peux pas savoir à quel point ça me fait plaisir... mais nous verrons si tu es aussi courageux et résolu lorsqu'il se montrera. Heh, ça promet d'être amusant!~
+
+@259  = ~ Hmm, je ne crois pas... je lui ai volé plus de dix mille pièces d'or au total, en comptant les objets magiques. Et certains avaient probablement une valeur autre que marchande, pour lui. Non, je ne pense pas qu'on puisse le convaincre d'abandonner. Il a une conception assez personnelle de la vengeance...~
+
+@260  = ~ Hmm... je suppose que je dois te remercier. Quelles que soient tes raisons, tu te battras pour moi. Courage, donc, cher <CHARNAME>. Ca promet d'être une sacrée bataille... si jamais il nous retrouve.~
+
+@261  = ~ Quoi qu'il en soit, pour l'instant nous sommes en sûreté. Qui sait, peut-être ne nous retrouvera-t-il jamais? Allons, il est temps de continuer dans ta quête.~
+
+@262  = ~ Tu te bats plutôt bien, <CHARNAME>. J'avoue que je suis impressionnée. Mais, dis-moi, qu'est-ce qui t'a motivé à apprendre les arts du combat? Ce n'est pas une décision que tu as prise à la légère, n'est-ce pas?~ [kim]
+
+@263  = ~ A vrai dire, j'aime le combat au contact. Sentir le sang gicler sur mon visage, voir l'expression terrorisée de mes ennemis...~
+
+@264  = ~ Je n'avais pas une foi suffisante dans les dieux, je me refusais à voler pour survivre, et la magie ne m'intéressait pas. Que pouvais-je devenir d'autre?~
+
+@265  = ~ Il y a une certaine noblesse dans le combat qui m'a toujours attiré. Je préfère affronter quelqu'un l'arme à la main que le carboniser en claquant des doigts...~
+
+@266  = ~ Eh bien, lorsque j'étais jeune, j'ai pris des poses de combattant devant la glace de l'auberge de Winthrop, et je trouvais que ça rendait bien...~
+
+@267  = ~ Savoir combattre, c'est la définition de la puissance. Plus tu es habile, plus tu es puissant. Et je suis sans égal.~
+
+@268  = ~ Encore des questions? Tu ne t'arrêtes jamais, hein?~
+
+@269  = ~ Eh oui, ça te montre que je m'intéresse à toi, figure-toi. Mais si tu es trop stupide et égoïste pour prendre le temps de me répondre...~
+
+@270  = ~ Eh bien, que de modestie... je suppose que ça ne devrait pas m'étonner, venant de toi. Et pourtant...~
+
+@271  = ~ Heh, j'arrive très bien à t'imaginer te pavanant fièrement dans ta chambre. Je regrette de n'avoir pas pu voir ça. Mais, plus sérieusement...~
+
+@272  = ~ C'est vrai, je te comprends parfaitement. Moi aussi, je ressens la même chose. Ah, le plaisir de croiser le fer pour la gloire et l'honneur! Hmm, même si parfois, l'honneur est accessoire. Quoi qu'il en soit...~
+
+@273  = ~ Je vois... un choix contraint et forcé, donc? C'est plutôt dommage. Il y a de la noblesse dans le combat. Sans guerriers, les royaumes n'existeraient pas. D'un autre côté...~
+
+@274  = ~ Ewww... c'est écoeurant, <CHARNAME>. Mais je suppose que chacun trouve son plaisir comme il peut. Quoi qu'il en soit, je suppose que ça répond également à ma deuxième question.~
+
+@275  = ~ Tu n'as jamais regardé en arrière? Regretté, parfois, de ne pouvoir faire autre chose? Te reconvertir totalement?~
+
+@276  = ~ Si... devenir un fermier, ou quelqu'un d'inoffensif que personne ne pourchasse...~
+
+@277  = ~ Mon métier est ma vie. En changer? Pas pour tout l'or du monde!~
+
+@278  = ~ Ah, devenir un guerrier, redoutable et respecté!~
+
+@279  = ~ Ah, devenir un ranger, comprendre les animaux et combattre leurs ennemis!~
+
+@280  = ~ Ah, prononcer mes vœux de paladin, et défendre la veuve et l'orphelin dans tout Féérune!~
+
+@281  = ~ Ah, prononcer mes vœux de paladin, et défendre la veuve et l'orphelin dans tout Féérune!~
+
+@282  = ~ Ah, être un clerc, pouvoir suivre les voies mystérieuses des dieux, comprendre et réaliser leurs desseins...~
+
+@283  = ~ Ah, devenir druide, sentir la nature bouger en moi, la protéger et la chérir...~
+
+@284  = ~ Ah, être un voleur, les joies du crochetage et de la dissimulation...~
+
+@285  = ~ Ah, devenir barde... influencer les gens avec ma musique, leur donner du bonheur et de la joie...~
+
+@286  = ~ Ah, devenir mage, ou sorcier... pouvoir lancer des boules de feu, arrêter le temps!~
+
+@287  = ~ Je vois... c'est plutôt compréhensible, vu tous les ennuis que tu traverses en ce moment. Mais est-ce que tu serais vraiment heureux, <CHARNAME>? Je ne suis pas sûre que ce soit toi...~
+
+@288  = ~ Heh, je suis contente de voir que tu prends les choses comme ça. Tu as raison! Jamais de regrets, toujours aller de l'avant! Yo-hoo, et une bouteille de rhum!~
+
+@289  = ~ Heh, la voie du guerrier, hein? Un bon choix... moi-même, je me demande parfois si je n'aurais pas dû me concentrer sur mes talents de combattante, plutôt que d'apprendre aussi à crocheter des serrures et voler à l'étalage.~
+
+@290  = ~ Heh, la voie du ranger, hein? Je n'ai jamais vraiment compris ces oiseaux-là. Ils m'ont toujours l'air un peu trop taciturne et renfermé à mon goût. Si tu veux mon avis, ils passent trop de temps avec les animaux, et trop peu avec nous...~
+
+@291  = ~ Oh, non, pitié! Ne me dis pas que tu voudrais devenir ENCORE plus serviable? Déjà que nous courons depuis des jours partout dans Féérune pour aider tous les abrutis qui en ont besoin! Enfin, je dois avouer que tu ferais un fier paladin, avec tes stupides idées morales et ton comportement irréprochable...~
+
+@292  = ~ Oh, non, pitié! Pas ces boîtes de conserve sans humour... Tu te rends compte qu'il faudrait que tu ailles crapahuter à gauche et à droite, à aider tous les abrutis qui en ont besoin, avec comme seule satisfaction le plaisir du devoir accompli? Oh, non, non merci.~
+
+@293  = ~ Heh… toi, un paladin? Ne me fais pas rire, tu n'as aucune morale... et c'est tant mieux! Je ne supporte pas ces stupides boîtes de conserve qui crapahutent à gauche et à droite, à aider tous les abrutis qui en ont besoin, avec comme seule satisfaction le plaisir du devoir accompli.~
+
+@294  = ~ Un clerc? Hmm, je ne sais pas, je n'ai jamais eu beaucoup de respect pour ceux qui abandonnaient leur libre-arbitre aux mains de puissances soi-disant supérieures. J'aime croire que je contrôle ma vie, et je pense que ceux qui essaient de se persuader du contraire sont des lâches qui refusent de regarder la vérité en face. Heh, je ne dis pas ça pour toi, bien sûr, <CHARNAME>!~
+
+@295  = ~ Un druide? Hmm, c'est un choix étrange, mais pourquoi pas? Personnellement, je ne suis pas tellement enthousiaste à cette idée. Si les druides étaient plus nombreux, la nature serait certainement plus protégée, plus verte et plus radieuse... mais nous n'aurions pas ces magnifiques villes, avec leurs auberges et leurs salles de jeux!~
+
+@296  = ~ Un voleur, comme moi? Oh, tu sais, ça n'est pas une vie si agréable que ça, <CHARNAME>.  Les gens vous regardent de travers, et personne ne semble apprécier à sa juste valeur le travail que l'on fait – sauf les aventuriers qui ont besoin de vous, juste pour détecter des pièges et ouvrir un cadenas... et ensuite, c'est "merci beaucoup, monsieur le voleur, et au revoir!"~
+
+@297  = ~ Un barde? Je peux comprendre que tu veuilles en devenir un, <CHARNAME>. Moi aussi, ils me font rêver. C'est une vie tellement joyeuse, tellement insouciante! Et puis, j'ai déjà affronté quelques Maîtres-Lames en duel. Tous ont perdu, à quoi t'attendais-tu? Mais ils se battaient bien...~
+
+@298  = ~ C'est un désir qu'ont beaucoup de gens, on dirait. Le pouvoir accordé par la magie est tentant, c'est vrai... mais serais-tu capable de passer des heures dans tes livres pour apprendre les formules nécessaires, comme un mage? Ou savoir qu'à chaque instant, si tu perds le contrôle, tu peux lancer un sort involontairement, comme un sorcier? Très peu pour moi, non.~
+
+@299  = ~ C'est un choix intéressant, dans tous les cas. Merci, <CHARNAME>. J'ai l'impression d'en savoir un peu plus sur toi, désormais.~
+
+@300  = ~ J'avais beaucoup d'a-prioris sur les Rangers, <CHARNAME>, mais je suis en train de changer d'avis. Pour moi, c'était tous de vieux misanthropes qui fuyaient la compagnie des autres, préférant les animaux aux humains… Heh, je ne les en blâme pas! Mais comment es-tu devenu Ranger, toi-même?~ [kim]
+
+@301  = ~ Je voulais devenir un maître archer. Les rangers avaient les meilleurs professeurs. Grâce à eux, personne ne me surpasse, un arc à la main.~
+
+@302  = ~ Je… *ahèm*... j'aime bien les animaux.~
+
+@303  = ~ J'aime le style de combat de la guilde des rangers. Une lame dans chaque main, je suis invincible!~
+
+@304  = ~ Tu l'as dit toi-même... les animaux sont souvent de meilleure compagnie que les hommes. Je suis là pour les défendre.~
+
+@305  = ~ Je dois avouer que je n'y ai jamais réfléchi. Un vieux ranger de ChâteauSuif m'a appris son métier, et je n'ai jamais regardé en arrière depuis.~
+
+@306  = ~ Tu as raison, Kim, je préfère les animaux aux hommes. Maintenant va-t-en, je préférerais parler à mon cheval qu'à toi!~
+
+@307  = ~ Je vois… oui, les arcs sont des armes puissantes... même si je trouve qu'il y a plus de noblesse à affronter quelqu'un l'arme au poing. Mais je reconnais qu'il y a de la beauté dans certaines flèches que tu as tirées. Cependant...~
+
+@308  = ~ Heh! Je m'en doutais! Mais tu as raison, c'est probablement une des meilleures raisons pour devenir Ranger; cependant...~
+
+@309  = ~ Oui, tu n'as pas tort. C'est un style que je favorise également. Mais fais attention lorsque tu te dis invincible... Heh, peut-être qu'un jour, je tenterai de t'arracher ce titre à la pointe de la rapière! Bah, quoi qu'il en soit...~
+
+@310  = ~ Mmhh... j'espère que ce n'est pas une façon détournée de me faire comprendre que ma conversation t'ennuie. Heh, ne pars pas tout de suite, j'ai encore quelque chose à te demander!~
+
+@311  = ~ Je vois… une façon comme une autre de se lancer dans la vie. Mais justement, en parlant de regarder en arrière...~
+
+@312  = ~ Eh bien, <CHARNAME>, je n'en reviens toujours pas. Moi, la pirate, voyager aux côtés d'un paladin! Heh, si on m'avait dit ça un jour... mais je me demande… qu'est-ce qui t'a poussé à rejoindre cet ordre? Pourquoi as-tu tout d'un coup décidé que, hop, tu allais désormais sauver la veuve et l'orphelin? ~ [kim]
+
+@313  = ~ Ce n'est pas quelque chose qu'on décide, Kim. C'est une vocation qu'on embrasse.~
+
+@314  = ~ Il faut bien que quelqu'un défende ceux qui ne peuvent se défendre seuls.~
+
+@315  = ~ Je n'apprécie pas beaucoup tes sarcasmes, Kim.~
+
+@316  = ~ C'est l'armure blanche. J'aime les armures blanches, même si ça se tache facilement. Alors je me suis dit: "devenons paladin, et nous aurons une armure blanche!"~
+
+@317  = ~ Je dois avouer que je n'y ai jamais réfléchi. Un vieux paladin m'a entraîné à ChâteauSuif, et tout ça me semblait tout à fait... naturel.~
+
+@318  = ~ Cette conversation m'ennuie d'avance. Laisse tomber.~
+
+@319  = ~ Oui, et ça doit bien être la seule chose que tu embrasses vue ta morale rigide! Heh, ne me fais pas ces gros sourcils, je sais de toute façon que tu es trop noble pour porter la main sur une jeune fille pure et innocente comme moi! Hmm, ce qui me fait penser...~
+
+@320  = ~ Je... suppose, même si j'ai tendance à penser qu'ils pourraient essayer de se débrouiller par leurs propres moyens, plutôt que d'agiter les bras en l'air en appelant des aventuriers à la rescousse. Quoi qu'il en soit, est-ce que ça n'a jamais fini par te peser?~
+
+@321  = ~ Et je n'apprécie pas beaucoup ton manque d'humour, donc je suppose que nous sommes à égalité. Heh, ça me fait penser...~
+
+@322  = ~ Tu as raison. Ton armure te va bien, d'ailleurs. Un peu boueuse, un peu cabossée, mais je suppose que ce sont des choses qui arrivent. Ah bah, ça me fait penser...~
+
+@323  = ~ Les clercs ont toujours été source de fascination, pour moi. Voir des gens s'avilir devant une quelconque divinité pour obtenir des bribes de pouvoir, je trouve ça tellement sordide... mais dans ton cas, <CHARNAME>, c'est encore plus surprenant. Toi, un enfant de Bhaal, tu pries d'autres divinités? ~ [kim]
+
+@324  = ~ Ce n'est pas quelque chose qu'on décide, Kim. Ce sont les dieux qui nous choisissent.~
+
+@325  = ~ J'avoue que la situation m'amuse aussi, parfois...~
+
+@326  = ~ J'apprécierais que tu gardes tes blasphèmes pour toi, Kim.~
+
+@327  = ~ Les dieux ne sont pas aussi susceptibles que tu peux l'imaginer. Salut Lathandre, mon gars! Coucou, Helm! Hey, Talos, comment ça va, vieux bougon?~
+
+@328  = ~ Je dois avouer que je n'y ai jamais réfléchi. Un vieux clerc m'a mené vers la foi à ChâteauSuif, et tout ça me semblait tout à fait... naturel.~
+
+@329  = ~ Bah, toujours ces histoires de fatalisme... c'est écoeurant! Tu devrais prendre un peu d'assurance, <CHARNAME>, ton déterminisme me pèse sur le système.~
+
+@330  = ~ Peut-être que viendra un moment où tu seras aussi puissant que le Dieu que tu révères... que feras-tu, alors? Comment pourras-tu te raccrocher à ta foi? Resteras-tu clerc d'une puissance en laquelle tu ne crois plus?~
+
+@331  = ~ Heh! Tu me rassures... je ne pensais pas que les puissances du dessus appréciaient ce genre de comportement, mais je peux te dire qu'il me fait chaud au cœur! Ceci dit... ~
+
+@332  = ~ Aaah... la nature et les petits zoziaux... dis-moi, <CHARNAME>, qu'est-ce qui t'a décidé à endosser les responsabilités d'un druide? Ca ne doit pas être facile tous les jours! L'équilibre par ci, et l'équilibre par là, et oh la pauvre coccinelle, et plouf le gentil nénuphar... Bleh, comment t'en sors-tu sans un mal de crâne épouvantable?~ [kim]
+
+@333  = ~ Ce n'est pas quelque chose qu'on décide, Kim. C'est la nature qui nous choisit.~
+
+@334  = ~ C'est un trou de verdure où chante une rivière... j'aime la nature, Kim. Elle mérite d'être protégée, et c'est ce que je fais.~
+
+@335  = ~ Je n'aime pas beaucoup la manière dont tu parles de la nature, Kim.~
+
+@336  = ~ Les plantes sont nos amies, il faut les aimer aussi. Comme nous elles ont une âme...~
+
+@337  = ~ Je dois avouer que je n'y ai jamais réfléchi. Un vieux druide m'a mené vers l'adoration de la nature près de ChâteauSuif, et tout ça me semblait tout à fait... naturel.~
+
+@338  = ~ Mmmh...  je dois dire que la réponse ne me satisfait pas vraiment... mais admettons. Que se serait-il passé si elle ne t'avait pas choisie?~
+
+@339  = ~ Quelle passion dans la voix! Oui, je peux comprendre que tu aimes ce que tu fais... mais admettons que tu ne sois pas druide?~
+
+@340  = ~ Héhé, d'accord, je méritais bien ça. Mais avoue que c'est quand même une occupation qui peut paraître titanesque que de s'occuper des bosquets, non? Tu n'as jamais de regrets?~
+
+@341  = ~ Je me demandais... <CHARNAME>, tu es toi aussi un voleur, comme moi. Mais pour ma part, je ne prends pas grand plaisir à ce travail. Je préférerais de loin pouvoir seulement compter sur mes talents de combattante. Et toi? Es-tu voleur par choix ou par nécessité? Tu as eu une enfance dorée, pourtant?~ [kim]
+
+@342  = ~ Tu parles d'une enfance dorée! Non, Gorion me faisait mener une vie spartiate, sans or, sans alcool... il fallait bien que je m'en procure!~
+
+@343  = ~ L'or, c'est le pouvoir. Les voleurs ont l'or. C'est aussi simple que ça.~
+
+@344  = ~ Je n'aime pas tes manières, Kim. Etre voleur n'a rien de déshonorant.~
+
+@345  = ~ D'accord, je vais t'expliquer, mais d'abord... je te rends ta bourse!~
+
+@346  = ~ Je dois avouer que je n'y ai jamais réfléchi. Un vieux maître de guilde m'a enseigné ses talents à ChâteauSuif. Comment désarmer ou placer des pièges, comment se dissimuler... s'il savait ce que je suis devenu, heh?~
+
+@347  = ~ Heh, je vais te plaindre... je suis sûre que tu ne manquais de rien, mais que tu étais en pleine crise d'adolescence. Typique! Quoi qu'il en soit, je comprends ce que tu veux dire. Moi non plus, je n'ai pas eu le choix. Et si c'était à refaire?~
+
+@348  = ~ Mmmh. Il y a pourtant d'autres moyens d'obtenir de l'or. Tu aurais pu devenir un marchand, un avocat, un notable... et puis, ne me dis pas que les quelques piécettes que tu dérobes peuvent être comparées aux milliers de pièces d'or que nous récoltons en tuant des monstres? Non, je ne comprends pas vraiment ta motivation... mais en supposant que ce soit à refaire?~
+
+@349  = ~ … Je ne sais pas si je dois rire ou te percer le cœur. Heh, fais attention, <CHARNAME>, je suis très chatouilleuse sur ce qui touche à mes affaires! Quoi qu'il en soit, je vois que tu te débrouilles plutôt bien. Mais en supposant que ce soit à refaire?~
+
+@350  = ~ Quelques notes de musique, quelques sorts, une lame habile. J'ai toujours été fascinée par les bardes.  Ne pas se spécialiser, mais toucher un peu à tous les domaines, c'est un choix comme un autre. Qu'est-ce qui t'a décidé à devenir un barde, <CHARNAME>?~ [kim]
+
+@351  = ~ Ce n'est pas quelque chose qu'on décide, Kim. C'est la musique qui nous choisit.~
+
+@352  = ~ Tu l'as très bien dit: j'aime pouvoir toucher à plusieurs domaines en même temps, jouer les dilettantes plutôt que les spécialistes...~
+
+@353  = ~ Manipuler les foules, voilà le vrai pouvoir, Kim. Provoquer la colère et la violence à volonté, c'est quelque chose... d'excitant.~
+
+@354  = ~ Eh bien, j'avais le sentiment que mon corps magnifique et ma voix de rêve devaient passer à la postérité!~
+
+@355  = ~ Je dois avouer que je n'y ai jamais réfléchi. Un ménestrel de passage à ChâteauSuif m'a enseigné son art, et je me suis patiemment entraîné. Je ne pensais pas que j'allais voyager autant, à l'époque.~
+
+@356  = ~ Comme c'est bien dit! Mais je ne devrais pas m'attendre à autre chose, venant de toi. <CHARNAME> aux mots d'argent, heh. J'ai du mal à t'imaginer en train dans une autre profession. Mais imaginons...~
+
+@357  = ~ Oui, je vois. Mais ça doit être rageant, parfois, de ne pas pouvoir approfondir un domaine autant que tu l'aimerais. D'être plus mauvais sorcier qu'un mage, plus mauvais épéiste qu'un guerrier, plus mauvais tire-laine qu'un voleur... ~
+
+@358  = ~ Uhhhh... je n'aurais pas dû poser cette question, et continuer à te voir comme quelqu'un de naturel et d'insouciant. Bah, quoi qu'il en soit...~
+
+@359  = ~ Heh! Je vois, je vois. J'aurais du mal à t'imaginer dans une autre profession que barde, je dois dire. Mais supposons que les événéments aient été différents?~
+
+@360  = ~ Plus je te regarde utiliser la magie, plus je suis impressionnée, <CHARNAME>. Tu disposes d'une grande puissance entre les mains. Mais dis-moi, qu'est-ce qui t'a fait choisir ce chemin, exactement? Je veux dire, quand on est jeune, l'idée de passer sa vie la tête dans des livres n'est pas forcément tentante, si?~ [kim]
+
+@361  = ~ Le pouvoir en vaut la peine, Kim. J'ai sacrifié plusieurs années à étudier, mais je suis désormais aussi puissant que je l'espérais.~
+
+@362  = ~ C'est vrai que, lorsque je regarde en arrière, je me demande parfois si ça en valait la peine...~
+
+@363  = ~ J'aime étudier. J'aime l'odeur du parchemin et des potions qu'on mélange. La magie est ma passion, Kim.~
+
+@364  = ~ A vrai dire, j'étais à la recherche d'un philtre d'amour à faire avaler à Imoen, et...~
+
+@365  = ~ Je dois avouer que je n'y ai jamais réfléchi. Gorion m'a enseigné ce qu'il savait, et j'ai machinalement suivi ses traces.~
+
+@366  = ~ C'est donc l'ambition qui t'a poussé à étudier? Oui, je peux comprendre ça. Et, visiblement, tu n'as pas eu tort de te préparer comme tu l'as fait, vu les défis que tu dois relever maintenant. Mais est-ce que tu n'as pas de regrets parfois?~
+
+@367  = ~ Ah, des regrets... je commençais à me demander si tu étais capable d'en ressentir, toi toujours si sûr de toi. Heh, ne t'inquiète pas, je suis convaincue que tu as fait le bon choix. Tu as l'air bien dans ta peau, aujourd'hui. Mais imaginons que tu aies emprunté un chemin différent?~
+
+@368  = ~ Eh bien, eh bien. Tant de vie soudain dans tes yeux! Je n'imaginais pas que tu avais une relation aussi fusionnelle avec la magie, <CHARNAME>. Je suppose que ma prochaine question va te paraître ridicule, dans ce cas... mais ça ne va pas m'empêcher de la poser, heh!~
+
+@369  = ~ Yuck… ne m'en dis pas plus, je ne veux pas savoir la suite. Heh, je suppose que tu devais te sentir bien seul à Chateausuif... Bah, quoi qu'il en soit, tu sembles avoir trouvé ta voie. Penses-tu que les choses auraient pu tourner autrement?~
+
+@370  = ~ Le pouvoir en vaut la peine, Kim. J'ai sacrifié plusieurs années à m'entraîner, mais je suis désormais aussi puissant que je l'espérais.~
+
+@371  = ~ Si seulement je n'étais pas né avec la magie en moi, j'aurais peut-être pu faire autre chose...~
+
+@372  = ~ J'aime focaliser mes pouvoirs. J'aime l'odeur de la boule de feu qui crépite et celle des peaux de pierre qui se mettent en place. La magie est ma passion, Kim.~
+
+@373  = ~ Je n'avais pas vraiment le choix, Kim. La magie fait partie de moi en tant que Sorcier. Je ne peux que remercier Gorion de m'avoir appris ce qu'il savait.~
+
+@374  = ~ Tiens, <CHARNAME>, j'ai une petite devinette pour toi, histoire de passer le temps entre deux combats!~ [kim]
+
+@375  = ~ Oh, inutile de froncer les sourcils comme ça; il s'agit simplement de deviner le nombre de duels que j'ai gagnés depuis que je suis devenue une pirate. Voici les indices:~
+
+@376  = ~ Parmi les pirates que j'ai affrontés, il y avait quelques borgnes et quelques manchots. Deux fois plus de borgnes que de manchots, en fait, sans compter un pirate qui était *à la fois* borgne et manchot. Et si je compte la totalité de mes duels, j'ai affronté 24 mains et 21 yeux.~
+
+@377  = ~ La question est simple: combien de pirates ai-je affronté?~
+
+@378  = ~ 11?~
+
+@379  = ~ 12?~
+
+@380  = ~ 14?~
+
+@381  = ~ 15?~
+
+@382  = ~ 18?~
+
+@383  = ~ 20?~
+
+@384  = ~ 24?~
+
+@385  = ~ Je n'en ai pas la moindre idée!~
+
+@386  = ~ Et tu prends plaisir à te battre contre des adversaires handicapés?~
+
+@387  = ~ Laisse-moi tranquille avec tes discussions stupides.~
+
+@388  = ~ Discussions stupides? Bah, avoue que tu es trop bête pour répondre, c'est tout!~
+
+@389  = ~ Allez, ça n'est pas si difficile que ça. 24 mains et 21 yeux, ça veut dire combien de borgnes en plus que de manchots? Ca en fait trois de plus, n'est-ce pas? Donc si tu sais qu'il y a trois borgnes de plus que de manchots. Et moi, je t'ai dit qu'il y en avait deux fois plus, ça veut dire que j'ai affronté 6 borgnes et 3 manchots, n'est-ce pas? Toujours sans compter celui qui était les deux à la fois. Bon allez, réessaie maintenant!~
+
+@390  = ~ Eh non... ~
+
+@391  = ~ Tu donnes ta langue au chat, ou tu veux trouver la solution par toi-même?~
+
+@392  = ~ Je ne serais pas contre un indice...~
+
+@393  = ~ Je donne ma langue au chat!~
+
+@394  = ~ Laisse-moi trouver la solution seul...~
+
+@395  = ~ Bah, c'est dommage, j'aurais préféré que tu trouves par toi-même. La bonne réponse était 14 duels, dont trois contre des manchots, six contre des borgnes, et un contre un manchot-borgne. Heh!~
+
+@396  = ~ Bravo! Tu as parfaitement raison. 14 duels, dont trois contre des manchots, six contre des borgnes, et un contre un manchot-borgne. Heh, tu es plutôt vif d'esprit, <CHARNAME>; ça me plaît...~
+
+@397  = ~ C'était simple... 21 yeux et 24 mains, ça voulait dire qu'il y avait trois borgnes de plus que de manchots. Comme je t'avais dit qu'il y en avait deux fois plus, ça veut dire que j'ai affronté 6 borgnes et 3 manchots.~
+
+@398  = ~ Or il y a 21 yeux... donc j'ai les 6 yeux des 6 borgnes, les 6 yeux des 3 manchots, et l'oeil de celui qui est à la fois borgne et manchot, ce qui fait 13. Il reste 8 yeux, ce qui veut dire quatre pirates en bonne santé. D'où la réponse: 4 pirates, 3 manchots, 6 borgnes et un manchot/borgne font 14 duels!~
+
+@399  = ~ Heh, j'aime bien tester les gens comme ça. De petites énigmes amusantes qui font passer le temps. Mais je suppose qu'il y a des quêtes à terminer, des dragons à tuer et des vampires à trucider. Continuons notre route, <CHARNAME>, et merci d'avoir joué avec moi!~
+
+@400  = ~ Heh, détends-toi, <CHARNAME>, il ne s'agit que d'une énigme! C'est moi qui ai inventé le nombre d'estropiés, juste pour te compliquer les choses… Par contre, le nombre de duels gagnés est bien exact.~
+
+@401  = ~ Tu me regardes bizarrement, <CHARNAME>. Est-ce qu'il y a quelque chose que je peux faire pour toi?~ [kim]
+
+@402  = ~ En fait, j'avais une question. Peux-tu me dire comment une fille comme toi est devenue pirate?~
+
+@403  = ~ J'étais en train de me dire que tu es très séduisante...~
+
+@404  = ~ Oui, te taire et continuer à avancer.~
+
+@405  = ~ Hah! Je me disais bien que ton regard n'était pas innocent. Eh bien, abstiens-toi de baver sur moi dans le futur...~
+
+@406  = ~ Ca risque d'être dur!~
+
+@407  = ~ Dans ce cas, tais-toi et laisse-moi tranquille.~
+
+@408  = ~ Je vais te rendre les choses plus faciles en allant marcher loin de toi...~
+
+@409  = ~ Hmpff… très bien.~
+
+@410  = ~ "Une fille comme moi", hein? Heh, je me demande comment je devrais prendre ça. C'est vrai que ça fait longtemps que nous voyageons ensemble, <CHARNAME>, et pourtant je ne t'en ai jamais parlé. Heh! je suppose que c'est le genre de choses dont je n'aime pas vraiment discuter...~
+
+@411  = ~ Pourtant, il n'y a pas grand chose à en dire. Mon adolescence était désespérément banale; pas de famille tuée ni de vengeance à exercer, si c'est ce que tu voulais entendre. Pas même de parents cruels. Nous étions d'une famille modeste, c'est vrai, mais j'ai toujours été bien traitée.~
+
+@412  = ~ Mais alors, pourquoi partir en mer?~
+
+@413  = ~ Mais alors, pourquoi devenir une pirate?~
+
+@414  = ~ Continue, je t'écoute.~
+
+@415  = ~ Ils sont toujours en vie?~
+
+@416  = ~ Très touchant. Bon, reprenons la route.~
+
+@417  = ~ Un peu de patience, <CHARNAME>. Je sais que je prends mon temps pour raconter, mais ne t'inquiète pas, tout finira par s'expliquer.~
+
+@418  = ~ Oui... non... je pense, je ne sais pas...~
+
+@419  = ~ J'avais toujours bien aimé le maniement des armes. A l'âge où les autres filles jouaient à la poupée et apprenaient la vannerie, j'étais à courir les rues avec les gamins du quartier, rejouant des batailles imaginaires à grands coups de sabres de bois… C'était le bon temps! Je ne rêvais que d'une chose, apprendre à me battre. Et mes parents se sont saignés aux quatre veines pour m'inscrire à l'académie martiale de la Porte de Baldur. J'avais treize ans.~
+
+@420  = ~ Heh. Je pense que chaque personne dispose de talents divers. Certains savent bien cuisiner, d'autres retiennent facilement les livres qu'ils lisent, d'autres encore jouent de la musique comme personne. Moi, mon talent, c'était le combat. A seize ans, j'étais une des premières lames de l'académie, et j'ai été nommée au poste de sergent dans la garde de la Porte de Baldur.~
+
+@421  = ~ C'est formidable! Sergent à seize ans! Tes parents devaient être fiers!~
+
+@422  = ~ Je comprends mieux pourquoi tu te bats si bien. L'académie de la Porte de Baldur est réputée pour ses épéistes.~
+
+@423  = ~ Une des premières lames? Bleh, le niveau était si faible que ça?~
+
+@424  = ~ Tu as été garde? Mais alors, pourquoi devenir pirate?~
+
+@425  = ~ Je crois que j'imagine ce qui s'est passé ensuite...~
+
+@426  = ~ Génial. Bon, on y va?~
+
+@427  = ~ Oh, oui, ils étaient fiers! Ils en parlaient à tout le voisinage! Et moi-même, j'étais gonflée d'orgueil à l'idée d'être choisie aussi rapidement pour commander un groupe. Mais comme tu peux t'en douter, les choses ne se sont pas passées comme je l'espérais...~
+
+@428  = ~ J'apprécie le compliment. Oui, c'était une bonne académie. Je repense à ces moments avec nostalgie. Les professeurs étaient sévères, mais justes, et ils jugeaient les gens sur leurs aptitudes, pas sur leur race ou leur sexe...~
+
+@429  = ~ Je prendrai ça pour de l'ironie, et je ne t'arracherai pas la langue. Mais fais quand même attention, c'est un domaine dans lequel je suis très chatouilleuse...~
+
+@430  = ~ Je suis désolé, je plaisantais juste; continue ton histoire.~
+
+@431  = ~ Ce n'est pas de ma faute si tu ne sais pas te battre. Désolé si la vérité te blesse.~
+
+@432  = ~ Oh, laisse-moi te dire, <CHARNAME>, que ce n'était certainement pas MA décision. Non...~
+
+@433  = ~ Alors tu es plus vif d'esprit que moi, car à l'époque, je ne me doutais de rien. Non, j'étais au comble de la joie! Qu'est-ce que j'ai pu être stupide...~
+
+@434  = ~ Toi qui as fait trembler la Porte de Baldur, demande-toi si tu as une seule fois vu un garde féminin dans la ville. La réponse est non, bien sûr. Il y en a quelques-unes, mais elles sont consignées à la caserne pour tous les travaux domestiques. Hah! Je n'ai jamais connu des mentalités plus lamentables que lorsque j'ai intégré ce corps prestigieux.~
+
+@435  = ~ Des abrutis pompeux et prétentieux, tous autant qu'ils étaient! Incapables de comprendre qu'une femme puisse, non seulement les rejoindre, mais en plus commander une patrouille! C'était inconcevable pour leurs petits cerveaux de primates dégénérés.~
+
+@436  = ~ … Excuse-moi, <CHARNAME>, je m'emporte, mais ce n'est pas contre toi. Simplement, j'ai les nerfs à vif à chaque fois que je repense à cette période de ma vie. Le mépris quotidien, les brimades, les insultes, les propositions obscènes... Je pensais pouvoir m'imposer, mais c'était trop dur, <CHARNAME>, trop dur!~
+
+@437  = ~ Je… je suis désolé d'apprendre ça. Les hommes sont parfois cruels.~
+
+@438  = ~ Si j'avais été à ta place, j'aurais arraché le cœur d'un de tes tortionnaires, simplement pour faire réfléchir les autres.~
+
+@439  = ~ Bah, ce n'étaient que des plaisanteries innocences, je suis sûr. Tu es beaucoup trop sensible.~
+
+@440  = ~ Charmante histoire, mais je m'ennuie un peu. Continuons notre route.~
+
+@441  = ~ Ils ont eu raison de te traiter comme ça. Une femme avec des armes? Ridicule!~
+
+@442  = ~ Tu as dépassé les limites, <CHARNAME>. J'ai beau être une mercenaire, je choisis mes employeurs. Va brûler en enfer, je ne veux plus jamais voir ta sale tête!~
+
+@443  = ~ Des plaisanteries innocentes? Je... ces "plaisanteries", comme tu dis, ont détruit ma vie. Je te remercierai de garder tes commentaires sarcastiques pour toi! Tu ne peux pas savoir ce que c'est que d'être traitée comme je l'ai été! Ah, ça ne sert à rien de m'énerver comme ça. Mais les blessures sont encore tellement présentes...~
+
+@444  = ~ Eh bien… pour dire la vérité, c'est à peu près ce que j'ai fait.~
+
+@445  = ~ Bah. Plus je rencontre d'hommes, moins je supporte leur attitude arrogante et méprisante. Je ne dis pas ça pour toi, <CHARNAME>, mais j'espère que tu commences à comprendre pourquoi je me méfie de toi. Quoi qu'il en soit...~
+
+@446  = ~ Bah! Plus je rencontre d'hommes, moins je supporte leur attitude arrogante et méprisante. Je ne sais pas comment tu vois les hommes, <CHARNAME>, si ils t'attirent ou te dégoûtent, mais pour moi, c'est plutôt la seconde option! Et attends, ce n'est pas fini...~
+
+@447  = ~ Un jour, je n'ai plus supporté leurs continuelles brimades. J'ai tiré mon épée, et ils me sont tombés à trois dessus. Ils n'attendaient que ça, pouvoir me donner une leçon! Mais j'étais tellement furieuse que je les ai tués tous les trois. Je pense que ce n'est pas ce qu'ils avaient prévu...~
+
+@448  = ~ Toujours est-il que l'alarme a été donnée, et qu'un avis de recherche a été émis à mon nom. J'ai donc fui la ville en cachette, cherchant à rejoindre un bateau appareillant vers le grand large. Mais mon signalement était déjà diffusé, tous les navires marchands m'étaient inaccessibles. Désespérée, je suis montée le navire du pirate Barbe-Verte, dont je t'ai parlé. Là, enfin, mes compétences ont été reconnues.~
+
+@449  = ~ Pourquoi as-tu fui? Tu avais raison d'agir comme tu l'as fait!~
+
+@450  = ~ Tu as eu tort, Kim. Quelles que soient les brimades, tuer n'est jamais une solution.~
+
+@451  = ~ Mais... et tes parents? Tu les as abandonnés?~
+
+@452  = ~ C'est un changement de vie un peu... radical, non?~
+
+@453  = ~ Je croyais que Barbe-Verte avait essayé de coucher avec toi, lui aussi?~
+
+@454  = ~ Je m'attendais à une histoire plus croustillante, mais tu m'as à moitié endormi...~
+
+@455  = ~ Merci de ton soutien, <CHARNAME>. Tu sais que ça veut dire beaucoup pour moi... mais la justice n'est pas du même avis. Ma tête a été longtemps mise à prix, je ne sais pas si elle l'est encore. Non, je ne pouvais pas rester. Et, plus encore, je ne *voulais* pas rester. Pas après tout ça. Je suis une pirate, maintenant, et je ne regrette rien.~
+
+@456  = ~ Je n'ai pas besoin de tes discours moralisateurs, merci bien. J'ai agi comme je l'estimais nécessaire, et je le referais s'il le fallait. Plus jamais je ne serai opprimée, simplement parce que des abrutis pensent que les femmes ne devraient pas se battre. Et je ne regrette rien. Je suis une pirate, désormais. Il n'y a plus de retour en arrière.~
+
+@457  = ~ Je n'avais pas le choix! Tout le monde savait qui étaient mes parents, je les aurais mis en danger en allant les voir. Même maintenant, après deux ans, je ne suis pas sûre que ce soit une bonne idée de visiter la maison… Et pourtant, ils me manquent tellement! Mais je suis une pirate, désormais. Je ne peux plus faire demi-tour.~
+
+@458  = ~ Eh oui, mais ainsi va la vie. Si les gardes avaient eu un peu plus d'intelligence et de sensibilité, je serais toujours du côté de la loi, au lieu de vagabonder aux côtés d'un enfant de Bhaal à la recherche de son passé et de son futur...~
+
+@459  = ~ Après un an, oui. Mais au début, il a tiré son épée et m'a demandé de prouver ma valeur. Il était fort, beaucoup plus fort que moi, mais il se contentait de se défendre, sans jamais profiter des ouvertures dans ma défense. Après quelques minutes, il a fini par hocher la tête et dire que j'avais passé son test. Tu ne peux pas savoir comme j'étais heureuse. Une nouvelle vie s'ouvrait à moi! Si j'avais su que plus tard, ses sentiments changeraient autant...~
+
+@460  = ~ Bleh! Encore une fois, je parle, je parle, et nous n'avançons pas. Désolée de t'avoir pris autant de temps, <CHARNAME>, mais c'était gentil de ta part de t'intéresser à mon passé. Et, pirate ou pas, je suis contente d'être dans ton groupe.~
+
+@461  = ~ Heh, ça faisait longtemps que je n'avais pas posé de question philosophique! Dis-moi, <CHARNAME>, quel est ton but dans la vie? Qu'est-ce que tu aimerais plus que tout?~ [kim]
+
+@462  = ~ La puissance et le pouvoir.~
+
+@463  = ~ L'or et la fortune.~
+
+@464  = ~ La reconnaissance et la gloire.~
+
+@465  = ~ La camaraderie et l'amitié.~
+
+@466  = ~ L'amour!~
+
+@467  = ~ Une famille unie.~
+
+@468  = ~ La tranquillité et la paix.~
+
+@469  = ~ Pouvoir améliorer la vie des gens.~
+
+@470  = ~ J'aimerais plus que tout la paix. Laisse-moi tranquille, Kim!~
+
+@471  = ~ Pffft... pire qu'un roquet!~
+
+@472  = ~ Améliorer la vie des gens? Voyez-vous ça! Alors ton souhait le plus cher serait de continuer à vagabonder comme tu le fais, sans jamais t'arrêter, donnant un coup de main aux uns et aux autres? "Pas de problème, je vais retrouver votre fils!", "Aucun souci, je vais vous aider à tuer ces ogres!", "Bien sûr, je vais enquêter sur ce meurtre!", bleh, je n'arrive pas à comprendre quel plaisir tu peux retirer de ça...~
+
+@473  = ~ Oui, je peux comprendre que tu désires ça en ce moment, alors que tu n'as pas une minute à toi... mais est-ce que tu parviendrais à résister à l'appel de l'aventure? Est-ce que tu serais prêt à passer des jours paisibles dans une maison, à la campagne, sans jamais t'ennuyer?~
+
+@474  = ~ Une famille? Ce serait agréable, n'est-ce pas, <CHARNAME>? Pouvoir passer ta vie avec une femme et des enfants braillards, et sourire en les regardant lentement grandir... Oui, c'est un choix intéressant.~
+
+@475  = ~ Une famille? Ce serait agréable, n'est-ce pas, <CHARNAME>? Pouvoir passer ta vie avec un homme et des enfants braillards, et sourire en les regardant lentement grandir... Oui, c'est un choix intéressant.~
+
+@476  = ~ Heh... n'en dis pas plus, <CHARNAME>, tu vas me faire pleurer. L'amour! Comme c'est beau et noble et romantique! Bah, il ne reste plus qu'à te trouver une femme qui te corresponde. Je me demande si tu as déjà une petite idée...~
+
+@477  = ~ Heh... tu as tellement raison, <CHARNAME>… L'amour! Comme c'est beau et noble et romantique! Ce serait bien, si nous trouvions durant nos voyages les hommes parfaits dont nous rêvons. Je me demande si tu as déjà une petite idée...~
+
+@478  = ~ Bien sûr, tu as raison, <CHARNAME>, c'est certainement une part importante de notre vie. Je comprends qu'on puisse souhaiter s'entourer d'amis véritables, prêts à nous épauler dans les moments difficiles, et pour lesquels on risquerait notre vie… Mais si je peux te rassurer, je pense que tu es en bonne voie!~
+
+@479  = ~ Oh, oui, je te comprends parfaitement! Il y en aura toujours pour dire que c'est un objectif dérisoire, et que la gloire n'a jamais nourri personne, mais je suis convaincue que c'est un objectif qui vaut la peine d'être atteint. Reste à savoir quels moyens sont utilisés pour y arriver, et s'il s'agit d'une bonne ou d'une mauvaise célébrité...~
+
+@480  = ~ L'or? Bah, tu as des rêves bien ennuyeux, <CHARNAME>. L'or n'est pas grand-chose, finalement. Regarde-nous, en quelques jours d'aventure, nous avons déjà amassé la rançon de plusieurs rois. L'or, ça va, ça vient. Est-ce que tu penses vraiment qu'il t'apportera ce dont tu rêves?~
+
+@481  = ~ Heh. Je suppose que tu n'es pas le seul à rêver de ce genre de choses, <CHARNAME>. Mais à la différence des autres, tu as les moyens de tes ambitions. En tant qu'enfant de Bhaal, je n'ai aucun doute que tu finiras un jour ou l'autre par obtenir ce pouvoir que tu cherches...~
+
+@482  = ~ Quoi qu'il en soit, c'est une réponse intéressante. Tu es plein de surprises, <CHARNAME>. Personnellement, c'est la gloire que j'aimerais trouver. Une sorte de revanche sur tous les gens qui ont cherché à m'humilier. Je veux leur montrer que je suis devenu quelqu'un!~
+
+@483  = ~ C'est très immature, n'est-ce pas? Cette volonté de vouloir montrer au monde de quoi je suis capable?~
+
+@484  = ~ Oui, un peu, mais je suppose que c'est un désir normal vu les épreuves que tu as traversées.~
+
+@485  = ~ Oui, un peu, mais j'aime ce côté immature, chez toi...~
+
+@486  = ~ Oui, un peu, cela trahit un certain manque de confiance en toi, tu ne crois pas?~
+
+@487  = ~ Pas du tout, rechercher la gloire est tout à fait normal!~
+
+@488  = ~ Pas du tout, chercher à leur montrer ta vraie valeur est tout à fait normal!~
+
+@489  = ~ J'ai répondu à ta stupide question, ça ne te suffit pas?~
+
+@490  = ~ Heh, je ne sais pas si nous avons tous les deux raison ou tous les deux tort, mais ça fait plaisir d'être du même avis, pour une fois... même si, de temps en temps, je me demande si cette obsession n'est pas un peu malsaine. Ah, mais que veux-tu, mon destin est déjà tracé...~
+
+@491  = ~ Rechercher la gloire? Je ne sais pas. Mais prouver sa valeur, ça, oui. Ah, mais que veux-tu! Que je le souhaite ou non, mon destin est déjà tracé...~
+
+@492  = ~ Tu as certainement raison. Parfois, lorsque j'ai du temps pour réfléchir, je me demande si les gardes de la Porte de Baldur n'avaient pas raison; si une femme comme moi peut vraiment réussir à tracer son destin à la pointe de l'épée. Mais je crois que nous aurons bientôt la réponse! Mon destin est déjà tracé...~
+
+@493  = ~ Heh, c'est gentil, <CHARNAME>. Je rêve, ou bien tu m'as fait un compliment? En tout cas, ça fait du bien d'avoir ton support lorsque je suis en proie au doute. Quoi qu'il en soit, mon destin est déjà tracé...~
+
+@494  = ~ Tu as raison. J'ai beau me dire que c'est stupide, il suffit que je revoie le visage de ces maudits gardes pour que ma colère revienne comme au premier jour. Heh, je me demande comment ils réagiront lorsqu'ils entendront parler de moi. Car, pour le meilleur et pour le pire, mon destin est déjà tracé...~
+
+@495  = ~ En acceptant de voyager avec toi, j'ai commencé à écrire ma propre légende aux côtés de la tienne. Tuer Irenicus ne sera pas un mince exploit, et j'ai comme l'intuition que tout ne s'arrêtera pas là. Tu défies le destin, <CHARNAME>. Avec toi, la gloire est assurée!~
+
+@496  = ~ Heh, ne me regarde pas aussi bizarrement. Ce n'est pas la *seule* raison de ma présence dans ton groupe!~
+
+@497  = ~ Dis-moi, <CHARNAME>, est-ce que je peux te parler deux minutes?~ [kim]
+
+@498  = ~ Bien sûr!~
+
+@499  = ~ Non, tu me fatigues d'avance.~
+
+@500  = ~ Deux minutes? Tes récits sont plus longs, d'habitude...~
+
+@501  = ~ Loin de moi l'idée de t'épuiser, <CHARNAME>.~
+
+@502  = ~ Heh, façon de parler, évidemment. Tu penses bien que je ne vais pas me taire aussi rapidement! Mais je vais prendre ton commentaire pour une acceptation. Prépare-toi, je commence mon histoire!~
+
+@503  = ~ En fait, j'étais en train de penser à toutes ces aventures que nous vivons. La piraterie est une activité dangereuse, tu t'en doutes bien, et pourtant, je n'ai jamais autant combattu, je n'ai jamais vu autant de monstres que depuis que nous sommes ensemble.~
+
+@504  = ~ Je veux dire, lorsque je me battais, avant, je savais qui était l'ennemi, et je savais que je mourrais s'il se révélait plus habile au sabre… Mais désormais, la mort peut frapper de n'importe où! On rencontre des monstres aux pouvoirs étranges, des illithids, des dragons, des lycanthropes, des vampires, des spectateurs, et que sais-je encore? Tu es peut-être un enfant divin, mais je ne suis qu'une humaine... parfois je me sens tellement...~
+
+@505  = ~ ...perdue?~
+
+@506  = ~ ...désespérée?~
+
+@507  = ~ ...fatiguée?~
+
+@508  = ~ ...dépassée par les événements?~
+
+@509  = ~ ...impuissante?~
+
+@510  = ~ ...faible?~
+
+@511  = ~ ...lamentable?~
+
+@512  = ~ Oui, on peut dire ça comme ça. Je me sens un peu perdue. A me demander quel est mon rôle, dans toute cette aventure...çCa prend des proportions gigantesques!~
+
+@513  = ~ Pas vraiment désespérée, mais parfois un peu désabusée, oui. Plus nous avançons, plus c'est la même chose. Les monstres deviennent de plus en plus puissants, nous aussi, et le massacre continue...~
+
+@514  = ~ Peut-être un peu fatiguée, oui. Plus nous avançons, plus c'est la même chose. Les monstres deviennent de plus en plus puissants, nous aussi, et le massacre continue...~
+
+@515  = ~ Exactement! C'est l'expression que je cherchais! Tout ça est tellement... si... et je me sens... aaah, je ne trouve pas les mots! Plus nous avançons, plus c'est la même chose. Les monstres deviennent de plus en plus puissants, nous aussi, et le massacre continue...~
+
+@516  = ~ Pas vraiment impuissante, tout de même. J'espère que mes talents t'ont été utiles dans tes aventures! Non, pas impuissante, mais peut-être un peu dépassée. Plus nous avançons, plus c'est la même chose. Les monstres deviennent de plus en plus puissants, nous aussi, et le massacre continue...~
+
+@517  = ~ Faible? Pour qui te prends-tu? Non, je ne me sens pas faible! A vrai dire, je pense avoir beaucoup progressé depuis que nous nous sommes rencontrés. Je suis plus forte que jamais! C'est simplement que... plus nous avançons, plus c'est la même chose. Les monstres deviennent de plus en plus puissants, nous aussi, et le massacre continue...~
+
+@518  = ~ Hmpff... c'est tellement agréable de se sentir appréciée. Non merci, <CHARNAME>, je ne me sens pas particulièrement pathétique. C'est simplement que... plus nous avançons, plus c'est la même chose. Les monstres deviennent de plus en plus puissants, nous aussi, et le massacre continue...~
+
+@519  = ~ Je veux dire, je ne suis qu'une pirate! Une simple pirate! Je sais me battre, certainement, mais je n'ai aucun pouvoir spécial, aucune capacité particulière, rien qui fasse de moi un être extraordinaire! Jusqu'ici, les seuls monstres que j'avais rencontrés, c'étaient quelques gobelins en maraude, et un ou deux tritons qui avaient attaqué notre navire...~
+
+@520  = ~ Oh, je ne sais pas ce que je veux te dire... simplement, je me demande parfois si c'est bien raisonnable de continuer avec toi. Tous ceux que tu apprécies semblent souffrir, et tes ennemis sont innombrables. Un jour, moi aussi, je succomberai au rayon pétrifiant d'un spectateur, si ce n'est pas une demiliche qui m'emprisonne.~
+
+@521  = ~ Qu'en penses-tu, <CHARNAME>? Est-ce que je fais bien de continuer à tes côtés? Ou est-ce que je n'ai pas le niveau, que je me berce d'illusions?~
+
+@522  = ~ Tu es formidable, Kim. Ne te remets pas en question comme ça. Je ne sais pas ce que je ferais sans toi...~
+
+@523  = ~ Tu es une voleuse formidable, Kim. Ne te remets pas en question comme ça. Je ne sais pas ce que je ferais sans tes talents...~
+
+@524  = ~ Tu sais que tu es plutôt mignonne, quand tu hésites comme ça?~
+
+@525  = ~ Nous avons tous nos moments de doute, Kim. Ne t'inquiète pas, ça va passer.~
+
+@526  = ~ C'est une question à laquelle seule toi peux répondre. Si tu veux partir, c'est ton droit.~
+
+@527  = ~ Oui, barre-toi, ça me fera des vacances!~
+
+@528  = ~ ... Ca fait des jours que nous voyageons ensemble, et c'est ainsi que tu me traites? Oui, tu as raison, je ferais mieux de partir. Adieu, misérable fils de chienne!~
+
+@529  = ~ Heh... toujours aussi neutre, n'est-ce pas, <CHARNAME>? Mais tu as raison, c'est à moi de prendre une décision. Et elle est déjà prise: je reste à tes côtés, quoi qu'il arrive. Et un jour, moi, la petite pirate, je finirai par décapiter les tan'aari en un coup. Heh, ça promet d'être intéressant...~
+
+@530  = ~ Depuis le début, tu me traites comme une chienne, <CHARNAME>. Je crois que ma décision est effectivement prise. Je vais te laisser affronter ta destinée seul. Adieu, et bon courage.~
+
+@531  = ~ Oui... je suppose que tu as raison...~
+
+@532  = ~ Héhé! Merci, <CHARNAME>. C'est un compliment un peu inattendu, mais je dois dire qu'il me remonte le moral au bon moment!~
+
+@533  = ~ Hmpff... oui, je suppose que tu trouveras difficilement un autre voleur assez stupide pour se lancer dans une aventure pareille avec toi. Mais je ne sers donc qu'à ça? Désarmer les pièges qui se trouvent sur le chemin de l'auguste enfant de Bhaal?~
+
+@534  = ~ Formidable, moi? Hmm, je dois dire que ça sonne bien. Heh, ne commence pas à me flatter, <CHARNAME>, je risquerais d'y prendre goût!~
+
+@535  = ~ Il n'y a pas grand chose d'autre à dire, n'est-ce pas? Je suppose qu'il va falloir que Kim la petite pirate se prenne en mains et évolue un peu, pour devenir... un peu plus qu'une pirate. Je dois dire que cette perspective m'effrayait... mais je n'ai pas le choix, et ma place est à tes côtés.~
+
+@536  = ~ Irenicus, démons, vampires et suppôts de Bhaal en tous genres, vous allez regretter de vous être attaqués à <CHARNAME>! Car Kim est à ses côtés, prête à le défendre! Mwhaahahaha!~
+
+@537  = ~ *ahèm*~
+
+@538  = ~ Ca sonnait bien? C'était convaincant?~
+
+@539  = ~ Parfait, Kim! Je suis fier de t'avoir auprès de moi!~
+
+@540  = ~ Euh... oui, oui, bien sûr!~
+
+@541  = ~ On aurait dit une tortue asthmatique en train de tousser...~
+
+@542  = ~ Oh… je vois. J'avais fait un effort, pourtant...~
+
+@543  = ~ Je vois.  Mais bon, l'essentiel, c'est que je me sois convaincue moi-même, hein? Allez, reprenons la route.~
+
+@544  = ~ Heh, ton enthousiasme fait plaisir à voir. Irenicus n'a qu'à bien se tenir...~
+
+@545  = ~ Hmm, <CHARNAME>, ne le prends pas mal, mais j'ai une question importante à te poser...~ [kim]
+
+@546  = ~ Voilà, ça fait un moment que nous voyageons ensemble, dans le but de découvrir ce que cet Irenicus te veut. Mais si j'ai bien compris ce que tu m'as raconté, il est extrêmement puissant. Je n'ai qu'à regarder les dégâts qu'il a pu causer près de la Promenade de Waukyne pour comprendre que ce n'est pas n'importe qui. Il t'a déjà emprisonné, et il est visiblement prêt à le refaire.~
+
+@547  = ~ Donc je me demandais... comment vas-tu faire lorsque tu le retrouveras enfin? Est-ce que c'est réellement une bonne idée que d'aller le provoquer? Est-ce qu'il ne va pas t'emprisonner de nouveau?~
+
+@548  = ~ Si ce n'est pas moi qui vais à lui, c'est lui qui me trouvera...~
+
+@549  = ~ Tu oublies un peu vite Imoen. Je ne peux pas la laisser entre ses mains!~
+
+@550  = ~ Ceux qui s'en prennent à moi finissent toujours par le regretter, un jour ou l'autre.~
+
+@551  = ~ Tu as raison. Je devrais tout laisser tomber!~
+
+@552  = ~ Irenicus m'avait pris par surprise. La prochaine fois, il périra.~
+
+@553  = ~ Je suis un enfant de Bhaal, Kim. Je ne fais que suivre mon destin.~
+
+@554  = ~ Tu es une lâche et une faible, Kim. Comment oses-tu suggérer ça?~
+
+@555  = ~ Voyez-vous ça! Je pensais que c'était une question légitime, mais si tu es trop stupide pour répondre...~
+
+@556  = ~ Tsss. Tu devrais être maître de ton destin, et pas le contraire. C'est tellement facile de mettre toutes tes actions sur le dos d'une prophétie obscure ou d'une filiation dangereuse...~
+
+@557  = ~ C'est bien d'avoir confiance en toi, mais es-tu vraiment sûr de ça, ou bien est-ce ton orgueil qui parle? Je ne sais pas à quel point cet Irenicus peut être puissant, mais les Mages Cagoulés eux-mêmes ont eu du mal à l'arrêter, alors qu'il était seul, et eux nombreux...~
+
+@558  = ~ Euh? Je ne pensais vraiment pas que tu dirais ça, <CHARNAME>. J'espère que tu plaisantes! Je cherchais à te titiller un peu, et à te faire parler des stratégies que tu utiliserais. Je ne voulais pas te démoraliser complètement!~
+
+@559  = ~ Oui, tu as raison, bien sûr. J'ai cru comprendre que cette jeune fille était très importante pour toi. Mais ça ne doit pas t'empêcher de réfléchir à l'avance à la manière dont tu réagiras lorsque tu seras face à lui.~
+
+@560  = ~ Hmm... ce n'est pas faux. Mais s'il est tellement puissant, peut-être sait-il que tu es en train de le poursuivre? Si ça se trouve, tu vas tomber dans une embuscade! Je ne sais pas, à ta place, je ne serais pas très rassurée...~
+
+@561  = ~ Quoi qu'il en soit, tu as une stratégie en tête pour le moment où tu le retrouveras? Une idée sur la manière de le battre? N'hésite pas à m'en faire profiter, peut-être pourrai-je t'aider ou te donner des conseils.~
+
+@562  = ~ Les guerriers sur lui, les mages en brêche, les clercs en soin. Rien que du classique.~
+
+@563  = ~ Plein d'invocations pour épuiser ses sorts, puis assaut général!~
+
+@564  = ~ Hmm... je propose de le chatouiller à mort!~
+
+@565  = ~ Non, je n'ai pas de plan. Je fais confiance à mes capacités.~
+
+@566  = ~ Non, je n'ai pas de plan. Je fais confiance au groupe. Ensemble, nous le vaincrons.~
+
+@567  = ~ Je dois dire que je n'ai aucune idée de la manière dont je le combattrai...~
+
+@568  = ~ Des conseils? De ta part? Ne me fais pas rire!~
+
+@569  = ~ Heh, tu es bien insouciant! J'espère que tu sais ce que tu fais. Cet Irenicus m'a l'air trop dangereux pour être pris à la légère. Hmm, mon sang bout rien qu'à l'idée de l'affronter!~
+
+@570  = ~ Heh, j'aime bien ta réponse. Il est trop puissant pour que tu le tues seul, mais avec tout le monde, je suppose que ça devient faisable. Essaie juste de ne pas trop te reposer sur nous! C'est toi qu'il veut, et c'est toi qu'il essaiera de tuer ou de capturer...~
+
+@571  = ~ Voilà qui est présomptueux de ta part. A mon humble avis, tu devrais essayer d'avoir plus de considération pour nous. Seul, tu n'y arriveras jamais. Avec ton groupe, tu as une chance. Hmm, mon sang bout rien qu'à l'idée de l'affronter!~
+
+@572  = ~ Héhé! Bonne idée! Me voilà rassurée, tu as bien un plan, finalement. Et puis, je ne connais aucun sort de "protection contre les chatouilles". Peut-être que tu tiens l'arme absolue, qui sait? En tout cas, je suis convaincue qu'il ne s'attendra pas à cette stratégie...~
+
+@573  = ~ Mmpff. Pourquoi pas, c'est le genre de tactique qui marche toujours bien. Mais, si j'étais à la place d'Ireni-machin, je lancerais un petit sort de mort et hop, toutes tes créatures invoquées disparaîtront. Oui, oui, même tes gros démons! Non, je ne suis pas sûre que ce soit une bonne idée de baser ta stratégie là-dessus...~
+
+@574  = ~ Ca paraît logique, mais à mon avis, ça ne sera pas aussi simple. Un magicien aussi puissant aura probablement des pièges à sorts pour intercepter tes brêches. Et des arrêts du temps pour tout perturber. Hmm, mon sang bout rien qu'à l'idée de l'affronter!~
+
+@575  = ~ Quoi qu'il en soit, j'espère que tu auras trouvé une stratégie d'ici à ce qu'on le retrouve. Je fais confiance à tes talents de grand tacticien!~
+
+@576  = ~ Je repensais à la dernière discussion que nous avons eue sur Irenicus, <CHARNAME>, et je me disais que si nous voulions augmenter nos chances de le battre, il allait falloir trouver des objets puissants et légendaires qui nous aideraient dans nos aventures.~ [kim]
+
+@577  = ~ J'ai entendu parler de nombreux objets lorsque j'étais pirate. Nous voyageons beaucoup, et nous entendons toutes les légendes. Oh, je ne dis pas qu'elles sont toutes vraies, mais elles doivent tout de même avoir un fond de vérité; veux-tu que je t'en parle?~
+
+@578  = ~ Bien sûr. Tu sais bien que je suis toujours prêt à écouter, quand on parle d'objets puissants...~
+
+@579  = ~ Bien sûr. Tu sais bien que je suis toujours prêt à t'écouter, quoi que tu dises!~
+
+@580  = ~ Je pense que nous sommes déjà suffisamment puissants comme ça, Kim.~
+
+@581  = ~ Des légendes! Des contes! Cesse de rêver et marche, gamine!~
+
+@582  = ~ Oh, très bien, très bien...~
+
+@583  = ~ Oui, tu as probablement raison. Désolée de t'avoir dérangé, dans ce cas.~
+
+@584  = ~ Heh, c'est gentil! Je ne sais pas si c'est ironique, mais c'est gentil quand même. Bon, très bien!~
+
+@585  = ~ J'ai entendu parler d'un anneau, d'un katana, d'une épée à deux mains, d'une masse, d'un bâton, d'une robe, d'une amulette ou encore d'une cape. Quelle légende voudrais-tu entendre?~
+
+@586  = ~ L'anneau~
+
+@587  = ~ Le katana~
+
+@588  = ~ L'épée à deux mains~
+
+@589  = ~ La masse~
+
+@590  = ~ Le bâton~
+
+@591  = ~ La robe~
+
+@592  = ~ L'amulette~
+
+@593  = ~ La cape~
+
+@594  = ~ Je vois. Merci pour tes histoires, Kim.~
+
+@595  = ~ C'est une des légendes les plus persistantes que j'aie entendues. Il paraît qu'une cape fabuleuse, capable de repousser les sorts les plus puissants, a été perdue en mer voici des années de cela. Un marin aurait vu des hommes-poissons s'en emparer. Tu sais, ceux qu'on appelle les Sahuagin. Enfin, je suppose qu'on ne retrouvera jamais un tel artéfact, mais imagine son efficacité face à ton Irenicus!~
+
+@596  = ~ Ah, je suis sûre que c'est une légende que tu ne connais pas, puisqu'il s'agit directement de Barbe-Verte! Tu sais, je t'avais parlé de son invulnérabilité presque totale aux armes? Eh bien, il paraîtrait qu'elle serait, au moins en partie, due à la puissance de l'amulette qui ne quitte jamais son cou. Ce serait bien d'avoir un tel objet, hein, <CHARNAME>? Ne plus avoir à craindre les épées ni les flèches! Enfin, pour cela, il faudrait retrouver Barbe-Verte, et je n'y tiens pas plus que ça...~
+
+@597  = ~ On a souvent parlé à mots couverts, sur notre navire, de la puissance légendaire de la robe de Vecna. Cette robe permet de jeter ses sorts bien plus rapidement, et protège également le magicien comme s'il portait une cotte de mailles! La dernière fois qu'on en a entendu parler, c'était un marchand d'Athkatla qui l'avait récupérée; peut-être y a-t-il moyen de l'acheter?!~
+
+@598  = ~ Heh, c'est une des plus folles histoires qu'on m'ait racontée! Figure-toi qu'il y aurait à Athkatla une organisation monstrueuse, la rune coincée, ou la rune brisée, enfin un nom ridicule comme ça, et elle serait la dépositaire d'un des plus puissants bâtons jamais conçus: le bâton de magi. Heh, si seulement ça pouvait être vrai!~
+
+@599  = ~ Ah, voilà un objet qui nous serait utile contre les morts-vivants. Cette légende-là, c'est directement Renal qui m'en avait parlé. Il m'expliquait que si jamais je trouvais une masse de disruption, le fait d'y ajouter de l'illithium pur la rendrait beaucoup plus puissante. Si seulement nous trouvions ces ingrédients, nos problèmes seraient facilités, tu ne crois pas?~
+
+@600  = ~ Boarf, un objet de paladin, mais probablement une des armes les plus puissantes si ce que j'ai entendu est vrai. Il paraît que Carsomyr, la légendaire épée sainte, est cachée depuis des siècles dans le trésor d'un grand dragon. Mais où, ça, mystère. De toute façon, je ne suis pas tellement férue des boîtes de conserve!~
+
+@601  = ~ J'ai entendu ici, à Athkatla, l'histoire d'un katana magique qui pourrait sonner tous les ennemis qu'il frappe. Ca me paraît assez incroyable, mais celui qui m'en parlait avait l'air convaincu. Il disait qu'il avait vu des guerriers inhumains s'en servir contre des voleurs, dans le quartier du Temple. Je ne sais pas si on trouvera quelque chose, mais ça vaudrait peut-être la peine d'y faire un tour un jour, non?~
+
+@602  = ~ Je pense que tu ne vas pas croire à mon histoire. Un marin de Barbe-Verte, à qui je demandais pourquoi il s'était fait pirate, m'a expliqué qu'il voulait surtout fuir à tout pris Athkatla ! Il m'a dit qu'en se promenant près de la guilde des voleurs, il était tombé par hasard sur une entité qui lui avait proposé un marché: son anneau, contre la récupération de parties de son corps enfouies. Le pirate m'a dit qu'il avait accepté, mais les morceaux étaient gardés par des liches, et désormais elles hantent ses nuits. Bah, j'ai dû finir par le tuer alors qu'il devenait fou furieux. Une sale histoire, mais qui mérite d'enquêter, tu ne crois pas?~
+
+@603  = ~ C'est un plaisir que de faire ton éducation, <CHARNAME>. Heh!~
+
+@604  = ~ J'aimerais te poser une question, <CHARNAME>, qui va te paraître un peu bizarre...~ [kim]
+
+@605  = ~ Nous combattons beaucoup, ces derniers temps, et je te vois te battre et tuer. Mais que ressens-tu, lorsque le combat se termine et que les corps gisent à tes pieds? Parfois, ce sont des monstres, mais parfois des humains, comme toi, qui étaient juste au mauvais endroit, au mauvais moment. Alors, que ressens-tu? Du plaisir? Du dégoût?~
+
+@606  = ~ Du plaisir, bien sûr. Le plaisir de la domination et de la destruction!~
+
+@607  = ~ Du plaisir, le plaisir que donne l'impression de s'être surpassé et la victoire contre ses ennemis.~
+
+@608  = ~ Du plaisir, celui d'avoir survécu alors qu'on en voulait à ma vie.~
+
+@609  = ~ Un mélange des deux, je suppose. Plaisir d'avoir survécu, tristesse d'avoir tué...~
+
+@610  = ~ De l'indifférence. J'ai une mission à accomplir, ceux qui me barrent la route mourront.~
+
+@611  = ~ De l'indifférence. Ce n'est pas moi qui les attaque, mais eux. Ils ont choisi leur destin.~
+
+@612  = ~ Du dégoût. Si seulement il pouvait y avoir un autre moyen!~
+
+@613  = ~ En tout cas, je peux te dire que toi, tu me dégoûtes.~
+
+@614  = ~ Je te dégoûte? Vraiment? Eh bien, si c'est comme ça, je ne vais pas te dégoûter plus longtemps. Adieu, <CHARNAME>, et puissent les requins te dévorer le coeur!~
+
+@615  = ~ Oui, je suppose que c'est un sentiment logique. Ces tueries qui ne s'arrêtent jamais devraient écoeurer même le guerrier le plus endurci; pourtant...~
+
+@616  = ~ C'est ce que je me dis aussi, <CHARNAME>, mais peut-être sont-ils morts à cause de *ton* destin?~
+
+@617  = ~ Hmm... et tu penses que ta mission est plus importante que la vie de quelques-uns? Peut-être n'as-tu pas tort; peut-être que ton essence de Bhaal ne te laisse pas le choix, mais je pensais que tu aurais plus de scrupules...~
+
+@618  = ~ Heh, c'est ce que je ressens aussi. On ne se sent jamais plus vivants qu'après un combat acharné, n'est-ce pas? Mais parfois, je me pose des questions sur les vies que j'ai détruites, sur les enfants et les familles qu'auraient pu avoir ces gens-là...~
+
+@619  = ~ Oui, ça en vient à ça, n'est-ce pas? Gagner ou perdre, vivre ou mourir, avancer ou reculer. Mais parfois, tu ne te demandes pas si ça en vaut la peine? S'il y a une raison valable pour toutes ces morts?~
+
+@620  = ~ Oui, je peux certainement comprendre cette exaltation du combat, ce plaisir de tous les sens alors qu'on bondit au cœur de la mêlée... mais même moi, je commence à me lasser de ces violences perpétuelles.~
+
+@621  = ~ Hmpff... voilà bien ton essence de Bhaal qui parle. C'est elle qui doit te mener à la destruction et la domination, n'est-ce pas? Est-ce que c'est toi qui m'a répondu, ou bien elle? Comment savoir?~
+
+@622  = ~ Tous tes ennuis semblent causés, d'une manière ou d'une autre, par cette essence que tu portes en toi. Dis-moi, <CHARNAME>, et réponds-moi sincèrement...~
+
+@623  = ~ Si tu pouvais abandonner tout ça, toutes ces histoires de prophétie, abandonner ton essence divine, le ferais-tu?~
+
+@624  = ~ Sans hésiter ni regarder en arrière!~
+
+@625  = ~ Avec regret, mais pour le bien de Féérune.~
+
+@626  = ~ Non, j'ai besoin de cette essence et de sa puissance pour protéger ceux que j'aime!~
+
+@627  = ~ Jamais de la vie! Ma puissance n'est rien à côté de celle que j'atteindrai un jour!~
+
+@628  = ~ Non. Mon destin est celui d'un dieu, que je le veuille ou non.~
+
+@629  = ~ L'essence de Bhaal fait partie de moi. Je ne serais plus le même sans elle.~
+
+@630  = ~ Je... je suppose que tu as raison. Je me demande quel genre de personnalité tu aurais bien pu avoir, si tu n'avais pas un père aussi terrible; si tu n'avais pas été obligé de quitter ChâteauSuif, de voir ton père adoptif tué devant tes yeux...~
+
+@631  = ~ Quel fatalisme stupide! On peut toujours faire quelque chose lorsqu'on en a l'envie! Le destin, bah! Voilà bien une notion lamentable inventée par les faibles pour justifier de leur couardise. Non, <CHARNAME>, ce genre de réponse est indigne de toi.~
+
+@632  = ~ Hmm… eh biennnn… je ne peux pas dire que tu aies tort. Moi aussi, je pense que je serais heureuse de pouvoir disposer d'une telle puissance... et pourtant, je me sens déçue par ta réponse. Je ne sais pas pourquoi...~
+
+@633  = ~ Ah, mais peut-être que si tu n'avais pas cette essence, tu n'aurais pas *besoin* de protéger ceux que tu aimes. Y as-tu songé? Peut-être que ta vie aurait été beaucoup plus heureuse, si tu n'avais jamais entendu parler de cette histoire de dieux...~
+
+@634  = ~ Pour le bien? Pah, est-ce que tu réfléchis quelquefois à ce que tu dis, ou bien est-ce que ta passion de justice t'aveugle au point que tu ne te rendes pas compte des stupidités que tu débites? Qui a parlé de Féérune? Je te parle de toi, de toi et de tes aspirations! Et si tu me dis que ton bonheur est lié au bonheur du monde, je... je t'étrangle!~
+
+@635  = ~ Vraiment? Sans un seul regard en arrière? Tu tournerais le dos à tout ce que tu as vécu jusqu'ici, simplement en claquant des doigts? Et que ferais-tu, alors? Que deviendrais-tu? Serais-tu capable de te réinstaller dans une vie normale?~
+
+@636  = ~ Quoi qu'il en soit, je dois dire que je suis contente au moins d'une chose...~
+
+@637  = ~ Non... rien... tu ne comprendrais pas.~
+
+@638  = ~ Si tu n'avais pas eu ton essence divine, tu n'aurais jamais été kidnappé par Irenicus, et tu ne serais probablement jamais allé à Athkatla... et jamais je n'aurais pu te rencontrer. Finalement, j'en suis plutôt heureuse...~
+
+@639  = ~ Tu es prêt pour une autre de mes questions philosophiques, <CHARNAME>?~ [kim]
+
+@640  = ~ Bien sûr, je les attends toujours avec impatience!~
+
+@641  = ~ Je t'écoute, que veux-tu me demander?~
+
+@642  = ~ Prêt, prêt, c'est vite dit... mais vas-y quand même.~
+
+@643  = ~ Tu es une *pirate*, Kim. Laisse les débats intellectuels aux autres.~
+
+@644  = ~ Uhh... je pense que tu es mal qualifié pour me parler comme ça...~
+
+@645  = ~ Heh, ne t'excite pas comme ça, c'est mauvais pour le cœur. Tu vas voir, ma question est très simple.~
+
+@646  = ~ Bon, comme je te disais, c'est assez... philosophique. Mais je me demandais si tu croyais au... destin. A une force impalpable et absolue qui dirigerait la vie des hommes?~
+
+@647  = ~ Tu veux parler des dieux?~
+
+@648  = ~ Oui. Je suis convaincu qu'une puissance supérieure dirige toutes nos actions.~
+
+@649  = ~ Je pense que certains, comme moi, ont une destinée à accomplir dont ils ne peuvent s'écarter.~
+
+@650  = ~ Je pense qu'il existe une puissance supérieure qui tisse le destin du monde, mais que nous avons chacun le choix de notre place dans ce grand destin.~
+
+@651  = ~ Je pense que ce sont nos actions qui forgent notre vie, et pas une quelconque puissance extérieure.~
+
+@652  = ~ Je pense que le destin est une invention des faibles pour expliquer leurs erreurs.~
+
+@653  = ~ Bah... quelle question stupide!~
+
+@654  = ~ Bravo, bien dit! Je suis tout à fait d'accord avec toi, <CHARNAME>. Ca me hérisse d'entendre les gens parler de destinée lorsqu'il ne s'agit généralement que de lâcheté. Tout le monde peut échapper à son destin... même toi!~
+
+@655  = ~ Une idée intéressante... Un grand destin général, mais où tout le monde aurait son libre-arbitre? Ca me paraît un peu tiré par les cheveux, mais je vais y réfléchir. En tout cas, c'est déjà un progrès par rapport à ceux qui geignent que tout ce qu'ils font est écrit dans les astres...~
+
+@656  = ~ Certains, mais pas tous, eh? Tu sais, j'ai toujours été franche avec toi, alors permets-moi de te dire que c'est la théorie la plus ridicule que j'aie jamais entendu de ta bouche. Alors comme ça, certaines personne ne seraient pas capables de changer le cours des événements, guidés qu'ils seraient par une autre puissance? Bah, c'est pathétique si c'est vrai, et ça l'est encore plus si tu t'es mis ces idées en tête.~
+
+@657  = ~ Bah, voilà un discours qui ne me plaît pas. Alors comme ça, tu ne serais pas libre de tes actes? Chaque chose que tu ferais serait gouvernée par une puissance quelconque? Ca ne te paraît pas écoeurant? Quel intérêt de vivre, si c'était le cas?~
+
+@658  = ~ Non, pas exactement des dieux... mais d'une puissance qui les dirigerait, eux aussi. Quelque chose qu'on ne peut appréhender, mais pourtant bien réel, et qui dirigerait nos vies?~
+
+@659  = ~ Non, pour ma part, je ne crois pas au destin. Je crois plus à l'importance des actions, des causes et des conséquences. Ce n'est pas le destin qui fait que tu es ici. C'est la conséquence de ton sang divin, des ambitions de Sarevok, de celles d'Irenicus, et de nombreux autres facteurs qui ont provoqué ta quête.~
+
+@660  = ~ Mais est-ce que ce n'est pas justement ça, le destin? Cette avalanche de causes qui mène à une conséquence?~
+
+@661  = ~ Oui, je pense que tu as tout à fait raison.~
+
+@662  = ~ Grand bien te fasse. Moi, j'y crois.~
+
+@663  = ~ Et les prophéties d'Alaundo, alors? Et les prophéties en général? Comment pourraient-elles exister si le futur n'était pas déjà écrit?~
+
+@664  = ~ Je pense que ton destin est de te taire!~
+
+@665  = ~ Heh, voilà une bonne question... et je dois dire que je n'ai pas la réponse. Mais c'est vrai que c'est quelque chose qui me perturbe beaucoup. Peut-être leur magie, particulièrement puissante, leur permet-elle d'influer sur les événements une fois la prophétie prononcée, ou peut-être est-ce autre chose. Quoi qu'il en soit, le fait qu'Alaundo ait prononcé une prophétie qui semble te concerner ne veut rien dire. Ne la laisse pas te gouverner, <CHARNAME>!~
+
+@666  = ~ Eh bien, voilà qui clôt la discussion, je suppose. Mais un dernier mot avant de terminer pour de bon...~
+
+@667  = ~ Et... c'est tout? Bah, j'espérais un débat plus animé! Mais je suis contente que nous soyons du même avis.~
+
+@668  = ~ Heh, voilà une bonne remarque, même si je l'attendais de pied ferme. Eh oui, peut-être que le destin, c'est cette suite de coïncidences, de rencontres et d'événements. Peut-être que les événements qui ont fait que je suis dans ton groupe – ta capture, mon naufrage, nos travaux pour Renal - peuvent être considérés comme faisant partie d'un quelconque destin. Cependant, ça ne change rien à ce que je voulais te dire.~
+
+@669  = ~ Pour moi, le destin n'existe pas, ce qui veut dire que je ne me sens liée par aucune chaîne *mystique* à toi et à ta quête, <CHARNAME>. Ma décision, je la prends en mon âme et conscience, et je me base sur tes actes, plutôt que sur ce que tu es censé représenter.~
+
+@670  = ~ Je... je n'ai plus tellement envie de te suivre. Je suis désolée, <CHARNAME>. Tu as probablement en toi une puissance fabuleuse, mais plus le temps passe, plus j'ai l'impression que nous ne nous comprenons pas. Je pense qu'il vaut mieux que je parte. Heh, je te rends même ton or, pour ne pas que tu regrettes trop mon départ.~
+
+@671  = ~ C'est mieux comme ça... n'est-ce pas? Adieu, <CHARNAME>.~
+
+@672  = ~ Je pense que ma place est à tes côtés. L'or n'est pas tout, dans ce monde – heh, même si je n'ai jamais été plus riche que depuis que nous sommes ensemble! Je ne crois pas en toutes ces histoires de destinée, mais je sais que tu auras des ennemis puissants à affronter, des combats épuisants à mener, et je pense que je peux t'y aider.~
+
+@673  = ~ A partir de maintenant, mon épée t'appartient. Sers t'en bien et... ne fais pas trop de bêtises? Hein? ~
+
+@674  = ~ (Kim sourit et reprend sa place dans le groupe. La décision a dû être difficile à prendre pour la jeune pirate, mais un sentiment de paix peut se lire sur son visage. Malgré tous ses discours sur le libre-arbitre, elle vient de choisir aujourd'hui... son destin.)~
+
+@675  = ~ Que... aïe! ~ [kim2]
+
+@676  = ~ (Vous vous retournez en entendant le bruit sourd d'une botte écrasant un fruit pourri, juste à temps pour voir Kim tenter désespérément de retrouver son équilibre, puis s'effondrer sur le sol.)~
+
+@677  = ~ Kim! Ca va?~
+
+@678  = ~ (Eclate de rire)~
+
+@679  = ~ Qu'est-ce que tu as encore fait?~
+
+@680  = ~ Pour une pirate, tu manques singulièrement d'équilibre...~
+
+@681  = ~ Heh! Vaincue par un simple fruit... triste destin pour une bretteuse! (Elle essaie de se relever, et sa bonne humeur disparaît)~
+
+@682  = ~ Qu'est-ce que tu crois que j'ai *encore* fait, hein? J'ai glissé sur un fruit et je suis tombée. Ca arrive à tout le monde! Et je te défends de rire! (Elle vous tire la langue, puis essaie de se relever. Aussitôt, un éclair de douleur passe dans ses yeux)~
+
+@683  = ~ Eh bien, à part le fait que j'aie glissé sur une pomme pourrie, que ma tunique soit probablement irrécupérable, et que je me sois fait des bleus un peu partout, je suppose qu'on peut dire que ça va, oui... (Elle essaie de se relever – et sa bonne humeur disparaît soudain)~
+
+@684  = ~ Je... je n'arrive pas à me relever! J'ai la jambe gauche qui... (Un cri de douleur lui échappe alors qu'elle tente de plier le genou) Aïe! Je crois que je me suis foulé quelque chose...~
+
+@685  = ~ Donne ta main, je vais t'aider à te relever.~
+
+@686  = ~ Ne bouge surtout pas, je vais te masser la jambe.~
+
+@687  = ~ (Examine la jambe)~
+
+@688  = ~ Ca m'a l'air sérieux. Oh la la, il va falloir amputer!~
+
+@689  = ~ Débrouille-toi pour te lever. Tu nous retardes.~
+
+@690  = ~ (Ses yeux brûlent soudain de colère. Dans un effort suprême, elle parvient à se relever en prenant appui sur son autre jambe. Une goutte de sueur perle à son front, mais elle serre les dents sans rien dire. Sa voix est glaciale alors qu'elle vous parle) L'incident est réglé. Partons.~
+
+@691  = ~ Heh. C'est facile de se moquer quand ce n'est pas toi qui es par terre, hein? (Elle hausse les épaules, serrant les dents contre la douleur) Ne t'en fais pas pour moi, ça va passer.~
+
+@692  = ~ (Vous effleurez doucement la cuisse de Kim, avant de froncer les sourcils. Il s'agit probablement d'un muscle froissé. Rien de bien grave, mais vous doutez qu'elle parvienne à se relever si vous ne l'aidez pas.)~
+
+@693  = ~ Toi? Me masser? Tu essaies d'en profiter, c'est ça? (Ses yeux s'étrécissent) Tout va bien, je vais arriver à me lever seule, ne t'en fais pas... et sans massage.~
+
+@694  = ~ Ne sois pas stupide, et donne-moi ta main, je vais t'aider!~
+
+@695  = ~ Je t'assure que ça te ferait du bien. Honnêtement.~
+
+@696  = ~ C'est un muscle un peu froissé, c'est tout. Laisse-moi le relaxer...~
+
+@697  = ~ Je te fais confiance. Courage, Kim, lève-toi!~
+
+@698  = ~ Très bien, lève-toi alors. Tu nous retardes.~
+
+@699  = ~ (Elle regarde votre bras comme s'il s'agissait d'un serpent venimeux puis, après une infime hésitation, s'en empare. Sa main est douce et fraîche dans la vôtre) Merci, <CHARNAME>.~
+
+@700  = ~ (Relève Kim doucement, avant de lâcher sa main)~
+
+@701  = ~ (Relève Kim doucement, sans lâcher sa main)~
+
+@702  = ~ (Relève Kim doucement et la prend dans ses bras)~
+
+@703  = ~ (Laisse tomber Kim)~
+
+@704  = ~ (Elle hésite un instant, comme si elle s'était attendue à autre chose. Finalement, elle soupire et serre les dents. Prenant appui sur sa main, elle parvient avec difficulté à se relever) L'incident est clos. Continuons notre route.~
+
+@705  = ~ Je t'ai dit non! Combien de fois faudra-t-il te le répéter? (Elle serre les dents de frustration et, au prix d'un effort surhumain, parvient à se mettre debout). L'incident est clos. Continuons notre route.~
+
+@706  = ~ (Privée de votre soutien, Kim glisse en arrière et s'effondre de nouveau. Elle hurle de douleur en prenant appui sur sa jambe blessée.)~
+
+@707  = ~ Merci beaucoup... je n'ai quand même pas de chance! Quelle était la probabilité de... Hey! Qu'est-ce que...? Où est-ce que tu te crois? Comment oses-tu profiter de la situation?~
+
+@708  = ~ Merci beaucoup... je n'ai quand même pas de chance! Quelle était la probabilité de trouver un fruit pourri par ici? Aaah, que veux-tu... (elle semble soudain réaliser que vous ne lui avez pas lâché la main et elle se trouble une seconde, avant de se dégager. Ses doigts effleurent votre paume)  Je... je  crois qu'il est temps d'y aller, <CHARNAME>.~
+
+@709  = ~ Attends, tu boîtes. Tu devrais t'appuyer sur moi.~
+
+@710  = ~ Attends, tu boîtes. Je vais te porter.~
+
+@711  = ~ Attends, tu boîtes. Je vais demander à quelqu'un de lancer un sort de soins.~
+
+@712  = ~ Tu as raison, allons-y.~
+
+@713  = ~ Merci beaucoup... heh, je n'ai quand même pas de chance! Quelle était la probabilité de trouver un fruit pourri par ici? Enfin, que veux-tu... je... je  crois qu'il est temps d'y aller, <CHARNAME>.~
+
+@714  = ~ (Malgré vos réflexes aguerris par des années d'aventure et de combat, vous vous révélez incapable d'éviter sa gifle vengeresse. Elle tourne ses yeux furieux vers vous) Laisse-moi boîter en paix et n'approche plus tes sales mains de moi!~
+
+@715  = ~ Ce n'est pas la peine... ça va déjà mieux. Mais... (elle vous sourit) c'est gentil de t'occuper ainsi de moi. Heh, on dirait ma mère! Enfin, je ne suis pas sûre que tu apprécies la comparaison...~
+
+@716  = ~ Il est temps d'y aller, je crois.~
+
+@717  = ~ Me *porter*? Heh, tu crois que je vais me laisser porter comme un vulgaire sac de patates?  Non, non, merci. La douleur est déjà en train de s'estomper. Reprenons notre route.~
+
+@718  = ~ (Elle hésite un instant, puis finit par accepter l'épaule que vous lui tendez. Elle serre votre bras contre elle, et vous reprenez la route en la soutenant) Merci, <CHARNAME>. Ca n'était pas nécessaire, mais c'est plutôt gentil de ta part...~
+
+@719  = ~ Dis-moi, <CHARNAME>, est-ce qu'on t'a déjà dit que tu étais plutôt mignon? ~ [kim2]
+
+@720  = ~ Physiquement parlant, je veux dire?~
+
+@721  = ~ Oui, très souvent.~
+
+@722  = ~ Oui, c'est arrivé.~
+
+@723  = ~ J'avoue que je ne m'en souviens pas...~
+
+@724  = ~ Bien sûr! On m'a déjà dit que j'avais un corps d'athlète et un visage divin...~
+
+@725  = ~ Non, jamais.~
+
+@726  = ~ C'est une question un peu indiscrète, non?~
+
+@727  = ~ Je suis fatigué d'écouter tes bêlements sans intérêt.~
+
+@728  = ~ Comment oses-tu?  Et moi qui te faisais un compliment sincère! Très bien, je ne te dérangerai plus.~
+
+@729  = ~ Heh! Je n'aurais jamais cru voir <CHARNAME> rougir comme une jeune pucelle... Ce n'était pas une question, idiot, c'était une affirmation!~
+
+@730  = ~ Jamais, hein? Eh bien, ça a dû être dur à vivre pour toi, non? Héhé, que veux-tu que je te dise, tous les goûts sont dans la nature.~
+
+@731  = ~ On s'est bien moqué de toi, eh? Ah, ne t'inquiète pas, je te taquine...~
+
+@732  = ~ Tiens? D'habitude, c'est pourtant le genre de choses qui marquent les hommes, ça. Tu es étrange, <CHARNAME>. A moins que ce soit une manière détournée de m'avouer qu'on ne te l'a jamais dit? Heh!~
+
+@733  = ~ Bah, ça n'a aucune importance pour moi, pourquoi devrais-je m'en souvenir?~
+
+@734  = ~ Tu as raison, ça n'est jamais arrivé...~
+
+@735  = ~ J'imagine, j'imagine. Après tout, qui resterait indifférente devant tant de mâle prestance? Heh!~
+
+@736  = ~ Eh bien, que d'arrogance! Tu ne vois pas le gros bouton à côté de ton nez? Et tes cheveux sont gras! Et tu louches un peu. Tu vas me faire croire que tu es sans cessé courtisé? Heh, je plaisante...~
+
+@737  = ~ Je vois. Eh bien, je suppose que si ça n'a aucune importance pour toi, ce n'est pas la peine que je discute plus longtemps sur ce sujet.~
+
+@738  = ~ En tout cas, plus je te regarde, et plus je me dis qu'il y a quelque chose. Oh, ce n'est certainement pas une beauté typique, mais je comprends qu'on puisse apprécier ton physique, <CHARNAME>.~
+
+@739  = ~ Hmm... c'était un compliment?~
+
+@740  = ~ Euh... merci... je crois!~
+
+@741  = ~ Je savais que tu serais subjuguée par mon charme démoniaque! Mwhahaha!~
+
+@742  = ~ Et tu n'as certainement pas un humour typique, mais je comprends qu'on puisse l'apprécier, Kim...~
+
+@743  = ~ Et toi, tu es moche et tu m'ennuies. Va-t-en!~
+
+@744  = ~ Hah! Bien répondu! Mignon *et* amusant? Mais dis-moi, tu serais presque mon idéal masculin, <CHARNAME>.~
+
+@745  = ~ Euh... certes, certes... mais si tu me parles de queue fourchue, je te préviens que je ne resterai pas pour écouter!~
+
+@746  = ~ Oui, oui, le nez est un peu trop long, les yeux un peu trop étirés, les cheveux coiffés bizarrement, mais je dois avouer qu'au final, le résultat est regardable.~
+
+@747  = ~ Enfin voilà, j'avais décidé de te faire un compliment... c'est réglé. J'espère que ça t'a plu. A toi, maintenant!~
+
+@748  = ~ Euh?~
+
+@749  = ~ Il faut tout t'apprendre, ou quoi? Je t'ai complimenté, maintenant c'est à ton tour. Tu ne vas quand même pas laisser une fille avoir le dernier mot, ce serait très grossier...~
+
+@750  = ~ Hmm... tu es très belle!~
+
+@751  = ~ Hmm... tu es très intelligente!~
+
+@752  = ~ Hmm... tu es très amusante!~
+
+@753  = ~ Hmm... j'adore tes oreilles!~
+
+@754  = ~ Hmm... j'adore tes yeux!~
+
+@755  = ~ Hmm... je me sens bien avec toi!~
+
+@756  = ~ Hmm... tu es très utile à notre groupe!~
+
+@757  = ~ Hmm... euh... ah...~
+
+@758  = ~ Moi? Te faire un compliment? Va t'exciter sur quelqu'un d'autre, petite!~
+
+@759  = ~ A ce point? Heh, je suppose que c'est finalement le meilleur compliment que tu puisses me faire, rester bouche bée devant mon intelligence, ma beauté et... ma modestie!~
+
+@760  = ~ Utile au groupe, vraiment? Je... j'avais pensé que tu m'aurais fait un compliment plus personnalisé, mais je suppose qu'il faudra que je m'en contente. Très bien, reprenons notre route, alors. Je vais tâcher de me montrer, hmm, utile...~
+
+@761  = ~ ... .~
+
+@762  = ~...~
+
+@763  = ~ Tu sais que c'est probablement le plus beau compliment que quelqu'un m'ait jamais fait? Ahèm... merci, <CHARNAME>.~
+
+@764  = ~ Ah oui? Mes yeux? Tiens donc, et pourquoi ça?~
+
+@765  = ~ Parce qu'ils sont beaux!~
+
+@766  = ~ Parce qu'ils brillent d'intelligence!~
+
+@767  = ~ Parce qu'ils sont très expressifs!~
+
+@768  = ~ Parce qu'ils sont le miroir de ton âme, et que ton âme est belle...~
+
+@769  = ~ Euh... mes oreilles? Mais bien sûr... heh, tu as vraiment un humour complètement stupide, <CHARNAME>. Mais j'avoue que j'aime bien ça!~
+
+@770  = ~ Hmpfff... d'habitude, c'est ce qu'on dit lorsqu'on ne trouve pas d'autres qualités, hein? Mais bon, je vais t'accorder le bénéfice du doute, puisque tu as raison: je suis *très* amusante! Heh...~
+
+@771  = ~ Intelligente? Hey, merci, <CHARNAME>! Ce n'est pas forcément le genre de compliment auquel je m'attendais, mais je trouve ça plutôt sympathique. Quand j'y pense, c'est vrai que je suis incroyablement intelligente. Ca t'impressionne, hein? Héhé...~
+
+@772  = ~ Superbe. Très original. Tu as trouvé ça tout seul? Hmpfff... tu manques un peu d'imagination, tu sais?~
+
+@773  = ~ Quoi qu'il en soit, mon compliment à moi était sincère. Je ne sais pas si c'est l'éclairage, ou quelque chose d'autre, mais honnêtement, tu n'es pas mal du tout...~
+
+@774  = ~ Ne prends pas la grosse tête quand même, hein?~
+
+@775  = ~ Eurgh. Quelle horreur! Comment oses-tu sortir quelque chose d'aussi convenu et lamentable? Tu me déçois, <CHARNAME>. Laisse la poésie aux poètes, ça ne te réussit pas...~
+
+@776  = ~ Mmmhh... pas mal, comme compliment. J'étais un peu inquiète quand tu m'as parlé de mes yeux, j'ai pensé que tu allais encore me sortir quelque chose de basique et de conventionnel, mais tu t'es bien rattrapé. Bravo, <CHARNAME>, tu as la moyenne! Héhé...~
+
+@777  = ~ Je... je sais que c'est ridicule, mais mes parents me manquent énormément. Est-ce que... est-ce que tu aurais deux minutes pour en parler avec moi, <CHARNAME>? ~ [kim2]
+
+@778  = ~ Toujours pour toi, Kim.~
+
+@779  = ~ Je t'écoute?~
+
+@780  = ~ La pirate verse dans le sentimentalisme? Quelle horreur!~
+
+@781  = ~ Je... comment peux-tu être aussi insensible? Je t'ai mal jugé, <CHARNAME>. Ce n'est pas grave, je ne ferai plus la même erreur.~
+
+@782  = ~ Je sais que ça peut paraître ridicule pour quelqu'un qui se donne des airs comme moi, mais je dois avouer que j'ai du mal à accepter d'avoir dû quitter aussi précipitamment ma famille, lors de l'incident de la Porte de Baldur. Je n'ai même pas eu le temps de leur dire au revoir. Ils sont probablement convaincus que je suis morte, désormais...~
+
+@783  = ~ Je me sens tellement seule, <CHARNAME>, tellement triste. Je ne pensais pas avoir la fibre familiale, mais c'est en les perdant que je me suis rendue compte à quel point ils comptaient pour moi...~
+
+@784  = ~ Je peux comprendre ce que tu ressens, moi qui n'ai jamais connu mes parents...~
+
+@785  = ~ Je peux comprendre ce que tu ressens. J'ai mal supporté la mort de Gorion...~
+
+@786  = ~ Je comprends, et je suis là pour toi, Kim.~
+
+@787  = ~ (Enlace doucement Kim)~
+
+@788  = ~ (Prend la main de Kim)~
+
+@789  = ~ Ca y est? Tu as versé ta petite larme? On peut y aller?~
+
+@790  = ~ (Sa main a un geste de recul alors que vos doigts se touchent, mais elle se détend soudain, et vous pressez doucement sa paume de la vôtre en guise de réconfort.)~
+
+@791  = ~ (Elle recule brusquement, puis baisse les yeux en voyant votre air surpris) Je... je suis désolée, <CHARNAME>. Je sais que tu essaies de me consoler, mais je ne suis pas très à l'aise avec le fait d'être touchée en ce moment. J'espère que tu ne m'en veux pas. Oh, tu dois croire que je suis insupportable!~
+
+@792  = ~ Merci de ton soutien, <CHARNAME>. Tu ne te rends pas compte à quel point c'est important pour moi de pouvoir parler de tout ça. Je croyais avoir très bien surmonté cette épreuve, mais finalement j'ai l'impression que maintenant, deux ans après, je n'ai toujours pas accepté la séparation. Oh, ils me manquent tellement!~
+
+@793  = ~ Oui, ça... ça doit être terrible de ne pas même connaître ses parents. Mais ce n'est pas la même chose non plus, car tu n'as pas pu t'attacher à eux, il n'y a pas eu de véritable séparation.~
+
+@794  = ~ Oui... oui, bien sûr, tu as raison. J'ai au moins la consolation de pouvoir penser qu'ils sont en vie, alors que pour ta part, tu as vu ton père adoptif mourir sous tes yeux. J'imagine que tu peux me comprendre, en effet.~
+
+@795  = ~ Mais je me demande si ma souffrance et ma nostalgie passeront un jour. Est-ce que tu es parvenu à surmonter ton chagrin pour Gorion, toi?~
+
+@796  = ~ Je ne cherche pas à le surmonter. Je ne veux pas perdre son souvenir.~
+
+@797  = ~ Non. Son souvenir me hante encore...~
+
+@798  = ~ Oui, même si cela a pris beaucoup de temps.~
+
+@799  = ~ Je suis dans une situation où je ne peux me permettre d'être nostalgique.~
+
+@800  = ~ Je n'ai pas versé une larme pour ce vieil abruti!~
+
+@801  = ~ Ca ne répond pas vraiment à ma question, mais je comprends. Tu as raison, c'est stupide de ma part de m'étendre sur le passé alors que nous avons un futur taché de sang qui nous attend...~
+
+@802  = ~ Tu... tu me rassures, alors. Il y a peut-être un espoir pour moi. Mais peut-être que ça n'en viendra pas à ça. Après tout, un jour ou l'autre, nous finirons bien par tuer cet Irenicus.~
+
+@803  = ~ Après toutes ces années? Je... je comprends, <CHARNAME>, et ça doit être un fardeau difficile à porter. C'est égoïste, mais j'espère que je n'aurai jamais à ressentir la même chose.~
+
+@804  = ~ C'est probablement la meilleure solution, n'est-ce pas? Garder en soi les moments de joie comme ceux de peine, et attendre que le temps fasse le tri. Mais je dois t'avouer, <CHARNAME>, que j'espère pour ma part ne pas devoir faire ce genre de choix...~
+
+@805  = ~ Lorsque ta quête sera terminée, lorsque plus personne ne te menacera, je pourrai peut-être revenir discrètement à la Porte de Baldur, qui sait? Prendre des nouvelles de ma famille?~
+
+@806  = ~ Oh, mais j'ai une idée formidable! Que dirais-tu de venir avec moi? Après tout, ce n'est pas comme si tu avais autre chose à faire lorsqu'Irenicus aura été vaincu, n'est-ce pas? Je pourrai te montrer les endroits agréables de la Porte de Baldur, pour que tu t'en fasses une meilleure image que celle que tu as dû avoir à cause de Sarevok... hé, et je te présenterai mes parents!~
+
+@807  = ~ C'est une excellente idée. J'attends ça avec impatience!~
+
+@808  = ~ Euh... toute cette histoire de parents... est-ce une demande en mariage?~
+
+@809  = ~ Je ne sais pas quand tout cela se terminera, hélas...~
+
+@810  = ~ Nous verrons. Tout dépendra d'où m'emmène mon destin.~
+
+@811  = ~ Non, la Porte de Baldur ne représente que des mauvais souvenirs pour moi.~
+
+@812  = ~ Lorsque ma quête sera finie, j'espère que tu disparaîtras de ma vue...~
+
+@813  = ~ Je vois. Tant pis, alors, mais c'est dommage de s'enfermer ainsi dans le passé...~
+
+@814  = ~ Rhaaa, qu'est-ce que je déteste quand tu parles de destin comme ça! Je ne supporte pas çaaaaaa!~
+
+@815  = ~ Bien sûr; nous verrons comment les choses évoluent, alors...~
+
+@816  = ~ Heh, tu prends tes cauchemars pour des réalités! Non, ne t'inquiète pas, mon offre était sans arrière-pensée aucune. Mais maintenant que tu en parles, hmm... (Elle vous caresse furtivement les fesses avant de se détourner)~
+
+@817  = ~ Eh bien, que d'enthousiasme! Voilà une bonne nouvelle. Tu verras, <CHARNAME>, je te montrerai les couchers de soleil sur la baie de Baldur, et le vent qui souffle dans les calanques. Je te montrerai les jardins de Baldurdash, nichés juste derrière le palais. Et...~
+
+@818  = ~ ...et il est peut-être temps que nous reprenions la route, les autres nous regardent bizarrement!~
+
+@819  = ~ Dis-moi, <CHARNAME>, j'ai une question peut-être un peu stupide, mais qui me travaille depuis un bon moment...~ [kim2]
+
+@820  = ~ Eh bien vas-y; je t'écoute.~
+
+@821  = ~ Une question un peu stupide? Noooon, ce n'est pas ton genre...~
+
+@822  = ~ Eh bien garde-la pour toi.~
+
+@823  = ~ Hmpff... très bien. Je ne t'importunerai plus.~
+
+@824  = ~ Est-ce que je rêve, ou est-ce que j'ai bien cru entendre une note de sarcasme et d'ironie dans ta voix? Mais noon, ça n'est pas ton genre non plus. Heh!~
+
+@825  = ~ En fait, je pensais à tous les périls que tu es en train de braver pour secourir Imoen, et je me posais toutes sortes de questions... peut-être un peu indiscrètes, je l'admets. Mais j'aimerais vraiment savoir...~
+
+@826  = ~ Que représente Imoen pour toi? Quelle est sa place dans ta vie? Je veux dire, es-tu... peut-être... enfin, que ressens-tu pour elle?~
+
+@827  = ~ Imoen est ma soeur, Kim. Rien de plus.~
+
+@828  = ~ Imoen est ma seule amie d'enfance, Kim. Rien de plus.~
+
+@829  = ~ Imoen est une abrutie sans cervelle. Ce n'est pas pour elle que je fais toute cette quête, mais pour retrouver Irenicus.~
+
+@830  = ~ Je ne sais pas vraiment, c'est difficile à dire, mais nous avons une relation particulière.~
+
+@831  = ~ Parfois, je me demande si je ne suis pas amoureux d'elle, oui.~
+
+@832  = ~ Je l'aime, Kim. Tu ne t'en étais pas rendue compte?~
+
+@833  = ~ Tu as raison, c'était une question stupide.~
+
+@834  = ~ Tu... tu...~
+
+@835  = ~ Je le savais!~
+
+@836  = ~ Je comprends, <CHARNAME>. Elle doit être quelqu'un de vraiment spécial, pour éveiller ce genre de sentiments chez toi. Je compte sur toi pour prendre soin d'elle, surtout!~
+
+@837  = ~ (Kim se détourne lentement et reprend la route, les yeux secs.)~
+
+@838  = ~ Ah oui? Hmm, je vois. Mais si tu en es encore à te demander, alors ça veut dire que tu n'es pas encore entièrement sous son charme, hein? Intéressant... je retiens.~
+
+@839  = ~ Une relation "particulière"? Voilà une réponse "particulière", <CHARNAME>. Mais je suppose que j'aurais dû m'y attendre, venant de toi. Hmm, quoi qu'il en soit, c'est bon à savoir. Cette Imoen m'a l'air dangereuse... euh, je veux dire...~
+
+@840  = ~ Oh? Comment est-ce que tu peux parler avec tant de sécheresse de cœur? Je pensais qu'elle comptait, pour toi, mais je me rends compte que finalement, elle n'est qu'un pion dans tes mains. Nous le sommes tous, n'est-ce pas? Bah, ça me fatigue, nous continuerons cette discussion une autre fois.~
+
+@841  = ~ Oui, je comprends. Il ne devait pas y avoir beaucoup d'enfants à ChâteauSuif, c'est évident. Heh, je t'imagine mal au milieu des moines et des bibliothécaires! Quoi qu'il en soit, on a souvent vu des amis d'enfance devenir soudain plus que cela, n'est-ce pas? Il suffit de, je ne sais pas, un enlèvement, peut-être. Et tout au soulagement des retrouvailles... hmm...~
+
+@842  = ~ Sœur, sœur, c'est vite dit. Tu ne connais pas ta mère, et Bhaal est ton père. J'ai quelques doutes sur le fait qu'elle ait la même parenté. Non, c'est un argument spécieux, <CHARNAME>, et tu le sais. Hmm, je suis sûre que tu me caches quelque chose!~
+
+@843  = ~ Mais qu'est-ce qu'elle a de plus que moi, exactement, cette Imoen? Je suis désolée de te poser une question aussi franche, mais ça ne cesse de me perturber!~
+
+@844  = ~ Peut-être, un jour, serons-nous aussi proches... voire plus?~
+
+@845  = ~ Elle a quelque chose de spécial que je ne retrouve chez personne d'autre.~
+
+@846  = ~ Elle n'a rien de plus que toi. Tu es bien mieux qu'elle!~
+
+@847  = ~ Vous êtes toutes les deux très différentes. Je ne peux pas comparer.~
+
+@848  = ~ Nous partageons de nombreux souvenirs, mais c'est aussi le cas avec toi.~
+
+@849  = ~ Eh bien, elle est mignonne, intelligente, vive et sensible; tout le contraire de toi!~
+
+@850  = ~ Elle sait quand parler et quand se taire...~
+
+@851  = ~ Oui, je suppose que le fait d'avoir vécu avec elle toute ton enfance, sans parler de cette histoire avec Sarevok, a dû énormément vous rapprocher. Je comprends que tu ressentes quelque chose de très fort, pour elle. Je... j'espère que ces jours que nous passons ensemble, à rechercher cet Irenicus et à combattre des centaines de monstres, te laisseront également quelques bons souvenirs...~
+
+@852  = ~ Réponse facile, réponse de lâche... mais je suppose que tu as raison. Après tout, qui pourrait me ressembler? Je suis unique! Je veux dire, qui pourrait être aussi belle, sensuelle, douce et intelligente que moi? Franchement? Héhé...~
+
+@853  = ~ Hah! Je ne sais pas comment je dois prendre ça, mais je suppose que je dois te remercier, je ne m'y attendais pas. Un compliment fait toujours plaisir, même si je suis sûre que tu n'as dit ça que pour esquiver ma question. Héhé, je te connais bien, <CHARNAME>!~
+
+@854  = ~ Oh? Je vois, <CHARNAME>. Je suppose que je n'aurais pas dû demander, si je ne voulais pas recevoir une réponse franche.~
+
+@855  = ~ Hmm... belle réponse, mais ne nous emballons pas, seigneur <CHARNAME>. D'autant plus que j'ai encore une question à te poser. Tu n'espérais pas y échapper en me complimentant, quand même?~
+
+@856  = ~ Tout cela m'amène à me demander... que ferais-tu si jamais j'étais dans la même situation qu'Imoen? Que ferais-tu si jamais quelqu'un me capturait? Irais-tu à ma rescousse?~
+
+@857  = ~ Bien sûr! Je ne laisserais jamais une amie en danger.~
+
+@858  = ~ Bien sûr! Tu comptes énormément pour moi.~
+
+@859  = ~ Bien sûr! Mon groupe ne pourrait fonctionner sans voleuse.~
+
+@860  = ~ Bien sûr! Je ne laisserais personne me provoquer de la sorte!~
+
+@861  = ~ Personne ne te capturera tant que je suis à tes côtés.~
+
+@862  = ~ Non. Tu n'as aucune valeur pour moi.~
+
+@863  = ~ Ca n'était pas ma question, et tu le sais. Personne ne peut prédire le futur, et peut-être qu'un ennemi puissant pourra m'arracher à toi comme Irenicus l'a fait pour Imoen. Pour le plaisir de la discussion, suppose que ce soit le cas. Me secourrais-tu ou non?~
+
+@864  = ~ Je vois. Tu irais donc m'aider simplement par orgueil et par esprit de vengeance? Je... je suppose que c'est déjà un début. Merci, <CHARNAME>, pour tes réponses... et continuons notre route.~
+
+@865  = ~ A... alors je ne suis que ça pour toi? Un outil? Une voleuse? Je... je suppose que je m'attendais à quelque chose de plus, mais finalement, ça ne m'étonne pas tant que ça. Merci pour ta franchise, <CHARNAME>. Reprenons notre route.~
+
+@866  = ~ C'est... c'est vrai? Tu ne dis pas ça pour me faire plaisir, n'est-ce pas? Oh, <CHARNAME>, je... *tousse* je te remercie. C'est tout ce que je voulais savoir. Reprenons notre route, d'accord?~
+
+@867  = ~ Une amie, hein? Je... je suppose que tu as raison. Ce ne sont pas vraiment les mots que j'espérais, mais ils feront l'affaire, à défaut d'autre chose. Merci, <CHARNAME>. Tu es quelqu'un de droit et de loyal. Reprenons notre route, maintenant.~
+
+@868  = ~ En fait, j'étais en train de penser à tous les périls que tu as bravés pour secourir Imoen, et je me posais toutes sortes de questions... peut-être un peu indiscrètes, je l'admets. Mais tu es allé jusqu'à Spellhold pour la secourir! Tout le monde ne ferait pas ça. J'aimerais vraiment savoir...~
+
+@869  = ~ Attends, éloignons-nous un peu du groupe. Discrètement... voilà, comme ça. Sifflote un peu, <CHARNAME>, pour te donner une contenance... non, pas comme ça, abruti! Heh, difficile de faire moins naturel, mais je suppose que ça devra faire l'affaire. Imoen ne regarde pas dans notre direction, n'est-ce pas?~
+
+@870  = ~ Eh bien, non, mais pourquoi...~
+
+@871  = ~ Dis-moi, <CHARNAME>, as-tu quelques secondes à me consacrer pour une question un  peu... indiscrète?~ [kim2]
+
+@872  = ~ Bien sûr, je t'écoute!~
+
+@873  = ~ Ca dépend, indiscrète à quel point?~
+
+@874  = ~ Non.~
+
+@875  = ~ Oh... je suppose que j'ai mal choisi mon moment, hein? Très bien.~
+
+@876  = ~ Heh, que de méfiance! Tu sais bien que je ne me permettrais pas de te mettre dans l'embarras, ce n'est pas mon genre...~
+
+@877  = ~ Bon, ceci dit, je t'aurais prévenu. Je me posais simplement des questions sur tes goûts en matière de femmes, <CHARNAME>.~
+
+@878  = ~ Hum...~
+
+@879  = ~ Il n'y a pas de "hum" qui tienne. Mais bien sûr, tu n'es pas obligé de répondre, hein. Alors? Tiens, je vais te faciliter les choses. Brune, blonde, rousse?~
+
+@880  = ~ Miam, les brunes!~
+
+@881  = ~ Slurp, les rousses!~
+
+@882  = ~ Wow, les blondes!~
+
+@883  = ~ Ca n'est pas le plus important.~
+
+@884  = ~ J'aime bien les chauves.~
+
+@885  = ~ Joker...~
+
+@886  = ~ Tout sauf toi, Kim. Laisse-moi en paix.~
+
+@887  = ~ ... Je ne vois pas quoi répondre à ça.~
+
+@888  = ~ Heh, d'accord pour le joker, <CHARNAME>. Mais je te préviens, ça ne marchera qu'une seule fois!~
+
+@889  = ~ Chacun ses goûts, je suppose... hé, j'ai comme l'impression que tu te moques de moi! Parfait, nous verrons comment tu te sortiras de mes questions suivantes.~
+
+@890  = ~ Ding! Bonne réponse! Mais tu avoueras que ça ne m'aide pas beaucoup à imaginer ta femme idéale, alors continuons...~
+
+@891  = ~ Eurk! Une blonde? Mais c'est fade, une blonde. Ca a un petit goût de bière sans alcool. Comment est-ce que tu peux aimer ça? Bon, quoi qu'il en soit, continuons notre petit portrait...~
+
+@892  = ~ Argh! Une rousse? Tu n'as pas entendu les histoires qu'on raconte sur les rousses? Et puis, ça sent mauvais, une rousse. Si si, je t'assure!~
+
+@893  = ~ Un choix de connaisseur, cher <CHARNAME>. Tu as raison, les brunes ne comptent pas pour des prunes! Le pouvoir aux brunes! Woohoo! ... Ahèm. Continuons notre questionnaire...~
+
+@894  = ~ La longueur des cheveux, maintenant?~
+
+@895  = ~ Longs~
+
+@896  = ~ Mi-longs~
+
+@897  = ~ Courts~
+
+@898  = ~ Aucune importance.~
+
+@899  = ~ Chauve, j'ai dit!~
+
+@900  = ~ Tu me fatigues, Kim. Va-t-en!~
+
+@901  = ~ Ah oui, tiens, forcément! Bon, d'accord, admettons...~
+
+@902  = ~ Courts? Tu ne trouves pas que ça fait un peu trop garçonne? Hmm, bon, je suppose que tous les goûts sont dans la nature.~
+
+@903  = ~ Mi-longs? Hmm, ça peut avoir son charme je suppose. J'avais les cheveux mi-longs à une époque, mais je n'aimais pas trop. Quoi qu'il en soit, je note, je note...~
+
+@904  = ~ Ah oui? Héhé, pas très original, <CHARNAME>. J'ai comme l'impression que tous les hommes ou presque ont les mêmes goûts. Mais je suis contente de ton choix! (Elle passe lentement sa main dans sa chevelure luxuriante, puis agite ses cheveux dans le vent)~
+
+@905  = ~ Quoi, pas d'opinion? Bah, je suppose que c'est ton droit, après tout.~
+
+@906  = ~ Bon, ça, c'est noté, maintenant la suite:~
+
+@907  = ~ La couleur des yeux?~
+
+@908  = ~ bleus~
+
+@909  = ~ marrons~
+
+@910  = ~ verts~
+
+@911  = ~ Oh? Je ne suis pas d'accord! La couleur des yeux est importante, je trouve. Mais bon, peut-être suis-je superficielle, après tout. Bon, question suivante:~
+
+@912  = ~ Ah, oui, une belle couleur, n'est-ce pas? (Elle plante ses yeux verts dans les vôtres et soutient votre regard, avant de sourire doucement) Bien,  où en étions-nous?~
+
+@913  = ~ Des yeux marrons? Hmm, les gens préfèrent qu'on dise noisette, je crois. Mais je vois ce que tu veux dire. Très bien (Ses yeux verts se plantent comme à regret dans les vôtres, et elle soupire) Question suivante:~
+
+@914  = ~ Bah, des yeux bleus, des yeux bleus, qu'est-ce que vous avez tous avec vos yeux bleus? Comme si c'était important, de toute façon, la couleur des yeux! Bon, question suivante:~
+
+@915  = ~ Sa personnalité?~
+
+@916  = ~ vive et joyeuse.~
+
+@917  = ~ pensive et réfléchie.~
+
+@918  = ~ douce et tendre.~
+
+@919  = ~ soumise et obéissante.~
+
+@920  = ~ Ca n'a pas d'importance.~
+
+@921  = ~ Pas la tienne, en tout cas. Laisse moi tranquille.~
+
+@922  = ~ C'est incroyable, ça! Alors quand on lui parle de physique, môssieur répond, mais dès qu'on parle de personnalité, il n'y a plus personne? Tu devrais avoir honte, <CHARNAME>. Comment considères-tu les filles? Comme une marchandise? Bon, je laisse tomber cette discussion, ça me déprime.~
+
+@923  = ~ Pas d'opinion sur le physique, pas d'opinion sur la personnalité, tu sais que tu es désespérant? Ca veut dire quoi, que n'importe quelle fille qui voudrait bien de toi te suffirait? Bon, je laisse tomber cette discussion, ça me déprime.~
+
+@924  = ~ Voyez-vous ça? Monsieur aime bien que ses femmes obéissent à ses moindres ordres. Eh bien, je ne t'imaginais pas du tout comme ça, <CHARNAME>, et je dois dire que tu me déçois beaucoup. Va brûler en enfer!~
+
+@925  = ~ Douce et tendre, hein? Hmm, je suppose que c'est ce que veulent la plupart des hommes. L'ennui, c'est que beaucoup confondent "douce et tendre" avec "soumise". Mais je suppose qu'un peu de tendresse ne peut jamais faire de mal, hein?~
+
+@926  = ~ Pensive et réfléchie? Hmm, je me demande ce que tu veux dire par là. Quelqu'un qui ne suit pas ses instincts? Quelqu'un qui pèse toujours et le contre? Quelqu'un qui ne te pose pas des questions stupides comme je suis en train de le faire? Heh, je vois, je vois...~
+
+@927  = ~ Vive et joyeuse? Heh, tu as tout à fait raison, je suis comme toi, <CHARNAME>. Je veux dire, si j'étais un homme, j'aimerais bien les filles qui ont de l'énergie, qui n'ont peur de rien, et qui vont jusqu'à poser des questions stupides aux hommes qu'elles rencontrent... je veux dire... hmm...~
+
+@928  = ~ Bon! Je pense que j'ai tout noté. Donc selon toi, <CHARNAME>, voici ta fille idéale:~
+
+@929  = ~ Une chauve (yuck)...~
+
+@930  = ~ Une blonde (yuck)...~
+
+@931  = ~ Une rousse (yuck)...~
+
+@932  = ~ Une brune (yes!)...~
+
+@933  = ~ Une fille dont les cheveux peuvent être de la couleur qu'elle veut...~
+
+@934  = ~ ...avec des cheveux courts (quelle horreur)...~
+
+@935  = ~ ...avec des cheveux mi-longs (mmmh)...~
+
+@936  = ~ ...avec des cheveux longs (yes !)...~
+
+@937  = ~ ...avec des cheveux de la longueur qu'elle veut...~
+
+@938  = ~ ...des yeux verts (yes!)...~
+
+@939  = ~ ...des yeux marrons (mouais)...~
+
+@940  = ~ ...des yeux bleus (beurk)...~
+
+@941  = ~ ...des yeux de la couleur qu'elle veut...~
+
+@942  = ~ ...et une personnalité vive et joyeuse...~
+
+@943  = ~ ...et une personnalité réfléchie...~
+
+@944  = ~ ...et une personnalité douce et tendre...~
+
+@9445 = ~ ...et une personnalité qu'elle choisit selon son humeur...~
+
+@945  = ~ Bref, je me rends compte que j'ai bien fait de te poser ces questions, <CHARNAME>. Je ne sais pas qui est ta femme idéale, mais ça n'est certainement pas moi... Hé, imagine comment les choses auraient pu tourner si je ne m'en étais pas rendue compte à temps! Bon, nous continuons notre route?~
+
+@946  = ~ Bref, je me rends compte que j'ai bien fait de te poser ces questions, <CHARNAME>. Ta femme idéale est quand même un peu éloignée de moi, n'est-ce pas? Hé, ne me regarde pas comme ça, je te posais juste cette question de manière innocente. Bon, il est plus que temps de reprendre la route.~
+
+@947  = ~ C'est... c'est amusant, tu ne trouves pas, <CHARNAME>? On dirait presque que je ressemble point par point à ce que tu imagines comme femme idéale. Heh, c'est ridicule, hein?~
+
+@948  = ~ Bon, reprenons la route.~
+
+@949  = ~ Dis-moi, <CHARNAME>, tu te souviens de la dernière discussion que nous avons eue?~ [kim2]
+
+@950  = ~ Bien sûr, celle où tu étais jalouse d'Imoen.~
+
+@951  = ~ Bien sûr, celle où tu disais que tes parents te manquaient.~
+
+@952  = ~ Bien sûr, celle où tu me demandais comment était ma femme idéale.~
+
+@953  = ~ J'avoue que non.~
+
+@954  = ~ Non, et ça ne m'intéresse pas.~
+
+@955  = ~ Oh... je vois. Eh bien, si ça ne t'intéresse pas, je ne vois pas pourquoi je gaspille ma salive avec toi.~
+
+@956  = ~ Hmpff, franchement, est-ce que ça vaut la peine que je gaspille ma salive pour quelqu'un comme toi? Nous discutions de ta femme idéale. C'est pourtant quelque chose qui devrait te plaire, non? Sur laquelle tu pourrais baver? Comment peux-tu oublier ça? Ah, bah… quoi qu'il en soit...~
+
+@957  = ~ Euh... non, pas exactement, non. J'ai comme l'impression que tu n'écoutes que d'une oreille, <CHARNAME>...~
+
+@958  = ~ Oui, exactement. Eh bien, je dois dire que j'y ai réfléchi pendant longtemps durant notre voyage.~
+
+@959  = ~ Je me suis dit que, finalement, puisque tu semblais *tellement* confortable avec les questions indiscrètes, je n'allais pas me gêner pour t'en poser une autre. Et je ne suis pas sûre que tu vas t'en sortir aussi facilement, cette fois-ci. Héhé!~
+
+@960  = ~ Est-ce que tu as déjà été amoureux, <CHARNAME>? Durant le cours de ta vie, à ChâteauSuif, puis sur les routes, est-ce qu'une fille a déjà fait battre ton cœur?~
+
+@961  = ~ C'est effectivement une question trop indiscrète pour moi.~
+
+@962  = ~ Ca m'est arrivé, une fois.~
+
+@963  = ~ Ca m'est déjà arrivé plusieurs fois, oui.~
+
+@964  = ~ Non, jamais.~
+
+@965  = ~ Non, tu es la première.~
+
+@966  = ~ Non, mais une fille m'a déjà saoulé. Va-t-en, Kim!~
+
+@967  = ~ Euh...~
+
+@968  = ~ Je dois dire que je ne pensais pas que la discussion tournerait comme ça...~
+
+@969  = ~ Je crois que... que nous ferions mieux de reprendre la route, tu ne crois pas?~
+
+@970  = ~ Oui, c'est préférable.~
+
+@971  = ~ Jamais, hein? Jamais tu ne t'es senti légèrement oppressé, ton cœur battant plus vite alors que tu ne trouvais plus tes mots, impressionné par la simple proximité de la fille que tu couvais des yeux? Ah, tu ne sais pas ce que tu perds, <CHARNAME>!~
+
+@972  = ~ Plusieurs fois, hein? Tu es ce qu'on appelle un cœur d'artichaud, alors? Tu tombes amoureux comme tu tombes de cheval? Hmm, je ne suis pas sûre d'apprécier ce genre de comportement, <CHARNAME>. Tu m'aurais dit que tu avais eu plusieurs aventures, j'aurais bien voulu te croire. Mais plusieurs amours? L'amour ne naît pas aussi facilement... mais admettons.~
+
+@973  = ~ Une fois, hein? Ca devait être quelqu'un de spécial, je suis sûre. C'est quelqu'un que je connais?~
+
+@974  = ~ Oui... Aerie.~
+
+@975  = ~ Oui... Jaheira.~
+
+@976  = ~ Oui... Viconia.~
+
+@977  = ~ Oui... Tashia.~
+
+@978  = ~ Ooooh, monsieur joue les grandes timides! Mais ne t'inquiète pas, petit <CHARNAME>, je ne vais pas te manger! Allez, sois gentil, réponds-moi... sinon je boude!~
+
+@979  = ~ Et ces filles... tu as fait quelque chose avec elles? Tu les as embrassées? Tu as... couché avec certaines?~
+
+@980  = ~ Ca rime à quoi, cet interrogatoire?~
+
+@981  = ~ Eh bien, oui, en fait.~
+
+@982  = ~ Evidemment.~
+
+@983  = ~ Non, c'était très platonique...~
+
+@984  = ~ Oh... je vois. Mais cette fille... tu as fait quelque chose avec elle? Tu l'as embrassée? Tu as... couché avec elle?~
+
+@985  = ~ Oh... je... je vois. Eh bien, je dois avouer que je me sens assez mal à l'aise de te parler de ça alors qu'elle est à côté de nous... peut-être une autre fois?~
+
+@986  = ~ Mais bon, je suppose que c'est mignon de te voir puceau comme ça. Ca te donne un petit côté touchant qui te va bien. Heh, fais risette, <CHARNAME>... guili guili!~
+
+@987  = ~ Hola, je touche un sujet sensible, on dirait. très bien, je n'en parle plus.~
+
+@988  = ~ Ha! Pas la peine de rougir comme ça, <CHARNAME>. Chacun son passé, et chacun ses aventures. C'est plutôt bien, d'avoir de l'expérience, tu sais; si ce n'était pas le cas, je me poserais des questions, à ton âge. Un beau garçon comme toi! Héhé...~
+
+@989  = ~ Hmpfff... que veut dire cet "évidemment"? Que personne ne saurait résister à ton charme? Que toutes les femmes ne sont là que pour te donner du plaisir? Tu es pathétique, <CHARNAME>. Ou alors, tu t'exprimes mal. Heh, j'espère sincèrement que c'est la deuxième option.~
+
+@990  = ~ Oh... ça alors! Je dois dire que je ne m'attendais pas à ça. A ton âge, n'avoir aucune expérience? Héhé...~
+
+@991  = ~ Pour ma part, c'est vraiment le calme plat. Je dois t'avouer quelque chose... les hommes me dégoûtent. Ils sont sales, brutaux, violents, agressifs, dominateurs, et incapables de penser au-delà de leur propre plaisir.~
+
+@992  = ~ Tu... tu aimes les femmes?~
+
+@993  = ~ Tous les hommes ne sont pas comme ça, Kim.~
+
+@994  = ~ (Enlace Kim pour la réconforter)~
+
+@995  = ~ Ne te cherche pas d'excuse. C'est simplement que tu ne plais à personne.~
+
+@996  = ~ (Elle échappe à vos bras et vous regarde d'un air furieux) Tu vois? Tu vois? C'est EXACTEMENT ce que je disais!~
+
+@997  = ~ Ah oui? Vraiment? Et à qui penses-tu, par exemple?~
+
+@998  = ~ Eh bien... à moi, par exemple?~
+
+@999  = ~ Si tu ne t'en es pas encore rendue compte, je te laisse chercher...~
+
+@1000 = ~ (Enlace Kim sans répondre)~
+
+@1001 = ~ Moi? Non! Non, bien sûr que non... même si parfois, je me dis qu'une femme serait sans doute plus douce et plus compréhensive. Mais je crois que nous partons dans une direction que je n'apprécie pas vraiment. Nous discuterons plus avant un autre jour, tu ne crois pas?~
+
+@1002 = ~ Mmmh... (Kim s'écarte un peu de vous, l'air pensif. Visiblement, vous l'avez troublée.)~
+
+@1003 = ~ Toi? Mmm, ça reste à voir! Mais pour l'instant, je dois avouer que tu ne t'en sors pas trop mal, dans l'ensemble...~
+
+@1004 = ~ Mais continuons  notre quête, nous n'avons que trop traîné.~
+
+@1005 = ~ Tiens, <CHARNAME>, j'ai composé une petite chanson, voudrais-tu l'entendre?~ [kim2]
+
+@1006 = ~ Euh... une chanson? Oui, bien sûr!~
+
+@1007 = ~ J'aurais préféré un poème romantique, mais vas-y quand même.~
+
+@1008 = ~ Certainement pas. Tu as une voix lamentable.~
+
+@1009 = ~ Lamentable? Ma voix? Et tu t'es déjà entendu parler? Hmpff!~
+
+@1010 = ~ Mais il y a des chansons très romantiques, tu sais? Bon, je dois dire que je suis plus portée sur les chansons à boire, mais tout de même!~
+
+@1011 = ~ Bon, tu es prêt? Ouvre grand tes oreilles, et ne fais pas attention aux fausses notes!~
+
+@1012 = ~ "C'est une étrange histoire que je veux raconter,
+D'un homme qui devint, ma foi, aventurier.
+Son père était un dieu, meurtrier, assassin
+Et ils étaient trop peu à lui vouloir du bien."~
+
+@1013 = ~ "Mais malgré les dangers et les monstres sournois,
+L'homme dont je parlais a survécu, ma foi.
+Il trouva des amis, qui l'entouraient de soins;
+On peut être enfant-dieu tout en étant humain." 
+
+Attention, <CHARNAME>, c'est le refrain! Tape dans tes mains!~
+
+@1014 = ~ "Tape des pieds,
+Sors l'épée,
+Tue tes ennemis!
+Pour goûter,
+Enchanté,
+La gloire et la vie!"~
+
+@1015 = ~ "Un jour ce grand garçon trouvera le repos.
+Il posera à terre épée et sac à dos.
+Il dira doucement, à Bhaal, le dieu, son père:
+"La véritable force est l'amour, pas la guerre!"~
+
+@1016 = ~ Alors, qu'est-ce que tu en as pensé?~
+
+@1017 = ~ …~
+
+@1018 = ~ Magnifique, quel talent, quelle voix, splendide, encore, encore!~
+
+@1019 = ~ Hmm... il y a un sens caché, quelque part?~
+
+@1020 = ~ Euh... c'est moi, ou c'était lamentable?~
+
+@1021 = ~ C'est une simple chanson, <CHARNAME>. L'inspiration m'est venue, et je l'ai composée en marchant. Pourquoi penses-tu que ça puisse avoir un sens caché? heh, tu es trop méfiant... et trop orgueilleux, si tu crois que ça parlait de toi.~
+
+@1022 = ~ Heh, je me demande si c'est un compliment sincère. Mais bon, je n'ai pas composé ça pour avoir ton approbation, de toute façon, mais pour mon plaisir personnel. Dommage que je ne sache pas jouer d'un instrument, je suis sûre que ça donnerait quelque chose de bien, à la vielle ou au flûtiau...~
+
+@1023 = ~ Eh bien, eh bien? Le grand <CHARNAME> est tout muet? Qu'est-ce qui se passe, tu as perdu ta langue? Tu ferais bien de la retrouver, parce que je trouve que ça n'est pas très juste que je sois la seule à travailler, ici.~
+
+@1024 = ~ Bon, maintenant, à ton tour. Tu veux bien composer un petit poème ou une petite chanson?~
+
+@1025 = ~ Euh... là, comme ça, tout de suite?~
+
+@1026 = ~ Bien sûr! Ne t'inquiète pas, je te promets que je ne rirai pas. Allez, je t'écoute!~
+
+@1027 = ~ Très bien, je vais essayer!~
+
+@1028 = ~ Hmpff, c'est bien pour te faire plaisir...~
+
+@1029 = ~ C'est hors de question.~
+
+@1030 = ~ Bah! Le courage s'applique aussi en-dehors des champs de bataille, <CHARNAME>. Tu n'es qu'un lâche.~
+
+@1031 = ~ Mais je n'en doute pas, très cher, je n'en doute pas!~
+
+@1032 = ~ Alors je t'écoute. Vas-y, courage!~
+
+@1033 = ~ Il était une fois une fille entêtée / Qui voulait qu'un garçon lui écrive un poème.
+Hélas, ledit garçon ne sait pas bien parler / La seule chose qu'il peut lui dire, c'est "je t'aime".~
+
+@1034 = ~ Il était une fois une fière pirate / Aux grands airs arrogants, le nez fin, la peau mate.
+Elle voulut – quelle erreur – me pousser à chanter / Et je sens que bientôt l'orage va éclater!~
+
+@1035 = ~ Il était une fois une jolie bretteuse / Qui par bien des côtés restait une voleuse.
+Elle a volé mon cœur, et encore aujourd'hui / Je lui dis "rends-le moi", ou sois douce avec lui...~
+
+@1036 = ~ Tu me fatigues, Kim, avec tes exigences / Et ne crois surtout pas que j'aime ta romance.
+Ne me regarde plus de cet air ahuri / Car entre toi et moi, aujourd'hui, c'est fini!~
+
+@1037 = ~ C'est... c'est bien dit, <CHARNAME>. Tu as de... vrais talents poétiques (Elle s'éloigne doucement, et vous la voyez essuyer furtivement une larme alors qu'elle rejoint le groupe)~
+
+@1038 = ~ Eh... ah...~
+
+@1039 = ~ (Elle vous regarde un instant, visiblement troublée. C'est la première fois que vous la voyez incapable de trouver ses mots.)~
+
+@1040 = ~ Je... je crois que je vais te laisser un moment, <CHARNAME>. Je ne m'attendais pas vraiment à ça.~
+
+@1041 = ~ Hé! Bravo, très beau poème! Tu vois, quand tu veux...~
+
+@1042 = ~ Bon, tu n'es pas encore à mon niveau, mais tu t'améliores, rien à dire! Héhé...~
+
+@10425 = ~J'ai toujours aimé regarder les étoiles depuis le pont d'un navire, il n'y a rien de comparable ! loin de la ville, la voute céleste est empreinte de majesté. Que dirais-tu de quitter la ville et tous ces bâtiments pour admirer le ciel ce soir ?~
+
+@1043 = ~ Cette nuit est délicieuse. Le ciel est dégagé, et les étoiles brillent comme des milliers de petites lucioles...~ [kim2]
+
+@1044 = ~ Viens t'asseoir près de moi, <CHARNAME>. Il est encore tôt, et ce spectacle en vaut la peine. Regarde comme la lune est belle, ce soir!~
+
+@1045 = ~ Tu es folle? Nous n'avons pas de temps à perdre, reprenons notre route.~
+
+@1046 = ~ Ce n'est pas la nuit, mais ta présence qui est magique...~
+
+@1047 = ~ Tu as raison. Le ciel est particulièrement dégagé.~
+
+@1048 = ~ Hmpff... je vois. Eh bien, je les regarderai toute seule, dans ce cas.~
+
+@1049 = ~ Eh bien, eh bien, <CHARNAME>, ne nous emballons pas. Viens plutôt t'allonger sur l'herbe, regarde le ciel avec moi...~
+
+@1050 = ~ J'ai toujours bien aimé les étoiles. Elles sont si lointaines et si proches à la fois, si reposantes. On dirait des milliers de petites vies qui ne brillent que pour nous.~
+
+@1051 = ~ Lorsque j'étais de quart sur le bateau, je les regardais, et elles calmaient toutes mes inquiétudes. C'est là que j'ai appris les constellations. Regarde, ici, c'est le Grand Archer!~
+
+@1052 = ~ Je ne vois rien? ~
+
+@1053 = ~ On dirait plus un bossu qu'un archer, honnêtement. Qui a trouvé ces noms?~
+
+@1054 = ~ Tu es d'humeur poétique, on dirait...~
+
+@1055 = ~ Est-ce qu'il y a une constellation des amants?~
+
+@1056 = ~ Tu m'ennuies, Kim. Je te laisse divaguer seule.~
+
+@1057 = ~ Des amants, non, mais regarde ces deux étoiles qui brillent tout là-haut. C'est la constellation des Amoureux. On raconte que leur amour était tellement puissant qu'ils se sont transformés en lumière à leur mort, pour aller éclairer ceux qui éprouvent des sentiments l'un pour l'autre.~
+
+@1058 = ~ Ca n'est pas moi qui suis d'humeur poétique, c'est toi qui es d'humeur terre à terre! Franchement, <CHARNAME>, ça ne t'impressionne pas, tous ces points lumineux? Tu ne te sens pas particulièrement petit?~
+
+@1059 = ~ Hein? Comment ça? Aaah, mais non, tu la regardes à l'envers, c'est tout.  Regarde, sa tete est à gauche, et là c'est son arc. Hé, mais c'est vrai qu'on dirait quand même un bossu...~
+
+@1060 = ~ Là, abruti! A gauche de mon doigt. Huit étoiles qui forment une silhouette. Tu vois mieux? Ma parole, tu es aveugle ou quoi? Un méphite poussiéreux t'a soufflé dessus récemment? Arf~
+
+@1061 = ~ Je me sens ridiculement petite, devant cette immensité. J'ai parfois l'impression que nous ne sommes rien. Que nous ne pesons rien. Merci de regarder ces étoiles avec moi, <CHARNAME>. Ca veut dire beaucoup, pour moi. Je... je me sens bien, avec toi.~
+
+@1062 = ~ (Elle se tourne vers vous, et son sourire paraît figé alors que sa respiration s'accélère. Vous êtes tous les deux seuls, allongés sur le sol, à regarder paisiblement le ciel. Un petit vent frais agite ses cheveux, alors que vous réalisez que vos compagnons se sont discrètement éloignés.)~
+
+@1063 = ~ (Caresse les cheveux de Kim)~
+
+@1064 = ~ (Enlace Kim)~
+
+@1065 = ~ (Caresse les seins de Kim)~
+
+@1066 = ~ (Reste sans rien faire et admire le ciel)~
+
+@1067 = ~ (Embrasse Kim)~
+
+@1068 = ~ (Embrasse Kim sur le front)~
+
+@1069 = ~ (Repousse Kim et continue la route)~
+
+@1070 = ~ (Elle paraît surprise alors que vous approchez doucement votre visage. Tendrement, vous déposez un chaste baiser sur son front.)~
+
+@1071 = ~ (Lentement, vous approchez votre visage du sien. Avant qu'elle ait pu comprendre vos intentions, vos lèvres se touchent.)~
+
+@1072 = ~ (Vous sentez Kim remuer à côté de vous, et vous avez de plus en plus de mal à vous concentrer sur le ciel.)~
+
+@1073 = ~ (Continue à ne rien faire)~
+
+@1074 = ~ (Doucement, vous laissez glisser vos doigts vers elle, et refermez votre main impatiente sur son sein. La sensation est indescriptible.)~
+
+@1075 = ~ (Tout en souriant doucement, vous laissez votre bras descendre, et caressez doucement les doigts de Kim. Malgré ses heures d'entraînement à l'épée, sa main est douce et fine comme celle d'une artiste.)~
+
+@1076 = ~ (Lentement, vous vous tournez sur le côté. Avant qu'elle n'ait eu le temps d'articuler une protestation, vous faites passer votre bras sous son cou, lui laissant la tête calée contre votre épaule.)~
+
+@1077 = ~ (Vous déglutissez, et approchez doucement votre main de ses cheveux. Réunissant votre courage, vous commencez doucement à les caresser, comme si vous cherchiez à les peigner.)~
+
+@1078 = ~ Qu'est-ce que... qu'est-ce que tu fais? <CHARNAME>, arrête ça tout de suite!~
+
+@1079 = ~ Pour qui est-ce que tu me prends? Qui t'a dit que tu pouvais faire ça?~
+
+@1080 = ~ Je ne ressens rien pour toi, tu as compris? RIEN! Et c'était stupide de ma part de penser que tu accepterais de regarder les étoiles bien tranquillement. Rejoignons les autres, <CHARNAME>, et vite. Je ne prendrai plus de risques avec toi.~
+
+@1081 = ~ Qu'est-ce que... qu'est-ce que tu fais, <CHARNAME>? (Elle recule doucement, mais ne semble pas particulièrement fâchée. Vous constatez même qu'elle vous sourit, l'air plutôt amusée.)~
+
+@1082 = ~ (Ne bouge plus)~
+
+@1083 = ~ (Caresse les cheveux de Kim)~
+
+@1084 = ~ Tu... je... (Avant que vous n'ayez le temps de réagir, c'est elle qui prend l'initiative, et vous embrasse fougueusement. Votre respiration s'accélère alors que vous sentez son corps mince contre le vôtre, et le parfum de la bruyère contre votre dos. Vous bénissez la lune et les étoiles d'avoir autant brillé ce soir, alors que l'excitation monte en vous et que vous la serrez dans vos bras, sa bouche contre la vôtre.)~
+
+@1085 = ~ Il faut qu... MmmPhhh!~
+
+@1086 = ~ Je ...hhhnnnnmpf...~
+
+@1087 = ~ Att...mMmpfhhh...~
+
+@1088 = ~ (Rejette Kim de côté)~
+
+@1089 = ~ (Vous restez ainsi un long moment sans rien dire. Finalement, vous entendez Kim pousser un soupir et se tourner vers vous.)~
+
+@1090 = ~ Je suis désolée... tu es... très mignon, <CHARNAME>, mais franchement, je ne crois pas que ça marcherait. Tu es trop... timide, et emprunté. Je suis désolée. Reprenons notre route, d'accord?~
+
+@1091 = ~ (Vos lèvres touchent son front, et elle sourit doucement. Mais vous éprouvez un instant d'hésitation. Vous voit-elle comme un frère, ou un amant? Il n'y a qu'une seule façon de le savoir...)~
+
+@1092 = ~ Chhhhhtttt...~
+
+@1093 = ~ Vous perdez la notion du temps alors qu'elle se blottit dans vos bras. Vous sentez sa peau douce contre la vôtre, et ses lèvres qui cherchent avidement votre bouche. Elle pousse un petit gémissement de chat blessé alors que vous la serrez contre votre cœur, et ses yeux se ferment à moitié alors qu'elle s'abandonne doucement à vous.~
+
+@1094 = ~ Hmm, les autres nous attendent... peut-être devrait-on repartir, non?~
+
+@1095 = ~ (Vous voyez la fureur remplacer l'incompréhension alors que vous l'abandonnez ainsi.)~
+
+@1096 = ~ Quoi? Tu oses... je... <CHARNAME>, je crois que nous n'avons plus rien à nous dire!~
+
+@1097 = ~ (Votre approche timide est récompensée par un reniflement de dérision alors qu'elle se tourne vers vous.)~
+
+@1098 = ~ (Vous profitez de votre premier baiser sur son front pour vous approcher davantage, jusqu'à la toucher. Sa respiration s'accélère.)~
+
+@1099 = ~ (Elle vous sourit tendrement, et vous ressentez un pincement au cœur alors que sa silhouette mince se dessine en contrejour.)~
+
+@1100 = ~ Tu as raison, <CHARNAME>. Allons-y. Mais ne crois pas m'échapper aussi facilement!~
+
+@1101 = ~ Je n'y comptais pas du tout! Roaaar!~
+
+@1102 = ~ Tu n'as pas compris, on dirait. Je ne veux pas de toi!~
+
+@1103 = ~ Je vois que nous sommes sur la même longueur d'ondes... mon amour!~
+
+@1104 = ~ <CHARNAME>, il faut que nous parlions.~ [kim2]
+
+@1105 = ~ Ce que nous avons fait, la dernière fois, en regardant les étoiles, c'était...~
+
+@1106 = ~ ...une erreur.~
+
+@1107 = ~ ...un moment magique...~
+
+@1108 = ~ ...pas trop tôt!~
+
+@1109 = ~ ...oui?~
+
+@1110 = ~ (Son expression se durcit) Oui, une erreur. Qui ne se reproduira jamais. Voilà ce que je voulais te dire. Reprenons notre route, maintenant.~
+
+@1111 = ~ Héhé, oui, je trouve aussi. J'ai l'impression que nous nous connaissons depuis des années. Pourtant, ça ne fait pas si longtemps...~
+
+@1112 = ~ Magique, oui. J'espère simplement qu'il ne s'agit pas de magie noire, <CHARNAME>...~
+
+@1113 = ~ J'aimerais que tu sois honnête avec moi, <CHARNAME>. Vraiment honnête. Je ne veux pas qu'il y ait de malaise entre nous. C'est quelque chose d'important pour moi, et je voudrais une réponse sincère.~
+
+@1114 = ~ Est-ce que tu as des regrets, concernant ce qu'il s'est passé? Je veux dire... ce fameux soir?~
+
+@1115 = ~ Oui, je ne sais pas ce qui m'a pris...~
+
+@1116 = ~ Oui. Au diable les autres, nous aurions dû aller plus loin!~
+
+@1117 = ~ Non, absolument aucun!~
+
+@1118 = ~ Bien sûr, c'était une erreur d'embrasser une fille comme toi!~
+
+@1119 = ~ Et je crois que moi non plus...~
+
+@1120 = ~ Tu... crois?~
+
+@1121 = ~ Plus loin, hein? Je me demande bien ce que tu veux dire par là, <CHARNAME>. Mais je ne veux pas vraiment le savoir...~
+
+@1122 = ~ Comment ça?~
+
+@1123 = ~ Hah, je ne sais pas ce qui m'a prise non plus. Mais...~
+
+@1124 = ~ Mais...?~
+
+@1125 = ~ Je veux dire, tout ça s'est fait sur l'impulsion du moment! Mais je ne sais toujours pas ce qu'il y a entre nous, <CHARNAME>. Je ne sais pas, je ne comprends pas.~
+
+@1126 = ~ Ca n'a rien à voir avec toi, mais je me méfie des hommes en général, et de leurs promesses. Pourquoi nous sommes-nous embrassés, <CHARNAME>? Pourquoi? Comment me considères-tu, maintenant? Que ressens-tu pour moi? Es-tu seulement capable de me le dire?~
+
+@1127 = ~ Je t'aime...~
+
+@1128 = ~ J'ai beaucoup de tendresse pour toi.~
+
+@1129 = ~ Je suis bien avec toi.~
+
+@1130 = ~ Je suis attiré par toi...~
+
+@1131 = ~ J'aimerais mieux te connaître.~
+
+@1132 = ~ Tu n'es là que pour servir mon plaisir!~
+
+@1133 = ~ Je... vois. J'ai donc bien fait de poser la question. Que ce soit bien clair entre nous, <CHARNAME>: un geste déplacé de plus, et je te tranche la gorge!~
+
+@1134 = ~ Et j'aimerais mieux te connaître, moi aussi. Tu as tout à fait raison! Ce n'est pas en quelques conversations morcelées que tu peux connaître ma vie, et moi la tienne. Mais avec le temps...~
+
+@1135 = ~ Attiré par moi, hein? Tiens donc, et qu'est-ce qui t'attire? Ma conversation, ou bien mes seins?~
+
+@1136 = ~ Moi aussi, je suis bien avec toi, <CHARNAME>. Très bien. Mais est-ce que ça suffit à construire une histoire?~
+
+@1137 = ~ Moi aussi, j'ai énormément de tendresse pour toi, <CHARNAME>. Enormément. Mais est-ce que ça suffit à construire une histoire?~
+
+@1138 = ~ Tu m'aimes, eh? Ca ne fait que quelques jours que nous nous connaissons, et déjà les grandes déclarations d'amour? Bah, tu n'es qu'un cœur d'artichaud!~
+
+@1139 = ~ Tu ne dis rien? Ah, tu vois, je savais que les mots ne sortiraient pas. Tu ne m'aimes pas, <CHARNAME>, pas encore en tout cas. Mais ça va venir!~
+
+@1140 = ~ Reprenons la route. Je garderai toujours dans mon cœur le souvenir de ce moment passé sous les étoiles, mais je crois que nous devrions nous laisser un peu de temps avant de nous retrouver de nouveau seuls sur le sol, dans les bras l'un de l'autre. Eh, mon petit ragondin musqué?~
+
+@1141 = ~ Ah, je crois qu'en attendant, je vais beaucoup m'amuser en te donnant des petits noms mignons. Allons rejoindre les autres, mon canari sauvage!~
+
+@1142 = ~ Tu as raison, ma loutre des torrents!~
+
+@1143 = ~ Allons-y donc, ma chienne fidèle!~
+
+@1144 = ~ Je te suis, ma mouffette des îles!~
+
+@1145 = ~ En avant, ma galinette cendrée!~
+
+@1146 = ~ Mouffette... ça n'est pas la femelle du putois? Quelle manière élégante de me dire que je sens mauvais...~
+
+@1147 = ~ C'était mignon, ça, <CHARNAME>. Un bon point pour toi! Héhé.~
+
+@1148 = ~ Chienne, hein? Wouf!~

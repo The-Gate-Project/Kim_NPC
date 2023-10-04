@@ -1,0 +1,249 @@
+@9001 = ~[Uu]tilisable[ %tab%]+[Uu]niquement[ %tab%]+[Pp]ar[ %tab%]*:~
+@9002 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
+
+@0 = ~Kim pour BG2:SOA (ToB:requis) version 1.62d~
+@1 = ~Kim~
+@2 = ~Prêtresse Nadia~
+@3 = ~Barbe-Verte~
+@4 = ~Solaire~
+@5 = ~ZubbZubb~
+@6 = ~BuzzBuzz~
+@7 = ~Zven~
+@8 = ~Vampire~
+
+@10 = ~Etrange Amulette~
+@11 = ~Amulette de Barbe-Verte~
+@12 = ~Les amulettes sont généralement des objets magiques suspendus autour du cou par une chaîne. Le type de chaîne accompagnant l'amulette augmente souvent la valeur esthétique de l'objet, mais pas ses propriétés magiques. On ne peut porter qu'une seule amulette autour du cou.~
+@13 = ~L'amulette portée par Barbe-Verte est une puissante protection contre les attaques de mêlée. Elle génère effectivement un champ magique qui ralentit les coups et régénère lentement le porteur
+
+Caractéristiques:
+10% de résistance aux dégâts contondants
+10% de résistance aux dégâts tranchants
+10% de résistance aux dégâts perforants
+Régénération: 1HP par round~
+
+@15 = ~Hache d'armes~
+@16 = ~Hache Mystique d'Entropie~
+@17 = ~La version la plus répandue de la hache d'armes est une grande hampe d'environ 1,20 mètre de long comportant une lame à un seul tranchant et en forme de trompette montée sur une extrémité. Les haches d'armes sont également appelées grandes haches.
+
+PARAMETRES :
+Dégâts : 1D8
+Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 7
+Type de compétence : Hache
+Type : Arme à 1 main
+Force nécessaire : 10
+Non utilisable par :
+Druide
+Clerc
+Mage
+Voleur~
+@18 = ~La hache mystique d'entropie est une arme très dangereuse, le fruit des enchantements de plusieurs mages entropistes qui cherchaient à façonner le hasard pour qu'il les aide au combat. Ils ont partiellement réussi. L'arme dispose en effet de nombreuses capacités aléatoires pour aider son porteur à anéantir les ennemis
+
+PARAMETRES :
+
+Capacités de combat :
+15% de ralentir l'ennemi
+5% de décapiter l'ennemi
+5% de désintégrer l'ennemi
+10% d'empoisonner l'ennemi
+5% de pétrifier  l'ennemi
+5% d'assommer  l'ennemi
+10% d'absorber deux niveaux de l'ennemi
+10% d'être protégé par un sort de Manteau Amélioré
+
+Dégâts : 1D8 + 4
+Toucher: + 4Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 2
+Type de compétence : Hache
+Type : Arme à 1 main
+Force nécessaire : 10
+Non utilisable par :
+Druide
+Clerc
+Mage
+Voleur~
+
+@20 = ~Carte incompréhensible~
+@21 = ~Morceau droit de carte au trésor~
+@22 = ~Ce parchemin est couvert de dessins étranges et d'une écriture fine en patte de mouche impossible à déchiffrer~
+@23 = ~Falaises de la Folie... 52° de longitude ouest... grands dangers...
+
+Ne vous laissez pas envahir par l'excitation, mais il semblerait bien que vous teniez dans la main un morceau d'une carte au trésor ! Malheureusement, la partie gauche a été arrachée. Sans elle, il n'y a aucun moyen de localiser ce prétendu trésor~
+@25 =~Morceau gauche de carte au trésor~
+@26 = ~Tournez à droite après les...  17° de latitude nord... Un grand trésor, mais de...
+
+Ne vous laissez pas envahir par l'excitation, mais il semblerait bien que vous teniez dans la main un morceau d'une carte au trésor ! Malheureusement, la partie droite a été arrachée. Sans elle, il n'y a aucun moyen de localiser ce prétendu trésor~
+@30 = ~Capuche de Kim~
+@31 = ~Vous auriez certainement préféré pouvoir voir les beaux cheveux noirs de Kim flotter au vent, mais elle semble ne jamais abandonner cette capuche, même pour dormir. Elle vous affirme avec aplomb que cet objet amplifie les ombres sur son visage en combat, lui permettant de dissimuler ses attaques et de se battre plus efficacement.
+
+Caractéristiques:
+
+Se cacher dans l'ombre: +10%
+ThAC0: +1
+Classe d'Armure: +1~
+
+@35 = ~Armure en cotte de mailles~
+@36 = ~Cotte naine de mailles elfique~
+@37 = ~Légère et fine, cette cotte de mailles ressemble comme deux gouttes d'eau aux cottes de mailles elfiques que vous avez pu avoir l'occasion de voir. Pourtant, l'artisanat semble être très différent. Vous êtes incapable de mettre le doigt dessus, mais quelque chose cloche
+
+PARAMETRES :
+
+Classe d'armure : 2
+Poids : 4
+Force nécessaire : 5
+Inutilisable par :
+Druide
+Mage~
+@38 = ~Cette cotte de mailles est probablement le seul vestige des tentatives elfes et naines de mettre fin à leurs sempiternelles querelles. Les deux peuples ont combiné leurs talents pour réaliser ce petit chef d'oeuvre, aussi robuste qu'une armure naine, mais enchantée par les pouvoirs des elfes
+
+PARAMETRES :
+
+Mémorisation d'un sort supplémentaire de niveau 5 et 6
+Classe d'armure : 2
+Poids : 4
+Force nécessaire : 5
+Inutilisable par :
+Druide
+Mage~
+
+@40 = ~Urne de Barbe-Verte~
+@41 = ~Malgré les enchantements et l'eau bénite qui ont servi à sceller cette urne, vous pouvez sentir une aura maléfique s'en échapper, cherchant à prendre le contrôle de vos pensées~
+
+@45 = ~Corps de Kim~
+@46 = ~Le corps de Kim, que vous avez dû tuer pour la libérer de l'enchantement de Bodhi~
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@50 = ~ $$$$$ Sons $$$$$~
+@51 = ~ $$$$$ Creatures $$$$$~
+@52 = ~ $$$$$ Objets $$$$~
+@53 = ~ $$$$$ Dialogues $$$$$ ~
+@54 = ~ $$$$$ Zones $$$$$ ~
+@55 = ~ $$$$$ Decompression des fichiers son en sortant du programme $$$$$ ~
+@56 = ~ $$$$ Scripts $$$$$ ~
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@100 = ~Installation de la hache reajustee~
+@101 = ~La hache mystique d'entropie est une arme très dangereuse, le fruit des enchantements de plusieurs mages entropistes qui cherchaient à façonner le hasard pour qu'il les aide au combat. Ils ont partiellement réussi. L'arme dispose en effet de nombreuses capacités aléatoires pour aider son porteur à anéantir les ennemis
+
+PARAMETRES :
+
+Capacités de combat :
+15% de ralentir l'ennemi s'il rate un JS contre la pétrification à-4
+5% de décapiter l'ennemi s'il rate un JS contre la mort à-4
+5% de désintégrer l'ennemi s'il rate un JS la mort à-4
+10% d'empoisonner l'ennemi s'il rate un JS contre le poison à-4
+5% de pétrifier  l'ennemi s'il rate un JS contre la pétrification à-4
+5% d'assommer  l'ennemi s'il rate un JS contre la pétrification à-4
+10% d'absorber deux niveaux de l'ennemi s'il rate un JS contre  à-4
+10% d'être protégé par un sort de Manteau Amélioré
+
+Dégâts : 1D8 + 4
+Toucher: + 4Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 2
+Type de compétence : Hache
+Type : Arme à 1 main
+Force nécessaire : 10
+Non utilisable par :
+Druide
+Clerc
+Mage
+Voleur~
+
+@102 = ~Vous devez d'abord installer le mod Kim NPC.~
+@103 =  ~Installation de "Baldur's Gate II" non reconnue~
+
+// WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
+
+@-1040= "
+Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.
+Si par la suite vous desirez jouer au jeu dans une langue differente, il vous
+faudra editer le fichier weidu.conf et reinstaller vos mods.
+"
+@-1041= "Tcheque"
+@-1042= "Allemand"
+@-1043= "Anglais"
+@-1044= "Espagnol"
+@-1045= "Francais"
+@-1046= "Italien"
+@-1047= "Polonais"
+@-1048= "Portugais"
+@-1049= "Turc"
+@-1050= "Japonais"
+@-1051= "Coreen"
+@-1052= "Chinois simplifie"
+@-1053= "Russe"
+@-1054= "Ukrainien"
+
+@-1060= "
+Ce jeu est disponible en plusieurs langues mais WeiDU ne sait pas laquelle a ete choisie quand ce mod a ete installe.
+
+Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe ce mod. Votre choix servira jusqu'a ce que WeiDU s'arrete mais ne sera pas memorise.
+"
+@-1061= "
+Utilisation de"
+@-1062= " et "

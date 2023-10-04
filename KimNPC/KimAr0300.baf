@@ -1,0 +1,9 @@
+IF
+  Global("KIMExists","AR0300",0)
+THEN
+  RESPONSE #100
+    SetGlobal("KIMExists","AR0300",1)
+    CreateCreature("KIM",[1886.3052],0)  // ~Kim~
+    ActionOverride("KIM",MoveBetweenAreas("AR0306",[586.737],8))
+END
+

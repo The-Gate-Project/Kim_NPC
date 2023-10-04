@@ -1,0 +1,723 @@
+@0    = ~ Miam! L'endroit parfait pour voler quelque chose... mes doigts me démangent...~
+
+@1    = ~ Hé, toi! Oui, toi, la fille avec la capuche! J'ai toujours eu de bonnes relations avec les Voleurs de l'Ombre... et tu sais pourquoi? Parce qu'ils sont assez intelligents pour ne pas provoquer le vieux Ribald...~
+
+@2    = ~ Je te fais confiance pour perpétuer la tradition, eh? Mais je manque à tous mes devoirs de commerçant. Que pensez-vous de mes magnifiques objets?~
+
+@3    = ~ <CHARNAME>! Heh, ça va? Tu as l'air tout pâle? Mal digéré?~
+
+@4    = ~ Je vais bien, ne t'inquiète pas.~
+
+@5    = ~ Merci de ton aide... je ne sais pas ce qui m'est arrivé.~
+
+@6    = ~ Ne me touche pas! Laisse-moi tranquille!~
+
+@7    = ~ Tu es sûr? Tu ne m'as pas vraiment l'air dans ton assiette... Mais bon, je n'insiste pas.~
+
+@8    = ~ Pas de quoi, pour une fois que c'est moi qui peux t'aider. Bon, ne nous tombe pas malade, hein, ça n'est pas vraiment le moment...~
+
+@9    = ~ Ca va, ça va! Hmpff, quel caractère...~
+
+@10   = ~ Des... des poils, des sabots, des cornes... ne me dis pas que tu essaies de te transformer en bouc, <CHARNAME>, je ne te croirai pas...~
+
+@11   = ~ (Malgré sa tentative d'humour désespérée, vous sentez que Kim est profondément perturbée. Elle serre les dents pour ne pas trembler, et rencontre votre regard avec difficulté)~
+
+@12   = ~ Oh, par les dieux, qu'est-ce que cet Irenicus t'a fait? Je te jure qu'il le paiera! Je vais l'éparpiller aux quatre coins de Féerune, façon puzzle...~
+
+@13   = ~ <CHARNAME> ? Tu as l'air étrange de nouveau. Tes... tes yeux sont rouges. Qu'est-ce qui t'arrive?~
+
+@14   = ~ Fuis, Kim! Je... Je ne me contrôle plus!~
+
+@15   = ~ Fiche le camp, Kim! Laisse-moi... en paix!~
+
+@16   = ~ Au... au secours, Kim!~
+
+@17   = ~ <CHARNAME>? Qu'est-ce que tu racontes? Arrête de grogner, je n'arrive pas à te comprendre. Tu... que... NON!~
+
+@18   = ~ Tu... tu m'as attaqué... (Kim porte la main à la profonde entaille que vous lui avez faite au visage et ramène ses doigts plein de sang). Je vais te dire une bonne chose, mon petit <CHARNAME>. A partir de maintenant, je veille sur toi, et je ne te quitte plus!~
+
+@19   = ~ Et si jamais tu te retransformes et que tu réessaies de me frapper, je te MANGE TOUT CRU! C'est bien compris?~
+
+@20   = ~ Ca... Ca y est? Il est mort? C'était si soudain...~
+
+@21   = ~ (Vous sentez Kim frissonner alors qu'elle réalise ce qu'il vient de se passer, mais son regard est déterminé alors qu'elle vous toise) Eh bien, il semblerait que la mort ne suffise pas à nous séparer, <CHARNAME>. Mon épée est à toi, au-delà de la mort.~
+
+@22   = ~ (Vous sentez Kim frissonner alors qu'elle réalise ce qu'il vient de se passer, mais son regard est déterminé alors qu'elle vous toise) Eh bien, il semblerait que la mort ne suffise pas à nous séparer, <CHARNAME>. Je suis à toi, au-delà de la mort, et pour toujours!~
+
+@23   = ~ Kim, la jolie bretteuse. A la fois forte et touchante, amusante et troublante, plus rien n'est pareil depuis qu'elle est entrée dans votre vie~
+
+@24   = ~ Vous croisez son regard, et elle vous sourit tendrement en sentant votre nervosité. Vous ouvrez la bouche pour parler, mais elle vous devance~
+
+@25   = ~ Kim, la jolie bretteuse. A la fois forte et touchante, amusante et troublante, elle vous regarde d'un air songeur. Ses doigts tapotent négligemment la garde de sa rapière, comme si elle envisageait de bientôt s'en servir.~
+
+@26   = ~ Kim, j'ai besoin de toi. Ne me lâche pas maintenant, d'accord?~
+
+@27   = ~ Ce n'est pas ton combat, Kim. J'apprécierais que tu me laisses régler ça seul.~
+
+@28   = ~ Kim... tu es jeune et pleine de vie. Ne risque pas cette vie bêtement en me suivant!~
+
+@29   = ~ Il n'y a rien d'autre à dire... Vous vous noyez dans ses yeux alors qu'elle approche doucement et, l'épée toujours en main, vous embrasse doucement, puis plus brutalement, comme si elle craignait de vous voir soudain disparaître. Vous finissez par la repousser, légèrement essoufflé.~
+
+@30   = ~ Non, ne dis pas un mot. Je sais déjà ce que tu vas me demander. Mais je t'accompagnerai, que tu le veuilles ou non. Je t'aime, <CHARNAME>. Je t'aime, et je resterai avec toi... toujours.~
+
+@31   = ~ Tu pensais que j'allais te laisser tomber? Hah, <CHARNAME>, comme tu me connais mal... Mon épée est à toi. Irenicus n'a qu'à bien se tenir! (Elle rit doucement, mais le son est rauque et forcé)~
+
+@32   = ~ Eh bien, je ne pensais pas te revoir dans ces conditions, Aran... Mais je suis désormais au service de <CHARNAME>, et je respecte sa décision. Tire ton épée, et commençons!~
+
+@33   = ~ Respecte ce que tu veux, tu mourras tout de même!~
+
+@34   = ~ Ca fait plaisir de te revoir, cher Aran! Toujours aussi secret, dis-moi.~
+
+@35   = ~ Tiens, Kim. J'ai entendu Renal dire beaucoup de bien de toi. Te voir avec <CHARNAME> est une bonne nouvelle.~
+
+@36   = ~ Comme je le disais, sois le bienvenu, <CHARNAME>. Tu as bien choisi ta coéquipière.~
+
+@37   = ~ Hmpff... Je croyais que les Voleurs de l'Ombre avaient plus de fierté et d'honneur que ça...~
+
+@38   = ~ Ne te laisse pas faire, <CHARNAME>. Ces objets valent bien moins que ce qu'il t'a fait payer.~
+
+@39   = ~ Ba-psschh... Des services? D'habitude, je me fais payer pour travailler... pas le contraire~
+
+@40   = ~ C'est pourtant toi qui nous l'a recommandé, Aran. Tu as de la chance que <CHARNAME> soit là, sans quoi je t'aurais déjà taillé les oreilles en pointe...~
+
+@41   = ~ Nous? Indignes de confiance? Regardez qui parle!~
+
+@42   = ~ Le combat va bientôt commencer... J'ai les mains moites...~
+
+@43   = ~ Il transpire, il bafouille... Je sens que nous tenons notre coupable, <CHARNAME>.~
+
+@44   = ~ Attention, <CHARNAME>! Il prépare quelque chose!~
+
+@45   = ~ Souffre comme j'ai souffert, jolie Jaheira!~
+
+@46   = ~ C'est... c'est ignoble! Baron, je te défie en combat singulier! Choisis ton lieu et ton arme!~
+
+@47   = ~ Tu as des amis intéressants, Jaheira... Retiens la gamine avant qu'elle ne s'étrangle de fureur. Hahaha!~
+
+@48   = ~ Tu as refusé mon duel à notre dernière rencontre... cette fois-ci, tu ne pourras pas t'échapper!~
+
+@49   = ~ Je n'aime pas beaucoup ces bruits et ces odeurs, <CHARNAME>... A mon avis, ces cellules doivent abriter des animaux plutôt dangereux...~
+
+@50   = ~ Lamente-toi, aveugle, car la mort vient pour TOI!~
+
+@51   = ~ Eh bien, ce n'est pas la politesse qui l'étouffe... Qu'est-ce que ces prêtres peuvent être arrogants! Mais il n'a pas forcément tort. Cette histoire d'oeil aveugle ne sent pas très bon.~
+
+@52   = ~ (Vous regardez d'un air pensif le prêtre disparaître dans le temple)~
+
+@53   = ~ Voilà une bonne idée! Saccager un culte me paraît une occupation agréable... et on pourrait peut-être en profiter pour brûler les temples de tous ces dieux imbus d'eux-mêmes?~
+
+@54   = ~ L'Oeil de Helm a aussi une oreille, enfant. Je t'ai très bien entendu. Mais ton coeur est plus pur que tu ne le crois, et tes blasphèmes seront ignorés. Quant à vous, <CHARNAME>, m'aiderez-vous?~
+
+@55   = ~ Ah, enfin, la récompense!~
+
+@56   = ~ Je n'aime pas ça, <CHARNAME>... cette femme ne 'sent' pas bon. Au moins, nous connaissons les Voleurs de l'Ombre.~
+
+@57   = ~ Ne te laisse pas empoisonner par ses paroles, <CHARNAME>. Les Voleurs de l'Ombre n'ont certainement pas été aussi honnêtes qu'on pourrait l'espérer, mais cette créature... *frisson* Elle mérite la mort, mille fois la mort!~
+
+@58   = ~ Nous verrons si tu parleras aussi bien lorsque tu auras la gorge tranchée, vampire!~
+
+@59   = ~ Oh, voudrais-tu bien tenir ta chienne en laisse, <CHARNAME>? Tu ne devrais pas la laisser participer aux débats des grandes personnes.~
+
+@60   = ~ Ne crois pas en avoir fini avec nous, Bodhi... Ca ne fait que commencer!~
+
+@61   = ~ Vous me suivez dans l'espoir de récupérer quelque chose qui vous tient à coeur. Je dis que plus vous persévérez, plus vous perdrez.~
+
+@62   = ~ Prenons la fière Kim, par exemple. Coeur de pirate, fine lame, si vive et si énergique... Quel déchirement ce serait que de devoir vous séparer!~
+
+@63   = ~ Quoi que je tente, vraiment? Oh, c'est tellement courageux de ta part, Kim. Tellement stupide, aussi. Mais fort heureusement, ce n'est pas à vous que je parlais... Continuez à me suivre <CHARNAME> et vous perdrez bien plus que vous ne pouvez l'imaginer. Et cela commence maintenant!~
+
+@64   = ~ Tu ne me fais pas peur, Bodhi! Ce n'est pas une vampire décrépite comme toi qui pourra se mettre entre <CHARNAME> et moi! Quoi que tu tentes, je saurai te repousser!~
+
+@65   = ~ Oh, le pauvre garçon! Il faut essayer de l'aider, <CHARNAME>... Je compte sur toi!~
+
+@66   = ~ J'ai entendu parler de ce Jarlaxle, <CHARNAME>. Même à la surface, il est réputé pour être un excellent bretteur. Hmm, ce serait un rêve que de pouvoir me mesurer à lui!~
+
+@67   = ~ Un oubli, eh? Dis plutôt que tu nous as manipulés comme des marionnettes...~
+
+@68   = ~ Tu aurais dû essayer de nous échapper pendant que tu en avais l'occasion, Démon. Tu vas maintenant rejoindre le cercueil que tu n'aurais jamais dû quitter!~
+
+@69   = ~ Des mots courageux, de la part d'une gamine prépubère...~
+
+@70   = ~ Adieu,Bodhi. La gamine prépubère te salue!~
+
+@71   = ~ Mais... je ne me trompe pas? C'est Drizzt! Hmm, <CHARNAME>, celui-là est un fameux bretteur... je me demande s'il accepterait un duel amical... mon sang bout rien que d'y penser!~
+
+@72   = ~ Nous n'avions pas besoin de lui, <CHARNAME>. Penses-tu vraiment que Bodhi avait une chance contre nous?Bah!~
+
+@73   = ~ Je suis certain que mon aide sera superflue, jeune pirate, mais tu ne me refuserais tout de même pas le plaisir de combattre une vampire aux dents acérées, eh?~
+
+@74   = ~ Pour qui se prend cet elfe arrogant? Est-ce qu'il ne se rend pas compte que nous sommes de son côté?~
+
+@75   = ~ <CHARNAME>, ma rapière me démange... Cet elfe hautain mérite une bonne leçon...~
+
+@76   = ~ Cet elfe me déplaît de plus en plus... On lui obéit, on va chercher le Lanthorn au péril de notre vie... Et voilà comment il nous traite?~
+
+@77   = ~ Aran ne nous aurait pas appelés s'il n'avait pas quelque chose d'important à nous dire. Nous devrions y aller, <CHARNAME>... Peut-être pourra-t-il nous aider contre Bodhi?~
+
+@78   = ~ Le fléau des sept mers, eh? Comment se fait-il que je n'aie jamais entendu parler de toi, Calahan?~
+
+@79   = ~ Quoi? Qu'est-ce que c'est que cette sale gamine arrogante?~
+
+@80   = ~ J'ai été deux ans pirate dans l'équipage de Barbe-Verte, et ça me suffit pour deviner que tu n'as jamais quitté le port, espèce de marin d'eau douce!~
+
+@81   = ~ Hmpff! Alors c'est toi, la petite folle qui a trompé Barbe-Verte, hein? J'aurais dû m'en douter, il paraît que t'es une sacrée grande gueule!~
+
+@82   = ~ Tu... Tu le connais?~
+
+@83   = ~ Un peu, que je le connais! Et je peux te dire que ça me fait plaisir de voir quelqu'un qui a osé lui tenir tête. Mais, ça me fait penser... Il est copain comme cochon avec la prêtresse d'Umberlie. Une de ses maîtresses, je crois. Il paraît qu'il lui a demandé de te maudire au nom de son Dieu.~
+
+@84   = ~ QUOI?~
+
+@85   = ~ A ta place, j'irais voir cette truie grognarde, et je lui demanderais des explications... mais bon, moi, je dis ça... au fait, pourquoi veniez-vous me voir?~
+
+@86   = ~ Ah, les hommes... *soupir*~
+
+@87   = ~ Un mot, <CHARNAME>, et je tranche la gorge de ce porc. Cernd, ne te laisse pas faire!~
+
+@88   = ~ On va bien voir si Mère Nature te protégera d'un coup d'épée dans le ventre. On verra si elle te ressuscitera lorsque je t'aurai tranché la gorge...~
+
+@89   = ~ Hmm, nous allons mettre le nez dans les affaires des druides, maintenant? De beaux combats en perspective...~
+
+@90   = ~ C'est maintenant qu'on parle de récompense?~
+
+@91   = ~ Hah, Franc-Marché sous embargo, voilà qui est amusant. Aidons-le, <CHARNAME>, ces gens sont désespérés. La récompense sera certainement de taille...~
+
+@92   = ~ Une fille au coeur encore pur
+Ne voulait pas croire au destin
+Pourtant, partant à l'aventure
+Elle remit son sort dans les mains
+De celui qui crée le futur
+L'avenir et le lendemain~
+
+@93   = ~ Hmm. Beaucoup de mots pour ne pas dire grand chose. Mes actions sont les miennes, aujourd'hui et toujours!~
+
+@94   = ~ Pathétique...~
+
+@95   = ~ Oops...~
+
+@96   = ~ Attachez vos ceintures!~
+
+@97   = ~ Eh bien, quel vieux bonhomme désagréable... je commence à comprendre comment Anomen est devenu aussi puant...~
+
+@98   = ~ J'ai entendu, Kim... mais je n'ai même pas le coeur de me disputer avec toi...~
+
+@99   = ~ Je pense que tu as pris la bonne décision, Anomen. Je suis fière de toi~
+
+@100  = ~ Oh, mais ils sont mignons tout plein! Il faut les aider, <CHARNAME>!~
+
+@101  = ~ *Ahèm* Je te laisse parler, <CHARNAME>, explique-leur...~
+
+@102  = ~ Il y a des gens bizarres dans les rues, ces jours-ci...~
+
+@103  = ~ Euh... Je ne suis pas certaine que ce soit une bonne idée...~
+
+@104  = ~ Tu ne vas quand même pas céder au chantage de ce poisson pourri, <CHARNAME>? Je parie que lui aussi aurait beaucoup à perdre, si nous révélions ses plans...~
+
+@105  = ~ Hmm, je suppose que ce ne serait pas très diplomatique de prendre la cité d'assaut, l'épée au poing... pourtant, il faut que nous parvenions à libérer ces malheureux...~
+
+@106  = ~ Hmpff... Rester calme... surtout, rester calme...~
+
+@107  = ~ Hmpff... <CHARNAME>, je crois que je dois avoir un fouet dans mon sac. Ca ne te dérange pas que je l'utilise un peu sur cette truie vagissante?~
+
+@108  = ~ Comment osez-vous? Ce sont les gens de votre espèce qui subissent le fouet, et les gens de la mienne qui le manient. Ainsi sont les choses, et vous êtes fort stupide de ne pas le comprendre!~
+
+@109  = ~ <CHARNAME>, s'il te plaiiiiit....~
+
+@110  = ~ Oh... pauvre petit bout d'chou... il a l'air complètement terrorisé, <CHARNAME>, ne lui fais pas tes gros yeux... Heh!~
+
+@111  = ~ Hmm, il est... plutôt grand, hein?~
+
+@112  = ~ <CHARNAME>, je crois que cette femme n'a pas vraiment compris que nous venions de la sauver. Je pense qu'elle mérite une bonne leçon, histoire d'effacer cette expression de mépris de son visage arrogant!~
+
+@113  = ~ En temps normal, je trouverais insupportable de collecter une rançon ainsi, mais je pense qu'elle l'a bien mérité!~
+
+@114  = ~ Hmm... c'est émouvant... Hé, je plaisante. On file d'ici? C'est vraiment lamentable...~
+
+@115  = ~ Encore un rebondissement? Toutes ces intrigues commencent à me peser sur le système...~
+
+@116  = ~ Dix mille p... où est-ce qu'on signe?~
+
+@117  = ~ Mefions-nous tout de même, <CHARNAME>. Autant d'or donné avec autant de désinvolture me paraît louche... Mais si c'est vrai, alors profitons de l'aubaine!~
+
+@118  = ~ Je vous souhaite bonne chance, aventuriers. Vous en aurez besoin...~
+
+@119  = ~ Voilà donc le marionnettiste...~
+
+@120  = ~ Imagine la gloire que nous pourrions retirer de sa mort... <CHARNAME>, les bardes chanteraient notre nom dans toutes les auberges d'ici à la Porte de Baldur! *Ahèm* Mais il est quand même gros, hein...~
+
+@121  = ~ A la soupe!~
+
+@122  = ~ Ca sent le fauve, par ici...~
+
+@123  = ~ Un tyranoeil sans oeil, c'est un tyran, j'ai raison? Oh, bon, si on ne peut plus plaisanter...~
+
+@124  = ~ Ugh... Je ne suis pas sûre d'être très enthousiaste à l'idée d'aider ce fanatique stupide...~
+
+@125  = ~ Poil au menton...~
+
+@126  = ~ Hmpff, ça y est, dans quoi nous voilà embarqués?~
+
+@127  = ~ Mmhh... de la manipulation à grande échelle... Ce Firkraag ne doit pas être quelqu'un d'ordinaire...~
+
+@128  = ~ Boudiou, l'paysan, v'la t-y pas qu'y a ton viau qui va vêler~
+
+@129  = ~ Je ne suis pas sûre que ce soit une bonne idée, <CHARNAME>... eurk!~
+
+@130  = ~ Tiens, encore un cinglé dans la famille Jansen... Pourquoi est-ce que ça ne me surprend pas?~
+
+@131  = ~ C'est ridicule. On ne peut vivre heureux sans un bras solide pour nous défendre. Croit-il qu'il serait encore en vie pour prêcher ses théories si les gardes de la ville n'étaient pas là?~
+
+@132  = ~ Huh?~
+
+@133  = ~ Tu oses demander pourquoi? L'esclavage est déjà révoltant, mais s'en prendre à des enfants... C'est repoussant!~
+
+@134  = ~ Hmm... Ce Lethinan m'a l'air d'un immonde pourceau. Je crois qu'à ta place j'aiderais Hendak, ne serait-ce que pour ennuyer Lethinan. Mais la décision t'appartient, bien sûr.~
+
+@135  = ~ Nous n'avons pas vraiment le choix. Maintenant que nous avons libéré les esclaves de la Couronne de Cuivre, le bruit va se répandre, et les esclavagistes nous poursuivront. L'offensive doit venir de nous!~
+
+@136  = ~ Je compte sur toi pour répandre la nouvelle de nos exploits, eh? Quelques chansons seraient les bienvenues!~
+
+@137  = ~ Es-tu sûr que ce soit une bonne idée de faire confiance à un crâne maléfique, <CHARNAME>?~
+
+@138  = ~ Uh oh... je crois qu'on a fait une bêtise...~
+
+@139  = ~ Je le sentais venir, gros comme une maison...~
+
+@140  = ~ J'ai comme l'impression que nous ne sommes pas les bienvenus, <CHARNAME>...~
+
+@141  = ~ Et voilà, on s'est encore fait un ennemi invulnérable... Je ne sais pas pourquoi je m'en étonne encore...~
+
+@142  = ~ Le seul respect que tu mérites, c'est celui que te donnera ma lame dans ton coeur...~
+
+@143  = ~ Je te défends de la regarder avec cet air vicieux, <CHARNAME>!~
+
+@144  = ~ Eh bien, eh bien, voilà un endroit intéressant...~
+
+@145  = ~ Je n'aime pas ça. Nous avons été trompés, on nous a manipulés comme des enfants...~
+
+@146  = ~ J'admire la facilité que tu as à te faire des amis, <CHARNAME>...~
+
+@147  = ~ Tiens, Mook, comment vas-tu? Tu travailles toujours pour les Voleurs de l'Ombre, je vois.~
+
+@148  = ~ Eh oui, Kim. Je peux te dire que tu es partie de la guilde au bon moment. Les temps sont durs, pour nous, avec cette guilde rivale qui ne cesse de nous causer des soucis... Bon, donc si Kim est là, ça confirme bien que toi, tu dois être <CHARNAME>.~
+
+@149  = ~ Mook! Non!~
+
+@150  = ~ Trahison!~
+
+@151  = ~ Il a raison, <CHARNAME>, ça n'est pas de la chair humaine. On dirait plutôt la peau d'un animal exotique. J'en ai vu un lors de mes voyages en bateau. Je crois qu'on appelle ça un "phoque".~
+
+@152  = ~ Je te défends de regarder ses seins, <CHARNAME>...~
+
+@153  = ~ Mais que quelqu'un le fasse taire, par pitié!~
+
+@154  = ~ <CHARNAME>, retiens-moi, avant que je ne lui fasse avaler ses billes de fronde...~
+
+@155  = ~ Pour l'amour des dieux, gamine, reprends-toi! C'est à cause de ton inaction que ton amant est mort! Il faut parfois savoir agir, au lieu de se laisser balloter au gré des événements!~
+
+@156  = ~ Je... Je reconnais cette silhouette... <CHARNAME>, si c'est bien la personne à laquelle je pense...~
+
+@157  = ~ N"espère pas que nous danserons pour toi, Vampire. D'une manière ou d'une autre, ta tête dansera au bout d'une pique!~
+
+@158  = ~ C'aurait été trop te demander que de te montrer honnête, Bodhi. Ne crois pas que cette trahison me surprenne!~
+
+@159  = ~ Ton opinion importe peu, bétail. L'heure est venue de te mener à l'abattoir!~
+
+@160  = ~ Le pauvre... Il a complètement perdu la raison...~
+
+@161  = ~ La limite du test de limite! le test de la limite du test!~
+
+@162  = ~ Et voilà... je l'aurais parié...~
+
+@163  = ~ Voilà donc le fameux Irenicus... il n'a pas l'air bien méchant, ainsi. Un coup d'épée, et...~
+
+@164  = ~ Tu m'as humiliée, sorcier d'opérette... Maintenant, c'est à ton tour de souffrir!~
+
+@165  = ~ <CHARNAME>, je... je...~
+
+@166  = ~ Tu n'es qu'un chien pelé, Saemon. Je ne sais ce qui me retient de te percer le coeur!~
+
+@167  = ~ Il ne faut pas lui faire confiance, <CHARNAME>. Saemon est pire qu'un serpent, il te l'a déjà prouvé! Il te vendra au plus offrant...~
+
+@168  = ~ Voilà donc la raison de ton amabilité! Laisse-moi deviner, tu vas avoir besoin de nous pour le récupérer?~
+
+@169  = ~ Hmpff, je suppose qu'il va bien falloir en passer par là...~
+
+@170  = ~ Heureux de te l'entendre dire, petite pirate! Bien, donc n'oubliez pas, rejoignez-moi sur le quai quand vous aurez le cor!~
+
+@171  = ~ Reste ici, lâche! Comment oses-tu te prétendre pirate?~
+
+@172  = ~ Tout ceci n'a que trop duré! Saemon, encore un mot et je t'envoie par-dessus bord!~
+
+@173  = ~ Saemon Havarian! Vieille fripouille! Immonde menteur! Qu'est-ce que tu fais là?~
+
+@174  = ~ Oh, euh... Bonjour, Kim. J'espère que tu vas bien. Que fais-tu ici? Je croyais que tu étais avec Barbe-Verte?~
+
+@175  = ~ Ce que je fais et où je vais ne te regardent certainement pas, Saemon.~
+
+@176  = ~ Bien sûr, bien sûr... Mais que me disiez-vous, maîtresse Bodhi?~
+
+@177  = ~ Oh, Saemon, au fait...~
+
+@178  = ~ Oui, Kim?~
+
+@179  = ~ Si jamais il nous arrivait malheur durant notre traversée, nul doute que Barbe-Verte serait... mécontent...~
+
+@180  = ~ Je... Je comprends parfaitement, Kim. Loin de moi l'idée de mettre en colère ton seigneur. Même si je me pose des questions sur ta présence ici. Mais laissons cela... nous approfondirons cette conversation une autre fois.~
+
+@181  = ~ Saemon est un lâche et un menteur, <CHARNAME>, qui nous trahira à la première occasion... mais tant qu'il croira que Barbe-Verte me protège, nous devrions être tranquilles.~
+
+@182  = ~ Larguez les amarres! Paré à naviguer!~
+
+@183  = ~ Hmpff... Il semblerait que nous soyons arrivés sains et saufs. Je suis surprise que Saemon ne nous ait pas préparé une embuscade quelconque... Peut-être a-t-il changé?~
+
+@184  = ~ Bien sûr, bien sûr... Mais que me disiez-vous, très cher Aran?~
+
+@185  = ~ Eh bien, Saemon... oses-tu finalement attirer sur toi la colère de Barbe-Verte? Tu sais qu'il te réduirait en pièces...~
+
+@186  = ~ Oh oui, je sais. Je sais beaucoup de choses, Kim. Je sais que tu as quitté son équipage, et qu'il ne te protège absolument plus. Ne cherche pas à m'impressionner, petite. Je suis difficile à berner!~
+
+@187  = ~ Des créatures d'autres plans? Hmm, mes épées frémissent d'impatience. Peut-être trouverai-je un adversaire à ma mesure...~
+
+@188  = ~ Oui, <CHARNAME> est comme ça, <PRO_HESHE> aide tous ceux qu'il rencontre... Il faut avouer que c'est parfois fatigant.~
+
+@189  = ~ Hmm... grosse bestiole, eh?~
+
+@190  = ~ Eh bien, moi qui ne crois pas aux dieux et au destin, voilà de quoi me donner à réfléchir...~
+
+@191  = ~ Tant de fatalisme, c'est... c'est insupportable! Comment pouvez-vous agir ainsi? Prenez-vous en mains, réagissez, bougez! Vous êtes des êtres vivants, ou des plantes vertes?~
+
+@192  = ~ <CHARNAME>, aidons-les, je n'en peux plus. Soit nous les sauvons, soit nous les passons par le fil de l'épée, mais il faut faire quelque chose. C'est... c'est déprimant!~
+
+@193  = ~ Personnellement, je n'ai encore jamais aidé de poisson... je les mange!~
+
+@194  = ~ Heh, tu ne t'attendais pas à ça, eh, grosse truite?~
+
+@195  = ~ Je rêve ? Encore un saumon qui parle...~
+
+@196  = ~ Je ne sais pas pour toi, <CHARNAME>, mais je pense que nous pourrions profiter de la guerre civile entre ces morues pour tuer le prince et récupérer son trésor...~
+
+@197  = ~ Oh, vision sublime de délices à venir! Puis-je croire mes yeux? Une déesse en personne est venue me visiter!~
+
+@198  = ~ Bien sûr, à qui d'autre? Je ne peux détacher mon regard de votre visage exquis, de vos yeux si expressifs, de vos lèvres pulpeuses et de votre corps de rêve. Je t'en prie, mon amour, partage avec moi une folle nuit de débauche!~
+
+@199  = ~ Je... je...~
+
+@200  = ~ Hmm, est-ce à moi que tu parles?~
+
+@201  = ~ Et qu'est-ce qui te fait croire qu'une fille aussi, comment as-tu dit, pulpeuse, exquise, expressive et sensuelle irait faire avec un abruti boutonneux, moche, et probablement puceau? Tu peux me dire? Peut-être me séduiras-tu par ton humour ravageur?~
+
+@202  = ~ C'est mal parti...~
+
+@203  = ~ Tout ça est quand même étrange... cette fille ne m'inspire pas confiance... comment est-elle parvenue à éviter tous les monstres que nous venons d'affronter?~
+
+@204  = ~ J'ai... hmm... je me suis cachée, et j'ai réussi à ne pas attirer leur attention. Oui, c'est ça...~
+
+@205  = ~ Et la voleuse se révèle enfin! Viens goûter de mes lames, Samia! Femme contre femme, épée contre épée!~
+
+@206  = ~ Quelle... quelle arrogance! J'espère que tous les artistes ne sont pas ainsi...~
+
+@207  = ~ Nous ne pouvons pas laisser passer cet affront sans rien dire, <CHARNAME>. Montrons-leur de quoi nous sommes capables!~
+
+@208  = ~ Que... <CHARNAME>, je n'aurais jamais imaginé que tu puisses être lâche à ce point...~
+
+@209  = ~ Hmmm... voilà un dragon assez... imposant, eh?~
+
+@210  = ~ Dragon ou pas dragon, je ne laisserai personne me dicter mes actes! Si tu veux notre aide, tu as intérêt à être plus amicale, Adalon...~
+
+@211  = ~ Vous, là, oui, vous, avec les beaux cheveux longs et noirs!~
+
+@212  = ~ Bien sûr, vous voyez beaucoup d'autres filles avec de beaux cheveux longs et noirs? Dites-moi, vous voulez acheter cette sphère?~
+
+@213  = ~ Oui oui, très beaux. Alors, cette sphère, elle vous intéresse? Elle contient de nombreux objets magiques très puissants et...~
+
+@214  = ~ Je... Je... Hey, vous, là-bas!~
+
+@215  = ~ Hmm, moi?~
+
+@216  = ~ C'est vrai? Vous trouvez que j'ai de beaux cheveux?~
+
+@217  = ~ Je suis contente que vous aimiez mes cheveux. J'hésitais à me teindre en rousse. Ou blonde, peut-être. A votre avis?~
+
+@218  = ~ C'est donc bien lui qui... dépeçait... ces mendiants? Tanneur, je crois que tu vas faire une rencontre inopinée avec la pointe de ma lame...~
+
+@219  = ~ Uh... <CHARNAME>, je le sens mal...~
+
+@220  = ~ Et à qui la faute, Elhan? Si tu nous avais dit la vérité depuis le début...~
+
+@221  = ~ "Jon"? Pas "Joneleth"? Voilà une marque de familiarité étonnante, pour une reine...~
+
+@222  = ~ Irenicus! Je n'avais rien contre toi jusqu'à ce que tu décides de nous emprisonner à Spellhold. Mais désormais, mes armes ont ton nom gravé dessus. Prépare-toi à mourir!~
+
+@223  = ~ Tu plaisantes, j'espère? <CHARNAME>, montrons-lui qui devrait obéir à qui, ici...~
+
+@224  = ~ Tu... tu es un lâche, <CHARNAME>. Tu me déçois beaucoup~
+
+@225  = ~ Hah! <PRO_HESHE> a juste plus de cervelle que toi, gamine. Médite là-dessus pendant que nous partons...~
+
+@226  = ~ Thumb! Ca alors! Ca fait plaisir de te revoir, vieille fripouille!~
+
+@227  = ~ Eh ben... Si ce n'est pas ma p'tite Kim qui revient voir le vieux pirate... Dis-moi, Barbe-Verte n'est pas dans le coin, au moins?~
+
+@228  = ~ Non non, ne t'inquiète pas, je t'expliquerai... Dis-moi, est-ce que ma cache est toujours au même endroit dans ton auberge ?~
+
+@229  = ~ Euh... ahum...~
+
+@230  = ~ Quoi?~
+
+@231  = ~ Disons que quelques pirates sont venus s'installer dans la cave voici quelques jours. Je ne sais pas ce qu'ils y font, ni même s'ils y sont toujours. Mais ce n'est pas à moi de les déloger, ça non...~
+
+@232  = ~ Je vois... Il va falloir que j'y réfléchisse.~
+
+@233  = ~ Ne réfléchis pas trop longtemps, alors, et présente-moi tes compagnons. Bienvenue à la Bonté Marine, <PRO_LADYLORD>. Qu'est-ce que je vous sers?~
+
+@234  = ~ Incroyable! Rencontrer un combattant si habile dans un endroit si reculé! Tire ton épée, Wilfried! Je meurs d'envie de faire un duel avec toi. Peut-être pourras-tu m'apprendre quelques bottes secrètes?~
+
+@235  = ~ Encore une mission pour ces elfes noirs? <CHARNAME>, nous devrions cesser cette mascarade et saccager cette cité. Ce ne serait pas une grande perte...~
+
+@236  = ~ Ca faisait longtemps que j'attendais ce moment...~
+
+@237  = ~ Quoi ? Non, non... noooooon!~
+
+@238  = ~ Gros cerveaux ou non, ils vont bientôt sentir notre colère sur eux. Ils devraient savoir que c'est toujours une erreur que de se faire un ennemi de <CHARNAME>... heh!~
+
+@239  = ~ Toi pas parler. Toi te battre.~
+
+@240  = ~ Je suis claustrophobe,<CHARNAME>... dis-lui d'arrêter de parler de galeries souterraines et de plafonds qui s'effondrent!~
+
+@241  = ~ Eh bien, quelle harpie...~
+
+@242  = ~ J'ai l'impression qu'elle te dévorait des yeux, <CHARNAME>. Enfin, moi, ce que j'en dis...~
+
+@243  = ~ Elle... elle te dévorait du regard, <CHARNAME>! Oh, cette femme! J'ai envie de lui arracher lentement les yeux!~
+
+@244  = ~ Tuer des svir... des svnirf... euh, des gnomes? <CHARNAME>, il doit y avoir une autre solution, non ? Ce n'est pas en abattant de pauvres gnomes sans défense que nous deviendrons célèbres...~
+
+@245  = ~ Dire que ce Solaufein était le seul elfe noir que je trouvais un peu sympathique... quelle pitié!~
+
+@246  = ~ Ma compagne, Kim.~
+
+@247  = ~ Nous, sauver une prêtresse elfe noire? <CHARNAME>, c'est le monde à l'envers.. Laissons-la crever aux mains des Illithids!~
+
+@248  = ~ Je compte sur toi, Vedrin... ne me déçois pas!~
+
+@249  = ~ <CHARNAME>, cet elfe noir est étrange. On dirait presque qu'il t'apprécie. Il n'a pas l'air si cruel, finalement...~
+
+@250  = ~ <CHARNAME>, n'y aurait-il pas une autre solution? Maintenant que je le vois, si misérable, je me dis que ce serait un crime de tuer un elfe noir qui arrive à ressentir des émotions...~
+
+@251  = ~ Tiens, tiens, la petite elfette essaie de jouer les nymphettes... Tu sais bien que tu es mignonne, Aerie, pourquoi est-ce que tu minaudes ainsi?~
+
+@252  = ~ Moi? Nymphette? Oh, comment peux-tu être si méchante, Kim? C'est à <CHARNAME> que je parlais, pas à toi!~
+
+@253  = ~ Je sais déjà ce qu'il va te répondre, va. Que tu es ravissante. Hmpff, il est trop gentil...~
+
+@254  = ~ Incroyable! Une conversation avec Aerie qui ne commence pas par "Oh, au secours, j'ai perdu mes ailes!"~
+
+@255  = ~ Kim, ça n'était vraiment pas gentil! Tout ça parce que je parle un peu avec <CHARNAME>. Il n'est pas ta possession, tu sais?~
+
+@256  = ~ Quoi? Mais je... je n'ai jamais dit le contraire!~
+
+@257  = ~ Alors laisse-moi lui parler et cesse de te mêler de tout comme ça! Hmpf!~
+
+@258  = ~ L'elfette aurait des crocs? Hah! Bon, je vais vous laisser parler. <CHARNAME> reviendra de lui-même vers moi lorsque tu auras fini de l'ennuyer...~
+
+@259  = ~ Ca y est, la petite elfe refait son cirque...~
+
+@260  = ~ Oh, <CHARNAME>, c'est si triste, moi aussi j'ai perdu quelque chose!~
+
+@261  = ~ Hein? Que... quoi? Qu'as-tu perdu, Kim?~
+
+@262  = ~ Regarde, <CHARNAME>, regarde... mes seins sont plus petits qu'avant, tu ne trouves pas? C'est affreux, je ne pourrais plus vivre comme avant...~
+
+@263  = ~ Hmpf! <CHARNAME> n'a aucun intérêt pour tes protubérances mammaires, Kim. Cesse de les agiter ainsi devant lui et laisse-nous en paix!~
+
+@264  = ~ (Vous voyez Kim s'éloigner de vous en grommelant. Lorsqu'Aerie lui tourne le dos, elle vous tire la langue et fait mine de vérifier de nouveau la taille de sa poitrine)~
+
+@265  = ~ Tiens, voilà le grand retour de mademoiselle "je-suis-triste-et-je-pleure-pour-apitoyer-<CHARNAME>". Tu nous retardes, et tu retardes <CHARNAME>!~
+
+@266  = ~ Combien de fois faudra-t-il te dire d'arrêter de m'ennuyer, Kim? Je sais que tu lui tournes autour, mais <CHARNAME> n'est certainement pas ta propriété!~
+
+@267  = ~ Il est en tout cas plus proche de moi que de toi, espèce de sale gamine minaudière!~
+
+@268  = ~ Oh! Comment oses-tu! <CHARNAME>, fais quelque chose! Elle est méchante avec moi!~
+
+@269  = ~ Et gnagnagna, et gnagnagna... c'est amusant de voir comme tu essaies de te faire passer pour une fille faible et sans défense, toi qui es à la fois mage et clerc de haut niveau! ~
+
+@270  = ~ Ca suffit, maintenant! <CHARNAME>, comment peux-tu supporter qu'une telle harpie te tourne autour?~
+
+@271  = ~ Ah, eh bien puisque nous parlons de ça, comment fais-tu pour accepter que cette nymphomane te drague ouvertement?~
+
+@272  = ~ Que... moi, nymphomane? Ca ne va pas? Kim, je... <CHARNAME>, il est temps de choisir! C'est elle ou moi, mais tu ne peux pas continuer à nous faire les yeux doux ainsi!~
+
+@273  = ~ Ne prends pas tes désirs pour des réalités, Aerie. Il ne t'a jamais fait les yeux doux. Il est juste compatissant et généreux.~
+
+@274  = ~ Ca suffit! <CHARNAME>, j'attends ta décision!~
+
+@275  = ~ Et je serais curieuse de voir ça, moi aussi... alors, la petite elfe sans aile et sans charme, ou la belle et mystérieuse pirate?~
+
+@276  = ~ Kim, cesse d'ennuyer ainsi Aerie. Tu es insupportable et vulgaire!~
+
+@277  = ~ Kim a raison, Aerie. Cesse un peu de te plaindre et profite de la vie!~
+
+@278  = ~ Arrêtez vos chamailleries tout de suite! On dirait des chattes en chaleur qui se disputent!~
+
+@279  = ~ (Pendant un moment, Kim reste comme foudroyée, incapable de comprendre ce que vous venez de dire. Elle était tellement sûre que vous la choisiriez, elle...)~
+
+@280  = ~ Tu ne t'en sortiras pas aussi facilement, <CHARNAME>, à minauder ainsi. Alors, Aerie ou moi?~
+
+@281  = ~ Tu ne me laisses pas le choix... C'est Aerie que je préfère.~
+
+@282  = ~ Tu as raison... Aerie, même si c'est difficile à dire, je crois que c'est Kim que je préfère.~
+
+@283  = ~ (Elle baisse la tête lentement, comme si vous regardez lui était trop difficile. Pourtant, lorsqu'elle parle enfin, sa voix ne tremble pas)~
+
+@284  = ~ Oh... Hmmm, je vois... Môôssieur aime bien les filles soumises et effacées, eh? Très bien, très bien. Reste avec ta donzelle fadasse, je ne te dérangerai plus!~
+
+@285  = ~ (Alors qu'Aerie s'écarte, en larmes, vous voyez Kim se mordre la lèvre, comme si elle regrettait ce qu'elle venait de faire)~
+
+@286  = ~ Je... je ne voulais pas que ça se termine ainsi, mais je suppose que je suis trop... hmm... continuons la route, n'est-ce pas, <CHARNAME>?~
+
+@287  = ~ (Aerie reste un instant bouche ouverte, comme frappée par la foudre. Ses yeux si confiants s'emplissent de larmes alors qu'elle réalise ce que vous venez de dire)~
+
+@288  = ~ Très... très bien, <CHARNAME>. Si c'est une catin fardée que tu veux, je... je ne te dérangerai plus. Je t'ai mal jugé!~
+
+@289  = ~ Oh... je ne voulais pas que ça se termine ainsi... c'est tellement embarassant!~
+
+@290  = ~ Hmpf... voilà l'elfe noir qui bat des paupières comme une fille de joie... pathétique!~
+
+@291  = ~ Toi? Mal juger quelqu'un? Pas possible...~
+
+@292  = ~ Tais-toi, Rivvin. Ce n'est pas à toi que je parle, mais à <CHARNAME>.~
+
+@293  = ~ Ca, pour parler, tu lui parles! Tu es même collée à lui comme si tu avais peur qu'il ne s'enfuie. Hmpf, je suis sûre qu'il en meurt d'envie!~
+
+@294  = ~ La petite pirate montre sa jalousie... comme c'est mignon. Bon, <CHARNAME>, éloignons-nous, et laissons-la brûler de frustration dans son coin...~
+
+@295  = ~ Hah ! L'elfe noire parle de mariage! Comme si tu pouvais en comprendre le sens, catin fardée!~
+
+@296  = ~ Qui t'a parlé, petite pirate? Certainement pas moi. Tais-toi devant tes supérieurs, et laisse-moi parler à <CHARNAME>!~
+
+@297  = ~ Tu aimerais ça, n'est-ce pas? Que je vous laisse en tête à tête pour que tu puisses glisser tes bras de pieuvre autour de son cou?~
+
+@298  = ~ Oh, mais voilà une idée excellente... merci, Kim, de me donner des idées aussi formidables!~
+
+@299  = ~ Je refuse de voir ça!~
+
+@300  = ~ Alors, <CHARNAME>? Le mariage?~
+
+@301  = ~ Ca y est, la drow souffle de nouveau le chaud et le froid. Ne te laisse pas impressionner, <CHARNAME>.~
+
+@302  = ~ Tu ne connais rien aux mâles, fillette, et tu ne peux comprendre ce que nous, adultes, pouvons ressentir. Ne me regarde pas avec ces yeux brûlants d'envie, Kim. Jamais tu ne seras aussi sensuelle que moi!~
+
+@303  = ~ Si pour toi sensuelle veut dire habillée comme une catin, alors je n'ai aucune envie d'être, hmm, aussi "sensuelle" que toi. Mais j'ai confiance en <CHARNAME>, et je sais qu'il ne fait que jouer avec toi...~
+
+@304  = ~ Oh, oui, <CHARNAME>, joue avec moi... oublions cette rivvin et continuons notre conversation.~
+
+@305  = ~ Viconia, tu ne vois pas que <CHARNAME> en a assez de tes manoeuvres complexes pour essayer de le séduire? Il ne te rejette pas par politesse, mais il ne ressent rien pour toi!~
+
+@306  = ~ Ne sois pas ridicule, elg'caress. C'est plutôt toi qui devrais réfléchir. <CHARNAME> fait l'effort d'écouter toutes tes jérémiades, alors que tu es laide et sans cervelle!~
+
+@307  = ~ Comment oses-tu? Je vais te balafrer si bien le visage que plus aucun homme n'acceptera de te regarder, Viconia!~
+
+@308  = ~ <CHARNAME>, retiens ta chienne avant que je ne sois obligée de la tuer!~
+
+@309  = ~ Nous verrons bien qui tuera qui. En garde, drow!~
+
+@310  = ~ Kim, cesse de brailler ainsi! Viconia est bien plus sensuelle que toi...~
+
+@311  = ~ Viconia, Kim a raison. Je suis désolé, mais c'est Kim que je préfère.~
+
+@312  = ~ Hmm, est-ce que vous ne croyez pas qu'on pourrait... tous les trois... ?~
+
+@313  = ~ Quoi? Comment oses-tu... <CHARNAME>, ce n'est pas le moment de plaisanter. C'est elle, ou moi!~
+
+@314  = ~ Alors c'est toi.~
+
+@315  = ~ Alors c'est elle.~
+
+@316  = ~ Oh... Hmmm, je vois... Môôssieur aime bien les prostituées sans pudeur ni honte, hein? Très bien. Ne faites pas trop de bruit en copulant, sales porcs!~
+
+@317  = ~ (Alors que Viconia s'écarte, outragée,vous voyez Kim sourire victorieusement et lui tirer la langue dans son dos)~
+
+@318  = ~ Je savais que tu ne supportais pas que cette catin te tourne autour, <CHARNAME>. M... merci.~
+
+@319  = ~ (Vous voyez la peau de Viconia s'assombrir encore plus sous l'effet de la colère et de l'humiliation, alors qu'elle assimile ce que vous venez de dire)~
+
+@320  = ~ Tu préférerais cette gamine prépubère et stupide à une véritable amante? <CHARNAME>, tu ne sauras jamais ce que tu as perdu aujourd'hui...~
+
+@321  = ~ Je le savais, <CHARNAME> ! Tu as fait le bon choix, et tu ne le regretteras pas...~
+
+@322  = ~ Quel ton mélodramatique...~
+
+@323  = ~ Et pourquoi voudrait-il entendre la réponse? Tu crois vraiment qu'il est le moins du monde intéressé par toi?~
+
+@324  = ~ Tais-toi, gamine! Tu es incroyablement possessive envers <CHARNAME>, mais il n'appartient à personne. Et je lui parlerai si je le veux. Notre amitié remonte à longtemps.~
+
+@325  = ~ "Amitié", hein? Hmm, je vois comme tu le regardes, je ne suis pas aveugle, Jaheira... mais je lui fais confiance pour te montrer qu'il a très bien vu où tu voulais en venir...~
+
+@326  = ~ Alors, <CHARNAME>, cette question... tu en veux la réponse, oui ou non?~
+
+@327  = ~ Sans blaaague? Mais tu te fais toujours du souci, Jaheira! (elle fredonne) Au soleil, sous la pluit, à midi ou à minuit, il n'y en a qu'une pour râler, devinez qui c'est?~
+
+@328  = ~ Hmpf! Et pour ta part, tu n'es qu'une enfant. Laisse les grandes personnes discuter, Kim. Nous changerons ta couche plus tard.~
+
+@329  = ~ Hmm, intéressant... tu crois que <CHARNAME> accepterait de s'y coller? <CHARNAME>, oublie cette femme stressée et viens discuter plutôt avec moi!~
+
+@330  = ~ Oh, tu es insupportable! <CHARNAME>, viens, terminons cette conversation à l'écart.~
+
+@331  = ~ Hmpf. Ca y est, la demi-elfe se remet à coller <CHARNAME>. Quelle surprise...~
+
+@332  = ~ Kim, je t'ai déjà dit que lorsqu'on n'avait rien à dire, il valait mieux se taire. Suis-je claire?~
+
+@333  = ~ Quel tempérament! <CHARNAME>, comment fais-tu pour supporter une femme aussi emm... saoûlante?~
+
+@334  = ~ Tu es bien la seule à croire que je sois, comment as-tu dit, "saoûlante", ma pauvre Kim. Il se trouve que <CHARNAME> apprécie mes charmes et ma compagnie.~
+
+@335  = ~ Il n'apprécie rien du tout, il ne fait que serrer les dents en attendant que ça passe... par amitié. Ne te berce pas d'illusions ainsi, Jaheira... Khalid ne serait pas content de te voir dans cet état.~
+
+@336  = ~ Oh, c'est une attaque perfide! <CHARNAME>, je n'en peux plus! Je sais que tu me comprends! Dis à cette oie écervelée de se taire!~
+
+@337  = ~ Oie écervelée? Moi? Et toi, tu... tu es une truie boueuse!~
+
+@338  = ~ Kim, tu es insupportable. Laisse-nous tranquille, Jaheira et moi!~
+
+@339  = ~ Jaheira... si vraiment ça en vient à un choix, alors je choisis Kim...~
+
+@340  = ~ Miam, combat de boue!~
+
+@341  = ~ Hmpf! Je ne vais pas me donner plus longtemps en spectacle pour ton bon plaisir, <CHARNAME>. Décide-toi, et vite!~
+
+@342  = ~ Jaheira, j'aimerais que nous continuions notre conversation. Oublions Kim.~
+
+@343  = ~ Je n'aime pas ta jalousie, mais tu as raison cette fois-ci, Kim...~
+
+@344  = ~ Je vois que monsieur aime bien se faire mener au fouet et à la baguette. Très bien, si tu apprécies les femmes à poigne, amuse-toi bien, <CHARNAME>. Ne viens pas ramper vers moi lorsque tu ne la supporteras plus!~
+
+@345  = ~ (Jaheira s'écarte de vous, le coeur lourd. Vous voyez Kim jeter un regard désolé dans sa direction, comme si elle se sentait soudain coupable. Mais son sourire revient alors qu'elle vous détaille)~
+
+@346  = ~ Tu as fait le bon choix, <CHARNAME>. Cette fille était bien trop autoritaire!~
+
+@347  = ~ (Vous ne pouvez vous empêcher de vous demander si cette Kim n'est pas elle-même un peu autoritaire...)~
+
+@348  = ~ (Jaheira vous regarde avec incrédulité. Pendant un instant, elle reste bouche ouverte, incapable de prononcer le moindre mot. Puis, doucement, vous voyez une larme unique couler sur sa joue, rapidement essuyée)~
+
+@349  = ~ Je... je suppose que c'est mieux ainsi, <CHARNAME>. Nous ne sommes finalement que... que de vieux amis...~
+
+@350  = ~ <CHARNAME>, je... je ne voulais pas que ça se passe comme ça. Je suis désolée. C'est elle qui... (Jaheira soupire) Mais merci quand même. Ton choix m'a fait chaud au coeur.~
+
+@351  = ~ Adieu, misérables insectes!~
+@352  = ~ Hmpf!~
+@353  = ~ La haine! ~
+@354  = ~ Miam! Slurp! Glop!~
+@355  = ~ Insolente gamine!~
+@356  = ~ Ssssssss!~
+@357  = ~ Ne me fais pas rire, petite idiote! Tu crois que je vais prendre des gants avec toi?~
+@358  = ~ Je suis mort de peur, gamine...~
+
+@400 = ~Le combat final contre Bodhi
+
+Bodhi est apparue dans une embuscade peu avant que j'atteigne son antre, me prévenant qu'elle savait ce que je faisais et qu'elle me volait la personne la plus chère à mon coeur : Kim. Avant de disparaître et de lâcher ses autres morts-vivants à mes trousses, Bodhi m'a dit que si je continuais, je pourrais perdre beaucoup plus que je ne croyais. Je ne peux pas abandonner le Rhynn Lanthorn... mais désormais, la vie et l'âme immortelle de quelqu'un que j'aime sont aussi en jeu !~ ~Le combat final contre Bodhi
+
+
+
+Bodhi est apparue dans une embuscade peu avant que j'atteigne son antre, me prévenant qu'elle savait ce que je faisais et qu'elle me volait la personne la plus chère à mon coeur : Kim. Avant de disparaître et de lâcher ses autres morts-vivants à mes trousses, Bodhi m'a dit que si je continuais, je pourrais perdre beaucoup plus que je ne croyais. Je ne peux pas abandonner le Rhynn Lanthorn... mais désormais, la vie et l'âme immortelle de quelqu'un que j'aime sont aussi en jeu !~

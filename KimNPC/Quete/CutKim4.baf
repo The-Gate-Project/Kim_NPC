@@ -1,0 +1,32 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+    Wait(2)
+    CreateVisualEffectObject("SPDIMNDR",Player1)
+    CreateVisualEffectObject("SPDIMNDR",Player2)
+    CreateVisualEffectObject("SPDIMNDR",Player3)
+    CreateVisualEffectObject("SPDIMNDR",Player4)
+    CreateVisualEffectObject("SPDIMNDR",Player5)
+    CreateVisualEffectObject("SPDIMNDR",Player6)
+    Wait(2)
+		FadeToColor([20.0],0)
+    LeaveAreaLUA("AR0300","",[1679.3012],0)
+    ActionOverride(Player2,LeaveAreaLUA("AR0300","",[1723.3027],0)
+    ActionOverride(Player3,LeaveAreaLUA("AR0300","",[1797.3039],0))
+    ActionOverride(Player4,LeaveAreaLUA("AR0300","",[1713.2966],0))
+    ActionOverride(Player5,LeaveAreaLUA("AR0300","",[1761.2981],0))
+    ActionOverride(Player6,LeaveAreaLUA("AR0300","",[1809.3003],0))
+    Wait(2)
+    CreateVisualEffectObject("SPFLSRIN",Player1)
+    CreateVisualEffectObject("SPFLSRIN",Player2)
+    CreateVisualEffectObject("SPFLSRIN",Player3)
+    CreateVisualEffectObject("SPFLSRIN",Player4)
+    CreateVisualEffectObject("SPFLSRIN",Player5)
+    CreateVisualEffectObject("SPFLSRIN",Player6)
+		MultiPlayerSync()
+		EndCutSceneMode()
+		FadeFromColor([20.0],0)
+END
+

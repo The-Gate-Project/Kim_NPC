@@ -1,0 +1,145 @@
+@9001 = ~[Oo]nly[ %tab%]+[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+@9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+
+@0   = ~Kim for BG2:SOA (ToB: required) version 1.62d~
+@1   = ~Kim~
+@2   = ~Priestess Nadia~ 
+@3   = ~Greenbeard~
+@4   = ~Solar~ 
+@5   = ~ZubbZubb~
+@6   = ~BuzzBuzz~
+@7   = ~Zven~ 
+@8   = ~Vampire~
+@10  = ~Strange Amulet~ 
+@11  = ~Amulet of Greenbeard~
+@12  = ~Amulets are usually magical objects that hang around the neck attached by a chain. The type of chain accompanying the amulet often increases the aesthetic value of the object, but rarely its magical properties. You can not wear more than one amulet at a time.~
+@13  = ~The amulet worn by Greenbeard grants a powerful protection against melee attacks. It actually generates a magic field that slows blows and slowly regenerates the wearer.
+
+STATISTICS:
+	
+10% resistance to smashing damage
+10% resistance to cutting damage
+10% resistance to piercing damage
+Regeneration: 1HP per round~ 
+@15  = ~Battle-Axe~
+@16  = ~Mystic Axe of Entropy~ 
+@17  = ~The most prevalent version of the battle axe is a large shaft, about 4 feet long, with a single-edged blade.
+
+STATISTICS:
+Damage: 1D8
+Damage type: slashing
+Weight: 7
+Speed Factor: 7
+Proficiency Type: Axe
+Type: one-handed
+Requires: 10 Strength
+Not Usable By:
+Druid
+Cleric
+Mage
+Thief~
+@18  = ~The Mystic Axe of Entropy is a very dangerous weapon, the result of several enchantments by Wild Mages who sought to give chance a shape, so it helps in combat. They have partially succeeded. The weapon has indeed many random capabilities to help its bearer to destroy enemies.
+
+STATISTICS:
+
+Combat Abilities:
+15% slow the enemy
+5% decapitate the enemy
+5% disintegrate the enemy
+10% poison the enemy
+5% petrify the enemy
+5% stun the enemy
+10% absorb two levels of the enemy
+10% be protected by Improved Mantle
+
+Damage: 1D8 + 4
+If Hit is successful: + 4 Damage Type: slashing
+Weight: 7
+Speed Factor: 2
+Proficiency Type: Axe
+Type: one-handed
+Requires: 10 Strength
+Not Usable By:
+Druid
+Cleric
+Mage
+Thief~
+@20  = ~Incomprehensible Map~
+@21  = ~Right piece of a treasure map~ 
+@22  = ~This parchment is covered with strange drawings and a fine handwriting  impossible to decipher~
+@23  = ~Cliffs of Madness... 52° west... great dangers...
+
+Do not be overwhelmed by excitement, but it seems that you hold in your hand a piece of a treasure map! Unfortunately, the left side is missing. Without it, there is no way to locate the alleged treasure~ 
+@25  = ~Left piece of a treasure map~ 
+@26  = ~Turn right after the... 17° north... A great treasure, but...
+
+Do not be overwhelmed by excitement, but it seems that you hold in your hand a piece of a treasure map! Unfortunately, the right side is missing. Without it, there is no way to locate the alleged treasure~
+@30  = ~Kim's Hood~ 
+@31  = ~You certainly would have preferred to see Kim's beautiful black hair float in the wind, but she never seems to abandon her hood, even when she sleeps. She says, full of awareness, that this object amplifies the shadows on her face in combat, allowing her to cover her intention to attack and, by doing so, to fight more effectively.
+
+STATISTICS:
+
+Hide in shadows: +10%
+TAC0: +1
+Armor class: +1~
+@35  = ~Chain mail~
+@36  = ~Elvish Dwarven Chain mail~
+@37  = ~Light and thin, this chain mail looks exactly like the elvish chain mail that you may have had the opportunity to see. Yet the craft seems to be very different. You are unable to pinpoint, but something is wrong
+
+STATISTICS:
+
+Armor class : 2
+Weigth : 4
+Required : 5 Strength
+Not Usable By:
+Druid
+Mage~
+@38  = ~This chain mail is probably the last remnant of the attempts to end their endless quarrels between elves and dwarfs. The two races have combined their talents to achieve this little masterpiece, as robust as a dwarven armor, but enchanted by the elves
+
+STATISTICS:
+
+Memorize 1 Extra Level 5 and Level 6 spell 
+Armor class: 2
+Weight: 4
+Required: 5 Strength
+Not Usable By:
+Druid
+Mage~
+@40  = ~Urn of Greenbeard~
+@41  = ~Despite the charms and holy water that were used to seal the urn, you can feel an aura of evil escape, seeking to take control of your thoughts~
+@45  = ~Kim's Corpse~
+@46  = ~The body of Kim, who you had to kill to release her from Bodhi's curse~
+@50  = ~$$$$$ Sounds $$$$$~
+@51  = ~$$$$$ Creatures $$$$$~
+@52  = ~$$$$$ Objects and scripts $$$$$ ~
+@53  = ~$$$$$ Dialogues $$$$$ ~
+@54  = ~$$$$$ Areas $$$$$ ~
+@55  = ~$$$$$ Decompression of the sound files at exit $$$$$~
+@56 = ~ $$$$ Scripts $$$$$ ~
+@100 = ~Installation of the readjusted axe~
+@101 = ~STATISTICS:
+
+Combat capabilities:
+15% slow the enemy if saving throw against the petrification -4 fails
+5% decapitate the enemy if saving throw against death -4 fails
+5% disintegrate the enemy if saving throw against death -4 fails
+10% poison the enemy if saving throw against poison -4 fails
+5% petrify the enemy if saving throw against petrification -4 fails
+5% stun the enemy if saving throw against petrification -4 fails
+10% absorb two levels of the enemy saving throw -4 fails
+10% be protected by Improved Mantle
+
+Damage 1D8 + 4
+If Hit is successful: + 4 Damage Type : slashing
+Weight: 7
+Speed Factor: 2
+Skill Type: Axe
+Type: one-handed
+Required: 10 Strength
+Not usable by:
+Druid
+Cleric
+Mage
+Thief~
+@102 = ~You must first install the mod Kim NPC.~
+@103 = ~Installation of "Baldur's Gate II" Unrecognized~

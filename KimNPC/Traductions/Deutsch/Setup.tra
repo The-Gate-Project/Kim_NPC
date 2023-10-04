@@ -1,0 +1,140 @@
+@0   =~Kim fur BG2: SOA (ToB: benotigt) Version 1.62d~
+@1   =~Kim~
+@2   =~Priesterin Nadia~
+@3   =~Grünbart~
+@4   =~Solar~
+@5   =~ZubbZubb~
+@6   =~BuzzBuzz~
+@7   =~Zven~
+@8   =~Vampir~
+@10  =~Seltsames Amulett~
+@11  =~Amulett von Grünbart~
+@12  =~Amulette sind in der Regel magische Gegenstände die um den Hals gehängt an einer Kette. Die Art der Kette des Amulett erhöht häufig den ästhetischen Wert des Objekts, aber nicht seine magischen Eigenschaften. Man kann nur ein Amulett am Hals tragen.~
+@13  =~Das Amulett von Grünbart bietet einen mächtigen Schutz gegen Nahkampfangriffe. Es umhüllt den Träger mit einem Kraftfeld, das Schläge verlangsamt und ihn langsam regeneriert.
+
+Eigenschaften:
+10% Resistenz gegen Schäden durch Schlagwaffen
+10% Resistenz gegen Schäden durch Schnittwaffen
+10% Resistenz gegen Schäden durch Stichwaffe
+Regeneration: 1TP pro Runde~
+@15  =~Kampf-Axt~
+@16  =~Mystische Axt der Entropie~
+@17  =~Die am weitesten verbreitete Version von der Kampfaxt besitzt eine große Stange von etwa 1,20 Meter Länge, mit einer einschneidigen Klinge, in Form einer Trompete. Kampfäxte werden auch als große Äxte bezeichnet.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht: 7
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Axt
+Typ: einhändig
+Mindeststärke: 10
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern
+Dieben~
+@18  =~Die Mystische Axt der Entropie ist eine sehr gefährliche Waffe, das Ergebnis der Zauber von mehreren Wilden Magiern, die versuchten den Zufall so zu beeinflussen, dass er im Kampf hilft. Sie hatten teilweise Erfolg. Die Waffe verfügt über viele Fähigkeiten, die auf zufällige Weise ihrem Träger helfen, seine Feinde zu vernichten.
+
+EIGENSCHAFTEN:
+
+Kampfeigenschaften:
+15% Feind verlangsamen
+5% Feind enthaupteten
+5% Desintegration des Feindes
+10% Feind vergiften
+5% Feind versteinern
+5% Feind einschlafen
+10% Absorption von zwei Stufen des Feindes
+10% durch den Spruch Verbesserter Mantel geschützt zu werden
+
+Schaden: 1W8 + 4 (Klinge)
+Gewicht: 7
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Axt
+Typ: einhändig
+Mindeststärke: 10
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern
+Dieben~
+@20  =~Unverständliche Karte~
+@21  =~Rechter Teil der Schatzkarte~
+@22  =~Dieses Pergament ist mit seltsamen Zeichnungen und einer nicht zu entziffernden feinen Schreiben bedeckt~
+@23  =~Klippen des Wahnsinns... 52 ° westlich... große Gefahren...
+
+Lass dich nicht von der Aufregung erfassen, aber es scheint, dass du ein Stück von einer Schatzkarte in der Hand hälst! Leider ist der linke Teil abgerissen worden. Ohne dieses gibt es keine Möglichkeit dieses angeblichen Schatz zu finden.~
+@25  =~Linker Teil der Schatzkarte~
+@26  =~Biegen Sie nach rechts nach... 17° nördlich... Ein großer Schatz, aber...
+
+Lass dich nicht von der Aufregung erfassen, aber es scheint, dass du ein Stück von einer Schatzkarte in der Hand hälst! Leider ist der rechte Teil abgerissen worden. Ohne dieses gibt es keine Möglichkeit dieses angeblichen Schatz zu finden.~
+@30  =~Kims Kapuze~
+@31  =~Ihr würdet es definitiv bevorzugen, die schönen schwarzen Haare von Kim im Wind wehen zu sehen, aber es scheint, dass sie diese Kapuze nie abliegt, auch nicht zum Schlafen. Sie behauptet, mit Selbstbewusstsein, dass dieses Objekt die Schatten auf ihrem Gesicht im Kampf besser betont, und es ihr ermöglicht ihre Angriffe zu verbergen und effizienter zu kämpfen.
+
+EIGENSCHAFTEN:
+
+Im Schatten verstecken: +10%
+ETW0: +1
+Rüstungsklasse: +1~
+@35  =~Kettenhemd~
+@36  =~Zwergisches Elfenkettenhemd~
+@37  =~Leicht und fein, dieses Kettenhemd gleicht einem Elfenkettenhemd wie zwei Wassertropfen, die Ihr bei Gelegenheit sehen konntet. Jedoch, scheint die handwerkliche Arbeit sehr unterschiedlich zu sein. Ihr seid unfähig zu sagen inwiefern, aber etwas stimmt nicht.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse : 2
+Gewicht: 4
+Mindeststärke: 5
+Kann nicht verwendet werden von:
+Druiden
+Magiern
+~
+@38  =~Diese Kettenrüstung ist wahrscheinlich der letzte Überrest der vielen Versuche, die ewig dauernden Streitigkeiten zwischen Elfen und Zwerge zu beenden. Beide Völker kombinierten ihre Talente, um dieses kleine Meisterwerk zu vollbringen, so robust wie eine Zwergenrüstung, doch verzaubert durch die Macht der Elfen.
+
+EIGENSCHAFTEN:
+
+Speicherung von einem zusätzlichen Spruch aus der Stufe 5 und 6
+Rüstungsklasse: 2
+Gewicht: 4
+Mindeststärke: 5
+Kann nicht verwendet werden von:
+Druiden
+Magiern~
+@40  =~Urne von Grünbart~
+@41  =~Trotz der Verzauberungen und des Weihwassers die diese Urne versiegeln, kann man eine Aura des Bösen entweichen spüren, bemüht die Kontrolle über deine Gedanken zu erlangen.~
+@45  =~Kims Leiche~
+@46  =~Die Leiche von Kim, die Ihr töten musstet, um sie von Bodhis Fluch zu befreien.~
+@50  =~$$$$$ Sounds $$$$$~
+@51  =~$$$$$ Kreaturen $$$$$~
+@52  =~$$$$$ Objekte und Skripte $$$$$~
+@53  =~$$$$$ Dialoge $$$$$~
+@54  =~$$$$$ Gebiete $$$$$~
+@55  =~$$$$$ Dekompression der Soundeffekte beim Verlassen des Programmes $$$$$~
+@56 = ~ $$$$ Scripts $$$$$ ~
+@100 =~Installation der angepassten Axt~
+@101 =~EIGENSCHAFTEN:
+
+Kampfeigenschaften:
+15% Feind wird verlangsamt, falls Rettungswurf gegen Versteinerung -4 verfehlt
+5%, Feind wird enthauptet,  falls Rettungswurf gegen Tod -4 verfehlt
+5% Feind wird desintegriert, falls Rettungswurf gegen Tod -4 verfehlt
+10% Feind wird vergiftet, falls Rettungswurf gegen das Gift -4 verfehlt
+5%, Feind wird versteinert, falls Rettungswurf gegen Versteinerung -4 verfehlt
+5% Schlaf, falls Rettungswurf gegen Versteinerung -4 verfehlt
+10% Absorption von zwei Stufen, falls Rettungswurf -4 verfehlt
+10% durch den Spruch Verbesserter Mantel geschützt zu werden
+
+Schaden: 1W8 + 4 (Klinge)
+Gewicht: 7
+Faktor Geschwindigkeit: 2
+Fertigkeit: Axt
+Typ: einhändig
+Mindeststärke: 10
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern
+Dieben~
+@102 =~Zuerst Kim NPC installieren~
+@103 =~Installation von "Baldur's Gate II" nicht erkannt~

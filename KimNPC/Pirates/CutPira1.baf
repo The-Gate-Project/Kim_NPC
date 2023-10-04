@@ -1,0 +1,15 @@
+IF
+    True()
+THEN
+    RESPONSE #100
+        CutSceneId("Kim")
+        Wait(1)
+        ActionOverride("Pirate1", MoveToObject(Player1))
+        ActionOverride("Pirate2", MoveToObject(Player1))
+        ActionOverride("Pirate3", MoveToObject(Player1))
+        Wait(1)
+        ClearActions("Pirate1")
+        ClearActions("Pirate2")
+        ClearActions("Pirate3")
+         SetGlobal("debutquete1","LOCALS",2)
+END

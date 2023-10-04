@@ -1,0 +1,42 @@
+IF
+  Global("impfight","GLOBAL",3)
+  Global("impcadeau","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("impcadeau","LOCALS",1)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    DestroySelf()
+END
+
+IF
+  Global("impfight","GLOBAL",1)
+  Global("imptrick","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("imptrick","LOCALS",1)
+    CreateCreatureObject("TANARI01",Player1,0,0,0)  // ~Tanar'ri~
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    JumpToPoint([168.385])
+END
+
+IF
+  Global("imptrick","LOCALS",1)
+  Dead("LICH01")  // ~Liche~
+  Dead("TANAR")  // TANAR
+  Dead("IMPMOB")  // ~Vampire~
+THEN
+  RESPONSE #100
+    SetGlobal("imptrick","LOCALS",2)
+    SetGlobal("impfight","GLOBAL",2)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    ReallyForceSpell(Player1,WIZARD_DIMENSION_DOOR)
+END
+
+IF
+  TimeOfDay(DAY)
+THEN
+  RESPONSE #100
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    DestroySelf()
+END
+

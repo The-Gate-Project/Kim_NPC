@@ -1,0 +1,83 @@
+IF
+  Global("pirateobjet","GLOBAL",1)
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+
+IF
+  Global("barbefight","GLOBAL",1)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    Enemy()
+    Continue()
+END
+
+IF
+  !GlobalTimerNotExpired("time","LOCALS")
+  HPPercentLT(Myself,50)
+  HasItem("Potn52",Myself)  // ~Potion de grands soins~
+THEN
+  RESPONSE #100
+    UseItem("Potn52",Myself)  // ~Potion de grands soins~
+    SetGlobalTimer("time","LOCALS",8)
+END
+
+IF
+  !Gender(SixthNearestEnemyOf(Myself),SUMMONED)
+  See(SixthNearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+END
+
+IF
+  !Gender(FifthNearestEnemyOf(Myself),SUMMONED)
+  See(FifthNearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+END
+
+IF
+  !Gender(FourthNearestEnemyOf(Myself),SUMMONED)
+  See(FourthNearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+END
+
+IF
+  !Gender(ThirdNearestEnemyOf(Myself),SUMMONED)
+  See(ThirdNearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+END
+
+IF
+  !Gender(SecondNearestEnemyOf(Myself),SUMMONED)
+  See(SecondNearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+END
+
+IF
+  !Gender(NearestEnemyOf(Myself),SUMMONED)
+  See(NearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    Attack(LastSeenBy(Myself))
+END
+

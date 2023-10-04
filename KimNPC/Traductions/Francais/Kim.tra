@@ -1,0 +1,367 @@
+@0    = ~ Je suis la meilleure lame de la guilde, et garde du corps personnel de Renal. Mets-le en colère, et tu ne vivras pas pour le regretter…~
+
+@1    = ~ Ne me fais pas rire. Toi? Te servir d'une épée? Retourne à la couture, femme!~
+
+@2    = ~ Ce n'est pas dur d'être la meilleure lame d'une guilde aussi minable… Et tu es fière de ça?~
+
+@3    = ~ Oh? Personnellement, je pense que je pourrais te donner une râclée avec une main attachée dans le dos!~
+
+@4    = ~ Hmm.. si tu le dis, gamine…~
+
+@5    = ~ Je suppose qu'il faudra que je me conduise bien, alors!~
+
+@6    = ~ Meilleure lame? Voilà des mots que j'aime! Ca te dirait, un petit duel?~
+
+@7    = ~ Un beau visage ET une belle épée? Je crois que je tombe amoureux…~
+
+@8    = ~ Euh… et qui es-tu, à part ça?~
+
+@9    = ~ Je ne vais pas laisser une servante m'insulter ainsi! Tire ton épée et meurs!~
+
+@10   = ~ Oh, je vois. Encore un de ces machos bons à rien qui pensent que la bosse dans leur pantalon les rend plus intelligents… Bah, que tu me croies ou non, c'est le moindre de mes soucis. Pars d'ici et cesse de me fatiguer.~
+
+@11   = ~ Ca n'est pas faux… D'un autre côté, je pourrais te percer le cœur avant que tu n'aies eu le temps de cligner des yeux. Si je suis si mauvaise, alors qu'est-ce que ça ferait de toi?~
+
+@12   = ~ Euh, un corps, je suppose?~
+
+@13   = ~ Ah ouais? Et moi je pense que je pourrais te mettre une râclée avec une main!~
+
+@14   = ~ Et pourrais-je connaître le nom d'une aussi fine lame?~
+
+@15   = ~ Un joli visage, une belle épée ET une langue acérée? Je crois que je suis amoureux…~
+
+@16   = ~ Une femme? Me battre? Tu plaisantes, j'espère!~
+
+@17   = ~ On dirait bien une provocation en duel… Très bien, jeune fille, voyons comment tu te débrouilles!~
+
+@18   = ~ C'est moi qui percerai ton coeur pourri, catin! Tire ton épée avant que je ne te tue!~
+
+@19   = ~ Heh. Tu m'amuses,  <PRO_LADYLORD>. J'aimerais te montrer exactement qui donnerait une fessée à qui, mais Renal m'a dit que vous lui étiez utile, donc je suppose que je vais devoir vous laisser partir… pour le moment...~
+
+@20   = ~ Dès que l'on parle sérieusement, tu recules comme la lâche que tu es. Tire ton épée, et meurs!!~
+
+@21   = ~ Tu penses que *toi*, tu pourrais me mettre une fessée? Voilà qui est intéressant! Ca te dirait, un petit duel amical?~
+
+@22   = ~ Mmmh, une fessée! J'adore ça!~
+
+@23   = ~ Euh...  Comme tu veux, gamine.~
+
+@24   = ~ Ce sera un plaisir de régler ça lorsque nous ne serons... plus utiles à Renal.~
+
+@25   = ~ Je n'aime pas ton attitude. Fais attention à ton comportement envers moi...~
+
+@26   = ~ Oui, tu ferais mieux *regard mauvais*...~
+
+@27   = ~ Je ne me bats pas avec des étrangers pris au hasard. Montrez-moi d'abord ce dont vous êtes capable, et peut-être que je vous testerai plus tard.~
+
+@28   = ~ Je m'en souviendrai. Une fois Mae'var mort, je reviendrai pour ce duel.~
+
+@29   = ~ Et voilà, tu recules comme la lâche que tu es! Tire ton épée et meurs!~
+
+@30   = ~ En y réfléchissant, c'est probablement une mauvaise idée que de se battre. Je pense que je vais partir... rapidement...~
+
+@31   = ~ Pourrais-tu me dire qui tu es, que je puisse m'en souvenir lorsque le moment sera venu?~
+
+@32   = ~ Ce serait un plaisir que d'être testé dans un endroit plus... sensuel~
+
+@33   = ~ Bah! De belles paroles ne t'aideront pas avec moi. Qu'est-ce que tu veux, que je te gratouille derrière les oreilles comme un bon toutou?~
+
+@34   = ~ Pour être honnête, je préférerais que tu me gratouilles... ailleurs!~
+
+@35   = ~ Oui, ça serait agréable, maintenant que j'y pense! *tend le cou*~
+
+@36   = ~ Je préférerais que tu me dises qui tu es. Je ne sais même pas ton nom…~
+
+@37   = ~ Ce que je veux, c'est ta tête sur une pique. Tire ton épée et meurs, femme!~
+
+@38   = ~ Je vois... Eh bien, que dirais-tu d'un duel amical pour apprendre à mieux nous connaître?~
+
+@39   = ~ C'était un compliment sincère. Honnêtement, tu es incroyablement attirante!~
+
+@40   = ~ Si tu n'aimes pas les belles paroles, tu préféres peut-être les insultes, hein ma grosse vache?~
+
+@41   = ~ Oh, ok. Je ne vais pas te déranger plus longtemps alors...~
+
+@42   = ~ Je suis Kim-Lan. Les gens m'appellent Kim.~
+
+@43   = ~ Je suis <CHARNAME>. Les gens m'appellent étalon!~
+
+@44   = ~ Je suis <CHARNAME>. Ravi de te rencontrer, Kim.~
+
+@45   = ~ Et... c'est tout? Plutôt court, pour une présentation, non?~
+
+@46   = ~ C'est un nom ridicule…~
+
+@47   = ~ C'est un très joli nom, pour une très jolie fille!~
+
+@48   = ~ Je m'appelle <CHARNAME>. Tu as certainement entendu parler de mes exploits?~
+
+@49   = ~ Heh. Tu as un peu d'humour, au moins…~
+
+@50   = ~ Attends de voir le reste... si tu vois ce que je veux dire...~
+
+@51   = ~ Merci, je suis touché, vraiment! J'ai quelques devinettes pour toi, si tu aimes bien l'humour~
+
+@52   = ~ Merci. Au fait, je ne sais même pas qui tu es...~
+
+@53   = ~ Tu es plutôt amusante, toi aussi. Sans même parler de ta beauté!~
+
+@54   = ~ Euh... non, merci.~
+
+@55   = ~ Non. Je ne me souviens pas de tous les egos surdimensionnés du coin, désolée.~
+
+@56   = ~ C'était ta dernière insulte! Maintenant, tu vas mourir, catin!~
+
+@57   = ~ Un jour, tu regretteras ces mots.~
+
+@58   = ~ Ah, mon coeur saigne de t'entendre. Quoi qu'il en soit, pourrais-tu m'en dire plus sur toi?~
+
+@59   = ~ Uhhh... je ferais mieux de partir, je pense.~
+
+@60   = ~ Pas plus surdimensionné que le tien, belle enfant. Tu m'as dit que tu étais la meilleure épée du coin. Et si on vérifiait ça?~
+
+@61   = ~ Ohhhh, c'est si mignon…~
+
+@62   = ~ Qu'est-ce que tu veux que je te dise? Que j'ai eu une enfance malheureuse? Que j'ai une superbe quête pour toi? Bleh. Tu n'aurais pas un boulot à faire pour Renal, au lieu de poser des questions stupides?~
+
+@63   = ~ Ouaips. Je vais attendre ton retour, ça promet d'être amusant…~
+
+@64   = ~ Va répandre ta bave ailleurs, puceau, et laisse-moi tranquille. Les gens comme toi me rendent malade.~
+
+@65   = ~ Ouais, ouais, enchantée moi aussi. Allez, barre-toi.~
+
+@66   = ~ Renal ne sera pas content. Ah, bah. Il est temps pour toi de mourir!~
+
+@67   = ~ Je suppose que c'est ce que tu espérais que je dise? Maintenant, tu n'as pas une mission à accomplir plutôt que de me faire perdre mon temps?~
+
+@68   = ~ Ca me fait mal de l'admettre, mais on dirait que tu ne t'es pas trop mal débrouillé. Bien joué! Personne ne regrettera Mae'var, par ici… je ne supporte pas ce type d'hommes!~
+
+@69   = ~ J'ai comme l'impression que tu as un problème avec les hommes en général…~
+
+@70   = ~ C'était une mission facile. Mae'var n'était qu'un lâche et un faible.~
+
+@71   = ~ La justice a toujours le dernier mot.~
+
+@72   = ~ Je me demandais… je cherche une épéiste pour mon groupe, est-ce que ça pourrait t'intéresser?~
+
+@73   = ~ Je me demandais… je cherche une voleuse pour mon groupe, est-ce que ça pourrait t'intéresser?~
+
+@74   = ~ Je me demandais… je cherche une jolie fille pour mon groupe, est-ce que ça pourrait t'intéresser?~
+
+@75   = ~ Maintenant que j'ai accompli mon contrat, que dirais-tu d'un duel amical?~
+
+@76   = ~ J'avais un travail. Je l'ai fait. Ainsi va la vie.~
+
+@77   = ~ J'ai débarassé la ville de Mae'var, et maintenant c'est ton tour! Meurs, chienne!~
+
+@78   = ~ Je n'ai pas de "problème" avec les hommes. C'est simplement que tous ceux que j'ai vus sont des abrutis pompeux et arrogants, qui réfléchissent avec ce qu'ils ont dans le pantalon et sont toalement indignes de confiance.~
+
+@79   = ~ Wow, wow, attends une seconde, je ne t'ai pas insultée ni agressée! Pourquoi réagis-tu aussi violemment?~
+
+@80   = ~ Oui, je dois avouer que je me reconnais bien. Le portrait est criant de vérité!~
+
+@81   = ~ Si c'est comme ça, alors je vais arracher ton sale cœur de femelle!~
+
+@82   = ~ Hmm… bien que je sois un homme…  je cherche une épéiste pour mon groupe, est-ce que ça pourrait t'intéresser?~
+
+@83   = ~ Hmm… bien que je sois un homme…  Je cherche une voleuse pour mon groupe, est-ce que ça pourrait t'intéresser?~
+
+@84   = ~ Puisqu'on parle de ça… je cherche une jolie fille pour mon groupe, est-ce que ça pourrait t'intéresser?~
+
+@85   = ~ Je… vois.  Bon, eh bien bonne continuation, je dois filer. J'ai un… rendez-vous urgent.~
+
+@86   = ~ Ouais, ouais, tu as dû te sentir très puissant en abattant les quelques assassins dont il s'était entouré, hein? Ca a dû être un challenge terrifiant pour toi, quelques voleurs miteux pris par surprise…~
+
+@87   = ~ Je suis désolée… je ne devrais pas te parler ainsi, mais je ne suis pas de très bonne humeur en ce moment.~
+
+@88   = ~ De mauvaise humeur? Pourquoi? Que s'est-il passé?~
+
+@89   = ~ Heh. Toi? De mauvaise humeur? Qui aurait pu l'imaginer?~
+
+@90   = ~ Ah, je comprends… c'est ce moment du mois?~
+
+@91   = ~ Eh bien, pour dire la vérité, ils étaient plutôt nombreux et dangereux. Sans compter qu'ils étaient prévenus de mon arrivée et m'ont tendu une embuscade…~
+
+@92   = ~ Ne me blâme pas parce que je suis puissant. J'ai dû souffrir toute ma vie pour pouvoir aujourd'hui ne faire qu'une bouchée de tels adversaires.~
+
+@93   = ~ Je… vois. Eh bien, je vais te laisser alors...~
+
+@94   = ~ Quelle coîncidence, je suis moi aussi de mauvaise humeur. Je vais te décapiter pour me calmer, catin!~
+
+@95   = ~ La justice? Où vois-tu de la justice? Ca n'était qu'une guerre de guilde et des intrigues politiques. Heh, j'ai entendu dire que tu avais tué un Mage Cagoulé pour gagner la confiance de Mae'var. Ca aussi, c'était "juste"?~
+
+@96   = ~ Uhh... euh...~
+
+@97   = ~ Je hais les Mages Cagoulés. Ils ont enlevé une amie à moi. Un mort dans leurs rangs me comble de joie.~
+
+@98   = ~ Je… sais. Je ne peux m'empêcher de me sentir coupable. Mais nous n'avions pas le choix!~
+
+@99   = ~ La loi, c'est moi! Prépare-toi à mourir, catin!~
+
+@100  = ~ Parfois, il faut savoir commettre de petits crimes pour promouvoir une plus grande justice.~
+
+@101  = ~ Tu ne sais rien de moi, à part mes vantardises et les insultes dont je te couvre, et tu veux que je rejoigne ton groupe? J'espère que tu as choisi tes autres compagnons avec plus de soin, <CHARNAME>. Si ce n'est pas le cas, tu es un bien mauvais leader…~
+
+@102  = ~ Tu as raison, je n'aurais jamais dû demander. Adieu!~
+
+@103  = ~ La manière dont tu te tiens me fait croire que tu es rapide et habile. J'ai l'œil pour ce genre de choses.~
+
+@104  = ~ Il y a au moins une chose que nous pourrions vérifier: que dirais-tu d'un duel?~
+
+@105  = ~ Si tu ne veux pas me rejoindre, alors tu m'es inutile. Meurs, chienne!~
+
+@106  = ~ Je ne vois pas ce qu'il y a d'étrange. Je fonctionne à la confiance, et je pense que je peux te faire confiance. Si ça ne marche pas, eh bien nous pourrons toujours nous séparer, non?~
+
+@107  = ~ Une voleuse? Tu penses que je suis là, à ta disposition, prête à désamorcer tes pièges et crocheter tes serrures? Non merci. Je suis une combattante, avant tout. Et puis, j'aimerais savoir pourquoi tu me demandes ça à moi, plutôt qu'à n'importe qui d'autre dans cette guilde…~
+
+@108  = ~ Et après, on se demande pourquoi je trouve les hommes stupides. Va brûler en enfer, <CHARNAME>!~
+
+@109  = ~ Un duel? Vraiment? Eh bien, voilà enfin un langage que je comprends. Toi, et moi. Personne d'autre. En garde, <CHARNAME>! Voyons ce que tu as dans le ventre!~
+
+@110  = ~ Bah. Je suis désolée. Ca n'a rien à voir avec vous. Enfin, d'une certaine manière, si. Maintenant que Mae'var est mort, Renal n'a plus besoin de moi comme garde du corps. Il va falloir que je me trouve un nouveau travail, et ça m'ennuie d'avance…~
+
+@111  = ~ Pas de chance… j'espère que tu trouveras quelque chose.~
+
+@112  = ~ Il ne se soucie plus de toi, donc? Enfin, je vais pouvoir me venger de tes insultes! Meurs, catin!~
+
+@113  = ~ Eh bien, je suppose que c'était prévisible. Renal préfère les jolies filles, généralement...~
+
+@114  = ~ Heh. Je t'aime bien, <CHARNAME>. Tu as des tripes! Ton humour est stupide, mais c'est déjà mieux que la plupart des gens que je rencontre. Hmm, je me demande si tu es aussi habile avec ton épée qu'avec ta langue. Et si on vérifiait ça?~
+
+@115  = ~ Tu m'aimes bien? Alors trouvons un lit et faisons l'amour, pas la guerre!~
+
+@116  = ~ Je vois… eh bien, si c'est la seule manière de gagner ton respect, alors d'accord!~
+
+@117  = ~ Hors de question. Tu n'es qu'une vache maladroite. Je ne veux pas te blesser par mégarde.~
+
+@118  = ~ Je ne suis pas exactement un guerrier, mais je peux demander à quelqu'un de mon groupe, si tu veux.~
+
+@119  = ~ Non merci, je dois partir.~
+
+@120  = ~ Ok. Moi, je vais rester ici en attendant de voir si Renal aurait un nouveau travail pour moi. Heh, si ça se trouve, il m'engagera peut-être pour vous trancher la gorge si vous devenez une menace. Ca, ce serait plutôt amusant…~
+
+@121  = ~ Bleh. Oui, c'est le moment du mois où je découpe les insolents en rondelles. Pars, avant que je ne perde patience…~
+
+@122  = ~ Oh? Ils vous ont causé des soucis? Je dois dire que je suis assez déçue, je pensais que vous seriez plus forts que ça.~
+
+@123  = ~ Je vais te montrer ma véritable force, chienne! Tire ton épée et meurs!~
+
+@124  = ~ Je vois. Eh bien, que dirais-tu d'un duel pour régler définitivement ces histoires de "force"?~
+
+@125  = ~ Je commence à avoir mal au crâne. Est-ce que tout ce que je dis est une mauvaise réponse, ou quoi?~
+
+@126  = ~ Oui, oui. C'est bien de se moquer de nous alors que tu restes tranquillement dans la guilde. Qu'est-ce que *toi*, tu as fait de bien?~
+
+@127  = ~ Ca devait être une vie passionnante, dis-moi. Bon, sur ce, tu as autre chose à me dire?~
+
+@128  = ~ Oui… que dirais-tu d'un duel pour régler quelques insultes en suspens?~
+
+@129  = ~ Bah. Des réponses convenues! La vérité, c'est que tu as tué un homme qui ne t'avait jamais rien fait. Personnellement, ça ne me dérange pas, mais je suis surprise que tu appelles ça de la "justice"…~
+
+@130  = ~ Ca suffit, femme! La loi, c'est moi! Meurs d'une mort "juste"!~
+
+@131  = ~ Je n'ai pas parlé de justice, je disais "c'est juste ici" et voilà, tu as tout compris de travers…~
+
+@132  = ~ J'appellerai cela comme je le souhaite, et je n'ai que faire de tes remarques!~
+
+@133  = ~ Je dois avouer que tu sais trouver des arguments intéressants. Et je cherche effectivement un nouveau contrat. Mais je ne travaille pas pour n'importe qui. Que dirais-tu d'un petit test, pour voir si tu es digne de mener le groupe?~
+
+@134  = ~ Un test ? Trouvons un lit, et je te montrerai si je suis digne…~
+
+@135  = ~ Tu cherches un nouveau contrat? Je croyais que tu travaillais pour Renal?~
+
+@136  = ~ Puisque c'est toi qui lance le défi, j'ai le choix des armes! Que dirais-tu d'un duel de devinettes?~
+
+@137  = ~ Tu parles d'un duel, n'est-ce pas? Pourquoi pas, s'il le faut…~
+
+@138  = ~ Oublie ça. Tu n'en vaux pas la peine.~
+
+@139  = ~ Non, désolé. Je vais devoir y aller.~
+
+@140  = ~ Bah. C'est à toi que je parlais. Mais tu es tout en discours, jamais en actes. File d'ici avant que je ne te botte les fesses.~
+
+@141  = ~ Eh bien, on dirait que j'ai gagné cette fois-ci… tu n'es pas si mauvais que ça, cependant. Il y a juste ton poignet qui est un peu faible… mais c'était intéressant!~
+
+@142  = ~ Merci pour cette leçon. Il est temps que je parte, maintenant.~
+
+@143  = ~ Les duels ne prouvent rien! Les combats à mort sont ma raison d'être! Meurs!~
+
+@144  = ~ En tout cas, tu as prouvé ta valeur… acceptes-tu de me rejoindre?~
+
+@145  = ~ Eh bien, eh bien...~
+
+@146  = ~ Ow... tu es plutôt chanceux, <CHARNAME>!~
+
+@147  = ~ Chanceux, hein? Tu n'es pas très bonne perdante…~
+
+@148  = ~ C'est étrange… plus je m'entraîne, plus je deviens chanceux!~
+
+@149  = ~ Oui, j'ai eu de la chance – mais quoi qu'il en soit, j'ai gagné!~
+
+@150  = ~ Et maintenant, le "chanceux" va terminer le travail et t'arracher le cœur!~
+
+@151  = ~ Maintenant, vas-tu enfin me rejoindre?~
+
+@152  = ~ Je… je suppose que tu as raison. Je suis désolée. Je retenterai ma chance, mais aujourd'hui, c'est toi le vainqueur. Veux-tu toujours m'engager?~
+
+@153  = ~ Bien sûr!~
+
+@154  = ~ Bah. Tu es pathétique. Je n'ai pas besoin de faibles avec moi.~
+
+@155  = ~ Plus tard, peut-être. Je dois y aller.~
+
+@156  = ~ Eh bien, tu as au moins du courage et de la ténacité, <CHARNAME>… Je ne comprends pas vraiment pourquoi tu me veux, moi, dans ton groupe, mais bon, c'est ton choix. Je coûte cher, par contre. Ca sera 500 pièces d'or pour la première semaine.~
+
+@157  = ~ Hein? Personne n'a parlé de te payer…~
+
+@158  = ~ 500 pièces d'or? C'est beaucoup!~
+
+@159  = ~ Ca me va. Voici tes 500 pièces d'or. Mais tu as intérêt à en valoir la peine…~
+
+@160  = ~ Pour 250, c'est d'accord.~
+
+@161  = ~ Non, désolée. Je ne suis pas désespérée au point de suivre n'importe qui, et tu n'es certainement pas le genre de leader que j'aimerais avoir.~
+
+@162  = ~ Tu n'espérais quand même pas que je travaille gratuitement, n'est-ce pas? Je ne suis pas une héroïne stupide, <PRO_LADYLORD>. Je cherche à gagner ma vie, comme tout le monde…~
+
+@163  = ~ Notre groupe est justement composé de héros. Personne n'a demandé d'or. Nous combattons pour la gloire des royaumes. Rejoins-nous pour l'honneur, ou ne viens pas. C'est à toi de voir.~
+
+@164  = ~ Si tu nous rejoins, il y aura des milliers de pièces d'or de trésor à piller sur notre route. Ne t'inquiète pas, tu deviendras riche…~
+
+@165  = ~ Je vois… eh bien, espérons que tu sauras te montrer à la hauteur du prix, alors! Voici ton or.~
+
+@166  = ~ Je vois… eh bien, je n'ai pas 500 pièces d'or, mais pourquoi pas 250?~
+
+@167  = ~ Je ne veux pas d'une fille avare et agressive comme toi dans mon groupe de toute façon. Amuse-toi bien, et adieu!~
+
+@168  = ~ C'est ça, c'est ça. J'ai vu Renal vous donner plus de 10.000 pièces d'or. Vous n'êtes pas des mendiants, n'essayez pas de me le faire croire. Alors, vous me prenez ou non?~
+
+@169  = ~ Une pièce dans ta main vaut mieux que deux sur le chemin, disait mon père. Heh, si tu as raison, et que nos voyages se révèlent fructueux, je pourrais même me montrer gentille et te rendre ton or. Mais chaque chose en son temps…~
+
+@170  = ~ Je vois… eh bien, je n'ai pas 500 pièces d'or, mais pourquoi pas 250?~
+
+@171  = ~ Peut-être vais-je mourir, mais je mourrai bien!~
+
+@172  = ~ Tu ne le regretteras pas! Les bons comptes font les bons amis…~
+
+@173  = ~ Tiens, revoilà le valeureux perdant! Que veux-tu?~
+
+@174  = ~ Rien, désolé de t'avoir dérangée.~
+
+@175  = ~ Je voulais savoir si tu acceptais de rejoindre mon groupe?~
+
+@176  = ~ Tiens, revoilà le gagnant de notre duel… que veux-tu?~
+
+@177  = ~ Tu n'as plus besoin de moi? Ah, bah, il est temps pour moi de trouver un nouveau travail.~
+
+@178  = ~ Non, ce n'est pas ce que je voulais dire… reste avec nous, Kim.~
+
+@179  = ~ Oui, je préférerais que nous nous séparions.~
+
+@180  = ~ Hmm... besoin d'une épée supplémentaire? Je pourrais même revenir gratuitement, cette fois!~
+
+@181  = ~ Non, désolé, nous n'avons pas de place pour toi en ce moment.~
+
+@182  = ~ Oui, reviens avec nous, tu nous a manqués!~
+
+@183  = ~ Bon, très bien... je suppose que c'est mieux ainsi. Je vais retourner à la Couronne de Cuivre, voir si quelqu'un a besoin de mes services là-bas.~

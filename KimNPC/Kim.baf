@@ -1,0 +1,1945 @@
+IF
+  !InParty(Myself)
+  Global("KimVampire","GLOBAL",4)
+THEN
+  RESPONSE #100
+    SetGlobal("KimVampire","GLOBAL",5)
+    StartDialogue("KIMJ",Player1)
+END
+
+IF
+  InParty(Myself)
+  HasItem("IMOENHP1",Myself)  // ~Ceinturon d'Imoen~
+THEN
+  RESPONSE #100
+    DestroyItem("IMOENHP1")  // ~Ceinturon d'Imoen~
+END
+
+IF
+  InParty(Myself)
+  Global("XPKIM","LOCALS",0)
+  XPGT(Player1,1500000)
+THEN
+  RESPONSE #100
+    SetGlobal("XPKIM","LOCALS",1)
+    AddXPObject("Kim",1350000)
+END
+
+IF
+  InParty(Myself)
+  Global("XPKIM","LOCALS",0)
+  XPGT(Player1,1000000)
+THEN
+  RESPONSE #100
+    SetGlobal("XPKIM","LOCALS",1)
+    AddXPObject("Kim",850000)
+END
+
+IF
+  InParty(Myself)
+  Global("XPKIM","LOCALS",0)
+  XPGT(Player1,750000)
+THEN
+  RESPONSE #100
+    SetGlobal("XPKIM","LOCALS",1)
+    AddXPObject("Kim",600000)
+END
+
+IF
+  InParty(Myself)
+  Global("XPKIM","LOCALS",0)
+  XPGT(Player1,500000)
+THEN
+  RESPONSE #100
+    SetGlobal("XPKIM","LOCALS",1)
+    AddXPObject("Kim",350000)
+END
+
+IF
+  InParty(Myself)
+  Global("XPKIM","LOCALS",0)
+  XPGT(Player1,250000)
+THEN
+  RESPONSE #100
+    SetGlobal("XPKIM","LOCALS",1)
+    AddXPObject("Kim",100000)
+END
+
+IF
+  InParty(Myself)
+  Global("XPKIM","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("XPKIM","LOCALS",1)
+END
+
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("PhaereInnuendo","GLOBAL",3)
+  Global("Phaerecomment","LOCALS",0)
+  OR(2)
+    Global("KimRomanceActive","GLOBAL",1)
+    Global("KimRomanceActive","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("Phaerecomment","LOCALS",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("PhaereInnuendo","GLOBAL",2)
+  Global("Phaerecomment","LOCALS",0)
+  OR(2)
+    Global("KimRomanceActive","GLOBAL",1)
+    Global("KimRomanceActive","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("Phaerecomment","LOCALS",2)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("PhaereInnuendo","GLOBAL",3)
+  Global("Phaerecomment","LOCALS",0)
+  OR(2)
+    Global("KimRomanceActive","GLOBAL",0)
+    Global("KimRomanceActive","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("Phaerecomment","LOCALS",3)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("PhaereInnuendo","GLOBAL",2)
+  Global("Phaerecomment","LOCALS",0)
+  OR(2)
+    Global("KimRomanceActive","GLOBAL",0)
+    Global("KimRomanceActive","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("Phaerecomment","LOCALS",4)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  OnCreation()
+  Global("Kimmatch","GLOBAL",0)
+  Gender(Player1,MALE)
+  OR(3)
+    Race(Player1,HUMAN)
+    Race(Player1,HALF_ELF)
+    Race(Player1,ELF)
+THEN
+  RESPONSE #100
+    SetGlobal("Kimmatch","GLOBAL",1)
+END
+
+IF
+  InParty("Kim")  // ~Kim~
+  Global("Debutscriptkim","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Debutscriptkim","LOCALS",1)
+    SetGlobal("GTKUKIM","LOCALS",1)
+    RealSetGlobalTimer("GTKUKIMtimer","GLOBAL",600)
+//    RealSetGlobalTimer("GTKUKIMtimer","GLOBAL",20) // Debug Mode
+END
+
+IF
+  InParty(Myself)
+  Global("KimRomanceActive","GLOBAL",1)
+  OR(5)
+    Global("TashiaRomanceActive","GLOBAL",2)
+    Global("JaheiraRomanceActive","GLOBAL",2)
+    Global("AerieRomanceActive","GLOBAL",2)
+    Global("ViconiaRomanceActive","GLOBAL",2)
+    Global("ImoenRomanceActive","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("KimRomanceActive","GLOBAL",3)
+    Continue()
+END
+
+IF
+  InParty(Myself)
+  Global("KimRomanceActive","GLOBAL",2)
+  OR(5)
+    Global("TashiaRomanceActive","GLOBAL",1)
+    Global("JaheiraRomanceActive","GLOBAL",1)
+    Global("AerieRomanceActive","GLOBAL",1)
+    Global("ViconiaRomanceActive","GLOBAL",1)
+    Global("ImoenRomanceActive","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("TashiaRomanceActive","GLOBAL",3)
+    SetGlobal("JaheiraRomanceActive","GLOBAL",3)
+    SetGlobal("AerieRomanceActive","GLOBAL",3)
+    SetGlobal("ViconiaRomanceActive","GLOBAL",3)
+    SetGlobal("ImoenRomanceActive","GLOBAL",3)
+END
+
+IF
+  Global("DUELKIM","LOCALS",1)
+  Detect(Player1)
+THEN
+  RESPONSE #100
+    SetGlobal("DUELKIM","LOCALS",2)
+    EquipMostDamagingMelee()
+    Attack(Player1)
+END
+
+IF
+  Global("DUELKIM","LOCALS",2)
+  OR(5)
+    AttackedBy(Player2,DEFAULT)
+    AttackedBy(Player3,DEFAULT)
+    AttackedBy(Player4,DEFAULT)
+    AttackedBy(Player5,DEFAULT)
+    AttackedBy(Player6,DEFAULT)
+THEN
+  RESPONSE #100
+    SetGlobal("DUELKIM","LOCALS",5)
+    ClearAllActions()
+    Dialog([PC])
+END
+
+IF
+  Global("DUELKIM","LOCALS",2)
+  HPPercentLT(Myself,40)
+THEN
+  RESPONSE #100
+    SetGlobal("DUELKIM","LOCALS",3)
+    ClearAllActions()
+    Dialog([PC])
+END
+
+IF
+  Global("DUELKIM","LOCALS",2)
+  HPPercentLT(Player1,40)
+THEN
+  RESPONSE #100
+    SetGlobal("DUELKIM","LOCALS",4)
+    ClearAllActions()
+    Dialog([PC])
+END
+
+IF
+  InParty("Kim")  // ~Kim~
+  GlobalGT("GTKUKIM","LOCALS",10)
+  Global("debutquete1","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Piratequete1","GLOBAL",1200)
+    SetGlobal("debutquete1","LOCALS",1)
+END
+
+IF
+  InParty("Kim")  // ~Kim~
+  GlobalTimerExpired("Piratequete1","GLOBAL")
+  Global("debutquete1","LOCALS",1)
+  OR(4)
+    AreaCheck("AR0300")
+    AreaCheck("AR0400")
+    AreaCheck("AR0500")
+    AreaCheck("AR0700")
+THEN
+  RESPONSE #100
+    CreateCreatureOffScreen("Zven",0)  // ~Zven~
+    CreateCreatureOffScreen("Pirate1",0)  // ~Pirate~
+    CreateCreatureOffScreen("Pirate2",0)  // ~Pirate~
+    CreateCreatureOffScreen("Pirate3",0)  // ~Pirate~
+    ActionOverride("Zven",Dialog(Player1))
+    StartCutSceneMode()
+    StartCutScene("CutPira1")
+END
+
+IF
+  Global("pirateobjet","GLOBAL",1)
+THEN
+  RESPONSE #100
+    Wait(2)
+    SetGlobal("pirateobjet","GLOBAL",2)
+END
+
+IF
+  InParty("Kim")  // ~Kim~
+  Global("debutquete1","LOCALS",2)
+  Global("capuche","LOCALS",0)
+  Global("debutquete2","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Piratequete2","GLOBAL",1200)
+    SetGlobal("debutquete2","LOCALS",1)
+END
+
+IF
+  InParty("Kim")  // ~Kim~
+  Global("debutquete2","LOCALS",1)
+  GlobalTimerExpired("Piratequete2","GLOBAL")
+  OR(4)
+    AreaCheck("AR0300")
+    AreaCheck("AR0400")
+    AreaCheck("AR0500")
+    AreaCheck("AR0700")
+THEN
+  RESPONSE #100
+    CreateCreature("Barbe1",[-1.-1],0)
+    SetGlobal("debutquete2","LOCALS",2)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("barbemort","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("barbemort","GLOBAL",2)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  InParty("Kim")  // ~Kim~
+  AreaCheck("AR1600")
+  Global("Umbtueekim","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Umbtueekim","GLOBAL",1)
+    CreateCreature("UMBKIM",[2914.1402],0)  // ~Prêtresse Nadia~
+END
+
+IF
+  PartyHasItem("Cartbar")  // ~Morceau gauche de carte au trésor~
+  PartyHasItem("Cartbar2")  // ~Morceau droit de carte au trésor~
+  Global("ileautresor","LOCALS",0)
+  AreaCheck("AR1604")
+THEN
+  RESPONSE #100
+    SetGlobal("ileautresor","LOCALS",1)
+    SetGlobal("endroitkim","GLOBAL",1)
+END
+
+IF
+  PartyHasItem("Cartbar")  // ~Morceau gauche de carte au trésor~
+  PartyHasItem("Cartbar2")  // ~Morceau droit de carte au trésor~
+  Global("ileautresor","LOCALS",0)
+  !AreaCheck("AR1604")
+THEN
+  RESPONSE #100
+    SetGlobal("ileautresor","LOCALS",1)
+    SetGlobal("endroitkim","GLOBAL",2)
+END
+
+IF
+  PartyHasItem("Cartbar")  // ~Morceau gauche de carte au trésor~
+  PartyHasItem("Cartbar2")  // ~Morceau droit de carte au trésor~
+  Global("ileautresor","LOCALS",1)
+THEN
+  RESPONSE #100
+//E    DestroyItem("Cartbar")  // ~Morceau gauche de carte au trésor~
+//E    DestroyItem("Cartbar2")  // ~Morceau droit de carte au trésor~
+    SetGlobal("ileautresor","LOCALS",2)
+		ClearAllActions()
+		MultiPlayerSync()
+		StartCutSceneMode()
+		StartCutScene("Cutkim2")
+END
+
+IF
+  AreaCheck("ARBARB")
+  Global("ileautresor","LOCALS",2)
+THEN
+  RESPONSE #100
+    CreateCreature("Skullkim",[1135.1326],0)  // ~Barbe-Verte~
+    SetGlobal("ileautresor","LOCALS",3)
+END
+
+IF
+  Global("skullfin","GLOBAL",4)
+  Global("echecquete","LOCALS",0)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SetGlobal("echecquete","LOCALS",1)
+		MultiPlayerSync()
+		StartCutSceneMode()
+		StartCutScene("Cutkim2")
+END
+
+IF
+  Global("skullfin","GLOBAL",7)
+  Global("succesquete","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("succesquete","LOCALS",1)
+    ClearAllActions()
+		MultiPlayerSync()
+		StartCutSceneMode()
+		StartCutScene("Cutkim2")
+END
+
+IF
+  AreaCheck("Ar1000")
+  Global("skullfin","GLOBAL",3)
+  OR(3)
+    TimeOfDay(NIGHT)
+    TimeOfDay(DUSK)
+    TimeOfDay(MORNING)
+THEN
+  RESPONSE #100
+    CreateCreature("IMPKIM",[2626.1229],0)  // ~ZubbZubb~
+    CreateCreature("IMPKIM2",[2813.1244],0)  // ~BuzzBuzz~
+    SetGlobal("skullfin","GLOBAL",9)
+END
+
+IF
+  PartyHasItem("barbeaxe")  // ~Hache Mystique d'Entropie~
+  PartyHasItem("kimchain")  // ~Cotte naine de mailles elfique~
+  Global("endroitkim","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("endroitkim","GLOBAL",3)
+    ClearAllActions()
+		MultiPlayerSync()
+		StartCutSceneMode()
+		StartCutScene("cutkim3")
+END
+
+IF
+  PartyHasItem("barbeaxe")  // ~Hache Mystique d'Entropie~
+  PartyHasItem("kimchain")
+  Global("endroitkim","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("endroitkim","GLOBAL",3)
+    ClearAllActions()
+		MultiPlayerSync()
+		StartCutSceneMode()
+		StartCutScene("cutkim4")
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  RealGlobalTimerExpired("GTKUKIMtimer","GLOBAL")
+  OR(14)
+    Global("GTKUKIM","LOCALS",1)
+    Global("GTKUKIM","LOCALS",3)
+    Global("GTKUKIM","LOCALS",5)
+    Global("GTKUKIM","LOCALS",7)
+    Global("GTKUKIM","LOCALS",9)
+    Global("GTKUKIM","LOCALS",11)
+    Global("GTKUKIM","LOCALS",13)
+    Global("GTKUKIM","LOCALS",15)
+    Global("GTKUKIM","LOCALS",17)
+    Global("GTKUKIM","LOCALS",19)
+    Global("GTKUKIM","LOCALS",21)
+    Global("GTKUKIM","LOCALS",23)
+    Global("GTKUKIM","LOCALS",25)
+    Global("GTKUKIM","LOCALS",27)
+THEN
+  RESPONSE #100
+    IncrementGlobal("GTKUKIM","LOCALS",1)
+    RealSetGlobalTimer("GTKUKIMtimer","GLOBAL",7)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  RealGlobalTimerExpired("GTKUKIMtimer","GLOBAL")
+  OR(14)
+    Global("GTKUKIM","LOCALS",2)
+    Global("GTKUKIM","LOCALS",4)
+    Global("GTKUKIM","LOCALS",5)
+    Global("GTKUKIM","LOCALS",6)
+    Global("GTKUKIM","LOCALS",8)
+    Global("GTKUKIM","LOCALS",10)
+    Global("GTKUKIM","LOCALS",12)
+    Global("GTKUKIM","LOCALS",14)
+    Global("GTKUKIM","LOCALS",16)
+    Global("GTKUKIM","LOCALS",18)
+    Global("GTKUKIM","LOCALS",20)
+    Global("GTKUKIM","LOCALS",22)
+    Global("GTKUKIM","LOCALS",24)
+    Global("GTKUKIM","LOCALS",26)
+THEN
+  RESPONSE #100
+    IncrementGlobal("GTKUKIM","LOCALS",1)
+    RealSetGlobalTimer("GTKUKIMtimer","GLOBAL",1800)
+//    RealSetGlobalTimer("GTKUKIMtimer","GLOBAL",20) // Debug Mode
+
+END
+
+IF
+  InParty(Myself)
+  Global("Kimmatch","GLOBAL",1)
+  Global("GTKUKIM","LOCALS",28)
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("LOVEKIMTIMER","GLOBAL",7)
+    SetGlobal("kimloveTLK","LOCALS",1)
+    SetGlobal("GTKUKIM","LOCALS",29)
+    SetGlobal("KimRomanceActive","GLOBAL",1)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  RealGlobalTimerExpired("LOVEKIMTIMER","GLOBAL")
+  OR(2)
+    Global("KimRomanceActive","GLOBAL",1)
+    Global("KimRomanceActive","GLOBAL",2)
+  OR(13)
+    Global("KIMLOVETLK","LOCALS",1)
+    Global("KIMLOVETLK","LOCALS",3)
+    Global("KIMLOVETLK","LOCALS",5)
+    Global("KIMLOVETLK","LOCALS",7)
+    Global("KIMLOVETLK","LOCALS",9)
+    Global("KIMLOVETLK","LOCALS",11)
+    Global("KIMLOVETLK","LOCALS",13)
+    Global("KIMLOVETLK","LOCALS",17)
+    Global("KIMLOVETLK","LOCALS",19)
+    Global("KIMLOVETLK","LOCALS",21)
+    Global("KIMLOVETLK","LOCALS",23)
+    Global("KIMLOVETLK","LOCALS",25)
+    Global("KIMLOVETLK","LOCALS",27)
+THEN
+  RESPONSE #100
+    IncrementGlobal("KIMLOVETLK","LOCALS",1)
+    RealSetGlobalTimer("LOVEKIMTIMER","GLOBAL",7)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  // Kim veux sortir de la ville pour aller voir les étoiles
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  RealGlobalTimerExpired("LOVEKIMTIMER","GLOBAL")
+  Global("KIMLOVETLK","LOCALS",15)
+  Global("KIMETOILES","GLOBAL",0)
+  OR(3)
+       !AreaType(OUTDOOR)
+       AreaType(CITY)
+       !TimeOfDay(NIGHT)
+  OR(2)
+    Global("KimRomanceActive","GLOBAL",1)
+    Global("KimRomanceActive","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("KIMETOILES","GLOBAL",1)
+    RealSetGlobalTimer("LOVEKIMTIMER","GLOBAL",7)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  // Pour la déclartion où il est question d'étoile
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  RealGlobalTimerExpired("LOVEKIMTIMER","GLOBAL")
+  Global("KIMLOVETLK","LOCALS",15)
+  AreaType(OUTDOOR)
+  !AreaType(CITY)
+  TimeOfDay(NIGHT)
+  OR(2)
+    Global("KimRomanceActive","GLOBAL",1)
+    Global("KimRomanceActive","GLOBAL",2)
+THEN
+  RESPONSE #100
+    IncrementGlobal("KIMLOVETLK","LOCALS",1)
+    RealSetGlobalTimer("LOVEKIMTIMER","GLOBAL",7)
+    StartDialogNoSet(Player1)
+END
+
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  RealGlobalTimerExpired("LOVEKIMTIMER","GLOBAL")
+  OR(2)
+    Global("KimRomanceActive","GLOBAL",1)
+    Global("KimRomanceActive","GLOBAL",2)
+  OR(14)
+    Global("KIMLOVETLK","LOCALS",2)
+    Global("KIMLOVETLK","LOCALS",4)
+    Global("KIMLOVETLK","LOCALS",5)
+    Global("KIMLOVETLK","LOCALS",6)
+    Global("KIMLOVETLK","LOCALS",8)
+    Global("KIMLOVETLK","LOCALS",10)
+    Global("KIMLOVETLK","LOCALS",12)
+    Global("KIMLOVETLK","LOCALS",14)
+    Global("KIMLOVETLK","LOCALS",16)
+    Global("KIMLOVETLK","LOCALS",18)
+    Global("KIMLOVETLK","LOCALS",20)
+    Global("KIMLOVETLK","LOCALS",22)
+    Global("KIMLOVETLK","LOCALS",24)
+    Global("KIMLOVETLK","LOCALS",26)
+THEN
+  RESPONSE #100
+    IncrementGlobal("KIMLOVETLK","LOCALS",1)
+    RealSetGlobalTimer("LOVEKIMTIMER","GLOBAL",1800)
+//    RealSetGlobalTimer("LOVEKIMTIMER","GLOBAL",20) //Debug Mode
+END
+
+IF
+  InParty(Myself)
+  Global("Debutbanterkim","LOCALS",0)
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",800)
+    SetGlobal("Debutbanterkim","LOCALS",1)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("KIMBANTER","GLOBAL",0)
+  RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
+  InParty("Imoen")  // ~Imoen~
+  See("Imoen")  // ~Imoen~
+  !Dead("Imoen")  // ~Imoen~
+  !Global("IMOENDONE","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KIMBANTER","GLOBAL",1)
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",1600)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("KIMBANTER","GLOBAL",0)
+  RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
+  InParty("Aerie")  // ~Aerie~
+  See("Aerie")  // ~Aerie~
+  !Dead("Aerie")  // ~Aerie~
+  !Global("AERIEDONE","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KIMBANTER","GLOBAL",1)
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",1600)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("KIMBANTER","GLOBAL",0)
+  RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
+  InParty("Anomen")  // Anomen
+  See("Anomen")  // Anomen
+  !Dead("Anomen")  // Anomen
+  !Global("ANOMENDONE","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KIMBANTER","GLOBAL",1)
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",1600)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("KIMBANTER","GLOBAL",0)
+  RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
+  InParty("Cernd")  // Cernd
+  See("Cernd")  // Cernd
+  !Dead("Cernd")  // Cernd
+  !Global("CERNDDONE","LOCALS",1)
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",1600)
+    SetGlobal("KIMBANTER","GLOBAL",1)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("KIMBANTER","GLOBAL",0)
+  RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
+  InParty("Edwin")  // Edwin
+  See("Edwin")  // Edwin
+  !Dead("Edwin")  // Edwin
+  !Global("EDWINDONE","LOCALS",1)
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",1600)
+    SetGlobal("KIMBANTER","GLOBAL",1)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("KIMBANTER","GLOBAL",0)
+  RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
+  InParty("HaerDalis")  // HaerDalis
+  See("HaerDalis")  // HaerDalis
+  !Dead("HaerDalis")  // HaerDalis
+  !Global("HAERDALISDONE","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KIMBANTER","GLOBAL",1)
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",1600)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("KIMBANTER","GLOBAL",0)
+  RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
+  InParty("Jaheira")  // Jaheira
+  See("Jaheira")  // Jaheira
+  !Dead("Jaheira")  // Jaheira
+  !Global("JAHEIRADONE","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KIMBANTER","GLOBAL",1)
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",1600)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("KIMBANTER","GLOBAL",0)
+  RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
+  InParty("Jan")  // Jan
+  See("Jan")  // Jan
+  !Dead("Jan")  // Jan
+  !Global("JANDONE","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KIMBANTER","GLOBAL",1)
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",1600)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("KIMBANTER","GLOBAL",0)
+  RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
+  InParty("Keldorn")  // Keldorn
+  See("Keldorn")  // Keldorn
+  !Dead("Keldorn")  // Keldorn
+  !Global("KELDORNDONE","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KIMBANTER","GLOBAL",1)
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",1600)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("KIMBANTER","GLOBAL",0)
+  RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
+  InParty("Korgan")  // Korgan
+  See("Korgan")  // Korgan
+  !Dead("Korgan")  // Korgan
+  !Global("KORGANDONE","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KIMBANTER","GLOBAL",1)
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",1600)
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",0)
+  RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  InParty("Mazzy")  // Mazzy
+  See("Mazzy")  // Mazzy
+  !Dead("Mazzy")  // Mazzy
+  !Global("MAZZYDONE","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KIMBANTER","GLOBAL",1)
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",1600)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("KIMBANTER","GLOBAL",0)
+  RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
+  InParty("Minsc")  // Minsc
+  See("Minsc")  // Minsc
+  !Dead("Minsc")  // Minsc
+  !Global("MINSCDONE","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KIMBANTER","GLOBAL",1)
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",1600)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("KIMBANTER","GLOBAL",0)
+  RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
+  InParty("Nalia")  // Nalia
+  See("Nalia")  // Nalia
+  !Dead("Nalia")  // Nalia
+  !Global("NALIADONE","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KIMBANTER","GLOBAL",1)
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",1600)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("KIMBANTER","GLOBAL",0)
+  RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
+  InParty("Valygar")  // Valygar
+  See("Valygar")  // Valygar
+  !Dead("Valygar")  // Valygar
+  !Global("VALYGARDONE","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KIMBANTER","GLOBAL",1)
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",1600)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("KIMBANTER","GLOBAL",0)
+  RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
+  InParty("Viconia")  // Viconia
+  See("Viconia")  // Viconia
+  !Dead("Viconia")  // Viconia
+  !Global("VICONIADONE","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KIMBANTER","GLOBAL",1)
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",1600)
+END
+
+IF
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  Global("KIMBANTER","GLOBAL",0)
+  RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
+  InParty("Yoshimo")  // Yoshimo
+  See("Yoshimo")  // Yoshimo
+  !Dead("Yoshimo")  // Yoshimo
+  !Global("YOSHIMODONE","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KIMBANTER","GLOBAL",1)
+    RealSetGlobalTimer("KIMBANTERTIMER","GLOBAL",1600)
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Aerie")  // ~Aerie~
+  See("Aerie")  // ~Aerie~
+  !Dead("Aerie")  // ~Aerie~
+  Global("AERIEKIM","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("AERIEKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("Aerie",StartDialogue("BAERIE","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Anomen")  // Anomen
+  See("Anomen")  // Anomen
+  !Dead("Anomen")  // Anomen
+  Global("ANOMENKIM","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("ANOMENKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("ANOMEN",StartDialogue("BANOMEN","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Cernd")  // Cernd
+  See("Cernd")  // Cernd
+  !Dead("Cernd")  // Cernd
+  Global("CERNDKIM","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CERNDKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("CERND",StartDialogue("BCERND","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  Global("EDWINKIM","GLOBAL",0)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Edwin")  // Edwin
+  See("Edwin")  // Edwin
+  !Dead("Edwin")  // Edwin
+THEN
+  RESPONSE #100
+    SetGlobal("EDWINKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Edwin")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("HaerDalis")  // HaerDalis
+  See("HaerDalis")  // HaerDalis
+  !Dead("HaerDalis")  // HaerDalis
+  Global("HAERDALISKIM","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("HAERDALISKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","HaerDalis")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Imoen")  // ~Imoen~
+  See("Imoen")  // ~Imoen~
+  !Dead("Imoen")  // ~Imoen~
+  Global("IMOENKIM","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IMOENKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Imoen")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Jaheira")  // Jaheira
+  See("Jaheira")  // Jaheira
+  !Dead("Jaheira")  // Jaheira
+  Global("JAHEIRAKIM","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("JAHEIRAKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Jaheira")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Jan")  // Jan
+  See("Jan")  // Jan
+  !Dead("Jan")  // Jan
+  Global("JANKIM","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("JANKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Jan")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Keldorn")  // Keldorn
+  See("Keldorn")  // Keldorn
+  !Dead("Keldorn")  // Keldorn
+  Global("KELDORNKIM","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("KELDORNKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Keldorn")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Korgan")  // Korgan
+  See("Korgan")  // Korgan
+  !Dead("Korgan")  // Korgan
+  Global("KORGANKIM","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("KORGANKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Korgan")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Mazzy")  // Mazzy
+  See("Mazzy")  // Mazzy
+  !Dead("Mazzy")  // Mazzy
+  Global("MAZZYKIM","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("MAZZYKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Mazzy")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Minsc")  // Minsc
+  See("Minsc")  // Minsc
+  !Dead("Minsc")  // Minsc
+  Global("MINSCKIM","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("MINSCKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("MINSC",StartDialogue("BMINSC","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Nalia")  // Nalia
+  See("Nalia")  // Nalia
+  !Dead("Nalia")  // Nalia
+  Global("NALIAKIM","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("NALIAKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("NALIA",StartDialogue("BNALIA","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Valygar")  // Valygar
+  See("Valygar")  // Valygar
+  !Dead("Valygar")  // Valygar
+  Global("VALYGARKIM","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("VALYGARKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Valygar")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Viconia")  // Viconia
+  See("Viconia")  // Viconia
+  !Dead("Viconia")  // Viconia
+  Global("VICONIAKIM","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("VICONIAKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("VICONIA",StartDialogue("BVICONI","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Yoshimo")  // Yoshimo
+  See("Yoshimo")  // Yoshimo
+  !Dead("Yoshimo")  // Yoshimo
+  Global("YOSHIMOKIM","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("YOSHIMOKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("YOSHIMO",StartDialogue("BYOSHIM","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Aerie")  // ~Aerie~
+  See("Aerie")  // ~Aerie~
+  !Dead("Aerie")  // ~Aerie~
+  Global("AERIEKIM","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("AERIEKIM","GLOBAL",2)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Aerie")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Anomen")  // Anomen
+  See("Anomen")  // Anomen
+  !Dead("Anomen")  // Anomen
+  Global("ANOMENKIM","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ANOMENKIM","GLOBAL",2)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Anomen")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Cernd")  // Cernd
+  See("Cernd")  // Cernd
+  !Dead("Cernd")  // Cernd
+  Global("CERNDKIM","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CERNDKIM","GLOBAL",2)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Cernd")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Edwin")  // Edwin
+  See("Edwin")  // Edwin
+  !Dead("Edwin")  // Edwin
+  Global("EDWINKIM","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("EDWINKIM","GLOBAL",2)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Edwin")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("HaerDalis")  // HaerDalis
+  See("HaerDalis")  // HaerDalis
+  !Dead("HaerDalis")  // HaerDalis
+  Global("HAERDALISKIM","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("HAERDALISKIM","GLOBAL",2)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("Haerdalis",StartDialogue("BHAERDA","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Imoen")  // ~Imoen~
+  See("Imoen")  // ~Imoen~
+  !Dead("Imoen")  // ~Imoen~
+  Global("IMOENKIM","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IMOENKIM","GLOBAL",2)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Imoen")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Jaheira")  // Jaheira
+  See("Jaheira")  // Jaheira
+  !Dead("Jaheira")  // Jaheira
+  Global("JAHEIRAKIM","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("JAHEIRAKIM","GLOBAL",2)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Jaheira")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Jan")  // Jan
+  See("Jan")  // Jan
+  !Dead("Jan")  // Jan
+  Global("JANKIM","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("JANKIM","GLOBAL",2)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("Jan",StartDialogue("BJAN","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Keldorn")  // Keldorn
+  See("Keldorn")  // Keldorn
+  !Dead("Keldorn")  // Keldorn
+  Global("KELDORNKIM","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KELDORNKIM","GLOBAL",2)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("KELDORN",StartDialogue("BKELDOR","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Korgan")  // Korgan
+  See("Korgan")  // Korgan
+  !Dead("Korgan")  // Korgan
+  Global("KORGANKIM","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("KORGANKIM","GLOBAL",2)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("Korgan",StartDialogue("BKORGAN","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Mazzy")  // Mazzy
+  See("Mazzy")  // Mazzy
+  !Dead("Mazzy")  // Mazzy
+  Global("MAZZYKIM","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("MAZZYKIM","GLOBAL",2)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("Mazzy",StartDialogue("BMAZZY","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Minsc")  // Minsc
+  See("Minsc")  // Minsc
+  !Dead("Minsc")  // Minsc
+  Global("MINSCKIM","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("MINSCKIM","GLOBAL",2)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Minsc")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Nalia")  // Nalia
+  See("Nalia")  // Nalia
+  !Dead("Nalia")  // Nalia
+  Global("NALIAKIM","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("NALIAKIM","GLOBAL",2)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Nalia")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Valygar")  // Valygar
+  See("Valygar")  // Valygar
+  !Dead("Valygar")  // Valygar
+  Global("VALYGARKIM","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("VALYGARKIM","GLOBAL",2)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Valygar")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Viconia")  // Viconia
+  See("Viconia")  // Viconia
+  !Dead("Viconia")  // Viconia
+  Global("VICONIAKIM","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("VICONIAKIM","GLOBAL",2)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Viconia")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Yoshimo")  // Yoshimo
+  See("Yoshimo")  // Yoshimo
+  !Dead("Yoshimo")  // Yoshimo
+  Global("YOSHIMOKIM","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("YOSHIMOKIM","GLOBAL",2)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Yoshimo")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Aerie")  // ~Aerie~
+  See("Aerie")  // ~Aerie~
+  !Dead("Aerie")  // ~Aerie~
+  Global("AERIEKIM","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("AERIEKIM","GLOBAL",3)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("Aerie",StartDialogue("BAERIE","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Anomen")  // Anomen
+  See("Anomen")  // Anomen
+  !Dead("Anomen")  // Anomen
+  Global("ANOMENKIM","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("ANOMENKIM","GLOBAL",3)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("ANOMEN",StartDialogue("BANOMEN","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Cernd")  // Cernd
+  See("Cernd")  // Cernd
+  !Dead("Cernd")  // Cernd
+  Global("CERNDKIM","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("CERNDKIM","GLOBAL",3)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Cernd")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Edwin")  // Edwin
+  See("Edwin")  // Edwin
+  !Dead("Edwin")  // Edwin
+  Global("EDWINKIM","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("EDWINKIM","GLOBAL",3)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Edwin")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("HaerDalis")  // HaerDalis
+  See("HaerDalis")  // HaerDalis
+  !Dead("HaerDalis")  // HaerDalis
+  Global("HAERDALISKIM","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("HAERDALISKIM","GLOBAL",3)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","HaerDalis")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Imoen")  // ~Imoen~
+  See("Imoen")  // ~Imoen~
+  !Dead("Imoen")  // ~Imoen~
+  Global("IMOENKIM","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("IMOENKIM","GLOBAL",3)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("Imoen2",StartDialogue("BIMOEN2","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Jaheira")  // Jaheira
+  See("Jaheira")  // Jaheira
+  !Dead("Jaheira")  // Jaheira
+  Global("JAHEIRAKIM","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("JAHEIRAKIM","GLOBAL",3)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Jaheira")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Jan")  // Jan
+  See("Jan")  // Jan
+  !Dead("Jan")  // Jan
+  Global("JANKIM","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("JANKIM","GLOBAL",3)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Jan")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Keldorn")  // Keldorn
+  See("Keldorn")  // Keldorn
+  !Dead("Keldorn")  // Keldorn
+  Global("KELDORNKIM","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("KELDORNKIM","GLOBAL",1)
+    SetGlobal("KIMBANTER","GLOBAL",3)
+    StartDialogue("KIMJ","Keldorn")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Korgan")  // Korgan
+  See("Korgan")  // Korgan
+  !Dead("Korgan")  // Korgan
+  Global("KORGANKIM","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("KORGANKIM","GLOBAL",3)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Korgan")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Mazzy")  // Mazzy
+  See("Mazzy")  // Mazzy
+  !Dead("Mazzy")  // Mazzy
+  Global("MAZZYKIM","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("MAZZYKIM","GLOBAL",3)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Mazzy")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Minsc")  // Minsc
+  See("Minsc")  // Minsc
+  !Dead("Minsc")  // Minsc
+  Global("MINSCKIM","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("MINSCKIM","GLOBAL",3)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Minsc")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Nalia")  // Nalia
+  See("Nalia")  // Nalia
+  !Dead("Nalia")  // Nalia
+  Global("NALIAKIM","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("NALIAKIM","GLOBAL",3)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Nalia")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Valygar")  // Valygar
+  See("Valygar")  // Valygar
+  !Dead("Valygar")  // Valygar
+  Global("VALYGARKIM","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("VALYGARKIM","GLOBAL",3)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Valygar")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Viconia")  // Viconia
+  See("Viconia")  // Viconia
+  !Dead("Viconia")  // Viconia
+  Global("VICONIAKIM","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("VICONIAKIM","GLOBAL",3)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    StartDialogue("KIMJ","Viconia")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Yoshimo")  // Yoshimo
+  See("Yoshimo")  // Yoshimo
+  !Dead("Yoshimo")  // Yoshimo
+  Global("YOSHIMOKIM","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("YOSHIMOKIM","GLOBAL",3)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    SetGlobal("YOSHIMODONE","LOCALS",1)
+    StartDialogue("KIMJ","Yoshimo")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Aerie")  // ~Aerie~
+  See("Aerie")  // ~Aerie~
+  !Dead("Aerie")  // ~Aerie~
+  Global("AERIEKIM","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("AERIEKIM","GLOBAL",4)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    SetGlobal("AERIEDONE","LOCALS",1)
+    StartDialogue("KIMJ","Aerie")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Anomen")  // Anomen
+  See("Anomen")  // Anomen
+  !Dead("Anomen")  // Anomen
+  Global("ANOMENKIM","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("ANOMENKIM","GLOBAL",4)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    SetGlobal("ANOMENDONE","LOCALS",1)
+    StartDialogue("KIMJ","Anomen")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Cernd")  // Cernd
+  See("Cernd")  // Cernd
+  !Dead("Cernd")  // Cernd
+  Global("CERNDKIM","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("CERNDKIM","GLOBAL",4)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    SetGlobal("CERNDDONE","LOCALS",1)
+    StartDialogue("KIMJ","Cernd")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Edwin")  // Edwin
+  See("Edwin")  // Edwin
+  !Dead("Edwin")  // Edwin
+  Global("EDWINKIM","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("EDWINKIM","GLOBAL",4)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    SetGlobal("EDWINDONE","LOCALS",1)
+    ActionOverride("EDWIN",StartDialogue("BEDWIN","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("HaerDalis")  // HaerDalis
+  See("HaerDalis")  // HaerDalis
+  !Dead("HaerDalis")  // HaerDalis
+  Global("HAERDALISKIM","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("HAERDALISKIM","GLOBAL",4)
+    SetGlobal("HAERDALISDONE","LOCALS",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("Haerdalis",StartDialogue("BHAERDA","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Imoen")  // ~Imoen~
+  See("Imoen")  // ~Imoen~
+  !Dead("Imoen")  // ~Imoen~
+  Global("IMOENKIM","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("IMOENKIM","GLOBAL",4)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    SetGlobal("IMOENDONE","LOCALS",1)
+    StartDialogue("KIMJ","Imoen")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Jaheira")  // Jaheira
+  See("Jaheira")  // Jaheira
+  !Dead("Jaheira")  // Jaheira
+  Global("JAHEIRAKIM","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("JAHEIRAKIM","GLOBAL",4)
+    SetGlobal("JAHEIRADONE","LOCALS",1)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    ActionOverride("Jaheira",StartDialogue("BJAHEIR","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Jan")  // Jan
+  See("Jan")  // Jan
+  !Dead("Jan")  // Jan
+  Global("JANKIM","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("JANKIM","GLOBAL",4)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    SetGlobal("JANDONE","LOCALS",1)
+    ActionOverride("Jan",StartDialogue("BJAN","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Keldorn")  // Keldorn
+  See("Keldorn")  // Keldorn
+  !Dead("Keldorn")  // Keldorn
+  Global("KELDORNKIM","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("KELDORNKIM","GLOBAL",4)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    SetGlobal("KELDORNDONE","LOCALS",1)
+    ActionOverride("KELDORN",StartDialogue("BKELDOR","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Korgan")  // Korgan
+  See("Korgan")  // Korgan
+  !Dead("Korgan")  // Korgan
+  Global("KORGANKIM","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("KORGANKIM","GLOBAL",4)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    SetGlobal("KORGANDONE","LOCALS",1)
+    ActionOverride("Korgan",StartDialogue("BKORGAN","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Mazzy")  // Mazzy
+  See("Mazzy")  // Mazzy
+  !Dead("Mazzy")  // Mazzy
+  Global("MAZZYKIM","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("MAZZYKIM","GLOBAL",4)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    SetGlobal("MAZZYDONE","LOCALS",1)
+    ActionOverride("Mazzy",StartDialogue("BMAZZY","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Minsc")  // Minsc
+  See("Minsc")  // Minsc
+  !Dead("Minsc")  // Minsc
+  Global("MINSCKIM","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("MINSCKIM","GLOBAL",4)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    SetGlobal("MINSCDONE","LOCALS",1)
+    StartDialogue("KIMJ","Minsc")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Nalia")  // Nalia
+  See("Nalia")  // Nalia
+  !Dead("Nalia")  // Nalia
+  Global("NALIAKIM","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("NALIAKIM","GLOBAL",4)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    SetGlobal("NALIADONE","LOCALS",1)
+    StartDialogue("KIMJ","Nalia")
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Valygar")  // Valygar
+  See("Valygar")  // Valygar
+  !Dead("Valygar")  // Valygar
+  Global("VALYGARKIM","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("VALYGARKIM","GLOBAL",4)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    SetGlobal("VALYGARDONE","LOCALS",1)
+    ActionOverride("VALYGAR",StartDialogue("BVALYGA","Kim"))
+END
+
+IF
+  Global("KIMBANTER","GLOBAL",1)
+  CombatCounter(0)
+  !Detect([ENEMY])
+  InParty(Myself)
+  InParty("Viconia")  // Viconia
+  See("Viconia")  // Viconia
+  !Dead("Viconia")  // Viconia
+  Global("VICONIAKIM","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("VICONIAKIM","GLOBAL",4)
+    SetGlobal("KIMBANTER","GLOBAL",0)
+    SetGlobal("VICONIADONE","LOCALS",1)
+    StartDialogue("KIMJ","Viconia")
+END
+

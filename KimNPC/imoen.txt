@@ -1,0 +1,92 @@
+APPEND BIMOEN2
+
+IF ~G("ImoenKim",3)~ THEN BEGIN ImoenKim1
+SAY ~ Au fait, Kim, qu'est-ce qui t'a poussé à rejoindre <CHARNAME> au début ? <PRO_HESHE> t'a sauvée la vie, à toi aussi ?~
+IF ~~ THEN EXTERN BKIM KimImoen1
+END
+
+IF ~~ THEN BEGIN ImoenKim2
+SAY ~ Je vois. Mais tu as changé d'avis, depuis ?~
+IF ~~ THEN EXTERN BKIM KimImoen2
+END
+
+IF ~~ THEN BEGIN ImoenKim3
+SAY ~ Oui, je peux comprendre que tu préfères voyager dans le froid à combattre des monstres tous plus moches les uns que les autres, plutôt que de passer ton temps à t'ennuyer près d'un bon feu.~
+IF ~~ THEN EXTERN BKIM KimImoen3
+END
+
+IF ~~ THEN BEGIN ImoenKim4
+SAY ~ Non. J'aime savoir que je contrôle ma vie sans qu'un dieu quelconque vienne y mettre le nez~
+IF ~~ THEN EXTERN BKIM KimImoen4
+END
+
+IF ~~ THEN BEGIN ImoenKim5
+SAY ~ Bah ! Bhaal a bien fait de mourir, sans quoi je lui aurai foutu mon pied au derrière ! Tu m'entends, espèce de trou de Bhaal ?~
+IF ~~ THEN EXTERN BKIM KimImoen5
+END
+END
+
+IF ~~ THEN BEGIN KimImoen1
+SAY ~ Non, pas exactement. Pour être honnête, <PRO_HESHE>… <PRO_HESHE> m'a payée pour que je le rejoigne. Je suis une mercenaire, Imoen. Je travaille pour de l'or.~
+IF ~~ THEN EXTERN BIMOEN2 ImoenKim2
+END
+
+IF ~~ THEN BEGIN KimImoen2
+SAY ~ Je dois avouer que je m'amuse beaucoup plus depuis que je suis avec vous que lorsque j'étais chez Renal Bloodscalp. Le travail de garde du corps, c'est d'un ennuyeux !~
+IF ~~ THEN EXTERN BIMOEN2 ImoenKim3
+END
+
+IF ~~ THEN BEGIN KimImoen3
+SAY ~ Dit comme ça… mais je pense que <CHARNAME> croit qu'il a une destinée à accomplir, et que d'une manière ou d'une autre, il pense que j'en fais partie. Tu crois au destin ?~
+IF ~~ THEN EXTERN BIMOEN2 ImoenKim4
+END
+
+IF ~~ THEN BEGIN KimImoen4
+SAY ~ Difficile de garder ton sérieux en disant ça, eh ? Je ne crois pas au destin du tout, mais le fait est qu'un dieu essaie bien de vous manipuler, on dirait...~
+IF ~~ THEN EXTERN BIMOEN2 ImoenKim5
+END
+
+IF ~~ THEN BEGIN KimImoen5
+SAY ~ Et voilà, tout le monde nous regarde… Reprenons la route, nous parlerons de toutes ces histoires de destin une autre fois.~
+IF ~~ THEN EXIT
+END
+
+
+CHAIN
+IF ~G("IMOENKIM",1)~ THEN BKIM KimImoen6
+~ Alors c'est donc toi, Imoen ? <CHARNAME> m'a beaucoup parlé de toi.~
+== BIMOEN2 ~ Ah oui ? J'espère que ce qu'<PRO_HESHE> t'a dit n'était pas trop méchant.~
+== BKIM ~ Au contraire, tu as l'air de beaucoup compter pour [PRO_HIMHER]. Quand je pense à tout ce qu'<PRO_HESHE> a fait pour te sauver, j'en viens à me demander si quelqu'un serait capable de faire la même chose pour moi.~
+== BIMOEN2 ~ Oh, ne fais pas cette tête-là. Je viendrais à ton secours, moi !~
+== BKIM ~ Vraiment ?~
+== BIMOEN2 ~Si ça impliquait une vampire dégénérée et un magicien assoiffé de pouvoir ? En y réfléchissant, peut-être pas. Mais je penserais beaucoup à toi !~
+== BKIM ~ Tu vois bien ? Il faut croire que tu es exceptionnelle...~
+== BIMOEN2 ~Non, je ne pense pas. Je crois que c'est plutôt  <CHARNAME> qui est exceptionnel.~
+== BKIM ~ Ce n'est pas faux. Mais chut, le voilà. Il ne faudrait pas qu'[PRO_HESHE] prenne la grosse tête.~
+EXIT
+
+CHAIN
+IF ~G("IMOENKIM",2)~ THEN BKIM KimImoen7
+~ Imoen, j'ai entendu dire que tu étais une voleuse talentueuse, en plus d'une mage. Je te demandrai de bien vouloir ne pas essayer mes talents sur moi.~
+== BIMOEN2 ~ Moi ? L'idée ne m'en viendrait pas à l'esprit, voyons !~
+== BKIM ~ Tiens donc. Alors je suppose que c'était une coïncidence lorsque tu es venue te coller à moi, tout à l'heure. En tout cas, je te propose un marché. Si tu me rends la bague que tu m'as volée… je te rends ta bourse.~
+== BIMOEN2 ~ Oh, une collègue, je vois. On va bien s'amuser ! Tiens, voilà ta bague… et quelques pièces que j'ai prises par inadvertance…~
+== BKIM ~ Tu te débrouilles bien, dis moi. Hey, j'ai une idée… Plutôt que de nous voler entre nous, pourquoi ne pas aller ennuyer <CHARNAME> ? <PRO_HESHE> mérite bien ça, vu tous les dangers qu'<PRO_HESHE> nous fait subir.~
+== BIMOEN2 ~Ca marche. Je lui parles, et tu coupes sa bourse.~
+== BKIM ~ Ca promet d'être amusant.~
+EXIT
+
+CHAIN
+IF ~G("IMOENKIM",4)~ THEN BKIM KimImoen8
+~ Hey, c'est moi, Imoen… c'est bon de vous revoir !~
+== BIMOEN2 ~ Huh ? Pourquoi est-ce que tu dis ça ?~
+== BKIM ~ Hehe. <CHARNAME> m'a dit que c'est ce que tu disais toujours, lorsque tu étais plus jeune. Et aussi "J'en ai assez", et "vous êtes tous des imbéciles"~
+== BIMOEN2 ~ Hmm… Il semblerait que <CHARNAME> parle décidément un peu trop. Peut-être qu'un seau d'eau en pleine figure pendant qu'<PRO_HESHE> dort l'aiderait à ne pas raconter de bêtises.~
+== BKIM ~ D'accord, ô figure autoritaire omniprésente.~
+== BJAHEIR ~ IF ~IsValidForPartyDialog("Jaheira")~ THEN
+~Bah. Cessez de jacasser comme des pies et reprenez la route. Il y a du chemin à parcourir avant de monter le camp~
+== BIMOEN2 ~ IF ~!IsValidForPartyDialog("Jaheira")~ THEN
+Heh, ça c'était Jaheira… dans ses bons moments. Mais reprenons la route. Il y a du chemin à parcourir avant de monter le camp ~
+EXIT
+
+

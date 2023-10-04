@@ -1,0 +1,16 @@
+IF
+  NumberOfTimesTalkedTo(0)
+THEN
+  RESPONSE #100
+    Dialog(Player1)
+END
+
+IF
+  Global("skullfin","GLOBAL",11)
+THEN
+  RESPONSE #100
+    SetGlobal("skullfin","GLOBAL",12)
+    CreateVisualEffectObject("SPDIMNDR",Myself)
+    DestroySelf()
+END
+

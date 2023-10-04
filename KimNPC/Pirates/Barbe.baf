@@ -1,0 +1,111 @@
+IF
+  See([PC])
+  !Allegiance(Myself,ENEMY)
+  Global("barbedebut","LOCALS",0)
+  Detect("KIM")  // ~Kim~
+THEN
+  RESPONSE #100
+    SetGlobal("barbedebut","LOCALS",1)
+    Dialog(Player1)
+END
+
+IF
+  !Allegiance(Myself,ENEMY)
+  Global("barbepirate","LOCALS",1)
+THEN
+  RESPONSE #100
+    CreateCreature("pirate1",[-1.-1],0)  // ~Pirate~
+    CreateCreature("pirate2",[-1.-1],0)  // ~Pirate~
+    CreateCreature("pirate3",[-1.-1],0)  // ~Pirate~
+    CreateCreature("pirate4",[-1.-1],0)  // ~Pirate~
+    CreateCreature("Zven",[-1.-1],0)  // ~Zven~
+    SetGlobal("barbepirate","LOCALS",2)
+    Dialog(Player1)
+END
+
+IF
+  See([PC])
+  !Allegiance(Myself,ENEMY)
+  Global("barbespeech","LOCALS",1)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    SetGlobal("barbefight","GLOBAL",1)
+    SetGlobal("nbstone","LOCALS",0)
+    SetGlobal("barbepirate","LOCALS",3)
+    SetGlobal("barbespeech","LOCALS",3)
+    Enemy()
+END
+
+IF
+  See([PC])
+  !Allegiance(Myself,ENEMY)
+  Global("barbespeech","LOCALS",2)
+THEN
+  RESPONSE #100
+    ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
+    ReallyForceSpell(Myself,WIZARD_IMPROVED_INVISIBILITY)
+    ReallyForceSpell(Myself,WIZARD_IMPROVED_HASTE)
+    SetGlobal("barbefight","GLOBAL",2)
+    EscapeArea()
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  Global("prep","LOCALS",0)
+THEN
+  RESPONSE #100
+    ReallyForceSpell(Myself,WIZARD_HASTE)
+    SetGlobal("prep","LOCALS",1)
+END
+
+IF
+  HPPercentLT(Myself,5)
+  Global("barbemorph","LOCALS",0)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    ReallyForceSpell(Myself,WIZARD_FIREBALL)
+    Kill("pirate1")
+    Kill("pirate2")
+    Kill("pirate3")
+    Kill("pirate4")
+    Kill("Zven")
+    SetGlobal("barbemorph","LOCALS",1)
+    CreateCreature("barbe2",[-1.-1],0)  // ~Barbe-Verte~
+    DestroyAllEquipment()
+    DestroySelf()
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  HPPercentLT(Myself,50)
+  GlobalLT("nbstone","LOCALS",4)
+  !GlobalTimerNotExpired("stone","LOCALS")
+THEN
+  RESPONSE #100
+    ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
+    SetGlobalTimer("nbstone","LOCALS",8)
+    IncrementGlobal("stone","LOCALS",1)
+    Continue()
+END
+
+IF
+  !GlobalTimerNotExpired("time","LOCALS")
+  HPPercentLT(Myself,50)
+  HasItem("Potn52",Myself)  // ~Potion de grands soins~
+THEN
+  RESPONSE #100
+    UseItem("Potn52",Myself)  // ~Potion de grands soins~
+    SetGlobalTimer("time","LOCALS",8)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    Attack(NearestEnemyOf(Myself))
+END
+

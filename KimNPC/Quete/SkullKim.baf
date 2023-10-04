@@ -1,0 +1,156 @@
+IF
+  NumberOfTimesTalkedTo(0)
+  See(Player1)
+THEN
+  RESPONSE #100
+    TakePartyItem("CartBar")
+    DestroyItem("CartBar")
+    TakePartyItem("CartBar2")
+    DestroyItem("CartBar2")
+    Dialog(Player1)
+END
+
+IF
+  Global("skullfin","GLOBAL",11)
+  See(Player1)
+THEN
+  RESPONSE #100
+    Wait(2)
+    SetGlobal("skullfin","GLOBAL",12)
+    Dialog(Player1)
+END
+
+IF
+  Global("skullfin","GLOBAL",13)
+  Global("endroitkim","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("skullfin","GLOBAL",20)
+    ClearAllActions()
+    TakePartyItem("UrneKim")
+    DestroyItem("UrneKim")
+    ReallyForceSpell(Myself,CLERIC_CALL_LIGHTNING)
+    Wait(1)
+    ReallyForceSpell(Myself,CLERIC_CALL_LIGHTNING)
+    Wait(1)
+    ReallyForceSpell(Myself,CLERIC_CALL_LIGHTNING)
+    Wait(1)
+    ClearAllActions()
+		MultiPlayerSync()
+		StartCutSceneMode()
+		StartCutScene("cutkim3")
+END
+
+IF
+  Global("skullfin","GLOBAL",13)
+  Global("endroitkim","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("skullfin","GLOBAL",20)
+    ClearAllActions()
+    TakePartyItem("UrneKim")
+    DestroyItem("UrneKim")
+    ReallyForceSpell(Myself,CLERIC_CALL_LIGHTNING)
+    Wait(1)
+    ReallyForceSpell(Myself,CLERIC_CALL_LIGHTNING)
+    Wait(1)
+    ReallyForceSpell(Myself,CLERIC_CALL_LIGHTNING)
+    Wait(1)
+    ClearAllActions()
+		MultiPlayerSync()
+		StartCutSceneMode()
+		StartCutScene("cutkim4")
+END
+
+IF
+  Global("skullfin","GLOBAL",14)
+THEN
+  RESPONSE #100
+    SetGlobal("skullfin","GLOBAL",15)
+    ClearAllActions()
+    TakePartyItem("UrneKim")
+    DestroyItem("UrneKim")
+    ReallyForceSpell(Myself,CLERIC_CALL_LIGHTNING)
+    Wait(1)
+    ReallyForceSpell(Myself,CLERIC_CALL_LIGHTNING)
+    Wait(1)
+    ReallyForceSpell(Myself,CLERIC_CALL_LIGHTNING)
+    Wait(1)
+    DestroySelf()
+    CreateCreature("BARBE3",[-1.-1],0)  // ~Barbe-Verte~
+END
+
+IF
+  HPPercentLT(Myself,90)
+  !Global("skullfin","GLOBAL",13)
+  !Global("skullfin","GLOBAL",14)
+  !Global("skullfin","GLOBAL",15)
+  !Global("skullfin","GLOBAL",20)
+THEN
+  RESPONSE #100
+    ReallyForceSpell(Myself,CLERIC_HEAL)
+    ReallyForceSpell(Myself,WIZARD_GREATER_MALISON)
+    ReallyForceSpell(Myself,WIZARD_WAIL_OF_THE_BANSHEE)
+END
+
+IF
+  Global("skullnon","GLOBAL",1)
+  Global("skullfin","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ReallyForceSpell(Myself,WIZARD_GREATER_MALISON)
+    ReallyForceSpell(Myself,WIZARD_WAIL_OF_THE_BANSHEE)
+    SetGlobal("skullfin","GLOBAL",1)
+END
+
+IF
+  OR(2)
+    Global("skullnon","GLOBAL",1)
+    Global("skulloui","GLOBAL",1)
+  Global("skullfin","GLOBAL",1)
+  Global("endroitkim","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("skullfin","GLOBAL",2)
+    ClearAllActions()
+		MultiPlayerSync()
+		StartCutSceneMode()
+		StartCutScene("cutkim3")
+END
+
+IF
+  OR(2)
+    Global("skullnon","GLOBAL",1)
+    Global("skulloui","GLOBAL",1)
+  Global("skullfin","GLOBAL",1)
+  Global("endroitkim","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("skullfin","GLOBAL",2)
+    ClearAllActions()
+		MultiPlayerSync()
+		StartCutSceneMode()
+		StartCutScene("cutkim4")
+END
+
+IF
+  Global("skullnon","GLOBAL",0)
+  Global("skullfin","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("skullfin","GLOBAL",2)
+    ClearAllActions()
+		MultiPlayerSync()
+		StartCutSceneMode()
+		StartCutScene("cutkim4")
+END
+
+IF
+  Global("skullfin","GLOBAL",10)
+  Global("solarcreate","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("solarcreate","LOCALS",1)
+    CreateCreature("KIMSOLAR",[-1.-1],0)  // ~Solaire~
+END
+
