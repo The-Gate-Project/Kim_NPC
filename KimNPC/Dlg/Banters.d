@@ -1407,7 +1407,7 @@ DO ~SetGlobal("kimhaerdak3","LOCALS",1)~
 == KIMJ @387
 == BJAHEIR IF ~IsValidForPartyDialog("Jaheira")~ THEN
 @388
-== BVICON IF ~IsValidForPartyDialog("Viconia")~ THEN
+== BVICONI IF ~IsValidForPartyDialog("Viconia")~ THEN
 @389
 == BAERIE IF ~IsValidForPartyDialog("Aerie")~ THEN
 @390
@@ -1548,7 +1548,7 @@ Global("kimanomenk4","LOCALS",0)~ THEN KIMJ KimAnomen6
 DO ~SetGlobal("kimanomenk4","LOCALS",1)~
 == BANOMEN @461
 == KIMJ @462
-== BVICON IF ~IsValidForPartyDialog("Viconia")~ THEN
+== BVICONI IF ~IsValidForPartyDialog("Viconia")~ THEN
 @463
 == BAERIE IF ~IsValidForPartyDialog("Aerie")~ THEN
 @464

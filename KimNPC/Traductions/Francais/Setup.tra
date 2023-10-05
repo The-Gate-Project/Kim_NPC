@@ -11,12 +11,13 @@
 @7 = ~Zven~
 @8 = ~Vampire~
 
-@10 = ~Etrange Amulette~
+@10 = ~Étrange Amulette~
 @11 = ~Amulette de Barbe-Verte~
 @12 = ~Les amulettes sont généralement des objets magiques suspendus autour du cou par une chaîne. Le type de chaîne accompagnant l'amulette augmente souvent la valeur esthétique de l'objet, mais pas ses propriétés magiques. On ne peut porter qu'une seule amulette autour du cou.~
 @13 = ~L'amulette portée par Barbe-Verte est une puissante protection contre les attaques de mêlée. Elle génère effectivement un champ magique qui ralentit les coups et régénère lentement le porteur
 
 Caractéristiques:
+
 10% de résistance aux dégâts contondants
 10% de résistance aux dégâts tranchants
 10% de résistance aux dégâts perforants
@@ -27,6 +28,7 @@ Régénération: 1HP par round~
 @17 = ~La version la plus répandue de la hache d'armes est une grande hampe d'environ 1,20 mètre de long comportant une lame à un seul tranchant et en forme de trompette montée sur une extrémité. Les haches d'armes sont également appelées grandes haches.
 
 PARAMETRES :
+
 Dégâts : 1D8
 Type de dégâts : tranchant
 Poids : 7
@@ -44,17 +46,19 @@ Voleur~
 PARAMETRES :
 
 Capacités de combat :
-15% de ralentir l'ennemi
-5% de décapiter l'ennemi
-5% de désintégrer l'ennemi
-10% d'empoisonner l'ennemi
-5% de pétrifier  l'ennemi
-5% d'assommer  l'ennemi
-10% d'absorber deux niveaux de l'ennemi
-10% d'être protégé par un sort de Manteau Amélioré
+
+15 % de ralentir l'ennemi
+5 % de décapiter l'ennemi
+5 % de désintégrer l'ennemi
+10 % d'empoisonner l'ennemi
+5 % de pétrifier l'ennemi
+5 % d'assommer l'ennemi
+10 % d'absorber deux niveaux de l'ennemi
+10 % d'être protégé par un sort de Manteau Amélioré
 
 Dégâts : 1D8 + 4
-Toucher: + 4Type de dégâts : tranchant
+Toucher: + 4
+Type de dégâts : tranchant
 Poids : 7
 Facteur de vitesse : 2
 Type de compétence : Hache
@@ -97,7 +101,7 @@ Force nécessaire : 5
 Inutilisable par :
 Druide
 Mage~
-@38 = ~Cette cotte de mailles est probablement le seul vestige des tentatives elfes et naines de mettre fin à leurs sempiternelles querelles. Les deux peuples ont combiné leurs talents pour réaliser ce petit chef d'oeuvre, aussi robuste qu'une armure naine, mais enchantée par les pouvoirs des elfes
+@38 = ~Cette cotte de mailles est probablement le seul vestige des tentatives elfes et naines de mettre fin à leurs sempiternelles querelles. Les deux peuples ont combiné leurs talents pour réaliser ce petit chef d’œuvre, aussi robuste qu'une armure naine, mais enchantée par les pouvoirs des elfes
 
 PARAMETRES :
 
@@ -123,23 +127,25 @@ Mage~
 @55 = ~ $$$$$ Decompression des fichiers son en sortant du programme $$$$$ ~
 @56 = ~ $$$$ Scripts $$$$$ ~
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-@100 = ~Installation de la hache reajustee~
+@100 = ~Installation de la Hache Mystique d'Entropie reajustee (ajoute un jet de sauvegarde a -4 contre ses effets)~
 @101 = ~La hache mystique d'entropie est une arme très dangereuse, le fruit des enchantements de plusieurs mages entropistes qui cherchaient à façonner le hasard pour qu'il les aide au combat. Ils ont partiellement réussi. L'arme dispose en effet de nombreuses capacités aléatoires pour aider son porteur à anéantir les ennemis
 
 PARAMETRES :
 
 Capacités de combat :
-15% de ralentir l'ennemi s'il rate un JS contre la pétrification à-4
-5% de décapiter l'ennemi s'il rate un JS contre la mort à-4
-5% de désintégrer l'ennemi s'il rate un JS la mort à-4
-10% d'empoisonner l'ennemi s'il rate un JS contre le poison à-4
-5% de pétrifier  l'ennemi s'il rate un JS contre la pétrification à-4
-5% d'assommer  l'ennemi s'il rate un JS contre la pétrification à-4
-10% d'absorber deux niveaux de l'ennemi s'il rate un JS contre  à-4
-10% d'être protégé par un sort de Manteau Amélioré
+
+15 % de ralentir l'ennemi s'il rate un JS contre la pétrification à -4
+5 % de décapiter l'ennemi s'il rate un JS contre la mort à -4
+5 % de désintégrer l'ennemi s'il rate un JS la mort à -4
+10 % d'empoisonner l'ennemi s'il rate un JS contre le poison à -4
+5 % de pétrifier l'ennemi s'il rate un JS contre la pétrification à -4
+5 % d'assommer l'ennemi s'il rate un JS contre la pétrification à -4
+10 % d'absorber deux niveaux de l'ennemi s'il rate un JS contre  à -4
+10 % d'être protégé par un sort de Manteau Amélioré
 
 Dégâts : 1D8 + 4
-Toucher: + 4Type de dégâts : tranchant
+Toucher: + 4
+Type de dégâts : tranchant
 Poids : 7
 Facteur de vitesse : 2
 Type de compétence : Hache

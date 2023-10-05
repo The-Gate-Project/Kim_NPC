@@ -1,14 +1,14 @@
-@0    = ~ Bonjour, et bienvenue à toi. En quoi puis-je être utile?~
+@0    = ~ Bonjour, et bienvenue à toi. En quoi puis-je être utile ?~
 
-@1    = ~ Nous avons entendu dire que vous auriez récupéré les cendres d'un démon récemment?~
+@1    = ~ Nous avons entendu dire que vous auriez récupéré les cendres d'un démon récemment ?~
 
-@2    = ~ Il ne s'est rien passé d'étrange, en ville, récemment?~
+@2    = ~ Il ne s'est rien passé d'étrange, en ville, récemment ?~
 
 @3    = ~ En fait, nous avons récemment tué le démon Barbe-Verte, et je pense que vous gardez les cendres.~
 
-@4    = ~Tiens donc ? Et où avez-vous entendu cela, citoyen?~
+@4    = ~Tiens donc ? Et où avez-vous entendu cela, citoyen ?~
 
-@5    = ~ La rue bruisse de la rumeur de votre exploit. Ca a dû être une vaillante bataille!~
+@5    = ~ La rue bruisse de la rumeur de votre exploit. Ça a dû être une vaillante bataille !~
 
 @6    = ~ A vrai dire, c'est moi qui ai tué ce démon.~
 
@@ -16,75 +16,75 @@
 
 @8    = ~ Ce n'est pas grave, oubliez ce que j'ai dit.~
 
-@9    = ~ D'étrange ? Hmm, tout dépend de ce que vous entendez par étrange, citoyen. Précisez votre pensée?~
+@9    = ~ D'étrange ? Hmm, tout dépend de ce que vous entendez par étrange, citoyen. Précisez votre pensée ?~
 
-@10   = ~ En fait, j'ai entendu dire que vous auriez récupéré les cendres d'un démon récemment?~
+@10   = ~ En fait, j'ai entendu dire que vous auriez récupéré les cendres d'un démon récemment ?~
 
 @11   = ~ Eh bien, j'ai tué un démon, et je crois que vous en avez les cendres.~
 
 @12   = ~ Rien, rien, oubliez ce que j'ai dit.~
 
-@13   = ~ Barbe-Verte? Alors ce démon que nous avons trouvé... hmm, ça me paraît tout de même difficile à croire...~
+@13   = ~ Barbe-Verte ? Alors ce démon que nous avons trouvé... hmm, ça me paraît tout de même difficile à croire...~
 
-@14   = ~ Croyez ce que vous voulez, mais je vous assure que c'est nous qui l'avons abattu!~
+@14   = ~ Croyez ce que vous voulez, mais je vous assure que c'est nous qui l'avons abattu !~
 
-@15   = ~ Le simple fait que je sache que vous avez récupéré ce corps vous le prouve bien, non?~
+@15   = ~ Le simple fait que je sache que vous avez récupéré ce corps vous le prouve bien, non ?~
 
-@16   = ~ Vous avez raison, je plaisantais. Au revoir!~
+@16   = ~ Vous avez raison, je plaisantais. Au revoir !~
 
-@17   = ~ Ca n'a pas de sens. Le démon est mort. Comment pourrait-il vous parler? Je vois bien que vous essayez de vous moquer de moi!~
+@17   = ~ Ça n'a pas de sens. Le démon est mort. Comment pourrait-il vous parler ? Je vois bien que vous essayez de vous moquer de moi !~
 
-@18   = ~ Absolument pas! Mais malgré les apparences, une partie de son essence est encore vivante.~
+@18   = ~ Absolument pas ! Mais malgré les apparences, une partie de son essence est encore vivante.~
 
 @19   = ~ Les rituels que vous avez exécutés pour l'exorciser ont eu l'effet contraire, et vous l'avez enchaîné à ce monde.~
 
-@20   = ~ Vous êtes lamentables, au Coeur Radieux. Vos rituels minables ont eu l'effet inverse de ce que vous espériez.~
+@20   = ~ Vous êtes lamentables, au Cœur Radieux. Vos rituels minables ont eu l'effet inverse de ce que vous espériez.~
 
-@21   = ~ Hmm... Vraiment? Eh bien, je dois dire que le combat fut effectivement difficile. Mais la justice triomphe toujours, et son bras vengeur s'est abattu sur ce monstre.~
+@21   = ~ Hmm... Vraiment ? Eh bien, je dois dire que le combat fut effectivement difficile. Mais la justice triomphe toujours, et son bras vengeur s'est abattu sur ce monstre.~
 
-@22   = ~ A-Ha! Flagrant délit de mensonge! C'est nous qui l'avons tué!~
+@22   = ~ A-Ha ! Flagrant délit de mensonge ! C'est nous qui l'avons tué !~
 
-@23   = ~ Hmm et, euh, y aurait-il un moyen quelconque de récupérer l'urne funéraire?~
+@23   = ~ Hmm et, euh, y aurait-il un moyen quelconque de récupérer l'urne funéraire ?~
 
 @24   = ~ Félicitations. Je vais vous laisser à votre gloire...~
 
 @25   = ~ Je ne voudrais certainement pas vous vexer, mais j'ai quelque peine à vous croire. Si c'est la vérité, alors vous avez rendu un grand service à l'Eglise. Mais je doute que vous ayez la puissance nécessaire pour détruire un démon de cette puissance.~
 
-@26   = ~ Vous êtes bouchés, ou quoi? Nous l'avons réduit en pièces!~
+@26   = ~ Vous êtes bouchés, ou quoi ? Nous l'avons réduit en pièces !~
 
-@27   = ~ Si je n'étais pas impliqué dans cette histoire, comment aurais-je été au courant de l'existence de ce démon?~
+@27   = ~ Si je n'étais pas impliqué dans cette histoire, comment aurais-je été au courant de l'existence de ce démon ?~
 
-@28   = ~ Tiens donc. Le démon mort serait donc vivant? Voilà qui est intéressant. Eh bien, vous serez ravis d'apprendre qu'il ne peut en être ainsi. Nos rituels de purification ont réduit le corps de ce démon en cendres, et l'ont empêché à tout jamais de se reconstituer dans les enfers.~
+@28   = ~ Tiens donc. Le démon mort serait donc vivant ? Voilà qui est intéressant. Eh bien, vous serez ravis d'apprendre qu'il ne peut en être ainsi. Nos rituels de purification ont réduit le corps de ce démon en cendres, et l'ont empêché à tout jamais de se reconstituer dans les enfers.~
 
-@29   = ~ Mais justement! Vous avez empêché son âme de s'échapper, et maintenant elle crie vengeance!~
+@29   = ~ Mais justement ! Vous avez empêché son âme de s'échapper, et maintenant elle crie vengeance !~
 
 @30   = ~ C'est impossible. Nos rituels sont sans faille.~
 
-@31   = ~ Comment puis-je vous prouver que je dis la vérité?~
+@31   = ~ Comment puis-je vous prouver que je dis la vérité ?~
 
-@32   = ~ Vous êtes bouchés ou quoi? Je vous dis que vous avez échoué!~
+@32   = ~ Vous êtes bouchés ou quoi ? Je vous dis que vous avez échoué !~
 
-@33   = ~ Nul ne parle ainsi à un paladin du Coeur Radieux. Laissez-moi, et partez méditer sur votre conduite inqualifiable.~
+@33   = ~ Nul ne parle ainsi à un paladin du Cœur Radieux. Laissez-moi, et partez méditer sur votre conduite inqualifiable.~
 
-@34   = ~ Oh... hum... eh bien, comment pourrais-je vous croire, n'est-ce pas? Qu'est-ce qui me prouve que vous n'inventez pas tout ça?~
+@34   = ~ Oh... hum... eh bien, comment pourrais-je vous croire, n'est-ce pas ? Qu'est-ce qui me prouve que vous n'inventez pas tout ça ?~
 
-@35   = ~ L'urne funéraire? Mais elle est en possession des meilleurs exorcistes de l'ordre. Que voulez-vous faire avec?~
+@35   = ~ L'urne funéraire ? Mais elle est en possession des meilleurs exorcistes de l'ordre. Que voulez-vous faire avec ?~
 
-@36   = ~ Eh bien, euh, gagner le trésor que nous a promis le démon?~
+@36   = ~ Eh bien, euh, gagner le trésor que nous a promis le démon ?~
 
-@37   = ~ Bannir définitivement ce démon de Féerune!~
+@37   = ~ Bannir définitivement ce démon de Féérune !~
 
 @38   = ~ Cela ne vous regarde pas.~
 
-@39   = ~ C'est un des tissus d'âneries les plus incroyables que j'ai jamais entendu. Mais vous voulez vraiment récupérer cette urne? Très bien.~
+@39   = ~ C'est un des tissus d'âneries les plus incroyables que j'ai jamais entendu. Mais vous voulez vraiment récupérer cette urne ? Très bien.~
 
-@40   = ~ Comment pourrais-je le savoir? Peut-être avez-vous raison, et peut-être essayez-vous de me manipuler. Il n'y a qu'une seule manière de le savoir.~
+@40   = ~ Comment pourrais-je le savoir ? Peut-être avez-vous raison, et peut-être essayez-vous de me manipuler. Il n'y a qu'une seule manière de le savoir.~
 
-@41   = ~ Je le savais ! Hors d'ici, hérétiques, si vous ne voulez pas que nous vous abattions sur le champ!~
+@41   = ~ Je le savais ! Hors d'ici, hérétiques, si vous ne voulez pas que nous vous abattions sur le champ !~
 
 @42   = ~ Voilà une noble tâche, même si je vous assure que nous y sommes parvenus sans souci. Cependant, si vous souhaitez entreprendre cette mission, nous devrions parvenir à un arrangement...~
 
-@43   = ~ Vous avez tort de prendre les choses ainsi. Hors de ma vue, misérables mécréants!~
+@43   = ~ Vous avez tort de prendre les choses ainsi. Hors de ma vue, misérables mécréants !~
 
 @44   = ~ Voyez-vous, notre mission est de combattre le mal où qu'il se trouve. Et à ce titre, nous ne saurions vous remettre ce que vous souhaitez, au risque de faire resurgir un nouveau mal ancestral.~
 
@@ -92,45 +92,45 @@
 
 @46   = ~ Vous avez en vous les germes de la justice, mais ce serait prendre un trop gros risque que de vous faire confiance aussi facilement. Voici ce que vous allez devoir faire, si vous souhaitez vraiment obtenir cette urne...~
 
-@47   = ~ De plus, vous n'êtes rien d'autre que des brigands. Les rumeurs de vos actes inqualifiables sont parvenus à nos oreilles. Non, décidément, moi vivant, vous n'aurez pas cette urne!~
+@47   = ~ De plus, vous n'êtes rien d'autre que des brigands. Les rumeurs de vos actes inqualifiables sont parvenus à nos oreilles. Non, décidément, moi vivant, vous n'aurez pas cette urne !~
 
-@48   = ~ Dans ce cas, nous te tuerons pour la récupérer!~
+@48   = ~ Dans ce cas, nous te tuerons pour la récupérer !~
 
 @49   = ~ Tant pis, alors.~
 
 @50   = ~ Nos paladins ont constaté une augmentation des manifestations surnaturelles dans le quartier du gouvernement. Le parc semble s'emplir de murmures et de manifestations violentes lorsque la nuit tombe. Nous avons envoyé deux paladins enquêter, mais ils ne sont pas revenus.~
 
-@51   = ~ Savez-vous réellement à qui vous parlez ? Mourez, pauvres fous!~
+@51   = ~ Savez-vous réellement à qui vous parlez ? Mourez, pauvres fous !~
 
 @52   = ~ Nous n'avons ni le temps, ni l'envie de résoudre une affaire aussi basique. Pourtant, le gouvernement attend que nous fassions quelque chose. Vous allez donc nous aider.~
 
 @53   = ~ Après tout, ce ne sera qu'un échange de bons procédés. Vous réglez un de nos problèmes, et l'urne est à vous. Au moins, si vous libérez ce démon, vous aurez déjà compensé sa perte par vos actions.~
 
-@54   = ~ C'est hors de question! Nous allons plutôt te tuer pour avoir l'urne!~
+@54   = ~ C'est hors de question ! Nous allons plutôt te tuer pour avoir l'urne !~
 
 @55   = ~ Très bien, nous le ferons.~
 
-@56   = ~ C'est du chantage!~
+@56   = ~ C'est du chantage !~
 
-@57   = ~ Ne pourrions-nous pas parvenir à un arrangement... monétaire?~
+@57   = ~ Ne pourrions-nous pas parvenir à un arrangement... monétaire ?~
 
 @58   = ~ Tout bien réfléchi, tant pis pour l'urne.~
 
-@59   = ~ Pour qui nous prenez-vous? Nous ne sommes pas des marchands de tapis à discuter ainsi de prix. Il est de mon devoir de protéger la population du démon dont vous souhaitez récupérer les cendres. Je ne vous aiderai donc qu'en échange d'une faveur équivalente. C'est pourtant clair.~
+@59   = ~ Pour qui nous prenez-vous ? Nous ne sommes pas des marchands de tapis à discuter ainsi de prix. Il est de mon devoir de protéger la population du démon dont vous souhaitez récupérer les cendres. Je ne vous aiderai donc qu'en échange d'une faveur équivalente. C'est pourtant clair.~
 
-@60   = ~ Oui, si vous voulez. Bien, maintenant que nous avons réglé ces problèmes de vocabulaire, allez-vous nous aider ou non?~
+@60   = ~ Oui, si vous voulez. Bien, maintenant que nous avons réglé ces problèmes de vocabulaire, allez-vous nous aider ou non ?~
 
 @61   = ~ A vrai dire, je m'en doutais un peu. Vous avez l'air d'aventuriers décidés. Très bien. Allez donc explorer le parc du gouvernement la nuit, et dites-moi ce que vous avez trouvé. Je vous attendrai ici.~
 
-@62   = ~ Alors, le problème est-il réglé?~
+@62   = ~ Alors, le problème est-il réglé ?~
 
 @63   = ~ Pas encore, mais j'y travaille.~
 
 @64   = ~ J'ai changé d'avis. J'abandonne toute cette histoire.~
 
-@65   = ~ J'ai changé d'avis. Je vais tous vous tuer pour avoir l'urne!~
+@65   = ~ J'ai changé d'avis. Je vais tous vous tuer pour avoir l'urne !~
 
-@66   = ~ Oui! C'est fait!~
+@66   = ~ Oui ! C'est fait !~
 
 @67   = ~ Le regard de Helm est sur vous. Allez, et résolvez cette affaire.~
 

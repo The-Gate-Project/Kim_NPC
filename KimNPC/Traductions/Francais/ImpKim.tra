@@ -1,77 +1,77 @@
-@0    = ~ Coucou, coucou!~
+@0    = ~ Coucou, coucou !~
 
-@1    = ~ On est les terreurs du soir!~
+@1    = ~ On est les terreurs du soir !~
 
-@2    = ~ On est méchants, on est vilains!~
+@2    = ~ On est méchants, on est vilains !~
 
-@3    = ~ On est les vilains fantômes du parc!~
+@3    = ~ On est les vilains fantômes du parc !~
 
-@4    = ~ Chut, chut, ils vont parler!~
+@4    = ~ Chut, chut, ils vont parler !~
 
-@5    = ~ C'est à vous! Parlez!~
+@5    = ~ C'est à vous ! Parlez !~
 
-@6    = ~ Euh... bonjour?~
+@6    = ~ Euh... bonjour ?~
 
-@7    = ~ C'est vous, les responsables des troubles dans le parc?~
+@7    = ~ C'est vous, les responsables des troubles dans le parc ?~
 
 @8    = ~ Vous êtes complètement tarés...~
 
-@9    = ~ Mourez, vermines!~
+@9    = ~ Mourez, vermines !~
 
-@10   = ~ Tu entends ça, Buzzbuzz?~
+@10   = ~ Tu entends ça, Buzzbuzz ?~
 
 @11   = ~ C'est pas gentil...~
 
 @12   = ~ Bon, ben on va s'amuser autrement, alors.~
 
-@13   = ~ Les troubles? Quels troubles?~
+@13   = ~ Les troubles ? Quels troubles ?~
 
-@14   = ~ On est des gentils diablotins, tout gentils, tout mignons!~
+@14   = ~ On est des gentils diablotins, tout gentils, tout mignons !~
 
-@15   = ~ Ah oui, j'avais oublié. Grrr, on est méchants!~
+@15   = ~ Ah oui, j'avais oublié. Grrr, on est méchants !~
 
-@16   = ~ Merci Buzzbuzz! Bon, alors, comment ça, des troubles?~
+@16   = ~ Merci Buzzbuzz ! Bon, alors, comment ça, des troubles ?~
 
 @17   = ~ Eh bien, on m'a dit qu'il y avait de mystérieuses disparitions dans le coin...~
 
 @18   = ~ Eh bien, les paladins m'ont dit qu'il y avait des ennuis dans le secteur du gouvernement...~
 
-@19   = ~ Bonjour bonjour!~
+@19   = ~ Bonjour bonjour !~
 
-@20   = ~ C'est rare!~
+@20   = ~ C'est rare !~
 
-@21   = ~ C'est bien!~
+@21   = ~ C'est bien !~
 
-@22   = ~ Bon, alors, que vouliez-vous, messieurs les gentils humanoïdes?~
+@22   = ~ Bon, alors, que vouliez-vous, messieurs les gentils humanoïdes ?~
 
-@23   = ~ Les paladins?~
+@23   = ~ Les paladins ?~
 
-@24   = ~ Ils n'étaient pas bons. Beurk!~
+@24   = ~ Ils n'étaient pas bons. Beurk !~
 
-@25   = ~ Un arrière-goût de métal!~
+@25   = ~ Un arrière-goût de métal !~
 
-@26   = ~ Vous n'êtes pas paladin, vous, quand même?~
+@26   = ~ Vous n'êtes pas paladin, vous, quand même ?~
 
-@27   = ~ Euh... sisi, je suis paladin!~
+@27   = ~ Euh... si si, je suis paladin !~
 
 @28   = ~ Non, pas du tout...~
 
-@29   = ~ Beurk! On le mange pas, alors? ~
+@29   = ~ Beurk ! On le mange pas, alors ? ~
 
-@30   = ~ Mais on le tue, quand même?~
+@30   = ~ Mais on le tue, quand même ?~
 
-@31   = ~ D'accord, une question! Une énigme, alors!~
+@31   = ~ D'accord, une question ! Une énigme, alors !~
 
-@32   = ~ Bon, hmm, voyons voir que je réfléchisse... Ah, je sais!~
+@32   = ~ Bon, hmm, voyons voir que je réfléchisse... Ah, je sais !~
 
 @33   = ~ Un démon, un vampire et une liche ont subi un très puissant sort de domination qui les a rendus gentils et inoffensifs...~
 
-@34   = ~ Mais au fil du temps, le sort s'est affaibli, et certains de ces monstres ont peut-être échappé à son emprise, redevenant mauvais. Les gentils disent toujours la vérité, et les méchants mentent toujours!"
-Le démon dit: "Aucun de nous n'est gentil!"
-La liche dit: "Moi, je suis gentille!"
-Le vampire dit: "Au moins deux d'entre nous sont méchants!"
+@34   = ~ Mais au fil du temps, le sort s'est affaibli, et certains de ces monstres ont peut-être échappé à son emprise, redevenant mauvais. Les gentils disent toujours la vérité, et les méchants mentent toujours !"
+Le démon dit: "Aucun de nous n'est gentil !"
+La liche dit: "Moi, je suis gentille !"
+Le vampire dit: "Au moins deux d'entre nous sont méchants !"
 
-Attention, il faut que vous tuiez les méchants! Qui frappez-vous?~
+Attention, il faut que vous tuiez les méchants ! Qui frappez-vous ?~
 
 @35   = ~ le vampire.~
 
@@ -85,92 +85,92 @@ Attention, il faut que vous tuiez les méchants! Qui frappez-vous?~
 
 @40   = ~ Le vampire et le démon.~
 
-@41   = ~ Les trois sont mauvais!~
+@41   = ~ Les trois sont mauvais !~
 
-@42   = ~ Les trois sont gentils!~
+@42   = ~ Les trois sont gentils !~
 
-@43   = ~ C'est une énigme ridicule!~
+@43   = ~ C'est une énigme ridicule !~
 
-@44   = ~ Ils sont nuls, hein?~
+@44   = ~ Ils sont nuls, hein ?~
 
-@45   = ~ La bonne réponse, c'était de tuer le démon et la liche, parce que le vampire était le seul gentil!~
+@45   = ~ La bonne réponse, c'était de tuer le démon et la liche, parce que le vampire était le seul gentil !~
 
-@46   = ~ Ils vont vous manger tout cru!~
+@46   = ~ Ils vont vous manger tout cru !~
 
-@47   = ~ Ils sont forts, hein?~
+@47   = ~ Ils sont forts, hein ?~
 
-@48   = ~ Bon, on va ailleurs?~
+@48   = ~ Bon, on va ailleurs ?~
 
-@49   = ~ Encore bravo, les jeunes, et salut!~
+@49   = ~ Encore bravo, les jeunes, et salut !~
 
-@50   = ~ Ah, ça me rassure! Vous n'allez pas nous rester sur l'estomac, alors...~
+@50   = ~ Ah, ça me rassure ! Vous n'allez pas nous rester sur l'estomac, alors...~
 
-@51   = ~ Mais ça n'est pas mystérieux du tout!~
+@51   = ~ Mais ça n'est pas mystérieux du tout !~
 
 @52   = ~ Mais bon, je suis sûr que c'est encore ces paladins qui viennent enquêter~
 
-@53   = ~ Ben alors, vous êtes encore vivants?~
+@53   = ~ Ben alors, vous êtes encore vivants ?~
 
 @54   = ~ Pff, c'est pas drôle...~
 
-@55   = ~ Salut, salut!~
+@55   = ~ Salut, salut !~
 
-@56   = ~ On est les yeux dans le noir!~
+@56   = ~ On est les yeux dans le noir !~
 
-@57   = ~ Bouuuh, qu'on n'est pas beaux!~
+@57   = ~ Bouuuh, qu'on n'est pas beaux !~
 
-@58   = ~ On fait tout pour qu'on nous remarque!~
+@58   = ~ On fait tout pour qu'on nous remarque !~
 
-@59   = ~ Ils vont parler!~
+@59   = ~ Ils vont parler !~
 
-@60   = ~ Ils nous insultent!~
+@60   = ~ Ils nous insultent !~
 
-@61   = ~ On veut juste s'amuser!~
+@61   = ~ On veut juste s'amuser !~
 
-@62   = ~ Oh oui, oh oui, jouons un peu!~
+@62   = ~ Oh oui, oh oui, jouons un peu !~
 
-@63   = ~ On ne fait pas de troubles, oh non!~
+@63   = ~ On ne fait pas de troubles, oh non !~
 
-@64   = ~ Euh, non, Zubbzubb, on est méchants, tu te rappelles?~
+@64   = ~ Euh, non, Zubbzubb, on est méchants, tu te rappelles ?~
 
-@65   = ~ Tu fais super bien le méchant!~
+@65   = ~ Tu fais super bien le méchant !~
 
-@66   = ~ Ils sont polis!~
+@66   = ~ Ils sont polis !~
 
-@67   = ~ Très rare!~
+@67   = ~ Très rare !~
 
-@68   = ~ Très bien! Ce sont des gentils humanoïdes!~
+@68   = ~ Très bien ! Ce sont des gentils humanoïdes !~
 
-@69   = ~ C'était trop dur sous la dent!~
+@69   = ~ C'était trop dur sous la dent !~
 
 @70   = ~ Trop sophistiqué, comme nourriture...~
 
 @71   = ~ Et puis les cheveux trop gominés...~
 
-@72   = ~ Non, non, ça va encore nous rester sur l'estomac!~
+@72   = ~ Non, non, ça va encore nous rester sur l'estomac !~
 
-@73   = ~ On leur pose une question, peut-être?~
+@73   = ~ On leur pose une question, peut-être ?~
 
-@74   = ~ Ca va être drôle!~
+@74   = ~ Ça va être drôle !~
 
-@75   = ~ Haha, eh non, eh non!~
+@75   = ~ Haha, eh non, eh non !~
 
-@76   = ~ Très nuls!~
+@76   = ~ Très nuls !~
 
-@77   = ~ Mais maintenant, ils sont méchants, tous!~
+@77   = ~ Mais maintenant, ils sont méchants, tous !~
 
-@78   = ~ Bravo, bravo!~
+@78   = ~ Bravo, bravo !~
 
-@79   = ~ Oh oui, enfin des humanoïdes intelligents!~
+@79   = ~ Oh oui, enfin des humanoïdes intelligents !~
 
-@80   = ~ On va embêter les gens ailleurs!~
+@80   = ~ On va embêter les gens ailleurs !~
 
-@81   = ~ Attends, attends, on leur pose une question d'abord?~
+@81   = ~ Attends, attends, on leur pose une question d'abord ?~
 
 @82   = ~ Puisque c'est nous qui les faisons disparaître...~
 
-@83   = ~ Tu vois, tu vois, on n'aurait pas dû les manger!~
+@83   = ~ Tu vois, tu vois, on n'aurait pas dû les manger !~
 
-@84   = ~ Ils sont costauds, hein?~
+@84   = ~ Ils sont costauds, hein ?~
 
 @85   = ~ On s'en va...~
