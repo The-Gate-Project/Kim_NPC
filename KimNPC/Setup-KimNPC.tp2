@@ -2,8 +2,9 @@ BACKUP ~KimNPC/backup~
 AUTHOR ~grenouillebleue@hotmail.com~
 
 ALWAYS
+
 	ACTION_DEFINE_ARRAY K_reload BEGIN
-	"Setup"
+	~Setup~
 	END
 	ACTION_DEFINE_ARRAY K_noconvert BEGIN END
 	LAF HANDLE_CHARSETS
@@ -14,7 +15,9 @@ ALWAYS
 		noconvert_array = K_noconvert
 		reload_array = K_reload
 	END
-	INCLUDE ~KimNPC/GW_BGEE.tpa~
+	
+	INCLUDE ~KimNPC/Lib/GW_BGEE.tpa~
+	
 	ACTION_IF NOT VARIABLE_IS_SET bg2_chapter BEGIN
 	ACTION_IF GAME_IS ~eet~ BEGIN
 		OUTER_SET bg2_chapter = 12
@@ -25,7 +28,7 @@ ALWAYS
 		OUTER_SET bg2_chapter = bg2_chapter + 1
 		OUTER_SPRINT name_source ~bg2_chapter_%i%~
 		OUTER_SET EVAL ~%name_source%~ = bg2_chapter
-	END
+		END
 	END
 END
 
@@ -49,7 +52,7 @@ COPY ~KimNPC/sons~ ~override~
 
 PRINT @51
 
-COPY ~KimNPC/Kim.cre~ ~override/Kim.cre~
+COPY ~KimNPC/Cre/Kim.cre~ ~override/Kim.cre~
   SAY NAME1 ~Kim~
   SAY NAME2 ~Kim~
   SAY LEADER ~~ [Kima]
@@ -84,50 +87,50 @@ COPY ~KimNPC/Kim.cre~ ~override/Kim.cre~
   SAY SET_A_TRAP ~~ [Kimad]
 
 
-COPY ~KimNPC/VampKim.cre~ ~override/VampKim.cre~
+COPY ~KimNPC/Cre/VampKim.cre~ ~override/VampKim.cre~
   SAY NAME1 @1
   SAY NAME2 @1
 
 
-COPY ~KimNPC/Pretresse/UmbKim.cre~ ~override/UmbKim.cre~
+COPY ~KimNPC/Cre/UmbKim.cre~ ~override/UmbKim.cre~
   SAY NAME1 @2
   SAY NAME2 @2
 
-COPY ~KimNPC/Quete/SkullKim.cre~ ~override/SkullKim.cre~
+COPY ~KimNPC/Cre/SkullKim.cre~ ~override/SkullKim.cre~
   SAY NAME1 @3
   SAY NAME2 @3
 
-COPY ~KimNPC/Quete/Barbe3.cre~ ~override/Barbe3.cre~
+COPY ~KimNPC/Cre/Barbe3.cre~ ~override/Barbe3.cre~
   SAY NAME1 @3
   SAY NAME2 @3
 
-COPY ~KimNPC/Quete/KimSolar.cre~ ~override/KimSolar.cre~
+COPY ~KimNPC/Cre/KimSolar.cre~ ~override/KimSolar.cre~
   SAY NAME1 @4
   SAY NAME2 @4
 
-COPY ~KimNPC/Quete/ImpKim.cre~ ~override/ImpKim.cre~
+COPY ~KimNPC/Cre/ImpKim.cre~ ~override/ImpKim.cre~
   SAY NAME1 @5
   SAY NAME2 @5
 
-COPY ~KimNPC/Quete/ImpKim2.cre~ ~override/ImpKim2.cre~
+COPY ~KimNPC/Cre/ImpKim2.cre~ ~override/ImpKim2.cre~
   SAY NAME1 @6
   SAY NAME2 @6
 
 
-COPY ~KimNPC/Pirates/Barbe1.cre~ ~override/Barbe1.cre~
+COPY ~KimNPC/Cre/Barbe1.cre~ ~override/Barbe1.cre~
   SAY NAME1 @3
   SAY NAME2 @3
 
-COPY ~KimNPC/Pirates/Barbe2.cre~ ~override/Barbe2.cre~
+COPY ~KimNPC/Cre/Barbe2.cre~ ~override/Barbe2.cre~
   SAY NAME1 @3
   SAY NAME2 @3
 
-COPY ~KimNPC/Pirates/Zven.cre~ ~override/Zven.cre~
+COPY ~KimNPC/Cre/Zven.cre~ ~override/Zven.cre~
   SAY NAME1 @7
   SAY NAME2 @7
 
 
-COPY ~KimNPC/Quete/ImpMob.cre~ ~override/ImpMob.cre~
+COPY ~KimNPC/Cre/ImpMob.cre~ ~override/ImpMob.cre~
   SAY NAME1 @8
   SAY NAME2 @8
 
@@ -179,11 +182,11 @@ COPY ~KimNPC/Items/KimBody.itm~ ~override/KimBody.itm~
 COPY ~KimNPC/images~ ~override~
 
 COPY
-     ~KimNPC/ArBarb.are~ ~override/ArBarb.are~
-     ~KimNPC/Pirates/Pirate1.cre~ ~override/Pirate1.cre~
-     ~KimNPC/Pirates/Pirate2.cre~ ~override/Pirate2.cre~
-     ~KimNPC/Pirates/Pirate3.cre~ ~override/Pirate3.cre~
-     ~KimNPC/Pirates/Pirate4.cre~ ~override/Pirate4.cre~
+     ~KimNPC/Are/ArBarb.are~ ~override/ArBarb.are~
+     ~KimNPC/Cre/Pirate1.cre~ ~override/Pirate1.cre~
+     ~KimNPC/Cre/Pirate2.cre~ ~override/Pirate2.cre~
+     ~KimNPC/Cre/Pirate3.cre~ ~override/Pirate3.cre~
+     ~KimNPC/Cre/Pirate4.cre~ ~override/Pirate4.cre~
 
 PRINT @56
 // Adds CD_STATE_NOTVALID state
@@ -200,78 +203,81 @@ APPEND ~spell.ids~ ~2302 WIZARD_REMOVE_MAGIC~
 
 
 
-COMPILE ~KimNPC/CutKim2.baf~
-        ~KimNPC/Kim.baf~
-        ~KimNPC/VampKim.baf~
-        ~KimNPC/KimCut53.baf~
+COMPILE ~KimNPC/Baf/CutKim2.baf~
 
-COMPILE ~KimNPC/Quete/ImpKim.baf~
-        ~KimNPC/Quete/ImpKim2.baf~
-        ~KimNPC/Quete/KimSolar.baf~
-        ~KimNPC/Quete/Barbe3.baf~
-        ~KimNPC/Quete/SkullKim.baf~
-        ~KimNPC/Quete/CutKim3.baf~
-        ~KimNPC/Quete/CutKim4.baf~
+COMPILE ~KimNPC/Baf/Kim.baf~
+		EVALUATE_BUFFER
+		
+COMPILE ~KimNPC/Baf/VampKim.baf~
+        ~KimNPC/Baf/KimCut53.baf~
 
-COMPILE ~KimNPC/Pirates/Barbe.baf~
-        ~KimNPC/Pirates/Barbe2.baf~
-        ~KimNPC/Pirates/Zven.baf~
-        ~KimNPC/Pirates/Pirate.baf~
+COMPILE ~KimNPC/Baf/ImpKim.baf~
+        ~KimNPC/Baf/ImpKim2.baf~
+        ~KimNPC/Baf/KimSolar.baf~
+        ~KimNPC/Baf/Barbe3.baf~
+        ~KimNPC/Baf/SkullKim.baf~
+        ~KimNPC/Baf/CutKim3.baf~
+        ~KimNPC/Baf/CutKim4.baf~
+
+COMPILE ~KimNPC/Baf/Barbe.baf~
+        ~KimNPC/Baf/Barbe2.baf~
+        ~KimNPC/Baf/Zven.baf~
+        ~KimNPC/Baf/Pirate.baf~
         
-COMPILE  ~KimNPC/Pirates/CutPira1.baf~
+COMPILE  ~KimNPC/Baf/CutPira1.baf~
 
 
-COMPILE ~KimNPC/Pretresse/UmbKim.baf~
+COMPILE ~KimNPC/Baf/UmbKim.baf~
 
 
 PRINT @53
-ACTION_IF GAME_IS ~BG2EE EET~ BEGIN
-	COPY ~KimNPC/EE~ ~override~
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+	COPY ~KimNPC/images/EE~ ~override~
 END
 
-COMPILE EVALUATE_BUFFER ~KimNPC/KimJ.d~
+COMPILE EVALUATE_BUFFER ~KimNPC/Dlg/KimJ.d~
   USING ~KimNPC/Traductions/%s/KimJ.tra~
 
-COMPILE ~KimNPC/Kim.d~
+COMPILE ~KimNPC/Dlg/Kim.d~
   USING ~KimNPC/Traductions/%s/Kim.tra~
 
-COMPILE ~KimNPC/Banters.d~
+COMPILE ~KimNPC/Dlg/Banters.d~
   USING ~KimNPC/Traductions/%s/Banters.tra~
 
-COMPILE ~KimNPC/KimInterject.d~
+COMPILE ~KimNPC/Dlg/KimInterject.d~
   USING ~KimNPC/Traductions/%s/KimInterject.tra~
 
-COMPILE ~KimNPC/VampKim.d~
+COMPILE ~KimNPC/Dlg/VampKim.d~
   USING ~KimNPC/Traductions/%s/VampKim.tra~
 
-COMPILE ~KimNPC/Quete/SkullKim.d~
+COMPILE ~KimNPC/Dlg/SkullKim.d~
   USING ~KimNPC/Traductions/%s/SkullKim.tra~
 
-COMPILE ~KimNPC/Quete/Quete.d~
+COMPILE ~KimNPC/Dlg/Quete.d~
   USING ~KimNPC/Traductions/%s/Quete.tra~
 
-COMPILE ~KimNPC/Quete/ImpKim2.d~
+COMPILE ~KimNPC/Dlg/ImpKim2.d~
   USING ~KimNPC/Traductions/%s/ImpKim2.tra~
 
-COMPILE ~KimNPC/Quete/ImpKim.d~
+COMPILE ~KimNPC/Dlg/ImpKim.d~
   USING ~KimNPC/Traductions/%s/ImpKim.tra~
 
-COMPILE ~KimNPC/Quete/Barbe3.d~
+COMPILE ~KimNPC/Dlg/Barbe3.d~
   USING ~KimNPC/Traductions/%s/Barbe3.tra~
 
-COMPILE ~KimNPC/Quete/KimSolar.d~
+COMPILE ~KimNPC/Dlg/KimSolar.d~
   USING ~KimNPC/Traductions/%s/KimSolar.tra~
 
-COMPILE ~KimNPC/Pirates/Zven.d~
+COMPILE ~KimNPC/Dlg/Zven.d~
   USING ~KimNPC/Traductions/%s/Zven.tra~
 
-COMPILE ~KimNPC/Pirates/Barbe.d~
+COMPILE ~KimNPC/Dlg/Barbe.d~
   USING ~KimNPC/Traductions/%s/Barbe.tra~
 
-COMPILE ~KimNPC/Pirates/Barbe2.d~
+COMPILE ~KimNPC/Dlg/Barbe2.d~
   USING ~KimNPC/Traductions/%s/Barbe2.tra~
 
-COMPILE ~KimNPC/Pretresse/UmbKim.d~
+COMPILE ~KimNPC/Dlg/UmbKim.d~
   USING ~KimNPC/Traductions/%s/UmbKim.tra~
 
 
@@ -285,18 +291,18 @@ COPY_EXISTING ~AR1604.ARE~ ~override~
 
 ACTION_IF (FILE_EXISTS_IN_GAME ~AR1604.bcs~) THEN BEGIN
 
-  EXTEND_TOP ~AR1604.bcs~ ~KimNPC/Pretresse/Kimumberlee.baf~
+  EXTEND_TOP ~AR1604.bcs~ ~KimNPC/Baf/Kimumberlee.baf~
 
 END ELSE BEGIN
 
-COMPILE ~KimNPC/Pretresse/Kimumberlee.baf~   ~override/AR1604.bcs~
+COMPILE ~KimNPC/Baf/Kimumberlee.baf~   ~override/AR1604.bcs~
 
 END
-EXTEND_BOTTOM ~Ar0300.bcs~ ~KimNPC/KimAr0300.baf~
-EXTEND_BOTTOM ~Ar0809.bcs~ ~KimNPC/KimAr0809.baf~
-EXTEND_BOTTOM ~Vampamb.bcs~ ~KimNPC/KimVampAmb.baf~
-EXTEND_BOTTOM ~cleanse.bcs~ ~KimNPC/KimCleanse.baf~
-EXTEND_BOTTOM ~bodhiamb.bcs~ ~KimNPC/KimBodhiAmb.baf~
+EXTEND_BOTTOM ~Ar0300.bcs~ ~KimNPC/Baf/KimAr0300.baf~
+EXTEND_BOTTOM ~Ar0809.bcs~ ~KimNPC/Baf/KimAr0809.baf~
+EXTEND_BOTTOM ~Vampamb.bcs~ ~KimNPC/Baf/KimVampAmb.baf~
+EXTEND_BOTTOM ~cleanse.bcs~ ~KimNPC/Baf/KimCleanse.baf~
+EXTEND_BOTTOM ~bodhiamb.bcs~ ~KimNPC/Baf/KimBodhiAmb.baf~
 
 APPEND ~pdialog.2da~
 ~Kim      KimP           KimJ          KimD~
