@@ -229,7 +229,7 @@ ACTION_IF GAME_IS ~BG2EE EET~ BEGIN
 	COPY ~KimNPC/EE~ ~override~
 END
 
-COMPILE ~KimNPC/KimJ.d~
+COMPILE EVALUATE_BUFFER ~KimNPC/KimJ.d~
   USING ~KimNPC/Traductions/%s/KimJ.tra~
 
 COMPILE ~KimNPC/Kim.d~
@@ -277,7 +277,21 @@ COMPILE ~KimNPC/Pretresse/UmbKim.d~
 
 PRINT @54
 
-EXTEND_TOP ~pries18b.bcs~ ~KimNPC/Pretresse/Kimumberlee.baf~
+// AR1604.ARE have wrong and inexisting script assigned
+
+COPY_EXISTING ~AR1604.ARE~ ~override~
+  WRITE_ASCII 0x94 ~AR1604~ #8
+  BUT_ONLY
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~AR1604.bcs~) THEN BEGIN
+
+  EXTEND_TOP ~AR1604.bcs~ ~KimNPC/Pretresse/Kimumberlee.baf~
+
+END ELSE BEGIN
+
+COMPILE ~KimNPC/Pretresse/Kimumberlee.baf~   ~override/AR1604.bcs~
+
+END
 EXTEND_BOTTOM ~Ar0300.bcs~ ~KimNPC/KimAr0300.baf~
 EXTEND_BOTTOM ~Ar0809.bcs~ ~KimNPC/KimAr0809.baf~
 EXTEND_BOTTOM ~Vampamb.bcs~ ~KimNPC/KimVampAmb.baf~
