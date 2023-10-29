@@ -3,6 +3,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("Umbtueekim","GLOBAL",2)
-    DestroySelf()
+	EscapeArea()
+    // DestroySelf()
 END
 

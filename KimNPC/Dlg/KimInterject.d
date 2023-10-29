@@ -1342,7 +1342,7 @@ END
 
 //// THUMB \\\\
 
-INTERJECT_COPY_TRANS THUMB 0 kimthumb
+INTERJECT_COPY_TRANS THUMB 0 kimthumb01
   == KIMJ   IF ~InParty("KIM")~ THEN 
   @226
   == THUMB   IF ~InParty("KIM")~ THEN 
@@ -1361,7 +1361,7 @@ INTERJECT_COPY_TRANS THUMB 0 kimthumb
   @233
 END
 
-INTERJECT_COPY_TRANS THUMB 6 kimthumb
+INTERJECT_COPY_TRANS THUMB 6 kimthumb02
   == KIMJ   IF ~InParty("KIM")~ THEN 
   @226
   == THUMB   IF ~InParty("KIM")~ THEN 

@@ -15,7 +15,7 @@ END
 IF ~~THEN BEGIN 2
 SAY @2 
 IF ~~ THEN REPLY @3 DO ~ SetGlobal("discusskim","LOCALS",1)~ GOTO 3
-IF ~~ THEN REPLY @4  DO ~ SetGlobal("discusskim","LOCALS",1)~ GOTO 4
+IF ~~ THEN REPLY @4 DO ~ SetGlobal("discusskim","LOCALS",1)~ GOTO 4
 IF ~~ THEN REPLY @5 DO ~ SetGlobal("discusskim","LOCALS",1)~ GOTO 5
 END
 
@@ -47,7 +47,7 @@ END
 IF ~ Global("barbepirate","LOCALS",2)~ THEN BEGIN 7
 SAY @12 
 IF ~~ THEN REPLY @3 GOTO 8
-IF ~~ THEN REPLY @4  GOTO 4
+IF ~~ THEN REPLY @4 GOTO 4
 IF ~~ THEN REPLY @5 GOTO 5
 END
 
@@ -68,7 +68,7 @@ APPEND KIMJ
 IF ~~THEN BEGIN barbe0
 SAY @15
 IF ~~ THEN REPLY @16 EXTERN BARBE 3
-IF ~~ THEN REPLY @17 GOTO 701
+IF ~~ THEN REPLY @17 EXTERN BARBE 4 
 IF ~~ THEN REPLY @18 EXTERN BARBE 5
 END
 
@@ -92,4 +92,5 @@ IF ~~ THEN DO ~DestroyItem("helm30b")
 GiveItemCreate("cartbar","kim",1,0,0)
 SetGlobal("barbemort","GLOBAL",3)~ EXIT
 END
+
 END

@@ -16,7 +16,7 @@
 @12 = ~Les amulettes sont généralement des objets magiques suspendus autour du cou par une chaîne. Le type de chaîne accompagnant l'amulette augmente souvent la valeur esthétique de l'objet, mais pas ses propriétés magiques. On ne peut porter qu'une seule amulette autour du cou.~
 @13 = ~L'amulette portée par Barbe-Verte est une puissante protection contre les attaques de mêlée. Elle génère effectivement un champ magique qui ralentit les coups et régénère lentement le porteur
 
-Caractéristiques:
+Caractéristiques :
 
 10% de résistance aux dégâts contondants
 10% de résistance aux dégâts tranchants
@@ -36,8 +36,9 @@ Facteur de vitesse : 7
 Type de compétence : Hache
 Type : Arme à 1 main
 Force nécessaire : 10
+
 Non utilisable par :
-Druide
+ Druide
 Clerc
 Mage
 Voleur~
@@ -64,6 +65,7 @@ Facteur de vitesse : 2
 Type de compétence : Hache
 Type : Arme à 1 main
 Force nécessaire : 10
+
 Non utilisable par :
 Druide
 Clerc
@@ -83,11 +85,11 @@ Ne vous laissez pas envahir par l'excitation, mais il semblerait bien que vous t
 @30 = ~Capuche de Kim~
 @31 = ~Vous auriez certainement préféré pouvoir voir les beaux cheveux noirs de Kim flotter au vent, mais elle semble ne jamais abandonner cette capuche, même pour dormir. Elle vous affirme avec aplomb que cet objet amplifie les ombres sur son visage en combat, lui permettant de dissimuler ses attaques et de se battre plus efficacement.
 
-Caractéristiques:
+Caractéristiques :
 
-Se cacher dans l'ombre: +10%
-ThAC0: +1
-Classe d'Armure: +1~
+Se cacher dans l'ombre : +10%
+THAC0 : +1
+Classe d'Armure : +1~
 
 @35 = ~Armure en cotte de mailles~
 @36 = ~Cotte naine de mailles elfique~
@@ -98,10 +100,11 @@ PARAMETRES :
 Classe d'armure : 2
 Poids : 4
 Force nécessaire : 5
+
 Inutilisable par :
 Druide
 Mage~
-@38 = ~Cette cotte de mailles est probablement le seul vestige des tentatives elfes et naines de mettre fin à leurs sempiternelles querelles. Les deux peuples ont combiné leurs talents pour réaliser ce petit chef d’œuvre, aussi robuste qu'une armure naine, mais enchantée par les pouvoirs des elfes
+@38 = ~Cette cotte de mailles est probablement le seul vestige des tentatives elfes et naines de mettre fin à leurs sempiternelles querelles. Les deux peuples ont combiné leurs talents pour réaliser ce petit chef d'œuvre, aussi robuste qu'une armure naine, mais enchantée par les pouvoirs des elfes
 
 PARAMETRES :
 
@@ -109,6 +112,7 @@ Mémorisation d'un sort supplémentaire de niveau 5 et 6
 Classe d'armure : 2
 Poids : 4
 Force nécessaire : 5
+
 Inutilisable par :
 Druide
 Mage~
@@ -143,14 +147,16 @@ Capacités de combat :
 10 % d'absorber deux niveaux de l'ennemi s'il rate un JS contre  à -4
 10 % d'être protégé par un sort de Manteau Amélioré
 
+Enchantement : +3 
 Dégâts : 1D8 + 4
-Toucher: + 4
+Toucher : + 4
 Type de dégâts : tranchant
 Poids : 7
 Facteur de vitesse : 2
 Type de compétence : Hache
 Type : Arme à 1 main
 Force nécessaire : 10
+
 Non utilisable par :
 Druide
 Clerc
@@ -159,6 +165,39 @@ Voleur~
 
 @102 = ~Vous devez d'abord installer le mod Kim NPC.~
 @103 =  ~Installation de "Baldur's Gate II" non reconnue~
+
+@120 =  ~Très bon choix.~ [Kima] 
+@121  =  ~Je veux dormir.~ [Kimb] 
+@122  =  ~J'm'embête.~ [Kimc] 
+@123  =  ~À l'abordage !~ [Kimd] 
+@124  =  ~En garde !~ [Kime] 
+@125  =  ~Mais ! Aïe !~ [Kimf] 
+@126  =  ~~ [Kimg] 
+@127  =  ~Bon vous vous décidez à me soigner ?~ [Kimh] 
+@128  =  ~Toute cette verdure ne vaut pas la mer.~ [Kimi] 
+@129  =  ~Ah les villes, pleins de gens à détrousser.~ [Kimj] 
+@130 =  ~Ça sent pas bon.~ [Kimk] 
+@131 =  ~Quoi encore ?~ [Kiml] 
+@132 =  ~Oui !~ [Kimm] 
+@133 =  ~Me regarde pas comme ça !~ [Kimn] 
+@134 =  ~J'ai soif ! File-moi du rhum !~ [Kimo] 
+@135 =  ~Ouais ?~ [Kimp] 
+@136 =  ~Besoin de ma lame ?~ [Kimq] 
+@137 =  ~C'est bien pour te faire plaisir.~ [Kimr] 
+@138 =  ~Tu peux pas demander à quelqu'un d'autre ?~ [Kims] 
+@139 =  ~Où tu veux, quand tu veux. ~ [Kimt] 
+@140 =  ~T'es sûr que tu sais ce que tu fais ?~ [Kimu] 
+@141 =  ~Bon, dépêchons-nous !~ [Kimv] 
+@142 =  ~Et voilà encore la magnifique Kim à l’œuvre.~ [Kimw] 
+@143 =  ~Oups, c'est pas ma faute.~ [Kimx] 
+@144 =  ~Y fait rien qu'à faire qu'à pas être blessé...~ [Kimy] 
+@145 =  ~Bon aller reprend tout ton bazar, je suis pas une poubelle !~ [Kimz] 
+@146 =  ~Hé hop, les sous-sous dans la po-poche.~ [Kimaa]
+@147 =  ~Je suis cachée.~ [Kimab]
+@148 =  ~Mon sort est interrompu.~ [Kimac]
+@149 =  ~Ça va faire mal !~ [Kimad]
+
+
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"

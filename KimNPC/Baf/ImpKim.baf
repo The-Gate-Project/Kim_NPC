@@ -23,7 +23,7 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("imptrick","LOCALS",1)
-    CreateCreatureObject("LICH01",Player1,0,0,0)  // ~Liche~
+    CreateCreatureObject("kimlich",Player1,0,0,0)  // ~Liche~
     CreateCreatureObject("IMPMOB",Player1,0,0,0)  // ~Vampire~
     CreateVisualEffectObject("SPDIMNDR",Myself)
     JumpToPoint([168.385])
@@ -31,8 +31,8 @@ END
 
 IF
   Global("imptrick","LOCALS",1)
-  Dead("LICH01")  // ~Liche~
-  Dead("TANAR")  // TANAR
+  Dead("kimlich")  // ~Liche~
+  Dead("kimtana")  // TANAR
   Dead("IMPMOB")  // ~Vampire~
 THEN
   RESPONSE #100

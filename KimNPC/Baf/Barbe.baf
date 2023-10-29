@@ -1,4 +1,22 @@
 IF
+  HPPercentLT(Myself,10)
+  Global("barbemorph","LOCALS",0)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SetGlobal("barbemorph","LOCALS",1)
+    ReallyForceSpell(Myself,WIZARD_FIREBALL)
+    Kill("pirate1")
+    Kill("pirate2")
+    Kill("pirate3")
+    Kill("pirate4")
+    Kill("Zven")
+    CreateCreature("barbe2",[-1.-1],0)  // ~Barbe-Verte~
+    DestroyAllEquipment()
+    DestroySelf()
+END
+
+IF
   See([PC])
   !Allegiance(Myself,ENEMY)
   Global("barbedebut","LOCALS",0)
@@ -14,12 +32,13 @@ IF
   Global("barbepirate","LOCALS",1)
 THEN
   RESPONSE #100
+    SetGlobal("barbepirate","LOCALS",2)
+    SetGlobal("pirateobjet","GLOBAL",4)
     CreateCreature("pirate1",[-1.-1],0)  // ~Pirate~
     CreateCreature("pirate2",[-1.-1],0)  // ~Pirate~
     CreateCreature("pirate3",[-1.-1],0)  // ~Pirate~
     CreateCreature("pirate4",[-1.-1],0)  // ~Pirate~
     CreateCreature("Zven",[-1.-1],0)  // ~Zven~
-    SetGlobal("barbepirate","LOCALS",2)
     Dialog(Player1)
 END
 
@@ -29,11 +48,11 @@ IF
   Global("barbespeech","LOCALS",1)
 THEN
   RESPONSE #100
-    EquipMostDamagingMelee()
     SetGlobal("barbefight","GLOBAL",1)
     SetGlobal("nbstone","LOCALS",0)
     SetGlobal("barbepirate","LOCALS",3)
     SetGlobal("barbespeech","LOCALS",3)
+    EquipMostDamagingMelee()
     Enemy()
 END
 
@@ -43,10 +62,10 @@ IF
   Global("barbespeech","LOCALS",2)
 THEN
   RESPONSE #100
+    SetGlobal("barbefight","GLOBAL",2)
     ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
     ReallyForceSpell(Myself,WIZARD_IMPROVED_INVISIBILITY)
     ReallyForceSpell(Myself,WIZARD_IMPROVED_HASTE)
-    SetGlobal("barbefight","GLOBAL",2)
     EscapeArea()
 END
 
@@ -55,26 +74,8 @@ IF
   Global("prep","LOCALS",0)
 THEN
   RESPONSE #100
-    ReallyForceSpell(Myself,WIZARD_HASTE)
     SetGlobal("prep","LOCALS",1)
-END
-
-IF
-  HPPercentLT(Myself,5)
-  Global("barbemorph","LOCALS",0)
-THEN
-  RESPONSE #100
-    ClearAllActions()
-    ReallyForceSpell(Myself,WIZARD_FIREBALL)
-    Kill("pirate1")
-    Kill("pirate2")
-    Kill("pirate3")
-    Kill("pirate4")
-    Kill("Zven")
-    SetGlobal("barbemorph","LOCALS",1)
-    CreateCreature("barbe2",[-1.-1],0)  // ~Barbe-Verte~
-    DestroyAllEquipment()
-    DestroySelf()
+    ReallyForceSpell(Myself,WIZARD_HASTE)
 END
 
 IF
@@ -84,9 +85,9 @@ IF
   !GlobalTimerNotExpired("stone","LOCALS")
 THEN
   RESPONSE #100
+    IncrementGlobal("stone","LOCALS",1)
     ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
     SetGlobalTimer("nbstone","LOCALS",8)
-    IncrementGlobal("stone","LOCALS",1)
     Continue()
 END
 
@@ -96,8 +97,8 @@ IF
   HasItem("Potn52",Myself)  // ~Potion de grands soins~
 THEN
   RESPONSE #100
-    UseItem("Potn52",Myself)  // ~Potion de grands soins~
     SetGlobalTimer("time","LOCALS",8)
+    UseItem("Potn52",Myself)  // ~Potion de grands soins~
 END
 
 IF

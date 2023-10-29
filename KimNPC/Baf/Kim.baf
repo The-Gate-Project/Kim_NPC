@@ -143,7 +143,7 @@ THEN
 END
 
 IF
-  OnCreation()
+  // OnCreation()
   Global("Kimmatch","GLOBAL",0)
   Gender(Player1,MALE)
   OR(3)
@@ -250,19 +250,21 @@ IF
   Global("debutquete1","LOCALS",0)
 THEN
   RESPONSE #100
-    SetGlobalTimer("Piratequete1","GLOBAL",1200)
-    SetGlobal("debutquete1","LOCALS",1)
+	SetGlobal("debutquete1","LOCALS",1)
+	SetGlobalTimer("Piratequete1","GLOBAL",1200)
 END
 
 IF
   InParty("Kim")  // ~Kim~
   GlobalTimerExpired("Piratequete1","GLOBAL")
   Global("debutquete1","LOCALS",1)
+  CombatCounter(0)
   OR(4)
     AreaCheck("AR0300")
     AreaCheck("AR0400")
     AreaCheck("AR0500")
     AreaCheck("AR0700")
+  Delay(12)
 THEN
   RESPONSE #100
     CreateCreatureOffScreen("Zven",0)  // ~Zven~
@@ -270,6 +272,7 @@ THEN
     CreateCreatureOffScreen("Pirate2",0)  // ~Pirate~
     CreateCreatureOffScreen("Pirate3",0)  // ~Pirate~
     ActionOverride("Zven",Dialog(Player1))
+    Wait(2)
     StartCutSceneMode()
     StartCutScene("CutPira1")
 END
@@ -289,23 +292,25 @@ IF
   Global("debutquete2","LOCALS",0)
 THEN
   RESPONSE #100
-    SetGlobalTimer("Piratequete2","GLOBAL",1200)
     SetGlobal("debutquete2","LOCALS",1)
+    SetGlobalTimer("Piratequete2","GLOBAL",1200)
 END
 
 IF
   InParty("Kim")  // ~Kim~
   Global("debutquete2","LOCALS",1)
   GlobalTimerExpired("Piratequete2","GLOBAL")
+  CombatCounter(0)
   OR(4)
     AreaCheck("AR0300")
     AreaCheck("AR0400")
     AreaCheck("AR0500")
     AreaCheck("AR0700")
+  Delay(12)
 THEN
   RESPONSE #100
-    CreateCreature("Barbe1",[-1.-1],0)
     SetGlobal("debutquete2","LOCALS",2)
+    CreateCreature("Barbe1",[-1.-1],0)
 END
 
 IF
@@ -336,6 +341,7 @@ IF
   PartyHasItem("Cartbar2")  // ~Morceau droit de carte au trésor~
   Global("ileautresor","LOCALS",0)
   AreaCheck("AR1604")
+  InParty(Myself)
 THEN
   RESPONSE #100
     SetGlobal("ileautresor","LOCALS",1)
@@ -347,6 +353,7 @@ IF
   PartyHasItem("Cartbar2")  // ~Morceau droit de carte au trésor~
   Global("ileautresor","LOCALS",0)
   !AreaCheck("AR1604")
+  InParty(Myself)
 THEN
   RESPONSE #100
     SetGlobal("ileautresor","LOCALS",1)
@@ -357,11 +364,13 @@ IF
   PartyHasItem("Cartbar")  // ~Morceau gauche de carte au trésor~
   PartyHasItem("Cartbar2")  // ~Morceau droit de carte au trésor~
   Global("ileautresor","LOCALS",1)
+  AreaType(OUTDOOR)
+  InParty(Myself)
 THEN
   RESPONSE #100
 //E    DestroyItem("Cartbar")  // ~Morceau gauche de carte au trésor~
 //E    DestroyItem("Cartbar2")  // ~Morceau droit de carte au trésor~
-    SetGlobal("ileautresor","LOCALS",2)
+	SetGlobal("ileautresor","LOCALS",2)
 		ClearAllActions()
 		MultiPlayerSync()
 		StartCutSceneMode()
@@ -373,13 +382,14 @@ IF
   Global("ileautresor","LOCALS",2)
 THEN
   RESPONSE #100
-    CreateCreature("Skullkim",[1135.1326],0)  // ~Barbe-Verte~
     SetGlobal("ileautresor","LOCALS",3)
+    CreateCreature("Skullkim",[1135.1326],0)  // ~Barbe-Verte~
 END
 
 IF
   Global("skullfin","GLOBAL",4)
   Global("echecquete","LOCALS",0)
+  InParty(Myself)
 THEN
   RESPONSE #100
     ClearAllActions()
@@ -392,6 +402,7 @@ END
 IF
   Global("skullfin","GLOBAL",7)
   Global("succesquete","LOCALS",0)
+  InParty(Myself)
 THEN
   RESPONSE #100
     SetGlobal("succesquete","LOCALS",1)
@@ -410,9 +421,9 @@ IF
     TimeOfDay(MORNING)
 THEN
   RESPONSE #100
+    SetGlobal("skullfin","GLOBAL",9)
     CreateCreature("IMPKIM",[2626.1229],0)  // ~ZubbZubb~
     CreateCreature("IMPKIM2",[2813.1244],0)  // ~BuzzBuzz~
-    SetGlobal("skullfin","GLOBAL",9)
 END
 
 IF
@@ -506,10 +517,19 @@ IF
   Global("GTKUKIM","LOCALS",28)
 THEN
   RESPONSE #100
-    RealSetGlobalTimer("LOVEKIMTIMER","GLOBAL",7)
     SetGlobal("kimloveTLK","LOCALS",1)
     SetGlobal("GTKUKIM","LOCALS",29)
     SetGlobal("KimRomanceActive","GLOBAL",1)
+    RealSetGlobalTimer("LOVEKIMTIMER","GLOBAL",7)
+END
+
+IF
+  InParty(Myself)
+  !Global("Kimmatch","GLOBAL",1)
+  Global("GTKUKIM","LOCALS",28)
+THEN
+  RESPONSE #100
+    SetGlobal("GTKUKIM","LOCALS",29)
 END
 
 IF
@@ -639,9 +659,9 @@ IF
   !StateCheck(Player1,CD_STATE_NOTVALID)
   Global("KIMBANTER","GLOBAL",0)
   RealGlobalTimerExpired("KIMBANTERTIMER","GLOBAL")
-  InParty("Imoen")  // ~Imoen~
-  See("Imoen")  // ~Imoen~
-  !Dead("Imoen")  // ~Imoen~
+  InParty("Imoen2")  // ~Imoen~
+  See("Imoen2")  // ~Imoen~
+  !Dead("Imoen2")  // ~Imoen~
   !Global("IMOENDONE","LOCALS",1)
 THEN
   RESPONSE #100
@@ -1004,15 +1024,15 @@ IF
   CombatCounter(0)
   !Detect([ENEMY])
   InParty(Myself)
-  InParty("Imoen")  // ~Imoen~
-  See("Imoen")  // ~Imoen~
-  !Dead("Imoen")  // ~Imoen~
+  InParty("Imoen2")  // ~Imoen~
+  See("Imoen2")  // ~Imoen~
+  !Dead("Imoen2")  // ~Imoen~
   Global("IMOENKIM","GLOBAL",0)
 THEN
   RESPONSE #100
     SetGlobal("IMOENKIM","GLOBAL",1)
     SetGlobal("KIMBANTER","GLOBAL",0)
-    StartDialogue("KIMJ","Imoen")
+    StartDialogue("KIMJ","Imoen2")
 END
 
 IF
@@ -1260,15 +1280,15 @@ IF
   CombatCounter(0)
   !Detect([ENEMY])
   InParty(Myself)
-  InParty("Imoen")  // ~Imoen~
-  See("Imoen")  // ~Imoen~
-  !Dead("Imoen")  // ~Imoen~
+  InParty("Imoen2")  // ~Imoen~
+  See("Imoen2")  // ~Imoen~
+  !Dead("Imoen2")  // ~Imoen~
   Global("IMOENKIM","GLOBAL",1)
 THEN
   RESPONSE #100
     SetGlobal("IMOENKIM","GLOBAL",2)
     SetGlobal("KIMBANTER","GLOBAL",0)
-    StartDialogue("KIMJ","Imoen")
+    StartDialogue("KIMJ","Imoen2")
 END
 
 IF
@@ -1516,9 +1536,9 @@ IF
   CombatCounter(0)
   !Detect([ENEMY])
   InParty(Myself)
-  InParty("Imoen")  // ~Imoen~
-  See("Imoen")  // ~Imoen~
-  !Dead("Imoen")  // ~Imoen~
+  InParty("Imoen2")  // ~Imoen~
+  See("Imoen2")  // ~Imoen~
+  !Dead("Imoen2")  // ~Imoen~
   Global("IMOENKIM","GLOBAL",2)
 THEN
   RESPONSE #100
@@ -1778,16 +1798,16 @@ IF
   CombatCounter(0)
   !Detect([ENEMY])
   InParty(Myself)
-  InParty("Imoen")  // ~Imoen~
-  See("Imoen")  // ~Imoen~
-  !Dead("Imoen")  // ~Imoen~
+  InParty("Imoen2")  // ~Imoen~
+  See("Imoen2")  // ~Imoen~
+  !Dead("Imoen2")  // ~Imoen~
   Global("IMOENKIM","GLOBAL",3)
 THEN
   RESPONSE #100
     SetGlobal("IMOENKIM","GLOBAL",4)
     SetGlobal("KIMBANTER","GLOBAL",0)
     SetGlobal("IMOENDONE","LOCALS",1)
-    StartDialogue("KIMJ","Imoen")
+    StartDialogue("KIMJ","Imoen2")
 END
 
 IF

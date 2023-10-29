@@ -1,6 +1,6 @@
 @0    = ~ Bouh dit que Kim se bat bien, pour une fille !~
 @1    = ~ Hmm... Qu'est-ce que Kim est en train de faire ? Ce n'est pas Bouh que tu caresses...~
-@2    = ~ Bouh se demande si tu veux être la sorcière de Minsc. Dinaheyr faisait ça à Minsc, aussi. Tu te rappelles, <CHARNAME> ?~
+@2    = ~ Bouh se demande si tu veux être la sorcière de Minsc. Dynaheir faisait ça à Minsc, aussi. Tu te rappelles, <CHARNAME> ?~
 @3    = ~ Je ne veux rien avoir à faire avec cette discussion...~
 @4    = ~ Je suis désolé, mais je ne me souviens pas, Minsc.~
 @5    = ~ Ah, oui, je me souviens. C'était une femme pleine de charme.~
@@ -108,14 +108,14 @@
 @107  = ~ Rien n'est jamais facile, elg'caress. Je ne me plains pas de mon sort, contrairement à d'autres.~
 @108  = ~ Cesse d'être aussi désagréable, Viconia. Je trouvais justement que nous avions un point commun en cela. Tu as cherché à t'intégrer dans une société qui méprise les elfes noirs – et j'ai cherché à m'intégrer dans une armée qui méprise les femmes. Dans les deux cas, on regarde notre naissance plus que nos capacités.~
 @109  = ~ Tu as peut-être raison. Mais quels mots de réconforts peux-tu apporter à celle qui est née elfe noire et femme ?~
-@110  = ~ Je pourrais par exemple lui dire qu'elle a trouvé une place dans un groupe où on la regarde pour ce qu'elle est, pas pour ce qu'elle représente. Et que <CHARNAME> ne s’embarrasse pas de préjugés.~
+@110  = ~ Je pourrais par exemple lui dire qu'elle a trouvé une place dans un groupe où on la regarde pour ce qu'elle est, pas pour ce qu'elle représente. Et que <CHARNAME> ne s'embarrasse pas de préjugés.~
 @111  = ~ Oui. D'une certaine manière, c'était une chance de le rencontrer, eh ?~
 @112  = ~ Te voir admettre ça me stupéfie.~
 @113  = ~ N'y lis pas trop de choses, elg'caress. Je reste une elfe noire, quoi que tu penses. En route !~
 @114  = ~ Dis-moi, Kim, toi qui étais pirate… as-tu déjà assisté à une mutinerie ?~
 @115  = ~ Oui, ça m'est déjà arrivé – même si la rébellion n'a pas fait long feu ! Ha ! Nous avons attrapé les coupables, puis nous leur avons enfoncé lentement, un par un, des couteaux chauffés à blanc dans le ventre, sans jamais leur permettre de mourir. Lorsqu'ils sont devenus complètement fous de douleur et d'horreur, nous les avons châtrés, puis jetés aux requins.~
 @116  = ~ Oh… je vois… c'est un peu dur, comme sentence, non ?~
-@117  = ~ Aucun châtiment ne saurait être pire que celui réservé aux traîtres. Ils sont la lie de l'humanité, et je ne m’embarrasse pas de scrupules lorsque je m'occupe d'eux.~
+@117  = ~ Aucun châtiment ne saurait être pire que celui réservé aux traîtres. Ils sont la lie de l'humanité, et je ne m'embarrasse pas de scrupules lorsque je m'occupe d'eux.~
 @118  = ~ Ah... Eh… je crois que <CHARNAME>  nous appelle, nous ferons mieux de rejoindre le groupe !~
 @119  = ~ Yoshimo, j'avais une question qui me trottait dans la tête…~
 @120  = ~ Je vais m'efforcer d'y répondre, dans ce cas.~
@@ -313,7 +313,7 @@ Peu m'importe, Océan, j'en ai autant pour toi !~
 @298  = ~ Ha ! Depuis que je suis avec <PRO_HIMHER>, je n'arrête pas de me battre ! <PRO_HESHE> a un don pour attirer les ennuis, et j'adore ça. Je brise les crânes et je tranche les jambes. Et je gagne de l'or, plein d'or. Je m'équipe avec de nombreux objets puissants. Oui, la chance est avec moi depuis que je suis dans ce groupe !~
 @299  = ~ Je vois. Mais est-ce que tu te sens concerné par sa quête et ce et ce qu'<PRO_HESHE> recherche ?~
 @300  = ~ Tuer Irenicus ? Oui, ça m'intéresse. Un mage aussi puissant doit forcément avoir des objets magiques intéressants, qui se revendront très cher au marché noir. Et je sens que je vais bien m'amuser à détruire ses démons.~
-@301  = ~ Donc tout ça ne se résume qu'au profit, pour toi ? Si jamais <PRO_HESHE> ne te permettrait plus de t’enrichir, tu laissera tomber <CHARNAME> ?~
+@301  = ~ Donc tout ça ne se résume qu'au profit, pour toi ? Si jamais <PRO_HESHE> ne te permettrait plus de t'enrichir, tu laissera tomber <CHARNAME> ?~
 @302  = ~ Sans hésiter !~
 @303  = ~ C'est tout ce que je voulais savoir. C'est bon de voir qu'il y a dans ce groupe des personnes loyales et désintéressées.~
 @304  = ~ Keldorn, je me demandais…~

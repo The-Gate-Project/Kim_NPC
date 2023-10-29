@@ -4,9 +4,9 @@ APPEND HEARTG3
 IF WEIGHT #-999 ~Global("skullnon","GLOBAL",0)
 Global("skullfin","GLOBAL",2)~ THEN BEGIN skull0
 SAY @0
-  IF ~~ THEN REPLY @1  GOTO skull1
+  IF ~~ THEN REPLY @1 GOTO skull1
   IF ~~ THEN REPLY @2 GOTO skull2
-  IF ~~ THEN REPLY @3  GOTO skull3
+  IF ~~ THEN REPLY @3 GOTO skull3
 END
 
 IF ~~ THEN BEGIN skull1

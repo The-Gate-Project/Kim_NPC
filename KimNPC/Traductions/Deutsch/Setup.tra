@@ -1,3 +1,6 @@
+@9001 =~[Kk]ann[ %tab%]+[Nn]ur[ %tab%]+[Vv]erwendet[ %tab%]+[Ww]erden[ %tab%]+[Vv]on[ %tab%]*:~
+@9002 =~[Kk]ann[ %tab%]+[Nn]icht[ %tab%]+[Vv]erwendet[ %tab%]+[Ww]erden[ %tab%]+[Vv]on[ %tab%]*:~
+
 @0   =~Kim fur BG2: SOA (ToB: benotigt) Version 1.62d~
 @1   =~Kim~
 @2   =~Priesterin Nadia~
@@ -112,7 +115,7 @@ Magiern~
 @54  =~$$$$$ Gebiete $$$$$~
 @55  =~$$$$$ Dekompression der Soundeffekte beim Verlassen des Programmes $$$$$~
 @56 = ~ $$$$ Scripts $$$$$ ~
-@100 =~Installation der angepassten Axt~
+@100 =~Installation der Mystische Axt der Entropie angepassten (fügt einen Rettungswurf von -4 gegen seine Effekte hinzu)~
 @101 =~EIGENSCHAFTEN:
 
 Kampfeigenschaften:
@@ -138,3 +141,34 @@ Magiern
 Dieben~
 @102 =~Zuerst Kim NPC installieren~
 @103 =~Installation von "Baldur's Gate II" nicht erkannt~
+
+@120 =  ~Très bon choix.~ [Kima] 
+@121  =  ~Je veux dormir.~ [Kimb] 
+@122  =  ~J'm'embête.~ [Kimc] 
+@123  =  ~À l'abordage !~ [Kimd] 
+@124  =  ~En garde !~ [Kime] 
+@125  =  ~Mais ! Aïe !~ [Kimf] 
+@126  =  ~~ [Kimg] 
+@127  =  ~Bon vous vous décidez à me soigner ?~ [Kimh] 
+@128  =  ~Toute cette verdure ne vaut pas la mer.~ [Kimi] 
+@129  =  ~Ah les villes, pleins de gens à détrousser.~ [Kimj] 
+@130 =  ~Ça sent pas bon.~ [Kimk] 
+@131 =  ~Quoi encore ?~ [Kiml] 
+@132 =  ~Oui !~ [Kimm] 
+@133 =  ~Me regarde pas comme ça !~ [Kimn] 
+@134 =  ~J'ai soif ! File-moi du rhum !~ [Kimo] 
+@135 =  ~Ouais ?~ [Kimp] 
+@136 =  ~Besoin de ma lame ?~ [Kimq] 
+@137 =  ~C'est bien pour te faire plaisir.~ [Kimr] 
+@138 =  ~Tu peux pas demander à quelqu'un d'autre ?~ [Kims] 
+@139 =  ~Où tu veux, quand tu veux. ~ [Kimt] 
+@140 =  ~T'es sûr que tu sais ce que tu fais ?~ [Kimu] 
+@141 =  ~Bon, dépêchons-nous !~ [Kimv] 
+@142 =  ~Et voilà encore la magnifique Kim à l’œuvre.~ [Kimw] 
+@143 =  ~Oups, c'est pas ma faute.~ [Kimx] 
+@144 =  ~Y fait rien qu'à faire qu'à pas être blessé...~ [Kimy] 
+@145 =  ~Bon aller reprend tout ton bazar, je suis pas une poubelle !~ [Kimz] 
+@146 =  ~Hé hop, les sous-sous dans la po-poche.~ [Kimaa]
+@147 =  ~Je suis cachée.~ [Kimab]
+@148 =  ~Mon sort est interrompu.~ [Kimac]
+@149 =  ~Ça va faire mal !~ [Kimad]

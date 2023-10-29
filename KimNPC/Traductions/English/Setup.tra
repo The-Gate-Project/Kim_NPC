@@ -116,7 +116,7 @@ Mage~
 @54  = ~$$$$$ Areas $$$$$ ~
 @55  = ~$$$$$ Decompression of the sound files at exit $$$$$~
 @56 = ~ $$$$ Scripts $$$$$ ~
-@100 = ~Installation of the readjusted axe~
+@100 = ~Installation of the Mystic Axe of Entropy readjusted (adds a saving throw of -4 against its effects)~
 @101 = ~STATISTICS:
 
 Combat capabilities:
@@ -143,3 +143,34 @@ Mage
 Thief~
 @102 = ~You must first install the mod Kim NPC.~
 @103 = ~Installation of "Baldur's Gate II" Unrecognized~
+
+@120 =  ~Très bon choix.~ [Kima] 
+@121  =  ~Je veux dormir.~ [Kimb] 
+@122  =  ~J'm'embête.~ [Kimc] 
+@123  =  ~À l'abordage !~ [Kimd] 
+@124  =  ~En garde !~ [Kime] 
+@125  =  ~Mais ! Aïe !~ [Kimf] 
+@126  =  ~~ [Kimg] 
+@127  =  ~Bon vous vous décidez à me soigner ?~ [Kimh] 
+@128  =  ~Toute cette verdure ne vaut pas la mer.~ [Kimi] 
+@129  =  ~Ah les villes, pleins de gens à détrousser.~ [Kimj] 
+@130 =  ~Ça sent pas bon.~ [Kimk] 
+@131 =  ~Quoi encore ?~ [Kiml] 
+@132 =  ~Oui !~ [Kimm] 
+@133 =  ~Me regarde pas comme ça !~ [Kimn] 
+@134 =  ~J'ai soif ! File-moi du rhum !~ [Kimo] 
+@135 =  ~Ouais ?~ [Kimp] 
+@136 =  ~Besoin de ma lame ?~ [Kimq] 
+@137 =  ~C'est bien pour te faire plaisir.~ [Kimr] 
+@138 =  ~Tu peux pas demander à quelqu'un d'autre ?~ [Kims] 
+@139 =  ~Où tu veux, quand tu veux. ~ [Kimt] 
+@140 =  ~T'es sûr que tu sais ce que tu fais ?~ [Kimu] 
+@141 =  ~Bon, dépêchons-nous !~ [Kimv] 
+@142 =  ~Et voilà encore la magnifique Kim à l’œuvre.~ [Kimw] 
+@143 =  ~Oups, c'est pas ma faute.~ [Kimx] 
+@144 =  ~Y fait rien qu'à faire qu'à pas être blessé...~ [Kimy] 
+@145 =  ~Bon aller reprend tout ton bazar, je suis pas une poubelle !~ [Kimz] 
+@146 =  ~Hé hop, les sous-sous dans la po-poche.~ [Kimaa]
+@147 =  ~Je suis cachée.~ [Kimab]
+@148 =  ~Mon sort est interrompu.~ [Kimac]
+@149 =  ~Ça va faire mal !~ [Kimad]

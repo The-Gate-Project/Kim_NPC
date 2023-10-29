@@ -21,6 +21,8 @@ THEN
     CreateVisualEffect("SPFLESHS",[2565.1677])
     Wait(1)
     MoveGlobal("AR1401","KIM",[2565.1677])
+    // Wait(1)
+    // ChangeEnemyAlly("Kim",NEUTRAL)
     SetInterrupt(TRUE)
 END
 

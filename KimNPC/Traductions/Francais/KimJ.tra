@@ -70,7 +70,7 @@
 
 @35   = ~ Eh bien, eh bien, <CHARNAME> ? Tu es resté bien peu de temps avec cette vestale. Heh, j'avais pourtant l'impression que tu lui plaisais... hmm, serais-tu impuissant ?~
 
-@36   = ~ Eh bien, quel vacarme ! Je n'ai pu fermer l’œil de la nuit tellement elle a hurlé. Bravo, <CHARNAME>. Quelle abnégation, se dévouer pour notre cause !Heh...~
+@36   = ~ Eh bien, quel vacarme ! Je n'ai pu fermer l'œil de la nuit tellement elle a hurlé. Bravo, <CHARNAME>. Quelle abnégation, se dévouer pour notre cause !Heh...~
 
 @37   = ~ Dis-moi, lorsque je voyageais sur la Côte des Épées, j'ai entendu parler d'un certain <CHARNAME> qui aurait accompli des exploits sans égal. Est-ce que c'est de toi dont il s'agissait ?~ [kim]
 
@@ -794,7 +794,7 @@
 
 @397  = ~ C'était simple... 21 yeux et 24 mains, ça voulait dire qu'il y avait trois borgnes de plus que de manchots. Comme je t'avais dit qu'il y en avait deux fois plus, ça veut dire que j'ai affronté 6 borgnes et 3 manchots.~
 
-@398  = ~ Or il y a 21 yeux... donc j'ai les 6 yeux des 6 borgnes, les 6 yeux des 3 manchots, et l’œil de celui qui est à la fois borgne et manchot, ce qui fait 13. Il reste 8 yeux, ce qui veut dire quatre pirates en bonne santé. D'où la réponse: 4 pirates, 3 manchots, 6 borgnes et un manchot/borgne font 14 duels !~
+@398  = ~ Or il y a 21 yeux... donc j'ai les 6 yeux des 6 borgnes, les 6 yeux des 3 manchots, et l'œil de celui qui est à la fois borgne et manchot, ce qui fait 13. Il reste 8 yeux, ce qui veut dire quatre pirates en bonne santé. D'où la réponse: 4 pirates, 3 manchots, 6 borgnes et un manchot/borgne font 14 duels !~
 
 @399  = ~ Heh, j'aime bien tester les gens comme ça. De petites énigmes amusantes qui font passer le temps. Mais je suppose qu'il y a des quêtes à terminer, des dragons à tuer et des vampires à trucider. Continuons notre route, <CHARNAME>, et merci d'avoir joué avec moi !~
 
@@ -1944,7 +1944,7 @@
 
 @971  = ~ Jamais, hein ? Jamais tu ne t'es senti légèrement oppressé, ton cœur battant plus vite alors que tu ne trouvais plus tes mots, impressionné par la simple proximité de la fille que tu couvais des yeux ? Ah, tu ne sais pas ce que tu perds, <CHARNAME> !~
 
-@972  = ~ Plusieurs fois, hein ? Tu es ce qu'on appelle un cœur d’artichaut, alors ? Tu tombes amoureux comme tu tombes de cheval ? Hmm, je ne suis pas sûre d'apprécier ce genre de comportement, <CHARNAME>. Tu m'aurais dit que tu avais eu plusieurs aventures, j'aurais bien voulu te croire. Mais plusieurs amours ? L'amour ne naît pas aussi facilement... mais admettons.~
+@972  = ~ Plusieurs fois, hein ? Tu es ce qu'on appelle un cœur d'artichaut, alors ? Tu tombes amoureux comme tu tombes de cheval ? Hmm, je ne suis pas sûre d'apprécier ce genre de comportement, <CHARNAME>. Tu m'aurais dit que tu avais eu plusieurs aventures, j'aurais bien voulu te croire. Mais plusieurs amours ? L'amour ne naît pas aussi facilement... mais admettons.~
 
 @973  = ~ Une fois, hein ? Ça devait être quelqu'un de spécial, je suis sûre. C'est quelqu'un que je connais ?~
 
@@ -2106,7 +2106,7 @@ Ne me regarde plus de cet air ahuri / Car entre toi et moi, aujourd'hui, c'est f
 
 @1042 = ~ Bon, tu n'es pas encore à mon niveau, mais tu t'améliores, rien à dire ! Héhé...~
 
-@10425 = ~J'ai toujours aimé regarder les étoiles depuis le pont d'un navire, il n'y a rien de comparable ! loin de la ville, la voute céleste est empreinte de majesté. Que dirais-tu de quitter la ville et tous ces bâtiments pour admirer le ciel ce soir ?~
+@10425 = ~J'ai toujours aimé regarder les étoiles depuis le pont d'un navire, il n'y a rien de comparable ! loin de la ville, la voûte céleste est empreinte de majesté. Que dirais-tu de quitter la ville et tous ces bâtiments pour admirer le ciel ce soir ?~
 
 @1043 = ~ Cette nuit est délicieuse. Le ciel est dégagé, et les étoiles brillent comme des milliers de petites lucioles...~ [kim2]
 
@@ -2298,7 +2298,7 @@ Ne me regarde plus de cet air ahuri / Car entre toi et moi, aujourd'hui, c'est f
 
 @1137 = ~ Moi aussi, j'ai énormément de tendresse pour toi, <CHARNAME>. Énormément. Mais est-ce que ça suffit à construire une histoire ?~
 
-@1138 = ~ Tu m'aimes, eh ? Ça ne fait que quelques jours que nous nous connaissons, et déjà les grandes déclarations d'amour ? Bah, tu n'es qu'un cœur d’artichaut !~
+@1138 = ~ Tu m'aimes, eh ? Ça ne fait que quelques jours que nous nous connaissons, et déjà les grandes déclarations d'amour ? Bah, tu n'es qu'un cœur d'artichaut !~
 
 @1139 = ~ Tu ne dis rien ? Ah, tu vois, je savais que les mots ne sortiraient pas. Tu ne m'aimes pas, <CHARNAME>, pas encore en tout cas. Mais ça va venir !~
 
