@@ -1,4 +1,4 @@
-# Severian de Demerya
+# Kim NPC
 
 ![Language](https://img.shields.io/static/v1?label=language&message=french%20%7C%20english%20%7C%20german%20%7C%20&color=informational)
 
