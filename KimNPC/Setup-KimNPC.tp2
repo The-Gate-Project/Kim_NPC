@@ -59,8 +59,6 @@ LANGUAGE ~Deutsch (by Xicloing)~
 BEGIN @0
 LABEL ~Grenouillebleue-Kim_Main~
 
-COPY ~KimNPC/sons~ ~override~
-
 PRINT @51
 
 COPY ~KimNPC/Cre/Kim.cre~ ~override/Kim.cre~
@@ -370,10 +368,9 @@ IF ~25POST~
 
 PRINT @55
 
-AT_INTERACTIVE_EXIT ~KimNPC/Kimaudio.bat~
-AT_INTERACTIVE_UNINSTALL ~KimNPC/Kimaudiouninstall.bat~
+// LAF HANDLE_AUDIO
 
-
+LAF HANDLE_AUDIO STR_VAR audio_path = ~KimNPC/Sons~ oggdec_path = ~KimNPC/Sons~ END
 
 
 
