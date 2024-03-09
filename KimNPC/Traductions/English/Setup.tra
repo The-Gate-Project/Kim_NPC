@@ -1,7 +1,7 @@
 @9001 = ~[Oo]nly[ %tab%]+[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 @9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 
-@0   = ~Kim for BG2:SOA (ToB: required) version 1.62d~
+@0   = ~Kim for BG2:SOA (ToB: required), BGT, BG2EE and EET~
 @1   = ~Kim~
 @2   = ~Priestess Nadia~ 
 @3   = ~Greenbeard~

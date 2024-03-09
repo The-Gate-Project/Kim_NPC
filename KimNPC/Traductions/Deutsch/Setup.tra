@@ -1,7 +1,7 @@
 @9001 =~[Kk]ann[ %tab%]+[Nn]ur[ %tab%]+[Vv]erwendet[ %tab%]+[Ww]erden[ %tab%]+[Vv]on[ %tab%]*:~
 @9002 =~[Kk]ann[ %tab%]+[Nn]icht[ %tab%]+[Vv]erwendet[ %tab%]+[Ww]erden[ %tab%]+[Vv]on[ %tab%]*:~
 
-@0   =~Kim fur BG2: SOA (ToB: benotigt) Version 1.62d~
+@0   =~Kim fur BG2: SOA (ToB: benotigt), BGT, BG2EE und EET~
 @1   =~Kim~
 @2   =~Priesterin Nadia~
 @3   =~Grünbart~

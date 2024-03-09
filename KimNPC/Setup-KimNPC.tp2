@@ -370,7 +370,7 @@ PRINT @55
 
 // LAF HANDLE_AUDIO
 
-LAF HANDLE_AUDIO STR_VAR audio_path = ~KimNPC/Sons~ oggdec_path = ~KimNPC/Sons~ END
+LAF HANDLE_AUDIO STR_VAR audio_path = ~KimNPC/Sons~ oggdec_path = ~KimNPC/Outils~ END
 
 
 

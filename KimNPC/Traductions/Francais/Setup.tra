@@ -1,7 +1,7 @@
 @9001 = ~[Uu]tilisable[ %tab%]+[Uu]niquement[ %tab%]+[Pp]ar[ %tab%]*:~
 @9002 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
 
-@0 = ~Kim pour BG2:SOA (ToB:requis) version 1.62d~
+@0 = ~Kim pour BG2:SOA (ToB:requis), BGT, BG2EE et EET~
 @1 = ~Kim~
 @2 = ~Prêtresse Nadia~
 @3 = ~Barbe-Verte~
